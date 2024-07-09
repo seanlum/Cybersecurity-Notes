@@ -14,3 +14,6 @@ https://csrc.nist.gov/pubs/sp/1800/5/final
 https://www.nist.gov/publications/framework-improving-critical-infrastructure-cybersecurity-version-11
 
 https://nvlpubs.nist.gov/nistpubs/cswp/nist.cswp.04162018.pdf
+
+# Computer Security Incident Handling Guide
+https://csrc.nist.gov/pubs/sp/800/61/r2/final
