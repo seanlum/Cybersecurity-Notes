@@ -1,0 +1,2 @@
+# Europol coordinates global action against criminal abuse of Cobalt Strike
+https://www.europol.europa.eu/media-press/newsroom/news/europol-coordinates-global-action-against-criminal-abuse-of-cobalt-strike
