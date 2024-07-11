@@ -29,3 +29,6 @@ https://therecord.media/debt-collection-agency-data-breach-fbcs
 https://www.bleepingcomputer.com/news/security/city-of-philadelphia-says-over-35-000-hit-in-may-2023-breach/
 
 https://www.phila.gov/media/20231018161713/Notice-of-Privacy-Incident_PDPH-Website_10_20_23.pdf
+
+# 01262024 Chemical Security Assessment Tool (CSAT) Ivanti Notification
+https://www.cisa.gov/chemical-security-assessment-tool-csat-ivanti-notification
