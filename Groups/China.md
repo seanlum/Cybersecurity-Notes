@@ -24,3 +24,25 @@ On July 19, 2021, the U.S. Department of Justice (DOJ) unsealed an indictment ag
 https://duo.com/decipher/apt40-exploits-confluence-exchange-flaws-to-target-governments
 
 https://securityaffairs.com/165491/breaking-news/apt40-china-joint-report.html
+
+# APT 41 | Wicked Panda, Brass Typhoon BARIUM
+### Fri 12 Jul 2024
+Chinese government-backed cyber espionage gang APT41 has very likely added a loader dubbed DodgeBox and a backdoor named MoonWalk to its malware toolbox, according to cloud security service provider Zscaler’s ThreatLabz research team.
+
+APT41 – also known as Barium, Wicked Panda, Wicked Spider and Earth Baku – has ties to the Chinese Ministry of State Security. In addition to digital espionage, the crew also conducts [financially motivated crimes PDF (2022)](files/rt-apt41-dual-operation.pdf) on occasion. Google's Mandiant security unit believes that's how the gang funds its spying operations.
+
+https://www.theregister.com/2024/07/12/china_apt41_malware/
+
+### July 11, 2024
+https://www.zscaler.com/blogs/security-research/moonwalk-deep-dive-updated-arsenal-apt41-part-2
+
+### 03 April 2024
+https://attack.mitre.org/groups/G0096/
+
+https://www.crowdstrike.com/adversaries/wicked-panda/
+
+### July 26, 2018
+https://www.crowdstrike.com/blog/meet-crowdstrikes-adversary-of-the-month-for-july-wicked-spider/
+
+# Winnti Group 
+https://attack.mitre.org/groups/G0044/
