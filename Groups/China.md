@@ -36,6 +36,9 @@ https://www.theregister.com/2024/07/12/china_apt41_malware/
 ### July 11, 2024
 https://www.zscaler.com/blogs/security-research/moonwalk-deep-dive-updated-arsenal-apt41-part-2
 
+### July 10, 2024
+https://www.zscaler.com/blogs/security-research/dodgebox-deep-dive-updated-arsenal-apt41-part-1
+
 ### 03 April 2024
 https://attack.mitre.org/groups/G0096/
 
