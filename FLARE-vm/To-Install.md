@@ -1083,4 +1083,122 @@ https://systeminformer.sourceforge.io/
 
 ### `Extractor` | `Decompressor`
 
+Universal Extractor 2 is a tool designed to extract files from any type of extractable file.
+
+Unlike most archiving programs, UniExtract is not limited to standard archives such as .zip and .rar. It can also deal with application installers, disk images and even game archives and other multimedia files. An overview of supported file types can be found here
+
+This program is an unofficial updated and extended version of the original UniExtract by Jared Breland. As the development of the original version has stopped and no update has been published for years, many forks (modified versions, maintained by volunteers from the community) have arisen. This is the most advanced of them, featuring a very long list of enhancements.
+
 https://github.com/Bioruebe/UniExtract2
+
+# UPX
+
+### `Extractor` | `DLL` | `PE Files` | `ELF Files` | `macOS`
+
+UPX is a free, secure, portable, extendable, high-performance executable packer for several executable formats.
+
+### Introduction
+UPX is an advanced executable file compressor. UPX will typically reduce the file size of programs and DLLs by around 50%-70%, thus reducing disk space, network load times, download times and other distribution and storage costs.
+
+Programs and libraries compressed by UPX are completely self-contained and run exactly as before, with no runtime or memory penalty for most of the supported formats.
+
+UPX supports a number of different executable formats, including Windows programs and DLLs, macOS apps and Linux executables.
+
+UPX is free software distributed under the term of the GNU General Public License. Full source code is available.
+
+UPX may be distributed and used freely, even with commercial applications.
+
+https://upx.github.io/
+
+# vcbuildtools
+
+### `Visal C++` | `Toolkit`
+Visual C++ Build Tools 2015 provides the required tools for building C++ applications and libraries targeting Windows desktop. If you want to build your C++ projects targeting Windows desktop without having Visual Studio installed on your computer, Visual C++ Build Tools 2015 provides C++ compilers libraries, build scripts, and Windows SDKs.
+
+The default installation includes the Visual C++ compiler toolset, libraries and MSBuild for Windows Desktop development.
+
+https://community.chocolatey.org/packages/vcbuildtools
+
+# vcredist-all
+
+### `Visual C++` | `Toolkit`
+
+Microsoft Visual C++ Redistributable installs run-time components of Visual C++ libraries. These components are required to run C++ applications that are developed using Visual Studio and link dynamically to Visual C++ libraries. The packages can be used to run such applications on a computer even if it does not have Visual Studio installed. These packages also install run-time components of C Runtime (CRT), Standard C++, MFC, C++ AMP, and OpenMP libraries.
+
+This metapackage installs packages for all Visual C++ Runtime releases since 2005.
+
+(Yes, dependencies on vcredist2015 and vcredist2017 are redundant, but are included here because other packages depend on them.)
+
+https://community.chocolatey.org/packages/vcredist-all
+
+# VSCode (1.92.1 as of 08122024)
+
+### `Code Editor` | `Toolkit` | `IDE`
+
+Visual Studio Code is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux. It comes with built-in support for JavaScript, TypeScript and Node.js and has a rich ecosystem of extensions for other languages and runtimes (such as C++, C#, Java, Python, PHP, Go, .NET). 
+
+https://community.chocolatey.org/packages/vscode
+
+# windbg (8.59.20160823 as of 20240812)
+
+### `Debugger` | `Windows Debugger`
+
+Microsoft Windows Debugger (WinDbg) is a powerful Windows-based debugger that is capable of both user-mode and kernel-mode debugging. WinDbg provides debugging for the Windows kernel, kernel-mode drivers, and system services, as well as user-mode applications and drivers. ***This Package will add an environment variable pointing to the Microsoft symbols and will also copy sos.dll from the most recent .net runtime on your machine to the same directory where windbg.exe is installed.
+
+https://community.chocolatey.org/packages/windbg
+
+# windows-terminal
+
+### `terminal` 
+
+The new Windows Terminal and the original Windows console host, all in the same place!
+
+https://github.com/microsoft/terminal
+
+# Wireshark
+
+### `Network Tools` | `Packet Capture`
+
+#### The world's most popular network protocol analyzer
+
+Get started with Wireshark today and see why it is the standard across many commercial and non-profit enterprises.
+
+https://www.wireshark.org/
+
+# x64dbg
+
+### `Debugger` | `Assembly` | `x86` | `x64`
+
+An open-source x64/x32 debugger for windows.
+
+https://x64dbg.com/
+
+### x64dbg Plugins
+
+### DbgChild Plugin
+
+https://github.com/therealdreg/DbgChild
+
+### OllyDumpEx Plugin
+
+https://low-priority.appspot.com/ollydumpex/
+
+### ScyllaHide Plugin
+
+https://github.com/x64dbg/ScyllaHide
+
+
+### x64dbgpy Plugin 
+
+https://github.com/x64dbg/x64dbgpy
+
+### Other plugins 
+
+https://github.com/x64dbg/x64dbg/wiki/Plugins
+
+
+# YARA
+
+YARA is a tool aimed at (but not limited to) helping malware researchers to identify and classify malware samples. With YARA you can create descriptions of malware families (or whatever you want to describe) based on textual or binary patterns. Each description, a.k.a rule, consists of a set of strings and a boolean expression which determine its logic.
+
+https://virustotal.github.io/yara/
