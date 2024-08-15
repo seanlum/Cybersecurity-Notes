@@ -1,0 +1,808 @@
+{'./commando-vm/Profiles/Victim.xml': 40}
+{'./commando-vm/Profiles/Full - ARM.xml': 127}
+{'./commando-vm/Profiles/Default - ARM.xml': 110}
+{'./commando-vm/Profiles/Default.xml': 113}
+{'./commando-vm/Profiles/Developer.xml': 69}
+{'./flare-vm/config.xml': 106}
+{'./commando-vm/Profiles/Lite.xml': 42}
+{'./commando-vm/Profiles/Full.xml': 130}
+['./commando-vm/Profiles/Victim.xml', './commando-vm/Profiles/Full - ARM.xml', './commando-vm/Profiles/Default - ARM.xml', './commando-vm/Profiles/Default.xml', './commando-vm/Profiles/Developer.xml', './flare-vm/config.xml', './commando-vm/Profiles/Lite.xml', './commando-vm/Profiles/Full.xml']
+
+
+
+
+====================================================================================================
+packages for ./commando-vm/Profiles/Victim.xml
+====================================================================================================
+apimonitor.vm - API Monitor lets you monitor and control API calls made by applications and services.
+capa.vm - capa detects capabilities in executable files. You run it against a PE file or shellcode and it tells you what it thinks the program can do.
+cmder.vm - Metapackage for cmder
+codetrack.vm - A free .NET Performance Profile and Execution Analyzer
+cyberchef.vm - The Cyber Swiss Army Knife - a web app for encryption, encoding, compression, data analysis, and more.
+dependencywalker.vm - Scans PE files and builds a hierarchical tree diagram of all dependent modules
+die.vm - Detect It Easy, or abbreviated "DIE" is a program for determining types of files.
+dnspyex.vm - dnSpyEx is a unofficial continuation of the dnSpy project which is a debugger and .NET assembly editor. You can use it to edit and debug assemblies even if you don't have any source code available.
+exeinfope.vm - Displays metadata for a variety of file types and identifies many executable packers
+exiftool.vm - A tool for reeding and writing file metadata
+file.vm - A Windows port of the Linux `file` utility for checking header magics
+floss.vm - FLOSS uses advanced static analysis techniques to automatically deobfuscate strings from malware binaries. You can use it just like strings.exe to enhance basic static analysis of unknown binaries.
+hashmyfiles.vm - HashMyFiles is small utility that allows you to calculate the MD5 and SHA1 hashes of one or more files in your system. You can easily copy the MD5/SHA1 hashes list into the clipboard, or save them into text/html/xml file.
+hollowshunter.vm - Scans all running processes. Recognizes and dumps a variety of potentially malicious implants (replaced/implanted PEs, shellcodes, hooks, in-memory patches).
+hxd.vm - Freeware hex editor
+idafree.vm - Free version of IDA, a powerful Interactive DisAssembler and debugger
+malware-jail.vm - Sandbox for semi-automatic Javascript malware analysis, deobfuscation and payload extraction.
+map.vm - Handful of small utility type applications useful for analyzing malicious code.
+ollydbg.vm - OllyDbg is a 32-bit assembler level analysing debugger for Windows. Emphasis on binary code analysis makes it particularly useful in cases where source is unavailable.
+pebear.vm - Delivers fast and flexible "first view" for malware analysts
+peid.vm - PEiD detects most common packers, cryptors and compilers for PE files.
+pesieve.vm - pe-sieve recognizes and dumps variety of implants within the scanned process.
+pestudio.vm - The goal of pestudio is to spot artifacts of executable files in order to ease and accelerate Malware Initial Assessment.
+resourcehacker.vm - Resource Hacker is a resource editor for 32bit and 64bit Windows applications.
+rundotnetdll.vm - A simple utility to list all methods of a given .NET Assembly and to invoke them.
+scdbg.vm - scdbg is an emulation based shellcode API logger and debugger
+shellcode_launcher.vm - Shellcode launcher utility
+vbdec.vm - VBDec works as a VB6 disassembler, PCode debugger, structure viewer for all vb6 executables, and can generate IDA scripts to integrate structures and named function offsets.
+windbg.vm - WinDbg is a debugger that can be used to analyze crash dumps, debug live user-mode and kernel-mode code, and examine CPU registers and memory.
+winscp.vm - WinSCP is an open source free SFTP client, SCP client, FTPS client and FTP client for Windows. Its main function is file transfer between a local and a remote computer.
+wireshark.vm - Wireshark lets you capture and interactively browse the traffic running on a computer network.
+x64dbg.vm - An open-source x64/x32 debugger for Windows.
+yara.vm - The pattern matching swiss knife
+processdump.vm - Process Dump is a Windows reverse-engineering command-line tool to dump malware memory components back to disk for analysis.
+setdllcharacteristics.vm - A CLI tool for manipulating ASLR, DEP, and check signature flags of PE files
+googlechrome - 
+firefox - 
+unxutils - 
+sysinternals.vm - Sysinternals suite.
+fiddlerclassic.vm - 
+
+
+
+
+====================================================================================================
+packages for ./commando-vm/Profiles/Full - ARM.xml
+====================================================================================================
+notepadplusplus.vm - Wrapper for Notepad++
+7zip-15-05.vm - 7-Zip file archiver. This version is able to extract NSIS scripts.
+azurehound.vm - AzureHound is the BloodHound data collector for Microsoft Azure.
+bloodhound.vm - BloodHound uses graph theory to reveal the hidden and often unintended relationships within an Active Directory environment.
+cmder.vm - Metapackage for cmder
+cyberchef.vm - The Cyber Swiss Army Knife - a web app for encryption, encoding, compression, data analysis, and more.
+gobuster.vm - Directory/file and DNS busting tool written in Go
+sqlrecon.vm - MSSQL toolkit for reconnaissance and post-exploitation
+awscli - 
+az.powershell - 
+azure-cli - 
+teamfiltration.vm - TeamFiltration is a cross-platform framework for enumerating, spraying, exfiltrating, and backdooring O365 AAD accounts.
+obsidian - 
+firefox - 
+greenshot - 
+gimp - 
+keepass - 
+adobereader - 
+golang - 
+rust - 
+nim - 
+visualstudio.vm - IDE.
+ilspy.vm - The open-source .NET assembly browser and decompiler.
+wireshark.vm - Wireshark lets you capture and interactively browse the traffic running on a computer network.
+cyberchef.vm - The Cyber Swiss Army Knife - a web app for encryption, encoding, compression, data analysis, and more.
+pebear.vm - Delivers fast and flexible "first view" for malware analysts
+sysinternals.vm - Sysinternals suite.
+situational-awareness-bof.vm - Provides a set of basic situational awareness commands implemented in a Beacon Object File (BOF). This allows you to perform some checks on a host before you begin executing commands that may be more invasive.
+unhook-bof.vm - This is a Beacon Object File to refresh DLLs and remove their hooks. The code is from Cylance's Universal Unhooking research.
+stracciatella.vm - Powershell runspace from within C# (aka SharpPick technique) with AMSI, ETW and Script Block Logging disabled.
+nanodump.vm - A Beacon Object File that creates a minidump of the LSASS process.
+truestedsec-remote-ops-bof.vm - 
+outflank-c2-tool-collection.vm - Contains a collection of tools which integrate with Cobalt Strike (and possibly other C2 frameworks) through BOF and reflective DLL loading techniques.
+certify.vm - Certify is a C# tool to enumerate and abuse misconfigurations in Active Directory Certificate Services (AD CS).
+streamdivert.vm - StreamDivert has the ability to relay all incoming SMB connections to port 445 to another server, or only relay specific incoming SMB connections from a specific set of source IP's to another server.
+whisker.vm - Whisker is a C# tool for taking over Active Directory user and computer accounts by manipulating their msDS-KeyCredentialLink attribute, effectively adding "Shadow Credentials" to the target account.
+confuserex.vm - ConfuserEx is a open-source protector for .NET applications. It is the successor of Confuser project.
+dotnettojscript.vm - A tool to generate a JScript which bootstraps an arbitrary .NET Assembly and class.
+gadgettojscript.vm - A tool for generating .NET serialized gadgets that can trigger .NET assembly load/execution when deserialized using BinaryFormatter from JS/VBS/VBA scripts.
+sharpup.vm - SharpUp is a C# port of various PowerUp functionality for auditing potential privilege escalation paths.
+idafree.vm - Free version of IDA, a powerful Interactive DisAssembler and debugger
+az.powershell - 
+azure-cli - 
+routesixtysink.vm - Route Sixty-Sink is an open source tool that enables defenders and security researchers alike to quickly identify vulnerabilities in any .NET assembly using automated source-to-sink analysis.
+sharphound.vm - SharpHound is an Active Directory ingester tool for BloodHound.
+spoolsample.vm - PoC tool to coerce Windows hosts authenticate to other machines via the MS-RPRN RPC interface.
+sharpview.vm - .NET port of PowerView used for information gathering within Active Directory
+seatbelt.vm - Seatbelt is a C# project that performs a number of security oriented host-survey "safety checks" relevant from both offensive and defensive security perspectives.
+telnet.vm - A network protocol used to virtually access a computer and to provide a two-way, collaborative and text-based communication channel between two machines
+badassmacros.vm - Proof of Concept tool to generate malicious macros leveraging techniques like VBA Purging and Shellcode Obfuscation to evade AV engines.
+bloodhound-custom-queries.vm - Custom Query list for the Bloodhound GUI based off my cheatsheet
+burp-free.vm - Burp Suite Community Edition is PortSwigger's free integrated platform for performing security testing of web applications.
+bytecodeviewer.vm - A lightweight user-friendly Java/Android Bytecode Viewer, Decompiler and more.
+c3.vm - C3 (Custom Command and Control) is a tool that allows Red Teams to rapidly develop and utilise esoteric command and control channels (C2). It's a framework that extends other red team tooling, such as the commercial Cobalt Strike (CS) product via ExternalC2.
+covenant.vm - Covenant is a .NET command and control framework that aims to highlight the attack surface of .NET, make the use of offensive .NET tradecraft easier, and serve as a collaborative command and control platform for red teamers.
+credninja.vm - This tool will tell you if the credentials you dumped are valid on the domain, and if you have local administrator access to a host.
+dumpert.vm - This tool demonstrates the use of direct System Calls and API unhooking and combines these techniques in a proof of concept code which can be used to create a LSASS memory dump using Cobalt Strike.
+evilclippy.vm - A cross-platform assistant for creating malicious MS Office documents. Can hide VBA macros, stomp VBA code (via P-Code) and confuse macro analysis tools.
+exiftool.vm - A tool for reeding and writing file metadata
+fuzzdb.vm - FuzzDB is the most comprehensive open dictionary of fault injection patterns, predictable resource locations, and regex for matching server responses.
+ghidra.vm - A software reverse engineering (SRE) suite of tools developed by NSA's Research Directorate in support of the Cybersecurity mission.
+gowitness.vm - Website screenshot utility written in Golang, that uses Chrome Headless to generate screenshots of web interfaces using the command line, with a handy report viewer to process results.
+group3r.vm - Group3r is a tool for pentesters and red teamers to rapidly enumerate relevant settings in AD Group Policy, and to identify exploitable misconfigurations.
+hxd.vm - Freeware hex editor
+invokedosfuscation.vm - Invoke-DOSfuscation is a PowerShell v2.0+ compatible cmd.exe command obfuscation framework.
+invokeobfuscation.vm - Invoke-Obfuscation is a PowerShell v2.0+ compatible PowerShell command and script obfuscator.
+juicypotato.vm - Local Privilege Escalation tool that abuses the SeImpersonatePrivilege to go from a Windows Service Account to NT AUTHORITY\SYSTEM
+keethief.vm - Allows for the extraction of KeePass 2.X key material from memory, as well as the backdooring and enumeration of the KeePass trigger system.
+kerbrute.vm - A tool to quickly bruteforce and enumerate valid Active Directory accounts through Kerberos Pre-Authentication
+mailsniper.vm - MailSniper is a penetration testing tool for searching through email in a Microsoft Exchange environment for specific terms and performing password spraying.
+mfasweep.vm - MFASweep is a PowerShell script that attempts to log in to various Microsoft services using a provided set of credentials and will attempt to identify if MFA is enabled.
+minidump.vm - 
+microburst.vm - MicroBurst includes functions and scripts that support Azure Services discovery, weak configuration auditing, and post exploitation actions such as credential dumping.
+netgpppassword.vm - .NET/C# implementation of Get-GPPPassword. Retrieves the plaintext password and other information for accounts pushed through Group Policy Preferences.
+nmap.vm - Port scanning utility and nc replacement with extended features
+payloadsallthethings.vm - A list of useful payloads and bypasses for Web Application Security.
+pestudio.vm - The goal of pestudio is to spot artifacts of executable files in order to ease and accelerate Malware Initial Assessment.
+petitpotam.vm - PoC tool to coerce Windows hosts to authenticate to other machines via MS-EFSRPC EfsRpcOpenFileRaw or other functions
+powercat.vm - PowerShell implementation of netcat functionality
+powermad.vm - Powermad includes a set of functions for exploiting ms-DS-MachineAccountQuota without attaching an actual system to AD
+powersploit.vm - PowerSploit is a collection of Microsoft PowerShell modules that can be used to aid penetration testers during all phases of an assessment.
+powerupsql.vm - PowerUpSQL includes functions that support SQL Server discovery, weak configuration auditing, privilege escalation on scale, and post exploitation actions such as OS command execution.
+powerzure.vm - 
+processdump.vm - Process Dump is a Windows reverse-engineering command-line tool to dump malware memory components back to disk for analysis.
+rubeus.vm - Rubeus is a C# toolset for raw Kerberos interaction and abuses.
+seclists.vm - SecLists is the security tester's companion. It's a collection of multiple types of lists used during security assessments, collected in one place.
+sharpdpapi.vm - SharpDPAPI is a C# port of some DPAPI functionality from @gentilkiwi's Mimikatz project.
+sharplaps.vm - This executable is made to be executed within Cobalt Strike session using execute-assembly. It will retrieve the LAPS password from the Active Directory.
+sharpsecdump.vm - .Net port of the remote SAM + LSA Secrets dumping functionality of impacket's secretsdump.py
+sharpwmi.vm - SharpWMI is a C# implementation of various WMI functionality.
+sliver.vm - Sliver is an open source cross-platform adversary emulation/red team framework.
+snaffler.vm - Snaffler is a tool for enumerating accessible SMB shares in an Active Directory environment.
+statistically-likely-usernames.vm - This resource contains wordlists for creating statistically likely usernames for use in username-enumeration, simulated password-attacks and other security testing tasks.
+syswhispers2.vm - SysWhispers helps with evasion by generating header/ASM files implants can use to make direct system calls.
+tor-browser.vm - The Tor software protects you by bouncing your communications around a distributed network of relays run by volunteers all around the world.
+upx.vm - UPX is a free, secure, portable, extendable, high-performance executable packer for several executable formats.
+windbg.vm - WinDbg is a debugger that can be used to analyze crash dumps, debug live user-mode and kernel-mode code, and examine CPU registers and memory.
+adconnectdump.vm - This toolkit offers several ways to extract and decrypt stored Azure AD and Active Directory credentials from Azure AD Connect servers.
+ldapnomnom.vm - Anonymously bruteforce Active Directory usernames from Domain Controllers by abusing LDAP Ping requests (cLDAP)
+pesieve.vm - pe-sieve recognizes and dumps variety of implants within the scanned process.
+shellcode_launcher.vm - Shellcode launcher utility
+asreproast.vm - Project that retrieves crackable hashes from KRB5 AS-REP responses for users without kerberoast preauthentication enabled.
+dnspyex.vm - dnSpyEx is a unofficial continuation of the dnSpy project which is a debugger and .NET assembly editor. You can use it to edit and debug assemblies even if you don't have any source code available.
+fakenet-ng.vm - FakeNet-NG is a dynamic network analysis tool.
+nasm.vm - Netwide Assembler
+mimikatz.vm - Mimikatz is an open-source application that allows users to view and save authentication credentials such as Kerberos tickets
+safetykatz.vm - SafetyKatz is a combination of slightly modified version of @gentilkiwi's Mimikatz project and @subtee's .NET PE Loader.
+sharpcliphistory.vm - SharpClipHistory is a .NET 4.5 application written in C# that can be used to read the contents of a user's clipboard history in Windows 10 starting from the 1809 Build.
+sharpdump.vm - SharpDump is a C# port of PowerSploit's Out-Minidump.ps1 functionality.
+sharpexec.vm - SharpExec is an offensive security C# tool designed to aid with lateral movement.
+syswhispers3.vm - SysWhispers helps with evasion by generating header/ASM files implants can use to make direct system calls.
+vnc-viewer.vm - Tool for connecting to and interacting with VNC servers.
+wmimplant.vm - WMImplant is a PowerShell based tool that leverages WMI to both perform actions against targeted machines, but also as the C2 channel for issuing commands and receiving results.
+x64dbg.vm - An open-source x64/x32 debugger for Windows.
+getlapspasswords.vm - PowerShell function to pull the local admin passwords from LDAP, stored there by LAPS.
+inveigh.vm - Inveigh is a cross-platform .NET IPv4/IPv6 machine-in-the-middle tool for penetration testers.
+merlin.vm - Merlin is a cross-platform post-exploitation Command and Control server and agent written in Go.
+openvpn.vm - OpenVPN is a full-featured open source SSL VPN solution that accommodates a wide range of configurations.
+resourcehacker.vm - Resource Hacker is a resource editor for 32bit and 64bit Windows applications.
+sqlitebrowser.vm - Open source tool to create, design, and edit database files compatible with SQLite.
+winscp.vm - WinSCP is an open source free SFTP client, SCP client, FTPS client and FTP client for Windows. Its main function is file transfer between a local and a remote computer.
+jre8 - 
+tortoisesvn - 
+qbittorrent - 
+dbeaver - 
+hfsexplorer - 
+unxutils - 
+
+
+
+
+====================================================================================================
+packages for ./commando-vm/Profiles/Default - ARM.xml
+====================================================================================================
+notepadplusplus.vm - Wrapper for Notepad++
+7zip-15-05.vm - 7-Zip file archiver. This version is able to extract NSIS scripts.
+azurehound.vm - AzureHound is the BloodHound data collector for Microsoft Azure.
+bloodhound.vm - BloodHound uses graph theory to reveal the hidden and often unintended relationships within an Active Directory environment.
+cmder.vm - Metapackage for cmder
+cyberchef.vm - The Cyber Swiss Army Knife - a web app for encryption, encoding, compression, data analysis, and more.
+gobuster.vm - Directory/file and DNS busting tool written in Go
+sqlrecon.vm - MSSQL toolkit for reconnaissance and post-exploitation
+awscli - 
+az.powershell - 
+azure-cli - 
+teamfiltration.vm - TeamFiltration is a cross-platform framework for enumerating, spraying, exfiltrating, and backdooring O365 AAD accounts.
+obsidian - 
+firefox - 
+greenshot - 
+keepass - 
+ilspy.vm - The open-source .NET assembly browser and decompiler.
+wireshark.vm - Wireshark lets you capture and interactively browse the traffic running on a computer network.
+cyberchef.vm - The Cyber Swiss Army Knife - a web app for encryption, encoding, compression, data analysis, and more.
+pebear.vm - Delivers fast and flexible "first view" for malware analysts
+sysinternals.vm - Sysinternals suite.
+situational-awareness-bof.vm - Provides a set of basic situational awareness commands implemented in a Beacon Object File (BOF). This allows you to perform some checks on a host before you begin executing commands that may be more invasive.
+unhook-bof.vm - This is a Beacon Object File to refresh DLLs and remove their hooks. The code is from Cylance's Universal Unhooking research.
+stracciatella.vm - Powershell runspace from within C# (aka SharpPick technique) with AMSI, ETW and Script Block Logging disabled.
+nanodump.vm - A Beacon Object File that creates a minidump of the LSASS process.
+truestedsec-remote-ops-bof.vm - 
+outflank-c2-tool-collection.vm - Contains a collection of tools which integrate with Cobalt Strike (and possibly other C2 frameworks) through BOF and reflective DLL loading techniques.
+certify.vm - Certify is a C# tool to enumerate and abuse misconfigurations in Active Directory Certificate Services (AD CS).
+streamdivert.vm - StreamDivert has the ability to relay all incoming SMB connections to port 445 to another server, or only relay specific incoming SMB connections from a specific set of source IP's to another server.
+whisker.vm - Whisker is a C# tool for taking over Active Directory user and computer accounts by manipulating their msDS-KeyCredentialLink attribute, effectively adding "Shadow Credentials" to the target account.
+confuserex.vm - ConfuserEx is a open-source protector for .NET applications. It is the successor of Confuser project.
+dotnettojscript.vm - A tool to generate a JScript which bootstraps an arbitrary .NET Assembly and class.
+gadgettojscript.vm - A tool for generating .NET serialized gadgets that can trigger .NET assembly load/execution when deserialized using BinaryFormatter from JS/VBS/VBA scripts.
+sharpup.vm - SharpUp is a C# port of various PowerUp functionality for auditing potential privilege escalation paths.
+az.powershell - 
+azure-cli - 
+routesixtysink.vm - Route Sixty-Sink is an open source tool that enables defenders and security researchers alike to quickly identify vulnerabilities in any .NET assembly using automated source-to-sink analysis.
+sharphound.vm - SharpHound is an Active Directory ingester tool for BloodHound.
+spoolsample.vm - PoC tool to coerce Windows hosts authenticate to other machines via the MS-RPRN RPC interface.
+sharpview.vm - .NET port of PowerView used for information gathering within Active Directory
+seatbelt.vm - Seatbelt is a C# project that performs a number of security oriented host-survey "safety checks" relevant from both offensive and defensive security perspectives.
+telnet.vm - A network protocol used to virtually access a computer and to provide a two-way, collaborative and text-based communication channel between two machines
+badassmacros.vm - Proof of Concept tool to generate malicious macros leveraging techniques like VBA Purging and Shellcode Obfuscation to evade AV engines.
+bloodhound-custom-queries.vm - Custom Query list for the Bloodhound GUI based off my cheatsheet
+burp-free.vm - Burp Suite Community Edition is PortSwigger's free integrated platform for performing security testing of web applications.
+c3.vm - C3 (Custom Command and Control) is a tool that allows Red Teams to rapidly develop and utilise esoteric command and control channels (C2). It's a framework that extends other red team tooling, such as the commercial Cobalt Strike (CS) product via ExternalC2.
+covenant.vm - Covenant is a .NET command and control framework that aims to highlight the attack surface of .NET, make the use of offensive .NET tradecraft easier, and serve as a collaborative command and control platform for red teamers.
+credninja.vm - This tool will tell you if the credentials you dumped are valid on the domain, and if you have local administrator access to a host.
+dumpert.vm - This tool demonstrates the use of direct System Calls and API unhooking and combines these techniques in a proof of concept code which can be used to create a LSASS memory dump using Cobalt Strike.
+evilclippy.vm - A cross-platform assistant for creating malicious MS Office documents. Can hide VBA macros, stomp VBA code (via P-Code) and confuse macro analysis tools.
+exiftool.vm - A tool for reeding and writing file metadata
+gowitness.vm - Website screenshot utility written in Golang, that uses Chrome Headless to generate screenshots of web interfaces using the command line, with a handy report viewer to process results.
+group3r.vm - Group3r is a tool for pentesters and red teamers to rapidly enumerate relevant settings in AD Group Policy, and to identify exploitable misconfigurations.
+hxd.vm - Freeware hex editor
+invokedosfuscation.vm - Invoke-DOSfuscation is a PowerShell v2.0+ compatible cmd.exe command obfuscation framework.
+invokeobfuscation.vm - Invoke-Obfuscation is a PowerShell v2.0+ compatible PowerShell command and script obfuscator.
+juicypotato.vm - Local Privilege Escalation tool that abuses the SeImpersonatePrivilege to go from a Windows Service Account to NT AUTHORITY\SYSTEM
+keethief.vm - Allows for the extraction of KeePass 2.X key material from memory, as well as the backdooring and enumeration of the KeePass trigger system.
+kerbrute.vm - A tool to quickly bruteforce and enumerate valid Active Directory accounts through Kerberos Pre-Authentication
+mailsniper.vm - MailSniper is a penetration testing tool for searching through email in a Microsoft Exchange environment for specific terms and performing password spraying.
+mfasweep.vm - MFASweep is a PowerShell script that attempts to log in to various Microsoft services using a provided set of credentials and will attempt to identify if MFA is enabled.
+minidump.vm - 
+microburst.vm - MicroBurst includes functions and scripts that support Azure Services discovery, weak configuration auditing, and post exploitation actions such as credential dumping.
+netgpppassword.vm - .NET/C# implementation of Get-GPPPassword. Retrieves the plaintext password and other information for accounts pushed through Group Policy Preferences.
+nmap.vm - Port scanning utility and nc replacement with extended features
+payloadsallthethings.vm - A list of useful payloads and bypasses for Web Application Security.
+petitpotam.vm - PoC tool to coerce Windows hosts to authenticate to other machines via MS-EFSRPC EfsRpcOpenFileRaw or other functions
+powercat.vm - PowerShell implementation of netcat functionality
+powermad.vm - Powermad includes a set of functions for exploiting ms-DS-MachineAccountQuota without attaching an actual system to AD
+powersploit.vm - PowerSploit is a collection of Microsoft PowerShell modules that can be used to aid penetration testers during all phases of an assessment.
+powerupsql.vm - PowerUpSQL includes functions that support SQL Server discovery, weak configuration auditing, privilege escalation on scale, and post exploitation actions such as OS command execution.
+powerzure.vm - 
+processdump.vm - Process Dump is a Windows reverse-engineering command-line tool to dump malware memory components back to disk for analysis.
+rubeus.vm - Rubeus is a C# toolset for raw Kerberos interaction and abuses.
+sharpdpapi.vm - SharpDPAPI is a C# port of some DPAPI functionality from @gentilkiwi's Mimikatz project.
+sharplaps.vm - This executable is made to be executed within Cobalt Strike session using execute-assembly. It will retrieve the LAPS password from the Active Directory.
+sharpsecdump.vm - .Net port of the remote SAM + LSA Secrets dumping functionality of impacket's secretsdump.py
+sharpwmi.vm - SharpWMI is a C# implementation of various WMI functionality.
+sliver.vm - Sliver is an open source cross-platform adversary emulation/red team framework.
+snaffler.vm - Snaffler is a tool for enumerating accessible SMB shares in an Active Directory environment.
+syswhispers2.vm - SysWhispers helps with evasion by generating header/ASM files implants can use to make direct system calls.
+tor-browser.vm - The Tor software protects you by bouncing your communications around a distributed network of relays run by volunteers all around the world.
+upx.vm - UPX is a free, secure, portable, extendable, high-performance executable packer for several executable formats.
+windbg.vm - WinDbg is a debugger that can be used to analyze crash dumps, debug live user-mode and kernel-mode code, and examine CPU registers and memory.
+adconnectdump.vm - This toolkit offers several ways to extract and decrypt stored Azure AD and Active Directory credentials from Azure AD Connect servers.
+ldapnomnom.vm - Anonymously bruteforce Active Directory usernames from Domain Controllers by abusing LDAP Ping requests (cLDAP)
+pesieve.vm - pe-sieve recognizes and dumps variety of implants within the scanned process.
+shellcode_launcher.vm - Shellcode launcher utility
+asreproast.vm - Project that retrieves crackable hashes from KRB5 AS-REP responses for users without kerberoast preauthentication enabled.
+dnspyex.vm - dnSpyEx is a unofficial continuation of the dnSpy project which is a debugger and .NET assembly editor. You can use it to edit and debug assemblies even if you don't have any source code available.
+fakenet-ng.vm - FakeNet-NG is a dynamic network analysis tool.
+nasm.vm - Netwide Assembler
+mimikatz.vm - Mimikatz is an open-source application that allows users to view and save authentication credentials such as Kerberos tickets
+safetykatz.vm - SafetyKatz is a combination of slightly modified version of @gentilkiwi's Mimikatz project and @subtee's .NET PE Loader.
+sharpcliphistory.vm - SharpClipHistory is a .NET 4.5 application written in C# that can be used to read the contents of a user's clipboard history in Windows 10 starting from the 1809 Build.
+sharpdump.vm - SharpDump is a C# port of PowerSploit's Out-Minidump.ps1 functionality.
+sharpexec.vm - SharpExec is an offensive security C# tool designed to aid with lateral movement.
+syswhispers3.vm - SysWhispers helps with evasion by generating header/ASM files implants can use to make direct system calls.
+vnc-viewer.vm - Tool for connecting to and interacting with VNC servers.
+wmimplant.vm - WMImplant is a PowerShell based tool that leverages WMI to both perform actions against targeted machines, but also as the C2 channel for issuing commands and receiving results.
+x64dbg.vm - An open-source x64/x32 debugger for Windows.
+getlapspasswords.vm - PowerShell function to pull the local admin passwords from LDAP, stored there by LAPS.
+inveigh.vm - Inveigh is a cross-platform .NET IPv4/IPv6 machine-in-the-middle tool for penetration testers.
+merlin.vm - Merlin is a cross-platform post-exploitation Command and Control server and agent written in Go.
+openvpn.vm - OpenVPN is a full-featured open source SSL VPN solution that accommodates a wide range of configurations.
+resourcehacker.vm - Resource Hacker is a resource editor for 32bit and 64bit Windows applications.
+sqlitebrowser.vm - Open source tool to create, design, and edit database files compatible with SQLite.
+winscp.vm - WinSCP is an open source free SFTP client, SCP client, FTPS client and FTP client for Windows. Its main function is file transfer between a local and a remote computer.
+jre8 - 
+unxutils - 
+
+
+
+
+====================================================================================================
+packages for ./commando-vm/Profiles/Default.xml
+====================================================================================================
+notepadplusplus.vm - Wrapper for Notepad++
+7zip-15-05.vm - 7-Zip file archiver. This version is able to extract NSIS scripts.
+azurehound.vm - AzureHound is the BloodHound data collector for Microsoft Azure.
+bloodhound.vm - BloodHound uses graph theory to reveal the hidden and often unintended relationships within an Active Directory environment.
+cmder.vm - Metapackage for cmder
+cyberchef.vm - The Cyber Swiss Army Knife - a web app for encryption, encoding, compression, data analysis, and more.
+gobuster.vm - Directory/file and DNS busting tool written in Go
+sqlrecon.vm - MSSQL toolkit for reconnaissance and post-exploitation
+awscli - 
+az.powershell - 
+azure-cli - 
+teamfiltration.vm - TeamFiltration is a cross-platform framework for enumerating, spraying, exfiltrating, and backdooring O365 AAD accounts.
+obsidian - 
+googlechrome - 
+firefox - 
+vscode - 
+greenshot - 
+vlc - 
+keepass - 
+ilspy.vm - The open-source .NET assembly browser and decompiler.
+wireshark.vm - Wireshark lets you capture and interactively browse the traffic running on a computer network.
+cyberchef.vm - The Cyber Swiss Army Knife - a web app for encryption, encoding, compression, data analysis, and more.
+pebear.vm - Delivers fast and flexible "first view" for malware analysts
+sysinternals.vm - Sysinternals suite.
+situational-awareness-bof.vm - Provides a set of basic situational awareness commands implemented in a Beacon Object File (BOF). This allows you to perform some checks on a host before you begin executing commands that may be more invasive.
+unhook-bof.vm - This is a Beacon Object File to refresh DLLs and remove their hooks. The code is from Cylance's Universal Unhooking research.
+stracciatella.vm - Powershell runspace from within C# (aka SharpPick technique) with AMSI, ETW and Script Block Logging disabled.
+nanodump.vm - A Beacon Object File that creates a minidump of the LSASS process.
+truestedsec-remote-ops-bof.vm - 
+outflank-c2-tool-collection.vm - Contains a collection of tools which integrate with Cobalt Strike (and possibly other C2 frameworks) through BOF and reflective DLL loading techniques.
+certify.vm - Certify is a C# tool to enumerate and abuse misconfigurations in Active Directory Certificate Services (AD CS).
+streamdivert.vm - StreamDivert has the ability to relay all incoming SMB connections to port 445 to another server, or only relay specific incoming SMB connections from a specific set of source IP's to another server.
+whisker.vm - Whisker is a C# tool for taking over Active Directory user and computer accounts by manipulating their msDS-KeyCredentialLink attribute, effectively adding "Shadow Credentials" to the target account.
+confuserex.vm - ConfuserEx is a open-source protector for .NET applications. It is the successor of Confuser project.
+dotnettojscript.vm - A tool to generate a JScript which bootstraps an arbitrary .NET Assembly and class.
+gadgettojscript.vm - A tool for generating .NET serialized gadgets that can trigger .NET assembly load/execution when deserialized using BinaryFormatter from JS/VBS/VBA scripts.
+sharpup.vm - SharpUp is a C# port of various PowerUp functionality for auditing potential privilege escalation paths.
+az.powershell - 
+azure-cli - 
+routesixtysink.vm - Route Sixty-Sink is an open source tool that enables defenders and security researchers alike to quickly identify vulnerabilities in any .NET assembly using automated source-to-sink analysis.
+sharphound.vm - SharpHound is an Active Directory ingester tool for BloodHound.
+spoolsample.vm - PoC tool to coerce Windows hosts authenticate to other machines via the MS-RPRN RPC interface.
+sharpview.vm - .NET port of PowerView used for information gathering within Active Directory
+seatbelt.vm - Seatbelt is a C# project that performs a number of security oriented host-survey "safety checks" relevant from both offensive and defensive security perspectives.
+telnet.vm - A network protocol used to virtually access a computer and to provide a two-way, collaborative and text-based communication channel between two machines
+badassmacros.vm - Proof of Concept tool to generate malicious macros leveraging techniques like VBA Purging and Shellcode Obfuscation to evade AV engines.
+bloodhound-custom-queries.vm - Custom Query list for the Bloodhound GUI based off my cheatsheet
+burp-free.vm - Burp Suite Community Edition is PortSwigger's free integrated platform for performing security testing of web applications.
+c3.vm - C3 (Custom Command and Control) is a tool that allows Red Teams to rapidly develop and utilise esoteric command and control channels (C2). It's a framework that extends other red team tooling, such as the commercial Cobalt Strike (CS) product via ExternalC2.
+covenant.vm - Covenant is a .NET command and control framework that aims to highlight the attack surface of .NET, make the use of offensive .NET tradecraft easier, and serve as a collaborative command and control platform for red teamers.
+credninja.vm - This tool will tell you if the credentials you dumped are valid on the domain, and if you have local administrator access to a host.
+dumpert.vm - This tool demonstrates the use of direct System Calls and API unhooking and combines these techniques in a proof of concept code which can be used to create a LSASS memory dump using Cobalt Strike.
+evilclippy.vm - A cross-platform assistant for creating malicious MS Office documents. Can hide VBA macros, stomp VBA code (via P-Code) and confuse macro analysis tools.
+exiftool.vm - A tool for reeding and writing file metadata
+gowitness.vm - Website screenshot utility written in Golang, that uses Chrome Headless to generate screenshots of web interfaces using the command line, with a handy report viewer to process results.
+group3r.vm - Group3r is a tool for pentesters and red teamers to rapidly enumerate relevant settings in AD Group Policy, and to identify exploitable misconfigurations.
+hxd.vm - Freeware hex editor
+invokedosfuscation.vm - Invoke-DOSfuscation is a PowerShell v2.0+ compatible cmd.exe command obfuscation framework.
+invokeobfuscation.vm - Invoke-Obfuscation is a PowerShell v2.0+ compatible PowerShell command and script obfuscator.
+juicypotato.vm - Local Privilege Escalation tool that abuses the SeImpersonatePrivilege to go from a Windows Service Account to NT AUTHORITY\SYSTEM
+keethief.vm - Allows for the extraction of KeePass 2.X key material from memory, as well as the backdooring and enumeration of the KeePass trigger system.
+kerbrute.vm - A tool to quickly bruteforce and enumerate valid Active Directory accounts through Kerberos Pre-Authentication
+mailsniper.vm - MailSniper is a penetration testing tool for searching through email in a Microsoft Exchange environment for specific terms and performing password spraying.
+mfasweep.vm - MFASweep is a PowerShell script that attempts to log in to various Microsoft services using a provided set of credentials and will attempt to identify if MFA is enabled.
+minidump.vm - 
+microburst.vm - MicroBurst includes functions and scripts that support Azure Services discovery, weak configuration auditing, and post exploitation actions such as credential dumping.
+netgpppassword.vm - .NET/C# implementation of Get-GPPPassword. Retrieves the plaintext password and other information for accounts pushed through Group Policy Preferences.
+nmap.vm - Port scanning utility and nc replacement with extended features
+payloadsallthethings.vm - A list of useful payloads and bypasses for Web Application Security.
+petitpotam.vm - PoC tool to coerce Windows hosts to authenticate to other machines via MS-EFSRPC EfsRpcOpenFileRaw or other functions
+powercat.vm - PowerShell implementation of netcat functionality
+powermad.vm - Powermad includes a set of functions for exploiting ms-DS-MachineAccountQuota without attaching an actual system to AD
+powersploit.vm - PowerSploit is a collection of Microsoft PowerShell modules that can be used to aid penetration testers during all phases of an assessment.
+powerupsql.vm - PowerUpSQL includes functions that support SQL Server discovery, weak configuration auditing, privilege escalation on scale, and post exploitation actions such as OS command execution.
+powerzure.vm - 
+processdump.vm - Process Dump is a Windows reverse-engineering command-line tool to dump malware memory components back to disk for analysis.
+rubeus.vm - Rubeus is a C# toolset for raw Kerberos interaction and abuses.
+sharpdpapi.vm - SharpDPAPI is a C# port of some DPAPI functionality from @gentilkiwi's Mimikatz project.
+sharplaps.vm - This executable is made to be executed within Cobalt Strike session using execute-assembly. It will retrieve the LAPS password from the Active Directory.
+sharpsecdump.vm - .Net port of the remote SAM + LSA Secrets dumping functionality of impacket's secretsdump.py
+sharpwmi.vm - SharpWMI is a C# implementation of various WMI functionality.
+sliver.vm - Sliver is an open source cross-platform adversary emulation/red team framework.
+snaffler.vm - Snaffler is a tool for enumerating accessible SMB shares in an Active Directory environment.
+syswhispers2.vm - SysWhispers helps with evasion by generating header/ASM files implants can use to make direct system calls.
+tor-browser.vm - The Tor software protects you by bouncing your communications around a distributed network of relays run by volunteers all around the world.
+upx.vm - UPX is a free, secure, portable, extendable, high-performance executable packer for several executable formats.
+windbg.vm - WinDbg is a debugger that can be used to analyze crash dumps, debug live user-mode and kernel-mode code, and examine CPU registers and memory.
+adconnectdump.vm - This toolkit offers several ways to extract and decrypt stored Azure AD and Active Directory credentials from Azure AD Connect servers.
+ldapnomnom.vm - Anonymously bruteforce Active Directory usernames from Domain Controllers by abusing LDAP Ping requests (cLDAP)
+pesieve.vm - pe-sieve recognizes and dumps variety of implants within the scanned process.
+shellcode_launcher.vm - Shellcode launcher utility
+asreproast.vm - Project that retrieves crackable hashes from KRB5 AS-REP responses for users without kerberoast preauthentication enabled.
+dnspyex.vm - dnSpyEx is a unofficial continuation of the dnSpy project which is a debugger and .NET assembly editor. You can use it to edit and debug assemblies even if you don't have any source code available.
+fakenet-ng.vm - FakeNet-NG is a dynamic network analysis tool.
+nasm.vm - Netwide Assembler
+mimikatz.vm - Mimikatz is an open-source application that allows users to view and save authentication credentials such as Kerberos tickets
+safetykatz.vm - SafetyKatz is a combination of slightly modified version of @gentilkiwi's Mimikatz project and @subtee's .NET PE Loader.
+sharpcliphistory.vm - SharpClipHistory is a .NET 4.5 application written in C# that can be used to read the contents of a user's clipboard history in Windows 10 starting from the 1809 Build.
+sharpdump.vm - SharpDump is a C# port of PowerSploit's Out-Minidump.ps1 functionality.
+sharpexec.vm - SharpExec is an offensive security C# tool designed to aid with lateral movement.
+syswhispers3.vm - SysWhispers helps with evasion by generating header/ASM files implants can use to make direct system calls.
+vnc-viewer.vm - Tool for connecting to and interacting with VNC servers.
+wmimplant.vm - WMImplant is a PowerShell based tool that leverages WMI to both perform actions against targeted machines, but also as the C2 channel for issuing commands and receiving results.
+x64dbg.vm - An open-source x64/x32 debugger for Windows.
+getlapspasswords.vm - PowerShell function to pull the local admin passwords from LDAP, stored there by LAPS.
+inveigh.vm - Inveigh is a cross-platform .NET IPv4/IPv6 machine-in-the-middle tool for penetration testers.
+merlin.vm - Merlin is a cross-platform post-exploitation Command and Control server and agent written in Go.
+openvpn.vm - OpenVPN is a full-featured open source SSL VPN solution that accommodates a wide range of configurations.
+resourcehacker.vm - Resource Hacker is a resource editor for 32bit and 64bit Windows applications.
+sqlitebrowser.vm - Open source tool to create, design, and edit database files compatible with SQLite.
+winscp.vm - WinSCP is an open source free SFTP client, SCP client, FTPS client and FTP client for Windows. Its main function is file transfer between a local and a remote computer.
+jre8 - 
+unxutils - 
+
+
+
+
+====================================================================================================
+packages for ./commando-vm/Profiles/Developer.xml
+====================================================================================================
+notepadplusplus.vm - Wrapper for Notepad++
+apimonitor.vm - API Monitor lets you monitor and control API calls made by applications and services.
+badassmacros.vm - Proof of Concept tool to generate malicious macros leveraging techniques like VBA Purging and Shellcode Obfuscation to evade AV engines.
+bytecodeviewer.vm - A lightweight user-friendly Java/Android Bytecode Viewer, Decompiler and more.
+capa.vm - capa detects capabilities in executable files. You run it against a PE file or shellcode and it tells you what it thinks the program can do.
+codetrack.vm - A free .NET Performance Profile and Execution Analyzer
+confuserex.vm - ConfuserEx is a open-source protector for .NET applications. It is the successor of Confuser project.
+covenant.vm - Covenant is a .NET command and control framework that aims to highlight the attack surface of .NET, make the use of offensive .NET tradecraft easier, and serve as a collaborative command and control platform for red teamers.
+cyberchef.vm - The Cyber Swiss Army Knife - a web app for encryption, encoding, compression, data analysis, and more.
+dll-to-exe.vm - Converts a DLL into a ready-to-use EXE
+dotnettojscript.vm - A tool to generate a JScript which bootstraps an arbitrary .NET Assembly and class.
+evilclippy.vm - A cross-platform assistant for creating malicious MS Office documents. Can hide VBA macros, stomp VBA code (via P-Code) and confuse macro analysis tools.
+gadgettojscript.vm - A tool for generating .NET serialized gadgets that can trigger .NET assembly load/execution when deserialized using BinaryFormatter from JS/VBS/VBA scripts.
+hashmyfiles.vm - HashMyFiles is small utility that allows you to calculate the MD5 and SHA1 hashes of one or more files in your system. You can easily copy the MD5/SHA1 hashes list into the clipboard, or save them into text/html/xml file.
+invokedosfuscation.vm - Invoke-DOSfuscation is a PowerShell v2.0+ compatible cmd.exe command obfuscation framework.
+invokeobfuscation.vm - Invoke-Obfuscation is a PowerShell v2.0+ compatible PowerShell command and script obfuscator.
+merlin.vm - Merlin is a cross-platform post-exploitation Command and Control server and agent written in Go.
+openvpn.vm - OpenVPN is a full-featured open source SSL VPN solution that accommodates a wide range of configurations.
+pebear.vm - Delivers fast and flexible "first view" for malware analysts
+pesieve.vm - pe-sieve recognizes and dumps variety of implants within the scanned process.
+pestudio.vm - The goal of pestudio is to spot artifacts of executable files in order to ease and accelerate Malware Initial Assessment.
+processdump.vm - Process Dump is a Windows reverse-engineering command-line tool to dump malware memory components back to disk for analysis.
+resourcehacker.vm - Resource Hacker is a resource editor for 32bit and 64bit Windows applications.
+rundotnetdll.vm - A simple utility to list all methods of a given .NET Assembly and to invoke them.
+scdbg.vm - scdbg is an emulation based shellcode API logger and debugger
+setdllcharacteristics.vm - A CLI tool for manipulating ASLR, DEP, and check signature flags of PE files
+shellcode_launcher.vm - Shellcode launcher utility
+sliver.vm - Sliver is an open source cross-platform adversary emulation/red team framework.
+stracciatella.vm - Powershell runspace from within C# (aka SharpPick technique) with AMSI, ETW and Script Block Logging disabled.
+sysinternals.vm - Sysinternals suite.
+syswhispers2.vm - SysWhispers helps with evasion by generating header/ASM files implants can use to make direct system calls.
+syswhispers3.vm - SysWhispers helps with evasion by generating header/ASM files implants can use to make direct system calls.
+telnet.vm - A network protocol used to virtually access a computer and to provide a two-way, collaborative and text-based communication channel between two machines
+tor-browser.vm - The Tor software protects you by bouncing your communications around a distributed network of relays run by volunteers all around the world.
+unhook-bof.vm - This is a Beacon Object File to refresh DLLs and remove their hooks. The code is from Cylance's Universal Unhooking research.
+upx.vm - UPX is a free, secure, portable, extendable, high-performance executable packer for several executable formats.
+visualstudio.vm - IDE.
+vcbuildtools.vm - Metapackage that requires the dependencies below:
+- visualstudio2017buildtools
+- visualstudio2017-workload-vctools
+
+windbg.vm - WinDbg is a debugger that can be used to analyze crash dumps, debug live user-mode and kernel-mode code, and examine CPU registers and memory.
+winscp.vm - WinSCP is an open source free SFTP client, SCP client, FTPS client and FTP client for Windows. Its main function is file transfer between a local and a remote computer.
+wireshark.vm - Wireshark lets you capture and interactively browse the traffic running on a computer network.
+wmimplant.vm - WMImplant is a PowerShell based tool that leverages WMI to both perform actions against targeted machines, but also as the C2 channel for issuing commands and receiving results.
+x64dbg.vm - An open-source x64/x32 debugger for Windows.
+yara.vm - The pattern matching swiss knife
+c3.vm - C3 (Custom Command and Control) is a tool that allows Red Teams to rapidly develop and utilise esoteric command and control channels (C2). It's a framework that extends other red team tooling, such as the commercial Cobalt Strike (CS) product via ExternalC2.
+obsidian - 
+googlechrome - 
+firefox - 
+vscode - 
+greenshot - 
+vlc - 
+gimp - 
+keepass - 
+adobereader - 
+golang - 
+rust - 
+nim - 
+idafree.vm - Free version of IDA, a powerful Interactive DisAssembler and debugger
+exiftool.vm - A tool for reeding and writing file metadata
+hxd.vm - Freeware hex editor
+cmder.vm - Metapackage for cmder
+python3 - 
+fiddlerclassic.vm - 
+burp-free.vm - Burp Suite Community Edition is PortSwigger's free integrated platform for performing security testing of web applications.
+nmap.vm - Port scanning utility and nc replacement with extended features
+git - 
+sublimetext3.app - 
+unxutils - 
+ghidra.vm - A software reverse engineering (SRE) suite of tools developed by NSA's Research Directorate in support of the Cybersecurity mission.
+
+
+
+
+====================================================================================================
+packages for ./flare-vm/config.xml
+====================================================================================================
+010editor.vm - Professional text and hex editor with Binary Templates technology.
+7zip.vm - Metapackage for 7zip to ensure all packages use the same 7zip version.
+apimonitor.vm - API Monitor lets you monitor and control API calls made by applications and services.
+apktool.vm - A tool for reverse engineering 3rd party, closed, binary Android apps.
+autoit-ripper.vm - Extracts compiled AutoIt scripts from PE executables.
+bindiff.vm - A comparison tool for binary files that assists in quickly finding differences and similarities in disassembled code
+blobrunner.vm - BlobRunner is a simple tool to quickly debug shellcode extracted during malware analysis.
+blobrunner64.vm - BlobRunner is a simple tool to quickly debug shellcode extracted during malware analysis.
+bytecodeviewer.vm - A lightweight user-friendly Java/Android Bytecode Viewer, Decompiler and more.
+capa.vm - capa detects capabilities in executable files. You run it against a PE file or shellcode and it tells you what it thinks the program can do.
+cmder.vm - Metapackage for cmder
+codetrack.vm - A free .NET Performance Profile and Execution Analyzer
+cryptotester.vm - Utility tool for performing cryptanalysis with a focus on ransomware cryptography
+cyberchef.vm - The Cyber Swiss Army Knife - a web app for encryption, encoding, compression, data analysis, and more.
+cygwin.vm - Wrapper for cygwin and useful cygwin packages
+de4dot-cex.vm - A de4dot fork with full support for vanilla ConfuserEx
+dependencywalker.vm - Scans PE files and builds a hierarchical tree diagram of all dependent modules
+dex2jar.vm - Tools to work with android .dex and java .class files.
+didier-stevens-beta.vm - Beta versions of Didier Stevens's software
+didier-stevens-suite.vm - Tools collection by Didier Stevens
+die.vm - Detect It Easy, or abbreviated "DIE" is a program for determining types of files.
+dll-to-exe.vm - Converts a DLL into a ready-to-use EXE
+dnlib.vm - .NET module/assembly reader/writer library
+dnspyex.vm - dnSpyEx is a unofficial continuation of the dnSpy project which is a debugger and .NET assembly editor. You can use it to edit and debug assemblies even if you don't have any source code available.
+dotdumper.vm - An automatic unpacker and logger for DotNet Framework targeting files
+dotnet3.5 - 
+explorersuite.vm - A suite of tools including CFF Explorer and a process viewer.
+extreme_dumper.vm - .NET Assembly Dumper from memory of processes.
+ezviewer.vm - Standalone, zero dependency viewer for .doc, .docx, .xls, .xlsx, .txt, .log, .rtf, .otd, .htm, .html, .mht, .csv, and .pdf. Any non-supported files are shown in a hex editor (with data interpreter!)
+fakenet-ng.vm - FakeNet-NG is a dynamic network analysis tool.
+file.vm - A Windows port of the Linux `file` utility for checking header magics
+floss.vm - FLOSS uses advanced static analysis techniques to automatically deobfuscate strings from malware binaries. You can use it just like strings.exe to enhance basic static analysis of unknown binaries.
+garbageman.vm - A set of tools designed for .NET heap analysis.
+ghidra.vm - A software reverse engineering (SRE) suite of tools developed by NSA's Research Directorate in support of the Cybersecurity mission.
+goresym.vm - Go symbol recovery tool
+hashmyfiles.vm - HashMyFiles is small utility that allows you to calculate the MD5 and SHA1 hashes of one or more files in your system. You can easily copy the MD5/SHA1 hashes list into the clipboard, or save them into text/html/xml file.
+hollowshunter.vm - Scans all running processes. Recognizes and dumps a variety of potentially malicious implants (replaced/implanted PEs, shellcodes, hooks, in-memory patches).
+hxd.vm - Freeware hex editor
+ida.plugin.capa.vm - capa explorer is an IDAPython plugin that integrates capa with IDA Pro.
+ida.plugin.comida.vm - IDA Plugin that help analyzing modules using COM.
+ida.plugin.dereferencing.vm - IDA Pro plugin that implements new registers and stack views.
+ida.plugin.diaphora.vm - Diaphora is a program diffing IDA plugin.
+ida.plugin.flare.vm - IDA Pro plugins used by the FLARE team.
+ida.plugin.ifl.vm - Interactive Functions List IDA Pro plugin.
+idafree.vm - Free version of IDA, a powerful Interactive DisAssembler and debugger
+idr.vm - Interactive Delphi Reconstructor
+ifpstools.vm - IFPSTools.NET: tools for working with RemObject PascalScript compiled bytecode files
+ilspy.vm - The open-source .NET assembly browser and decompiler.
+innoextract.vm - A tool to extract Inno Setup installers.
+innounp.vm - Unpacker for Inno Setup installers.
+isd.vm - Inno Setup Decompiler
+js-deobfuscator.vm - Deobfuscator to remove common JS obfuscation techniques.
+libraries.python3.vm - Metapackage to install common Python libraries
+magika.vm - Magika is an AI powered file type detection tool that uses deep learning to provide accurate detection.
+malware-jail.vm - Sandbox for semi-automatic Javascript malware analysis, deobfuscation and payload extraction.
+map.vm - Handful of small utility type applications useful for analyzing malicious code.
+nasm.vm - Netwide Assembler
+net-reactor-slayer.vm - NETReactorSlayer is an open source (GPLv3) deobfuscator and unpacker for Eziriz .NET Reactor.
+netcat.vm - Netcat is a networking utility for reading from and writing to network connections using TCP or UDP.
+notepadplusplus.vm - Wrapper for Notepad++
+notepadpp.plugin.compare.vm - ComparePlus plugin for Notepad++
+notepadpp.plugin.jstool.vm - A JavaScript (JSON) tool for Notepad++ (formerly JSMinNpp)
+notepadpp.plugin.xmltools.vm - XML Tools plugin for Notepad++
+obfuscator-io-deobfuscator.vm - A deobfuscator for scripts obfuscated by Obfuscator.io
+offvis.vm - The Microsoft Office Visualization Tool (OffVis) is a tool from Microsoft that helps understanding the Microsoft Office binary file format in order to deconstruct .doc-, .xls- and .ppt-based targeted attacks.
+onenoteanalyzer.vm - A C# based tool for analyzing malicious OneNote documents.
+pdbresym.vm - Download PDBs
+pdfstreamdumper.vm - PDFStreamDumper is a free, open source tool to analyze malicious PDF documents.
+pe_unmapper.vm - Small tool to convert beteween the PE alignments (raw and virtual)
+pebear.vm - Delivers fast and flexible "first view" for malware analysts
+peid.vm - PEiD detects most common packers, cryptors and compilers for PE files.
+pesieve.vm - pe-sieve recognizes and dumps variety of implants within the scanned process.
+pestudio.vm - The goal of pestudio is to spot artifacts of executable files in order to ease and accelerate Malware Initial Assessment.
+pkg-unpacker.vm - Unpacker for pkg applications.
+pma-labs.vm - Binaries for the book Practical Malware Analysis
+procdot.vm - Creates visual graphs from procmon output
+processdump.vm - Process Dump is a Windows reverse-engineering command-line tool to dump malware memory components back to disk for analysis.
+reg_export.vm - A CLI that exports the raw content of a registry value to a file
+regcool.vm - In addition to all the features that you can find in RegEdit and RegEdt32, RegCool adds many powerful features that allow you to work faster and more efficiently with registry related tasks
+regshot.vm - Regshot is a small, free and open-source registry compare utility that allows you to quickly take a snapshot of your registry and then compare it with a second one - done after doing system changes or installing a new software product.
+resourcehacker.vm - Resource Hacker is a resource editor for 32bit and 64bit Windows applications.
+rundotnetdll.vm - A simple utility to list all methods of a given .NET Assembly and to invoke them.
+scdbg.vm - scdbg is an emulation based shellcode API logger and debugger
+sclauncher.vm - A small program to load 32-bit shellcode and allow for execution or debugging. Can also output PE files from shellcode.
+sclauncher64.vm - A small program to load 64-bit shellcode and allow for execution or debugging. Can also output PE files from shellcode.
+sfextract.vm - command-line utility to extract files from single file bundles in .NET
+shellcode_launcher.vm - Shellcode launcher utility
+sysinternals.vm - Sysinternals suite.
+systeminformer.vm - A free, powerful, multi-purpose tool that helps you monitor system resources, debug software and detect malware.
+ttd.vm - Time travel debugging command line utility.
+uniextract2.vm - Universal Extractor 2 is an unofficial updated and extended version of the original UniExtract by Jared Breland.
+upx.vm - UPX is a free, secure, portable, extendable, high-performance executable packer for several executable formats.
+vcbuildtools.vm - Metapackage that requires the dependencies below:
+- visualstudio2017buildtools
+- visualstudio2017-workload-vctools
+
+vcredist-all - 
+vscode.extension.jupyter.vm - Jupyter notebook support, interactive programming and computing that supports Intellisense, debugging and more.
+vscode.extension.python.vm - Python language support with extension access points for IntelliSense (Pylance), Debugging (Python Debugger), linting, formatting, refactoring, unit tests, and more.
+vscode.vm - VSCode is a modern, open-source code editor.
+windbg.vm - WinDbg is a debugger that can be used to analyze crash dumps, debug live user-mode and kernel-mode code, and examine CPU registers and memory.
+windows-terminal.vm - Windows Terminal is a new, modern, feature-rich, productive terminal application for command-line users.
+wireshark.vm - Wireshark lets you capture and interactively browse the traffic running on a computer network.
+x64dbg.plugin.dbgchild.vm - DbgChild is an x64dbg plugin to automatically attach to spawned child processes.
+x64dbg.plugin.ollydumpex.vm - This plugin is process memory dumper for OllyDbg and Immunity Debugger. OllyDumpEx = OllyDump + PE Dumper - obsoleted + useful features
+x64dbg.plugin.scyllahide.vm - ScyllaHide is an advanced open-source x64/x86 user mode Anti-Anti-Debug library.
+x64dbg.plugin.x64dbgpy.vm - Automating x64dbg using Python.
+x64dbg.vm - An open-source x64/x32 debugger for Windows.
+yara.vm - The pattern matching swiss knife
+
+
+
+
+====================================================================================================
+packages for ./commando-vm/Profiles/Lite.xml
+====================================================================================================
+notepadplusplus.vm - Wrapper for Notepad++
+bloodhound.vm - BloodHound uses graph theory to reveal the hidden and often unintended relationships within an Active Directory environment.
+burp-free.vm - Burp Suite Community Edition is PortSwigger's free integrated platform for performing security testing of web applications.
+certify.vm - Certify is a C# tool to enumerate and abuse misconfigurations in Active Directory Certificate Services (AD CS).
+credninja.vm - This tool will tell you if the credentials you dumped are valid on the domain, and if you have local administrator access to a host.
+confuserex.vm - ConfuserEx is a open-source protector for .NET applications. It is the successor of Confuser project.
+cyberchef.vm - The Cyber Swiss Army Knife - a web app for encryption, encoding, compression, data analysis, and more.
+gobuster.vm - Directory/file and DNS busting tool written in Go
+fuzzdb.vm - FuzzDB is the most comprehensive open dictionary of fault injection patterns, predictable resource locations, and regex for matching server responses.
+juicypotato.vm - Local Privilege Escalation tool that abuses the SeImpersonatePrivilege to go from a Windows Service Account to NT AUTHORITY\SYSTEM
+hashmyfiles.vm - HashMyFiles is small utility that allows you to calculate the MD5 and SHA1 hashes of one or more files in your system. You can easily copy the MD5/SHA1 hashes list into the clipboard, or save them into text/html/xml file.
+mimikatz.vm - Mimikatz is an open-source application that allows users to view and save authentication credentials such as Kerberos tickets
+nanodump.vm - A Beacon Object File that creates a minidump of the LSASS process.
+nmap.vm - Port scanning utility and nc replacement with extended features
+openvpn.vm - OpenVPN is a full-featured open source SSL VPN solution that accommodates a wide range of configurations.
+outflank-c2-tool-collection.vm - Contains a collection of tools which integrate with Cobalt Strike (and possibly other C2 frameworks) through BOF and reflective DLL loading techniques.
+petitpotam.vm - PoC tool to coerce Windows hosts to authenticate to other machines via MS-EFSRPC EfsRpcOpenFileRaw or other functions
+powersploit.vm - PowerSploit is a collection of Microsoft PowerShell modules that can be used to aid penetration testers during all phases of an assessment.
+powerupsql.vm - PowerUpSQL includes functions that support SQL Server discovery, weak configuration auditing, privilege escalation on scale, and post exploitation actions such as OS command execution.
+rubeus.vm - Rubeus is a C# toolset for raw Kerberos interaction and abuses.
+seatbelt.vm - Seatbelt is a C# project that performs a number of security oriented host-survey "safety checks" relevant from both offensive and defensive security perspectives.
+seclists.vm - SecLists is the security tester's companion. It's a collection of multiple types of lists used during security assessments, collected in one place.
+sharphound.vm - SharpHound is an Active Directory ingester tool for BloodHound.
+sharpdpapi.vm - SharpDPAPI is a C# port of some DPAPI functionality from @gentilkiwi's Mimikatz project.
+sharpup.vm - SharpUp is a C# port of various PowerUp functionality for auditing potential privilege escalation paths.
+sharpview.vm - .NET port of PowerView used for information gathering within Active Directory
+shellcode_launcher.vm - Shellcode launcher utility
+situational-awareness-bof.vm - Provides a set of basic situational awareness commands implemented in a Beacon Object File (BOF). This allows you to perform some checks on a host before you begin executing commands that may be more invasive.
+snaffler.vm - Snaffler is a tool for enumerating accessible SMB shares in an Active Directory environment.
+sysinternals.vm - Sysinternals suite.
+telnet.vm - A network protocol used to virtually access a computer and to provide a two-way, collaborative and text-based communication channel between two machines
+truestedsec-remote-ops-bof.vm - 
+unhook-bof.vm - This is a Beacon Object File to refresh DLLs and remove their hooks. The code is from Cylance's Universal Unhooking research.
+whisker.vm - Whisker is a C# tool for taking over Active Directory user and computer accounts by manipulating their msDS-KeyCredentialLink attribute, effectively adding "Shadow Credentials" to the target account.
+7zip-15-05.vm - 7-Zip file archiver. This version is able to extract NSIS scripts.
+obsidian - 
+googlechrome - 
+firefox - 
+vscode - 
+git - 
+bloodhound-custom-queries.vm - Custom Query list for the Bloodhound GUI based off my cheatsheet
+unxutils - 
+
+
+
+
+====================================================================================================
+packages for ./commando-vm/Profiles/Full.xml
+====================================================================================================
+notepadplusplus.vm - Wrapper for Notepad++
+7zip-15-05.vm - 7-Zip file archiver. This version is able to extract NSIS scripts.
+azurehound.vm - AzureHound is the BloodHound data collector for Microsoft Azure.
+bloodhound.vm - BloodHound uses graph theory to reveal the hidden and often unintended relationships within an Active Directory environment.
+cmder.vm - Metapackage for cmder
+cyberchef.vm - The Cyber Swiss Army Knife - a web app for encryption, encoding, compression, data analysis, and more.
+gobuster.vm - Directory/file and DNS busting tool written in Go
+sqlrecon.vm - MSSQL toolkit for reconnaissance and post-exploitation
+awscli - 
+az.powershell - 
+azure-cli - 
+teamfiltration.vm - TeamFiltration is a cross-platform framework for enumerating, spraying, exfiltrating, and backdooring O365 AAD accounts.
+obsidian - 
+googlechrome - 
+firefox - 
+vscode - 
+greenshot - 
+vlc - 
+gimp - 
+keepass - 
+adobereader - 
+golang - 
+rust - 
+nim - 
+visualstudio.vm - IDE.
+ilspy.vm - The open-source .NET assembly browser and decompiler.
+wireshark.vm - Wireshark lets you capture and interactively browse the traffic running on a computer network.
+cyberchef.vm - The Cyber Swiss Army Knife - a web app for encryption, encoding, compression, data analysis, and more.
+pebear.vm - Delivers fast and flexible "first view" for malware analysts
+sysinternals.vm - Sysinternals suite.
+situational-awareness-bof.vm - Provides a set of basic situational awareness commands implemented in a Beacon Object File (BOF). This allows you to perform some checks on a host before you begin executing commands that may be more invasive.
+unhook-bof.vm - This is a Beacon Object File to refresh DLLs and remove their hooks. The code is from Cylance's Universal Unhooking research.
+stracciatella.vm - Powershell runspace from within C# (aka SharpPick technique) with AMSI, ETW and Script Block Logging disabled.
+nanodump.vm - A Beacon Object File that creates a minidump of the LSASS process.
+truestedsec-remote-ops-bof.vm - 
+outflank-c2-tool-collection.vm - Contains a collection of tools which integrate with Cobalt Strike (and possibly other C2 frameworks) through BOF and reflective DLL loading techniques.
+certify.vm - Certify is a C# tool to enumerate and abuse misconfigurations in Active Directory Certificate Services (AD CS).
+streamdivert.vm - StreamDivert has the ability to relay all incoming SMB connections to port 445 to another server, or only relay specific incoming SMB connections from a specific set of source IP's to another server.
+whisker.vm - Whisker is a C# tool for taking over Active Directory user and computer accounts by manipulating their msDS-KeyCredentialLink attribute, effectively adding "Shadow Credentials" to the target account.
+confuserex.vm - ConfuserEx is a open-source protector for .NET applications. It is the successor of Confuser project.
+dotnettojscript.vm - A tool to generate a JScript which bootstraps an arbitrary .NET Assembly and class.
+gadgettojscript.vm - A tool for generating .NET serialized gadgets that can trigger .NET assembly load/execution when deserialized using BinaryFormatter from JS/VBS/VBA scripts.
+sharpup.vm - SharpUp is a C# port of various PowerUp functionality for auditing potential privilege escalation paths.
+idafree.vm - Free version of IDA, a powerful Interactive DisAssembler and debugger
+az.powershell - 
+azure-cli - 
+routesixtysink.vm - Route Sixty-Sink is an open source tool that enables defenders and security researchers alike to quickly identify vulnerabilities in any .NET assembly using automated source-to-sink analysis.
+sharphound.vm - SharpHound is an Active Directory ingester tool for BloodHound.
+spoolsample.vm - PoC tool to coerce Windows hosts authenticate to other machines via the MS-RPRN RPC interface.
+sharpview.vm - .NET port of PowerView used for information gathering within Active Directory
+seatbelt.vm - Seatbelt is a C# project that performs a number of security oriented host-survey "safety checks" relevant from both offensive and defensive security perspectives.
+telnet.vm - A network protocol used to virtually access a computer and to provide a two-way, collaborative and text-based communication channel between two machines
+badassmacros.vm - Proof of Concept tool to generate malicious macros leveraging techniques like VBA Purging and Shellcode Obfuscation to evade AV engines.
+bloodhound-custom-queries.vm - Custom Query list for the Bloodhound GUI based off my cheatsheet
+burp-free.vm - Burp Suite Community Edition is PortSwigger's free integrated platform for performing security testing of web applications.
+bytecodeviewer.vm - A lightweight user-friendly Java/Android Bytecode Viewer, Decompiler and more.
+c3.vm - C3 (Custom Command and Control) is a tool that allows Red Teams to rapidly develop and utilise esoteric command and control channels (C2). It's a framework that extends other red team tooling, such as the commercial Cobalt Strike (CS) product via ExternalC2.
+covenant.vm - Covenant is a .NET command and control framework that aims to highlight the attack surface of .NET, make the use of offensive .NET tradecraft easier, and serve as a collaborative command and control platform for red teamers.
+credninja.vm - This tool will tell you if the credentials you dumped are valid on the domain, and if you have local administrator access to a host.
+dumpert.vm - This tool demonstrates the use of direct System Calls and API unhooking and combines these techniques in a proof of concept code which can be used to create a LSASS memory dump using Cobalt Strike.
+evilclippy.vm - A cross-platform assistant for creating malicious MS Office documents. Can hide VBA macros, stomp VBA code (via P-Code) and confuse macro analysis tools.
+exiftool.vm - A tool for reeding and writing file metadata
+fuzzdb.vm - FuzzDB is the most comprehensive open dictionary of fault injection patterns, predictable resource locations, and regex for matching server responses.
+ghidra.vm - A software reverse engineering (SRE) suite of tools developed by NSA's Research Directorate in support of the Cybersecurity mission.
+gowitness.vm - Website screenshot utility written in Golang, that uses Chrome Headless to generate screenshots of web interfaces using the command line, with a handy report viewer to process results.
+group3r.vm - Group3r is a tool for pentesters and red teamers to rapidly enumerate relevant settings in AD Group Policy, and to identify exploitable misconfigurations.
+hxd.vm - Freeware hex editor
+invokedosfuscation.vm - Invoke-DOSfuscation is a PowerShell v2.0+ compatible cmd.exe command obfuscation framework.
+invokeobfuscation.vm - Invoke-Obfuscation is a PowerShell v2.0+ compatible PowerShell command and script obfuscator.
+juicypotato.vm - Local Privilege Escalation tool that abuses the SeImpersonatePrivilege to go from a Windows Service Account to NT AUTHORITY\SYSTEM
+keethief.vm - Allows for the extraction of KeePass 2.X key material from memory, as well as the backdooring and enumeration of the KeePass trigger system.
+kerbrute.vm - A tool to quickly bruteforce and enumerate valid Active Directory accounts through Kerberos Pre-Authentication
+mailsniper.vm - MailSniper is a penetration testing tool for searching through email in a Microsoft Exchange environment for specific terms and performing password spraying.
+mfasweep.vm - MFASweep is a PowerShell script that attempts to log in to various Microsoft services using a provided set of credentials and will attempt to identify if MFA is enabled.
+minidump.vm - 
+microburst.vm - MicroBurst includes functions and scripts that support Azure Services discovery, weak configuration auditing, and post exploitation actions such as credential dumping.
+netgpppassword.vm - .NET/C# implementation of Get-GPPPassword. Retrieves the plaintext password and other information for accounts pushed through Group Policy Preferences.
+nmap.vm - Port scanning utility and nc replacement with extended features
+payloadsallthethings.vm - A list of useful payloads and bypasses for Web Application Security.
+pestudio.vm - The goal of pestudio is to spot artifacts of executable files in order to ease and accelerate Malware Initial Assessment.
+petitpotam.vm - PoC tool to coerce Windows hosts to authenticate to other machines via MS-EFSRPC EfsRpcOpenFileRaw or other functions
+powercat.vm - PowerShell implementation of netcat functionality
+powermad.vm - Powermad includes a set of functions for exploiting ms-DS-MachineAccountQuota without attaching an actual system to AD
+powersploit.vm - PowerSploit is a collection of Microsoft PowerShell modules that can be used to aid penetration testers during all phases of an assessment.
+powerupsql.vm - PowerUpSQL includes functions that support SQL Server discovery, weak configuration auditing, privilege escalation on scale, and post exploitation actions such as OS command execution.
+powerzure.vm - 
+processdump.vm - Process Dump is a Windows reverse-engineering command-line tool to dump malware memory components back to disk for analysis.
+rubeus.vm - Rubeus is a C# toolset for raw Kerberos interaction and abuses.
+seclists.vm - SecLists is the security tester's companion. It's a collection of multiple types of lists used during security assessments, collected in one place.
+sharpdpapi.vm - SharpDPAPI is a C# port of some DPAPI functionality from @gentilkiwi's Mimikatz project.
+sharplaps.vm - This executable is made to be executed within Cobalt Strike session using execute-assembly. It will retrieve the LAPS password from the Active Directory.
+sharpsecdump.vm - .Net port of the remote SAM + LSA Secrets dumping functionality of impacket's secretsdump.py
+sharpwmi.vm - SharpWMI is a C# implementation of various WMI functionality.
+sliver.vm - Sliver is an open source cross-platform adversary emulation/red team framework.
+snaffler.vm - Snaffler is a tool for enumerating accessible SMB shares in an Active Directory environment.
+statistically-likely-usernames.vm - This resource contains wordlists for creating statistically likely usernames for use in username-enumeration, simulated password-attacks and other security testing tasks.
+syswhispers2.vm - SysWhispers helps with evasion by generating header/ASM files implants can use to make direct system calls.
+tor-browser.vm - The Tor software protects you by bouncing your communications around a distributed network of relays run by volunteers all around the world.
+upx.vm - UPX is a free, secure, portable, extendable, high-performance executable packer for several executable formats.
+windbg.vm - WinDbg is a debugger that can be used to analyze crash dumps, debug live user-mode and kernel-mode code, and examine CPU registers and memory.
+adconnectdump.vm - This toolkit offers several ways to extract and decrypt stored Azure AD and Active Directory credentials from Azure AD Connect servers.
+ldapnomnom.vm - Anonymously bruteforce Active Directory usernames from Domain Controllers by abusing LDAP Ping requests (cLDAP)
+pesieve.vm - pe-sieve recognizes and dumps variety of implants within the scanned process.
+shellcode_launcher.vm - Shellcode launcher utility
+asreproast.vm - Project that retrieves crackable hashes from KRB5 AS-REP responses for users without kerberoast preauthentication enabled.
+dnspyex.vm - dnSpyEx is a unofficial continuation of the dnSpy project which is a debugger and .NET assembly editor. You can use it to edit and debug assemblies even if you don't have any source code available.
+fakenet-ng.vm - FakeNet-NG is a dynamic network analysis tool.
+nasm.vm - Netwide Assembler
+mimikatz.vm - Mimikatz is an open-source application that allows users to view and save authentication credentials such as Kerberos tickets
+safetykatz.vm - SafetyKatz is a combination of slightly modified version of @gentilkiwi's Mimikatz project and @subtee's .NET PE Loader.
+sharpcliphistory.vm - SharpClipHistory is a .NET 4.5 application written in C# that can be used to read the contents of a user's clipboard history in Windows 10 starting from the 1809 Build.
+sharpdump.vm - SharpDump is a C# port of PowerSploit's Out-Minidump.ps1 functionality.
+sharpexec.vm - SharpExec is an offensive security C# tool designed to aid with lateral movement.
+syswhispers3.vm - SysWhispers helps with evasion by generating header/ASM files implants can use to make direct system calls.
+vnc-viewer.vm - Tool for connecting to and interacting with VNC servers.
+wmimplant.vm - WMImplant is a PowerShell based tool that leverages WMI to both perform actions against targeted machines, but also as the C2 channel for issuing commands and receiving results.
+x64dbg.vm - An open-source x64/x32 debugger for Windows.
+getlapspasswords.vm - PowerShell function to pull the local admin passwords from LDAP, stored there by LAPS.
+inveigh.vm - Inveigh is a cross-platform .NET IPv4/IPv6 machine-in-the-middle tool for penetration testers.
+merlin.vm - Merlin is a cross-platform post-exploitation Command and Control server and agent written in Go.
+openvpn.vm - OpenVPN is a full-featured open source SSL VPN solution that accommodates a wide range of configurations.
+resourcehacker.vm - Resource Hacker is a resource editor for 32bit and 64bit Windows applications.
+sqlitebrowser.vm - Open source tool to create, design, and edit database files compatible with SQLite.
+winscp.vm - WinSCP is an open source free SFTP client, SCP client, FTPS client and FTP client for Windows. Its main function is file transfer between a local and a remote computer.
+jre8 - 
+tortoisesvn - 
+qbittorrent - 
+dbeaver - 
+hfsexplorer - 
+unxutils - 

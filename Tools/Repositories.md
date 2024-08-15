@@ -9,3 +9,8 @@ https://github.com/rshipp/awesome-malware-analysis
 # Microsoft Downloads
 
 https://learn.microsoft.com/en-us/sysinternals/downloads/
+
+# Eric Zimmerman Tools
+
+https://ericzimmerman.github.io/#!index.md
+
