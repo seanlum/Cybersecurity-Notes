@@ -1,0 +1,806 @@
+==========================================================================
+Finding https URLs
+==========================================================================
+./commando-vm/install.ps1:        https://github.com/mandiant/commando-vm
+./commando-vm/install.ps1:        https://github.com/mandiant/VM-Packages
+./commando-vm/install.ps1:    $PasswordInfoBoxstarterLinkLabel.text  = "https://boxstarter.org/installingpackages"
+./commando-vm/install.ps1:    $ChocoLinkLabel.text                     = "https://community.chocolatey.org/packages"
+./commando-vm/install.ps1:    Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://boxstarter.org/bootstrapper.ps1'))
+./commando-vm/install.ps1:    # See: https://github.com/chocolatey/boxstarter/issues/501
+./commando-vm/install.ps1:    Set-BoxstarterConfig -NugetSources "$env:USERPROFILE\Desktop;.;https://www.myget.org/F/vm-packages/api/v2;https://chocolatey.org/api/v2"
+./commando-vm/install.ps1:    choco sources add -n="vm-packages" -s "$env:USERPROFILE\Desktop;.;https://www.myget.org/F/vm-packages/api/v2;https://chocolatey.org/api/v2" --priority 1
+./commando-vm/install.ps1:    $apiUrl = "https://www.myget.org/F/vm-packages/Packages"
+./commando-vm/install.ps1:    $nsManager.AddNamespace("atom", "http://www.w3.org/2005/Atom")
+./commando-vm/install.ps1:    $nsManager.AddNamespace("d", "http://schemas.microsoft.com/ado/2007/08/dataservices")
+./commando-vm/install.ps1:    $nsManager.AddNamespace("m", "http://schemas.microsoft.com/ado/2007/08/dataservices/metadata")
+./commando-vm/install.ps1:        $response = Invoke-RestMethod -Uri ('https://community.chocolatey.org/api/v2/Packages()?$filter=Id%20eq%20%27' + $PackageName + '%27&$orderby=Version%20desc&$top=1')
+./flare-vm/install.ps1:        .\install.ps1 -customConfig "https://raw.githubusercontent.com/mandiant/flare-vm/main/config.xml"
+./flare-vm/install.ps1:        https://github.com/mandiant/flare-vm
+./flare-vm/install.ps1:        https://github.com/mandiant/VM-Packages
+./flare-vm/install.ps1:        $response = Invoke-WebRequest -Uri "https://$url" -UseBasicParsing
+./flare-vm/install.ps1:    # 19045: https://www.microsoft.com/en-us/software-download/windows10ISO downloaded on April 25 2023.
+./flare-vm/install.ps1:        Write-Host "`t[+] See: https://stackoverflow.com/questions/19752533/how-do-i-set-chocolatey-to-install-applications-onto-another-drive" -ForegroundColor Yellow
+./flare-vm/install.ps1:            Write-Host "`t[+] Hint: https://support.microsoft.com/en-us/windows/prevent-changes-to-security-settings-with-tamper-protection-31d51aaa-645d-408e-6ce7-8d7f8e593f87" -ForegroundColor Yellow
+./flare-vm/install.ps1:            Write-Host "`t[+] Hint: https://www.tenforums.com/tutorials/123792-turn-off-tamper-protection-windows-defender-antivirus.html" -ForegroundColor Yellow
+./flare-vm/install.ps1:            Write-Host "`t[+] Hint: https://github.com/jeremybeaume/tools/blob/master/disable-defender.ps1" -ForegroundColor Yellow
+./flare-vm/install.ps1:            Write-Host "`t[+] Hint: https://lazyadmin.nl/win-11/turn-off-windows-defender-windows-11-permanently/" -ForegroundColor Yellow
+./flare-vm/install.ps1:            Write-Host "`t[+] Hint: https://stackoverflow.com/questions/62174426/how-to-permanently-disable-windows-defender-real-time-protection-with-gpo" -ForegroundColor Yellow
+./flare-vm/install.ps1:            Write-Host "`t[+] Hint: https://www.windowscentral.com/how-permanently-disable-windows-defender-windows-10" -ForegroundColor Yellow
+./flare-vm/install.ps1:            Write-Host "`t[+] Hint: https://github.com/jeremybeaume/tools/blob/master/disable-defender.ps1" -ForegroundColor Yellow
+./flare-vm/install.ps1:    Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://boxstarter.org/bootstrapper.ps1'))
+./flare-vm/install.ps1:Set-BoxstarterConfig -NugetSources "$desktopPath;.;https://www.myget.org/F/vm-packages/api/v2;https://myget.org/F/vm-packages/api/v2;https://chocolatey.org/api/v2"
+./flare-vm/install.ps1:choco sources add -n="vm-packages" -s "$desktopPath;.;https://www.myget.org/F/vm-packages/api/v2;https://myget.org/F/vm-packages/api/v2" --priority 1
+./flare-vm/install.ps1:    $configSource = 'https://raw.githubusercontent.com/mandiant/flare-vm/main/config.xml'
+./flare-vm/install.ps1:            choco search -s "https://www.myget.org/F/vm-packages/api/v2" -r | Out-File $availablePackagesPath
+./flare-vm/install.ps1:    $layoutSource = 'https://raw.githubusercontent.com/mandiant/flare-vm/main/CustomStartLayout.xml'
+./flare-vm/install.ps1:(New-Object net.webclient).DownloadFile('https://raw.githubusercontent.com/mandiant/flare-vm/main/Images/flarevm-background.png', $backgroundImage)
+./flare-vm/install.ps1:    Installer related: https://github.com/mandiant/flare-vm
+./flare-vm/install.ps1:    Package related:   https://github.com/mandiant/VM-Packages
+./VM-Packages/packages/010editor.vm/tools/chocolateyinstall.ps1:  $url   = 'https://download.sweetscape.com/010EditorWin32Installer14.0.1.exe'
+./VM-Packages/packages/010editor.vm/tools/chocolateyinstall.ps1:  $url64 = 'https://download.sweetscape.com/010EditorWin64Installer14.0.1.exe'
+./VM-Packages/packages/7zip-15-05.vm/tools/chocolateyinstall.ps1:  $url = 'https://sourceforge.net/projects/sevenzip/files/7-Zip/15.05/7z1505.exe/download'
+./VM-Packages/packages/7zip-15-05.vm/tools/chocolateyinstall.ps1:  $url64 = 'https://sourceforge.net/projects/sevenzip/files/7-Zip/15.05/7z1505-x64.exe/download'
+./VM-Packages/packages/7zip-nsis.vm/tools/chocolateyinstall.ps1:    $url = 'https://github.com/myfreeer/7z-build-nsis/releases/download/23.01/7z2301-x86.exe'
+./VM-Packages/packages/7zip-nsis.vm/tools/chocolateyinstall.ps1:    $url64 = 'https://github.com/myfreeer/7z-build-nsis/releases/download/23.01/7z2301-x64.exe'
+./VM-Packages/packages/adconnectdump.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/fox-it/adconnectdump/archive/3ff6ebe7afac83263dd41857fdec51dcca0012b4.zip'
+./VM-Packages/packages/aleapp.vm/tools/chocolateyinstall.ps1:$exeUrl = 'https://github.com/abrignoni/ALEAPP/releases/download/v3.2.2/aleappGUI.exe'
+./VM-Packages/packages/amcacheparser.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://f001.backblazeb2.com/file/EricZimmermanTools/net6/AmcacheParser.zip'
+./VM-Packages/packages/apktool.vm/tools/chocolateyinstall.ps1:  $wrapperSource = 'https://raw.githubusercontent.com/iBotPeaches/Apktool/0741664808724bda41744ad3981bac2eec672d1b/scripts/windows/apktool.bat'
+./VM-Packages/packages/apktool.vm/tools/chocolateyinstall.ps1:  $toolSource = 'https://github.com/iBotPeaches/Apktool/releases/download/v2.9.3/apktool_2.9.3.jar'
+./VM-Packages/packages/appcompatcacheparser.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://f001.backblazeb2.com/file/EricZimmermanTools/net6/AppCompatCacheParser.zip'
+./VM-Packages/packages/arsenalimagemounter.vm/tools/chocolateyinstall.ps1:  $zipCliUrl = 'https://github.com/ArsenalRecon/Arsenal-Image-Mounter/raw/master/Command%20line%20applications/aim_ll.zip'
+./VM-Packages/packages/arsenalimagemounter.vm/tools/chocolateyinstall.ps1:  $zipDriverUrl = 'https://github.com/ArsenalRecon/Arsenal-Image-Mounter/raw/63801fc2b51f899244e43f1bf5275d2ac92a2477/DriverSetup/DriverFiles.zip'
+./VM-Packages/packages/asreproast.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://codeload.github.com/HarmJ0y/ASREPRoast/zip/1c94ef12038df1378f5e663fe3b8137e46c60896'
+./VM-Packages/packages/autopsy.vm/tools/chocolateyinstall.ps1:$exeUrl = "https://github.com/sleuthkit/autopsy/releases/download/autopsy-4.21.0/autopsy-4.21.0-64bit.msi"
+./VM-Packages/packages/azurehound.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/BloodHoundAD/AzureHound/releases/download/v2.1.9/azurehound-windows-amd64.zip'
+./VM-Packages/packages/badassmacros.vm/tools/chocolateyinstall.ps1:$exeUrl = 'https://github.com/Inf0secRabbit/BadAssMacros/releases/download/v1.0/BadAssMacrosx64.exe'
+./VM-Packages/packages/bindiff.vm/tools/chocolateyinstall.ps1:$exeUrl = 'https://github.com/google/bindiff/releases/download/v8/bindiff8.msi'
+./VM-Packages/packages/blobrunner.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/OALabs/BlobRunner/releases/download/v0.0.5/blobrunner.zip'
+./VM-Packages/packages/blobrunner64.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/OALabs/BlobRunner/releases/download/v0.0.5/blobrunner64.zip'
+./VM-Packages/packages/bloodhound-custom-queries.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/hausec/Bloodhound-Custom-Queries/archive/7ef9099665aa82238bfd57d7a11c09cd4dd9381b.zip'
+./VM-Packages/packages/bloodhound.vm/tools/chocolateyinstall.ps1:$zipUrl = "https://github.com/BloodHoundAD/BloodHound/releases/download/v4.3.1/BloodHound-win32-ia32.zip"
+./VM-Packages/packages/bstrings.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://f001.backblazeb2.com/file/EricZimmermanTools/net6/bstrings.zip'
+./VM-Packages/packages/bytecodeviewer.vm/tools/chocolateyinstall.ps1:$exeUrl = 'https://github.com/Konloch/bytecode-viewer/releases/download/v2.12/Bytecode-Viewer-2.12.jar'
+./VM-Packages/packages/c3.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/WithSecureLabs/C3/archive/e1b9922d199e45e222001a3afe47757349f24e7a.zip'
+./VM-Packages/packages/capa.vm/tools/chocolateyinstall.ps1:$zipUrl = "https://github.com/mandiant/capa/releases/download/v7.1.0/capa-v7.1.0-windows.zip"
+./VM-Packages/packages/certify.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/GhostPack/Certify/archive/fb297ad30476cfdba745b9062171cd7ac145a16d.zip'
+./VM-Packages/packages/chainsaw.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/WithSecureLabs/chainsaw/releases/download/v2.9.0/chainsaw_all_platforms+rules.zip'
+./VM-Packages/packages/cmder.vm/tools/chocolateyinstall.ps1:  # https://github.com/cmderdev/cmder/issues/743
+./VM-Packages/packages/covenant.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/cobbr/Covenant/archive/5decc3ccfab04e6e881ed00c9de649740dac8ad1.zip'
+./VM-Packages/packages/credninja.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/Raikia/CredNinja/archive/4a13f297851cd6fe88017288e6850ad276078071.zip'
+./VM-Packages/packages/cryptotester.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/Demonslay335/CryptoTester/releases/download/v1.7.1.0/CryptoTester.zip'
+./VM-Packages/packages/cutter.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/rizinorg/cutter/releases/download/v2.3.4/Cutter-v2.3.4-Windows-x86_64.zip'
+./VM-Packages/packages/cyberchef.vm/tools/chocolateyinstall.ps1:    url           = 'https://github.com/gchq/CyberChef/releases/download/v10.18.6/CyberChef_v10.18.6.zip'
+./VM-Packages/packages/dcode.vm/tools/chocolateyinstall.ps1:$url = 'https://www.digital-detective.net/download/download.php?downcode=ae2znu5994j1lforlh03'
+./VM-Packages/packages/de4dot-cex.vm/tools/chocolateyinstall.ps1:    $zipUrl = 'https://github.com/ViRb3/de4dot-cex/releases/download/v4.0.0/de4dot-cex.zip'
+./VM-Packages/packages/dex2jar.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/pxb1988/dex2jar/releases/download/v2.3/dex2jar-v2.zip'
+./VM-Packages/packages/didier-stevens-beta.vm/tools/chocolateyinstall.ps1:    $zipUrl = 'https://github.com/DidierStevens/Beta/archive/cbb1d5c32d02b4e07128a197c8b8fb6ea597916a.zip'
+./VM-Packages/packages/didier-stevens-suite.vm/tools/chocolateyinstall.ps1:    $zipUrl = 'https://github.com/DidierStevens/DidierStevensSuite/archive/8190354314d6f42c9ddc477a795029dc446176c5.zip'
+./VM-Packages/packages/die.vm/tools/chocolateyinstall.ps1:  $zipUrl = 'https://github.com/horsicq/DIE-engine/releases/download/3.09/die_win32_portable_3.09_x86.zip'
+./VM-Packages/packages/die.vm/tools/chocolateyinstall.ps1:  $zipUrl_64 = 'https://github.com/horsicq/DIE-engine/releases/download/3.09/die_win64_portable_3.09_x64.zip'
+./VM-Packages/packages/dll-to-exe.vm/tools/chocolateyinstall.ps1:$exeUrl = 'https://github.com/hasherezade/dll_to_exe/releases/download/v1.1/dll_to_exe.exe'
+./VM-Packages/packages/dnlib.vm/tools/chocolateyinstall.ps1:  $zipUrl = 'https://www.nuget.org/api/v2/package/dnlib/4.0.0'
+./VM-Packages/packages/dnspyex.vm/tools/chocolateyinstall.ps1:  $zipUrl = "https://github.com/dnSpyEx/dnSpy/releases/download/v6.5.0/dnSpy-netframework.zip"
+./VM-Packages/packages/dokan.vm/tools/chocolateyinstall.ps1:$exeUrl = 'https://github.com/dokan-dev/dokany/releases/download/v2.1.0.1000/Dokan_x64.msi'
+./VM-Packages/packages/dotdumper.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/advanced-threat-research/DotDumper/releases/download/1.1/DotDumper.zip'
+./VM-Packages/packages/dotnettojscript.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/tyranid/DotNetToJScript/archive/4dbe155912186f9574cb1889386540ba0e80c316.zip'
+./VM-Packages/packages/dumpert.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/outflanknl/Dumpert/archive/8000ca4c585b0fc317cee69504be22d1ac2ed779.zip'
+./VM-Packages/packages/egress-assess.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/RedSiege/Egress-Assess/archive/8843e3c209df6c585af0b81b4751126004ff0f99.zip'
+./VM-Packages/packages/event-log-explorer.vm/tools/chocolateyinstall.ps1:$exeUrl = 'https://eventlogxp.com/download/elex_setup.exe'
+./VM-Packages/packages/evilclippy.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/outflanknl/EvilClippy/archive/refs/tags/v1.3.zip'
+./VM-Packages/packages/evtxecmd.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://f001.backblazeb2.com/file/EricZimmermanTools/net6/EvtxECmd.zip'
+./VM-Packages/packages/exeinfope.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/ExeinfoASL/ASL/raw/dcaede39806993f5e68ab1c04e650319d3852170/exeinfope.zip'
+./VM-Packages/packages/explorersuite.vm/tools/chocolateyinstall.ps1:  $url = "https://ntcore.com/files/ExplorerSuite.exe"
+./VM-Packages/packages/extreme_dumper.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://gitee.com/keyestore/ExtremeDumper/releases/download/v4.0.0.1/ExtremeDumper.zip'
+./VM-Packages/packages/ezviewer.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://f001.backblazeb2.com/file/EricZimmermanTools/net6/EZViewer.zip'
+./VM-Packages/packages/fakenet-ng.vm/tools/chocolateyinstall.ps1:  # https://github.com/mandiant/flare-fakenet-ng/issues/180
+./VM-Packages/packages/fakenet-ng.vm/tools/chocolateyinstall.ps1:  $zipUrl = "https://github.com/mandiant/flare-fakenet-ng/releases/download/v3.2-alpha/fakenet3.2-alpha.zip"
+./VM-Packages/packages/file.vm/tools/chocolateyinstall.ps1:    $zipUrl = "https://github.com/nscaife/file-windows/releases/download/20170108/file-windows-20170108.zip"
+./VM-Packages/packages/floss.vm/tools/chocolateyinstall.ps1:$zipUrl = "https://github.com/mandiant/flare-floss/releases/download/v3.1.0/floss-v3.1.0-windows.zip"
+./VM-Packages/packages/ftk-imager.vm/tools/chocolateyinstall.ps1:$exeUrl = 'https://d1kpmuwb7gvu1i.cloudfront.net/AccessData_FTK_Imager_4.7.1.exe'
+./VM-Packages/packages/fuzzdb.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/fuzzdb-project/fuzzdb/archive/5656ab25dc6bb43bae32236fab775658a90d7380.zip'
+./VM-Packages/packages/gadgettojscript.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/med0x2e/GadgetToJScript/archive/98f50984015c29eecb11c6c4ddc3c2cc3a6669da.zip'
+./VM-Packages/packages/garbageman.vm/tools/chocolateyinstall.ps1:    $zipUrl = 'https://github.com/WithSecureLabs/GarbageMan/releases/download/v0.2.4/GarbageMan-0.2.4.zip'
+./VM-Packages/packages/getlapspasswords.vm/tools/chocolateyinstall.ps1:$ps1Url = 'https://raw.githubusercontent.com/kfosaaen/Get-LAPSPasswords/2aeffed5dc16c0d7be91ba67b79cfaaf1da1eecd/Get-LAPSPasswords.ps1'
+./VM-Packages/packages/gobuster.vm/tools/chocolateyinstall.ps1:$zipUrl = "https://github.com/OJ/gobuster/releases/download/v3.6.0/gobuster_Windows_x86_64.zip"
+./VM-Packages/packages/googlechrome.vm/tools/chocolateyinstall.ps1:        url             = 'https://dl.google.com/tag/s/dl/chrome/install/googlechromestandaloneenterprise.msi'
+./VM-Packages/packages/googlechrome.vm/tools/chocolateyinstall.ps1:        url64bit        = 'https://dl.google.com/tag/s/dl/chrome/install/googlechromestandaloneenterprise64.msi'
+./VM-Packages/packages/goresym.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/mandiant/GoReSym/releases/download/v2.7.4/GoReSym-windows.zip'
+./VM-Packages/packages/gowitness.vm/tools/chocolateyinstall.ps1:$exeUrl = 'https://github.com/sensepost/gowitness/releases/download/2.5.1/gowitness-2.5.1-windows-amd64.exe'
+./VM-Packages/packages/group3r.vm/tools/chocolateyinstall.ps1:$exeUrl = 'https://github.com/Group3r/Group3r/releases/download/1.0.59/Group3r.exe'
+./VM-Packages/packages/hashcat.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/hashcat/hashcat/releases/download/v6.2.6/hashcat-6.2.6.7z'
+./VM-Packages/packages/hasher.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://f001.backblazeb2.com/file/EricZimmermanTools/hasher.zip'
+./VM-Packages/packages/hashmyfiles.vm/tools/chocolateyinstall.ps1:  $zipUrl = "https://www.nirsoft.net/utils/hashmyfiles.zip"
+./VM-Packages/packages/hashmyfiles.vm/tools/chocolateyinstall.ps1:  $zipUrl_64 = "https://www.nirsoft.net/utils/hashmyfiles-x64.zip"
+./VM-Packages/packages/hayabusa.vm/tools/chocolateyinstall.ps1:$zipUrl = "https://github.com/Yamato-Security/hayabusa/releases/download/v2.16.0/hayabusa-2.16.0-win-x64.zip"
+./VM-Packages/packages/hollowshunter.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/hasherezade/hollows_hunter/releases/download/v0.3.9/hollows_hunter32.zip'
+./VM-Packages/packages/hollowshunter.vm/tools/chocolateyinstall.ps1:$zipUrl_64 = 'https://github.com/hasherezade/hollows_hunter/releases/download/v0.3.9/hollows_hunter64.zip'
+./VM-Packages/packages/ida.plugin.capa.vm/tools/chocolateyinstall.ps1:    $pluginUrl = "https://raw.githubusercontent.com/mandiant/capa/v7.0.1/capa/ida/plugin/capa_explorer.py"
+./VM-Packages/packages/ida.plugin.capa.vm/tools/chocolateyinstall.ps1:    $rulesUrl = "https://github.com/mandiant/capa-rules/archive/refs/tags/v7.0.1.zip"
+./VM-Packages/packages/ida.plugin.comida.vm/tools/chocolateyinstall.ps1:$pluginUrl = 'https://raw.githubusercontent.com/airbus-cert/comida/177ea45f98b153552dc13545dda64a6a26fab0a0/comida.py'
+./VM-Packages/packages/ida.plugin.dereferencing.vm/tools/chocolateyinstall.ps1:$pluginUrl = 'https://github.com/danigargu/deREferencing/archive/c5c606a9e70bff48214ce5286a37b15752fd8d1b.zip'
+./VM-Packages/packages/ida.plugin.diaphora.vm/tools/chocolateyinstall.ps1:$pluginUrl = 'https://github.com/joxeankoret/diaphora/archive/refs/tags/3.2.1.zip'
+./VM-Packages/packages/ida.plugin.flare.vm/tools/chocolateyinstall.ps1:    $pluginUrl = 'https://github.com/mandiant/flare-ida/archive/011cb3310d82a1c00104a4830289ea2fed5165f5.zip'
+./VM-Packages/packages/ida.plugin.flare.vm/tools/chocolateyinstall.ps1:    # https://github.com/mandiant/flare-ida/blob/011cb3310d82a1c00104a4830289ea2fed5165f5/python/flare/shellcode_hash_search.py#L428
+./VM-Packages/packages/ida.plugin.hashdb.vm/tools/chocolateyinstall.ps1:    # Install requirements: https://github.com/OALabs/hashdb-ida/blob/1.9.1/requirements.txt
+./VM-Packages/packages/ida.plugin.hashdb.vm/tools/chocolateyinstall.ps1:    $pluginUrl = 'https://github.com/OALabs/hashdb-ida/releases/download/1.9.1/hashdb.py'
+./VM-Packages/packages/ida.plugin.ifl.vm/tools/chocolateyinstall.ps1:$pluginUrl = 'https://raw.githubusercontent.com/hasherezade/ida_ifl/v1.4.4/ifl.py'
+./VM-Packages/packages/ida.plugin.lighthouse.vm/tools/chocolateyinstall.ps1:$pluginUrl = 'https://github.com/gaasedelen/lighthouse/archive/562595be9bd99e8a5dfef6017d608467f5706630.zip'
+./VM-Packages/packages/ida.plugin.sigmaker.vm/tools/chocolateyinstall.ps1:$pluginUrl = 'https://github.com/A200K/IDA-Pro-SigMaker/releases/download/v1.0.2/SigMaker64.dll'
+./VM-Packages/packages/idafree.vm/tools/chocolateyinstall.ps1:    url          = 'https://out7.hex-rays.com/files/idafree84_windows.exe'
+./VM-Packages/packages/idafree.vm/tools/chocolateyinstall.ps1:  $launcherSource = 'https://raw.githubusercontent.com/mandiant/VM-Packages/773649e54aaea62f270c8416cb480020d6475065/ida_launcher/ida_launcher.exe'
+./VM-Packages/packages/idr.vm/tools/chocolateyinstall.ps1:    $zipUrl = 'https://github.com/crypto2011/IDR/archive/da98ef6871b75303bcf1a5acc692e38178c7833e.zip'
+./VM-Packages/packages/ifpstools.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/Wack0/IFPSTools.NET/releases/download/v2.0.2/ifpstools-net_v2.0.2.zip'
+./VM-Packages/packages/innoextract.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://constexpr.org/innoextract/files/innoextract-1.9/innoextract-1.9-windows.zip'
+./VM-Packages/packages/innounp.vm/tools/chocolateyinstall.ps1:$exeUrl = 'https://github.com/WhatTheBlock/innounp/releases/download/v0.50/innounp.exe'
+./VM-Packages/packages/installer.vm/tools/chocolateyinstall.ps1:        $playWav.SoundLocation = 'https://www.winhistory.de/more/winstart/down/owin31.wav'
+./VM-Packages/packages/internal-monologue.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/eladshamir/Internal-Monologue/archive/4694611f78f211ca4a0381cd3daca1310ced4293.zip'
+./VM-Packages/packages/inveigh.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/Kevin-Robertson/Inveigh/releases/download/v2.0.10/Inveigh-net7.0-v2.0.10.zip'
+./VM-Packages/packages/invokedosfuscation.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/danielbohannon/Invoke-DOSfuscation/archive/6260f5b5848b967446371ee7800aaa0409ea23cc.zip'
+./VM-Packages/packages/invokeobfuscation.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/danielbohannon/Invoke-Obfuscation/archive/f20e7f843edd0a3a7716736e9eddfa423395dd26.zip'
+./VM-Packages/packages/isd.vm/tools/chocolateyinstall.ps1:    $zipUrl = 'https://github.com/dscharrer/innoextract/files/5507287/isdsetup.1.5.exe.zip'
+./VM-Packages/packages/jlecmd.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://f001.backblazeb2.com/file/EricZimmermanTools/net6/JLECmd.zip'
+./VM-Packages/packages/juicypotato.vm/tools/chocolateyinstall.ps1:$exeUrl = 'https://github.com/ohpe/juicy-potato/releases/download/v0.1/JuicyPotato.exe'
+./VM-Packages/packages/jumplist_explorer.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://f001.backblazeb2.com/file/EricZimmermanTools/net6/JumpListExplorer.zip'
+./VM-Packages/packages/keethief.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/GhostPack/KeeThief/archive/04f3fbc0ba87dbcd9011ad40a1382169dc5afd59.zip'
+./VM-Packages/packages/kerbrute.vm/tools/chocolateyinstall.ps1:$exeUrl = 'https://github.com/ropnop/kerbrute/releases/download/v1.0.3/kerbrute_windows_amd64.exe'
+./VM-Packages/packages/kernel-ost-viewer.vm/tools/chocolateyinstall.ps1:$exeUrl = 'https://www.nucleustechnologies.com/dl/dl.php?id=127'
+./VM-Packages/packages/kernel-outlook-pst-viewer.vm/tools/chocolateyinstall.ps1:$exeUrl = 'https://www.nucleustechnologies.com/dl/dl.php?id=125'
+./VM-Packages/packages/ldapnomnom.vm/tools/chocolateyinstall.ps1:$exeUrl = 'https://github.com/lkarlslund/ldapnomnom/releases/download/v1.2.0/ldapnomnom-windows-amd64.exe'
+./VM-Packages/packages/lecmd.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://f001.backblazeb2.com/file/EricZimmermanTools/net6/LECmd.zip'
+./VM-Packages/packages/logfileparser.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/jschicht/LogFileParser/releases/download/v2.0.0.51/LogFileParser_v2.0.0.51.zip'
+./VM-Packages/packages/mailsniper.vm/tools/chocolateyinstall.ps1:$ps1Url = 'https://raw.githubusercontent.com/dafthack/MailSniper/f6fd1441feb246ba0d1c6d47f7f3a6dcbe3d2b92/MailSniper.ps1'
+./VM-Packages/packages/malware-jail.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/HynekPetrak/malware-jail/archive/ec370f1433652fdd346995f1d6f00b26368aa611.zip'
+./VM-Packages/packages/map.vm/tools/chocolateyinstall.ps1:  $url = 'http://sandsprite.com/flare_vm/map_setup_7.26.23__A2A58AF886B9BF4DC6DB5CFDFF9B7E2300F0D0C491CD07DAC871DF60DAA370C4.exe'
+./VM-Packages/packages/memprocfs.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/ufrisk/MemProcFS/releases/download/v5_archive/MemProcFS_files_and_binaries_v5.9.14-win_x64-20240516.zip'
+./VM-Packages/packages/merlin.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/Ne0nd0g/merlin/releases/download/v2.1.3/merlinServer-Windows-x64.7z'
+./VM-Packages/packages/metasploit.vm/tools/chocolateyinstall.ps1:        url             = 'https://windows.metasploit.com/metasploitframework-latest.msi'
+./VM-Packages/packages/mfasweep.vm/tools/chocolateyinstall.ps1:$ps1Url = 'https://raw.githubusercontent.com/dafthack/MFASweep/d624cdedb3eaa40518990b234b308c1ec8f6bbc7/MFASweep.ps1'
+./VM-Packages/packages/mftecmd.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://f001.backblazeb2.com/file/EricZimmermanTools/net6/MFTECmd.zip'
+./VM-Packages/packages/mft_explorer.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://f001.backblazeb2.com/file/EricZimmermanTools/net6/MFTExplorer.zip'
+./VM-Packages/packages/microburst.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/NetSPI/MicroBurst/archive/10a4f9579de3fe687208f7a3d3d1120fbba408cc.zip'
+./VM-Packages/packages/mimikatz.vm/tools/chocolateyinstall.ps1:  $url = "https://github.com/gentilkiwi/mimikatz/releases/download/2.2.0-20220919/mimikatz_trunk.7z"
+./VM-Packages/packages/nanodump.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/fortra/nanodump/archive/c211c5f72b2438afb09d0eb917fe32150be91344.zip'
+./VM-Packages/packages/netgpppassword.vm/tools/chocolateyinstall.ps1:$exeUrl = 'https://github.com/outflanknl/Net-GPPPassword/releases/download/v1/Net-GPPPassword_dotNET_v4.exe'
+./VM-Packages/packages/networkminer.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://download.netresec.com/networkminer/NetworkMiner_2-9.zip'
+./VM-Packages/packages/nmap.vm/tools/chocolateyinstall.ps1:    $exeUrl = 'https://nmap.org/dist/nmap-7.93-setup.exe'
+./VM-Packages/packages/notepadpp.plugin.compare.vm/tools/chocolateyinstall.ps1:  $zipUrl= "https://github.com/pnedev/compare-plugin/releases/download/v2.0.2/ComparePlugin_v2.0.2_x86.zip"
+./VM-Packages/packages/notepadpp.plugin.compare.vm/tools/chocolateyinstall.ps1:  $zipUrl_64 = "https://github.com/pnedev/compare-plugin/releases/download/v2.0.2/ComparePlugin_v2.0.2_X64.zip"
+./VM-Packages/packages/notepadpp.plugin.jstool.vm/tools/chocolateyinstall.ps1:  $zipUrl= "https://github.com/sunjw/jstoolnpp/raw/6bde4de9171975b445b5b8efa9153b10660bf5a7/trunk/ReleasedFiles/JSToolNPP.1.2312.0.uni.32.zip"
+./VM-Packages/packages/notepadpp.plugin.jstool.vm/tools/chocolateyinstall.ps1:  $zipUrl_64 = "https://github.com/sunjw/jstoolnpp/raw/6bde4de9171975b445b5b8efa9153b10660bf5a7/trunk/ReleasedFiles/JSToolNPP.1.2312.0.uni.64.zip"
+./VM-Packages/packages/notepadpp.plugin.xmltools.vm/tools/chocolateyinstall.ps1:  $zipUrl= "https://github.com/morbac/xmltools/releases/download/3.1.1.13/XMLTools-3.1.1.13-x86.zip"
+./VM-Packages/packages/notepadpp.plugin.xmltools.vm/tools/chocolateyinstall.ps1:  $zipUrl_64 = "https://github.com/morbac/xmltools/releases/download/3.1.1.13/XMLTools-3.1.1.13-x64.zip"
+./VM-Packages/packages/npcap.vm/tools/chocolateyinstall.ps1:    $exeUrl = 'https://npcap.com/dist/npcap-1.79.exe'
+./VM-Packages/packages/offvis.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://download.microsoft.com/download/1/2/7/127ba59a-4fe1-4acd-ba47-513ceef85a85/OffVis.zip'
+./VM-Packages/packages/ollydbg.plugin.ollydumpex.vm/tools/chocolateyinstall.ps1:    url           = 'https://low-priority.appspot.com/ollydumpex/OllyDumpEx_v1.84.zip'
+./VM-Packages/packages/ollydbg.plugin.scyllahide.vm/tools/chocolateyinstall.ps1:        url           = 'https://github.com/x64dbg/ScyllaHide/releases/download/v1.4/ScyllaHide_2023-03-24_13-03.zip'
+./VM-Packages/packages/ollydbg.vm/tools/chocolateyinstall.ps1:    url           = 'https://www.ollydbg.de/odbg110.zip'
+./VM-Packages/packages/ollydbg2.plugin.ollydumpex.vm/tools/chocolateyinstall.ps1:    url           = 'https://low-priority.appspot.com/ollydumpex/OllyDumpEx_v1.84.zip'
+./VM-Packages/packages/ollydbg2.plugin.scyllahide.vm/tools/chocolateyinstall.ps1:        url           = 'https://github.com/x64dbg/ScyllaHide/releases/download/v1.4/ScyllaHide_2023-03-24_13-03.zip'
+./VM-Packages/packages/ollydbg2.vm/tools/chocolateyinstall.ps1:    url           = 'http://www.ollydbg.de/odbg201.zip'
+./VM-Packages/packages/onenoteanalyzer.vm/tools/chocolateyinstall.ps1:    $zipUrl = 'https://github.com/knight0x07/OneNoteAnalyzer/releases/download/OneNoteAnalyzer/OneNoteAnalyzer-withPass.zip'
+./VM-Packages/packages/outflank-c2-tool-collection.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/outflanknl/C2-Tool-Collection/archive/f02df22a206ee329bc582a8427d1aa1e54309d9a.zip'
+./VM-Packages/packages/payloadsallthethings.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/swisskyrepo/PayloadsAllTheThings/archive/cd19bb94096a61ef22d0c9668bc29674fce53fa0.zip'
+./VM-Packages/packages/pdbresym.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/mandiant/STrace/releases/download/v1.3.4/PDBReSym.zip'
+./VM-Packages/packages/pdbs.pdbresym.vm/tools/chocolateyinstall.ps1:  $symbolsPath = "srv*c:\symbols*https://msdl.microsoft.com/download/symbols"
+./VM-Packages/packages/pdfstreamdumper.vm/tools/chocolateyinstall.ps1:    $exeUrl = 'http://sandsprite.com/flare_vm/PDFStreamDumper_Setup_C26068186F63DCCE9CC57502BE742C728110EAB07570C319A0D7D10587A6E22D.exe'
+./VM-Packages/packages/peanatomist.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://web.archive.org/web/20240117120829/https://rammerlabs.alidml.ru/files/0000-0002-29CD-0000/PEAnatomist-0.2.zip'
+./VM-Packages/packages/pecmd.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://f001.backblazeb2.com/file/EricZimmermanTools/net6/PECmd.zip'
+./VM-Packages/packages/peid.vm/tools/chocolateyinstall.ps1:$zipUrl = "https://codeload.github.com/wolfram77web/app-peid/zip/91b0057697fb143205a6071a4482e7ad1ff37e12"
+./VM-Packages/packages/pestudio.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://www.winitor.com/tools/pestudio/current/pestudio-9.58.zip'
+./VM-Packages/packages/petitpotam.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/topotam/PetitPotam/archive/d83ac8f2dd34654628c17490f99106eb128e7d1e.zip'
+./VM-Packages/packages/pe_unmapper.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/hasherezade/pe_unmapper/releases/download/v1.0/pe_unmapper.zip'
+./VM-Packages/packages/pkg-unpacker.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/LockBlock-dev/pkg-unpacker/archive/b1fd5200e1bf656dedef6817c177c8bb2dc38028.zip'
+./VM-Packages/packages/pma-labs.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://raw.githubusercontent.com/mikesiko/PracticalMalwareAnalysis-Labs/5f55de02a10748247f7511dafaaf18a37d332ff5/PracticalMalwareAnalysis-Labs.exe'
+./VM-Packages/packages/powercat.vm/tools/chocolateyinstall.ps1:$ps1Url = 'https://raw.githubusercontent.com/besimorhino/powercat/4bea00079084c7dbc52105ce5b5988b036821c92/powercat.ps1'
+./VM-Packages/packages/powermad.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/Kevin-Robertson/Powermad/archive/3ad36e655d0dbe89941515cdb67a3fd518133dcb.zip'
+./VM-Packages/packages/powersploit.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/ZeroDayLab/PowerSploit/archive/72a88240ed0c6527f3880a1fb15ea7a19589c2d8.zip'
+./VM-Packages/packages/powerupsql.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/NetSPI/PowerUpSQL/archive/2837c7bdda47a07703b7841080024f30a73a7743.zip'
+./VM-Packages/packages/powerzure.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/hausec/PowerZure/archive/093d4a3267ab514656759d7b2a6a91ac521b449b.zip'
+./VM-Packages/packages/procdot.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://procdot.com/download/procdot/binaries/procdot_1_22_57_windows.zip'
+./VM-Packages/packages/processdump.vm/tools/chocolateyinstall.ps1:  $url = 'https://github.com/glmcdona/Process-Dump/releases/download/v2.1.1/pd32.exe'
+./VM-Packages/packages/processdump.vm/tools/chocolateyinstall.ps1:    $url = 'https://github.com/glmcdona/Process-Dump/releases/download/v2.1.1/pd64.exe'
+./VM-Packages/packages/psnotify.vm/tools/chocolateyinstall.ps1:    $zipUrl = 'https://github.com/WithSecureLabs/GarbageMan/releases/download/v0.2.4/psnotify.zip'
+./VM-Packages/packages/rbcmd.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://f001.backblazeb2.com/file/EricZimmermanTools/net6/RBCmd.zip'
+./VM-Packages/packages/recentfilecacheparser.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://f001.backblazeb2.com/file/EricZimmermanTools/net6/RecentFileCacheParser.zip'
+./VM-Packages/packages/recmd.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://f001.backblazeb2.com/file/EricZimmermanTools/net6/RECmd.zip'
+./VM-Packages/packages/regcool.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://kurtzimmermann.com/files/RegCoolX64.zip'
+./VM-Packages/packages/registry_explorer.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://f001.backblazeb2.com/file/EricZimmermanTools/net6/RegistryExplorer.zip'
+./VM-Packages/packages/regshot.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://sourceforge.net/projects/regshot/files/regshot/1.9.1-beta/Regshot-1.9.1-beta_r321.7z'
+./VM-Packages/packages/reg_export.vm/tools/chocolateyinstall.ps1:$exeUrl = 'https://github.com/adamkramer/reg_export/releases/download/v1.3/reg_export.exe'
+./VM-Packages/packages/rla.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://f001.backblazeb2.com/file/EricZimmermanTools/net6/rla.zip'
+./VM-Packages/packages/routesixtysink.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/mandiant/route-sixty-sink/archive/59195003c84d75fabf6cc573c233dfb60d631f8a.zip'
+./VM-Packages/packages/rpcview.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/silverf0x/RpcView/releases/download/v0.3.1.90/RpcView64.7z'
+./VM-Packages/packages/rubeus.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://codeload.github.com/GhostPack/Rubeus/zip/baf34c7dcffb37cb96c92e402bab389229f1ec35'
+./VM-Packages/packages/rundotnetdll.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/enkomio/RunDotNetDll/releases/download/2.2/RunDotNetDll.zip'
+./VM-Packages/packages/safetykatz.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/GhostPack/SafetyKatz/archive/715b311f76eb3a4c8d00a1bd29c6cd1899e450b7.zip'
+./VM-Packages/packages/sbecmd.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://f001.backblazeb2.com/file/EricZimmermanTools/net6/SBECmd.zip'
+./VM-Packages/packages/scdbg.vm/tools/chocolateyinstall.ps1:    $zipUrl = 'http://sandsprite.com/flare_vm/VS_LIBEMU_7.26.23__D7A7B407A0FB2288655247FF3EDD361E767075B15D2F0554EB9C87BC4476D996.zip'
+./VM-Packages/packages/sclauncher.vm/tools/chocolateyinstall.ps1:$exeUrl = 'https://github.com/jstrosch/sclauncher/releases/download/v0.0.5/sclauncher.exe'
+./VM-Packages/packages/sclauncher64.vm/tools/chocolateyinstall.ps1:$exeUrl = 'https://github.com/jstrosch/sclauncher/releases/download/v0.0.5/sclauncher64.exe'
+./VM-Packages/packages/sdb_explorer.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://f001.backblazeb2.com/file/EricZimmermanTools/net6/SDBExplorer.zip'
+./VM-Packages/packages/seatbelt.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/GhostPack/Seatbelt/archive/96bd958cf45e3d877d842ce20906e1aa5fdc91c8.zip'
+./VM-Packages/packages/seclists.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/danielmiessler/SecLists/archive/refs/tags/2024.1.zip'
+./VM-Packages/packages/setdllcharacteristics.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://www.didierstevens.com/files/software/setdllcharacteristics_v0_0_0_1.zip'
+./VM-Packages/packages/sharpcliphistory.vm/tools/chocolateyinstall.ps1:$exeUrl = 'https://github.com/FSecureLABS/SharpClipHistory/releases/download/v1.0/SharpClipHistory.exe'
+./VM-Packages/packages/sharpdpapi.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/GhostPack/SharpDPAPI/archive/02992ff2c5c48f38602b096367c6107857dae8e9.zip'
+./VM-Packages/packages/sharpdump.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/GhostPack/SharpDump/archive/41cfcf9b1abed2da79a93c201cbd38fbbe31684c.zip'
+./VM-Packages/packages/sharpexec.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/anthemtotheego/SharpExec/archive/852384499de1ab7b56ee93203b31638138a1d313.zip'
+./VM-Packages/packages/sharphound.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/BloodHoundAD/SharpHound/releases/download/v2.4.1/SharpHound-v2.4.1.zip'
+./VM-Packages/packages/sharplaps.vm/tools/chocolateyinstall.ps1:$exeUrl = 'https://github.com/swisskyrepo/SharpLAPS/releases/download/latest-SharpLAPS/SharpLAPS.exe'
+./VM-Packages/packages/sharpsecdump.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/G0ldenGunSec/SharpSecDump/archive/ef2463688e405fad0fabb001b3d8869db51da0e0.zip'
+./VM-Packages/packages/sharpup.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/GhostPack/SharpUp/archive/7e172961002125417a0f8a8447de0cb579f7d0e8.zip'
+./VM-Packages/packages/sharpview.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/tevora-threat/SharpView/archive/b60456286b41bb055ee7bc2a14d645410cca9b74.zip'
+./VM-Packages/packages/sharpwmi.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/GhostPack/SharpWMI/archive/0600f57aeb4733ba6fec585388af2f1ac4483b58.zip'
+./VM-Packages/packages/shellbags_explorer.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://f001.backblazeb2.com/file/EricZimmermanTools/net6/ShellBagsExplorer.zip'
+./VM-Packages/packages/shellcode_launcher.vm/tools/chocolateyinstall.ps1:$exeUrl = 'https://github.com/clinicallyinane/shellcode_launcher/raw/7f55d42a9253c58083d163512e23019df0573420/shellcode_launcher.exe'
+./VM-Packages/packages/situational-awareness-bof.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://codeload.github.com/trustedsec/CS-Situational-Awareness-BOF/zip/9a813b8f31cd397d7b05211e1d5b378c07fd1b8b'
+./VM-Packages/packages/sliver.vm/tools/chocolateyinstall.ps1:$exeUrl = 'https://github.com/BishopFox/sliver/releases/download/v1.5.42/sliver-client_windows.exe'
+./VM-Packages/packages/snaffler.vm/tools/chocolateyinstall.ps1:$exeUrl = 'https://github.com/SnaffCon/Snaffler/releases/download/1.0.150/Snaffler.exe'
+./VM-Packages/packages/spoolsample.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/leechristensen/SpoolSample/archive/688971e69cbe9240ea84bdd38f732dd9817110f8.zip'
+./VM-Packages/packages/sqlecmd.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://f001.backblazeb2.com/file/EricZimmermanTools/net6/SQLECmd.zip'
+./VM-Packages/packages/sqlitebrowser.vm/tools/chocolateyinstall.ps1:$exeUrl = 'https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.12.2/DB.Browser.for.SQLite-3.12.2-win64.msi'
+./VM-Packages/packages/sqlrecon.vm/tools/chocolateyinstall.ps1:$exeUrl = 'https://github.com/skahwah/SQLRecon/releases/download/v3.3/SQLRecon.exe'
+./VM-Packages/packages/srumecmd.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://f001.backblazeb2.com/file/EricZimmermanTools/net6/SrumECmd.zip'
+./VM-Packages/packages/statistically-likely-usernames.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/insidetrust/statistically-likely-usernames/archive/fc2321c65a1327a1db363764979e7c23d84dfd37.zip'
+./VM-Packages/packages/stracciatella.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/mgeeky/Stracciatella/archive/acc83e21951049ab4998ecd18f5e4fa01e1527da.zip'
+./VM-Packages/packages/streamdivert.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/jellever/StreamDivert/releases/download/v1.1/StreamDivert.x64.zip'
+./VM-Packages/packages/sumecmd.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://f001.backblazeb2.com/file/EricZimmermanTools/net6/SumECmd.zip'
+./VM-Packages/packages/sysinternals.vm/tools/chocolateyinstall.ps1:      url             = 'https://download.sysinternals.com/files/SysinternalsSuite.zip'
+./VM-Packages/packages/sysinternals.vm/tools/chocolateyinstall.ps1:    # https://github.com/chocolatey-community/chocolatey-packages/blob/d1241fd3b34e398a2f12c1232fbf616f364997ea/automatic/sysinternals/tools/helpers.ps1#L3C2-L3C2
+./VM-Packages/packages/systeminformer.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/winsiderss/si-builds/releases/download/3.0.7645/systeminformer-3.0.7645-release-bin.zip'
+./VM-Packages/packages/syswhispers2.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/jthuraisamy/SysWhispers2/archive/05ad0d9ec769fac2776c992d2cb55b09bd604f9a.zip'
+./VM-Packages/packages/syswhispers3.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/klezVirus/SysWhispers3/archive/e3d5fc744c2e5c0ae952be0f7dcf498c5a68be4b.zip'
+./VM-Packages/packages/teamfiltration.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/Flangvik/TeamFiltration/releases/download/v3.5.0/TeamFiltration-Win-v3.5.0.zip'
+./VM-Packages/packages/testdisk.vm/tools/chocolateyinstall.ps1:$zipUrl = "https://www.cgsecurity.org/testdisk-7.2.win64.zip"
+./VM-Packages/packages/timeline_explorer.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://f001.backblazeb2.com/file/EricZimmermanTools/net6/TimelineExplorer.zip'
+./VM-Packages/packages/total-registry.vm/tools/chocolateyinstall.ps1:$exeUrl = 'https://github.com/zodiacon/TotalRegistry/releases/download/v0.9.7.8/TotalReg.exe'
+./VM-Packages/packages/trustedsec-remote-ops-bof.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/trustedsec/CS-Remote-OPs-BOF/archive/a7ef2b8551568778c2603a15ea83220188009a79.zip'
+./VM-Packages/packages/ttd.vm/tools/chocolateyinstall.ps1:    # From https://aka.ms/ttd/download
+./VM-Packages/packages/ttd.vm/tools/chocolateyinstall.ps1:    $bundleUrl = "https://windbg.download.prss.microsoft.com/dbazure/prod/1-11-319-0/TTD.msixbundle"
+./VM-Packages/packages/unhook-bof.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/rsmudge/unhook-bof/archive/fa3c8d8a397719c5f2310334e6549bea541b209c.zip'
+./VM-Packages/packages/uniextract2.vm/tools/chocolateyinstall.ps1:$zipUrl = "https://github.com/Bioruebe/UniExtract2/releases/download/v2.0.0-rc.3/UniExtractRC3.zip"
+./VM-Packages/packages/upx.vm/tools/chocolateyinstall.ps1:$zipUrl = "https://github.com/upx/upx/releases/download/v4.2.4/upx-4.2.4-win32.zip"
+./VM-Packages/packages/upx.vm/tools/chocolateyinstall.ps1:$zipUrl_64 = 'https://github.com/upx/upx/releases/download/v4.2.4/upx-4.2.4-win64.zip'
+./VM-Packages/packages/vbdec.vm/tools/chocolateyinstall.ps1:    $exeUrl = 'http://sandsprite.com/flare_vm/VBDEC_Setup_983E127DB204A3E50723E4A30D80EF8C.exe'
+./VM-Packages/packages/vscmount.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://f001.backblazeb2.com/file/EricZimmermanTools/net6/VSCMount.zip'
+./VM-Packages/packages/whisker.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/eladshamir/Whisker/archive/0bc2a0acc4a92b49c69d873f7ac565340a5f3291.zip'
+./VM-Packages/packages/windbg.vm/tools/chocolateyinstall.ps1:    Add-AppxPackage -AppInstallerFile 'https://windbg.download.prss.microsoft.com/dbazure/prod/1-0-0/windbg.appinstaller'
+./VM-Packages/packages/windows-terminal.vm/tools/chocolateyinstall.ps1:  $zipUrl = 'https://github.com/microsoft/terminal/releases/download/v1.19.10573.0/Microsoft.WindowsTerminal_1.19.10573.0_x64.zip'
+./VM-Packages/packages/windows-terminal.vm/tools/chocolateyinstall.ps1:  "`$schema": "https://aka.ms/terminal-settings-schema-v1.1",
+./VM-Packages/packages/windump.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://github.com/hsluoyz/WinDump/releases/download/v0.3/WinDump-for-Npcap-0.3.zip'
+./VM-Packages/packages/wmimplant.vm/tools/chocolateyinstall.ps1:$ps1Url = 'https://raw.githubusercontent.com/RedSiege/WMImplant/0ed3c3cba9c5e96d0947c3e73288d450ac8d8702/WMImplant.ps1'
+./VM-Packages/packages/wxtcmd.vm/tools/chocolateyinstall.ps1:$zipUrl = 'https://f001.backblazeb2.com/file/EricZimmermanTools/net6/WxTCmd.zip'
+./VM-Packages/packages/x64dbg.plugin.dbgchild.vm/tools/chocolateyinstall.ps1:        url           = 'https://github.com/therealdreg/DbgChild/releases/download/beta10/DbgChild.Beta.10.zip'
+./VM-Packages/packages/x64dbg.plugin.ollydumpex.vm/tools/chocolateyinstall.ps1:    url           = 'https://low-priority.appspot.com/ollydumpex/OllyDumpEx_v1.84.zip'
+./VM-Packages/packages/x64dbg.plugin.scyllahide.vm/tools/chocolateyinstall.ps1:        url           = 'https://github.com/x64dbg/ScyllaHide/releases/download/v1.4/ScyllaHide_2023-03-24_13-03.zip'
+./VM-Packages/packages/x64dbg.plugin.x64dbgpy.vm/tools/chocolateyinstall.ps1:    url           = 'https://github.com/x64dbg/x64dbgpy/releases/download/8c0538a/x64dbgpy_8c0538a.zip'
+./VM-Packages/packages/x64dbg.vm/tools/chocolateyinstall.ps1:    url           = "https://sourceforge.net/projects/x64dbg/files/snapshots/snapshot_2024-04-11_18-47.zip/download"
+./VM-Packages/scripts/test/test_install.ps1:        choco upgrade $package -y -r -s "'.;https://www.myget.org/F/vm-packages/api/v2;https://community.chocolatey.org/api/v2/'" --no-progress --force
+==========================================================================
+Finding Import-Modules
+==========================================================================
+./commando-vm/install.ps1:        Import-Module "${Env:ProgramData}\boxstarter\boxstarter.chocolatey\boxstarter.chocolatey.psd1" -Force
+./commando-vm/install.ps1:        Import-Module "$Env:ProgramData\_VM\vm.common\vm.common.psm1" -DisableNameChecking -Force
+./flare-vm/install.ps1:Import-Module "${Env:ProgramData}\boxstarter\boxstarter.chocolatey\boxstarter.chocolatey.psd1" -Force
+./flare-vm/install.ps1:Import-Module "${Env:VM_COMMON_DIR}\vm.common\vm.common.psm1" -Force -DisableNameChecking
+./VM-Packages/packages/010editor.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/7zip-15-05.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/7zip-15-05.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/7zip-nsis.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/7zip-nsis.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/adconnectdump.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/adconnectdump.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/aleapp.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/aleapp.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/amcacheparser.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/amcacheparser.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/apimonitor.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/apimonitor.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/apktool.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/apktool.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/appcompatcacheparser.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/appcompatcacheparser.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/arsenalimagemounter.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/arsenalimagemounter.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/asreproast.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/asreproast.vm/tools/chocolateyinstall.ps1:$powershellCommand = "Import-Module .\ASREPRoast.ps1; Get-Help Invoke-ASREPRoast"
+./VM-Packages/packages/asreproast.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/autoit-ripper.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/autoit-ripper.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/autopsy.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/autopsy.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/azurehound.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/azurehound.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/badassmacros.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/badassmacros.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/bindiff.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/bindiff.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/blobrunner.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/blobrunner.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/blobrunner64.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/blobrunner64.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/bloodhound-custom-queries.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/bloodhound-custom-queries.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/bloodhound.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/bloodhound.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/bstrings.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/bstrings.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/burp-free.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/burp-free.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/bytecodeviewer.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/bytecodeviewer.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/c3.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/c3.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/capa.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/capa.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/certify.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/certify.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/chainsaw.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/chainsaw.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/cmder.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/codetrack.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/codetrack.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/confuserex.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/confuserex.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/covenant.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/covenant.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/credninja.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/credninja.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/cryptotester.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/cryptotester.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/cutter.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/cutter.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/cyberchef.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/cyberchef.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/cygwin.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/dcode.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/dcode.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/de4dot-cex.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/de4dot-cex.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/debloat.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/dependencywalker.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/dependencywalker.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/dex2jar.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/dex2jar.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/didier-stevens-beta.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/didier-stevens-beta.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/didier-stevens-suite.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/didier-stevens-suite.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/die.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/die.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/dll-to-exe.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/dll-to-exe.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/dnlib.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/dnlib.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/dnspyex.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/dnspyex.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/dokan.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/dokan.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/dotdumper.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/dotdumper.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/dotnettojscript.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/dotnettojscript.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/dumpert.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/dumpert.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/egress-assess.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/egress-assess.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/event-log-explorer.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/event-log-explorer.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/evilclippy.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/evilclippy.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/evtxecmd.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/evtxecmd.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/exeinfope.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/exeinfope.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/exiftool.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/exiftool.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/explorersuite.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/explorersuite.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/extreme_dumper.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/extreme_dumper.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/ezviewer.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/ezviewer.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/fakenet-ng.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/fakenet-ng.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/fiddler.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/fiddler.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/file.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/file.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/floss.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/floss.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/ftk-imager.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/ftk-imager.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/fuzzdb.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/fuzzdb.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/gadgettojscript.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/gadgettojscript.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/garbageman.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/garbageman.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/getlapspasswords.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/getlapspasswords.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/ghidra.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/ghidra.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/gobuster.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/gobuster.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/googlechrome.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/goresym.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/goresym.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/gowitness.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/gowitness.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/group3r.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/group3r.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/hashcat.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/hashcat.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/hasher.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/hasher.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/hashmyfiles.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/hashmyfiles.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/hayabusa.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/hayabusa.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/hollowshunter.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/hollowshunter.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/hxd.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/hxd.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/ida.plugin.capa.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/ida.plugin.capa.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/ida.plugin.comida.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/ida.plugin.comida.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/ida.plugin.dereferencing.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/ida.plugin.dereferencing.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/ida.plugin.diaphora.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/ida.plugin.diaphora.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/ida.plugin.flare.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/ida.plugin.flare.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/ida.plugin.hashdb.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/ida.plugin.hashdb.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/ida.plugin.ifl.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/ida.plugin.ifl.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/ida.plugin.lighthouse.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/ida.plugin.lighthouse.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/ida.plugin.sigmaker.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/ida.plugin.sigmaker.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/idafree.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/idafree.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/idr.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/idr.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/ifpstools.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/ifpstools.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/ilspy.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/ilspy.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/imhex.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/imhex.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/innoextract.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/innoextract.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/innounp.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/innounp.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/installer.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/internal-monologue.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/internal-monologue.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/inveigh.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/inveigh.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/invokedosfuscation.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/invokedosfuscation.vm/tools/chocolateyinstall.ps1:$powershellCommand = 'Import-Module .\Invoke-DOSfuscation.psd1; Invoke-DOSfuscation'
+./VM-Packages/packages/invokedosfuscation.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/invokeobfuscation.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/invokeobfuscation.vm/tools/chocolateyinstall.ps1:$powershellCommand = 'Import-Module ./Invoke-Obfuscation.psd1; Invoke-Obfuscation'
+./VM-Packages/packages/invokeobfuscation.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/isd.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/isd.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/jlecmd.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/jlecmd.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/js-deobfuscator.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/js-deobfuscator.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/juicypotato.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/juicypotato.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/jumplist_explorer.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/jumplist_explorer.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/keethief.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/keethief.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/kerbrute.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/kerbrute.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/kernel-ost-viewer.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/kernel-ost-viewer.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/kernel-outlook-pst-viewer.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/kernel-outlook-pst-viewer.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/ldapnomnom.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/ldapnomnom.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/lecmd.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/lecmd.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/libraries.python3.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/libraries.python3.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/logfileparser.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/logfileparser.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/magika.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/magika.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/mailsniper.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/mailsniper.vm/tools/chocolateyinstall.ps1:$ps1Cmd = 'Import-Module .\MailSniper.ps1; Get-Help MailSniper'
+./VM-Packages/packages/mailsniper.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/malware-jail.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/malware-jail.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/map.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/map.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/memprocfs.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/memprocfs.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/merlin.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/merlin.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/metasploit.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/metasploit.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/mfasweep.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/mfasweep.vm/tools/chocolateyinstall.ps1:$ps1Cmd = 'Import-Module .\MFASweep.ps1; Get-Help Invoke-MFASweep'
+./VM-Packages/packages/mfasweep.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/mftecmd.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/mftecmd.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/mft_explorer.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/mft_explorer.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/microburst.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/microburst.vm/tools/chocolateyinstall.ps1:$powershellCommand = 'Import-Module Az, .\Az\MicroBurst-Az.psm1, .\Misc\MicroBurst-Misc.psm1, .\REST\MicroBurst-AzureREST.psm1; Get-Command -Module MicroBurst-Az'
+./VM-Packages/packages/microburst.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/mimikatz.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/mimikatz.vm/tools/chocolateyinstall.ps1:  Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/nanodump.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/nanodump.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/nasm.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/nasm.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/net-reactor-slayer.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/net-reactor-slayer.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/netcat.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/netcat.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/netgpppassword.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/netgpppassword.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/networkminer.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/networkminer.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/nmap.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/nmap.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/notepadplusplus.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/notepadplusplus.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/notepadpp.plugin.compare.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/notepadpp.plugin.jstool.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/notepadpp.plugin.xmltools.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/npcap.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/npcap.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/obfuscator-io-deobfuscator.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/obfuscator-io-deobfuscator.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/offvis.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/offvis.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/ollydbg.plugin.ollydumpex.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/ollydbg.plugin.scyllahide.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/ollydbg.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/ollydbg2.plugin.ollydumpex.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/ollydbg2.plugin.scyllahide.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/ollydbg2.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/onenoteanalyzer.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/onenoteanalyzer.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/openjdk.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/openvpn.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/openvpn.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/outflank-c2-tool-collection.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/outflank-c2-tool-collection.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/payloadsallthethings.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/payloadsallthethings.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/pdbresym.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/pdbresym.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/pdbs.pdbresym.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/pdfstreamdumper.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/pdfstreamdumper.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/peanatomist.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/peanatomist.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/pebear.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/pebear.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/pecmd.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/pecmd.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/peid.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/peid.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/pesieve.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/pesieve.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/pestudio.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/pestudio.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/petitpotam.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/petitpotam.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/pe_unmapper.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/pe_unmapper.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/pkg-unpacker.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/pkg-unpacker.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/pma-labs.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/pma-labs.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/powercat.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/powercat.vm/tools/chocolateyinstall.ps1:$ps1Cmd = 'Import-Module .\powercat.ps1; powercat -h'
+./VM-Packages/packages/powercat.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/powermad.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/powermad.vm/tools/chocolateyinstall.ps1:$powershellCommand = 'Import-Module .\Powermad.psd1; Get-Command -Module Powermad'
+./VM-Packages/packages/powermad.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/powersploit.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/powersploit.vm/tools/chocolateyinstall.ps1:$powershellCommand = 'Import-Module .\PowerSploit.psd1; Get-Command -Module PowerSploit'
+./VM-Packages/packages/powersploit.vm/tools/chocolateyinstall.ps1:$powershellCommand = 'Import-Module .\Recon\Recon.psd1; Get-Command -Module Recon'
+./VM-Packages/packages/powersploit.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/powerupsql.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/powerupsql.vm/tools/chocolateyinstall.ps1:$powershellCommand = 'Import-Module .\PowerUpSQL.psd1; Get-Command -Module PowerUpSQL'
+./VM-Packages/packages/powerupsql.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/powerzure.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/powerzure.vm/tools/chocolateyinstall.ps1:$powershellCommand = 'Import-Module Az, .\PowerZure.psm1; Invoke-PowerZure -h'
+./VM-Packages/packages/powerzure.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/procdot.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/procdot.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/processdump.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/processdump.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/psnotify.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/psnotify.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/putty.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/putty.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/python3.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/rbcmd.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/rbcmd.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/recentfilecacheparser.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/recentfilecacheparser.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/recmd.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/recmd.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/regcool.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/regcool.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/registry_explorer.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/registry_explorer.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/regshot.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/regshot.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/reg_export.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/reg_export.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/resourcehacker.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/resourcehacker.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/rla.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/rla.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/routesixtysink.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/routesixtysink.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/rpcview.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/rpcview.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/rubeus.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/rubeus.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/rundotnetdll.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/rundotnetdll.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/safetykatz.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/safetykatz.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/sbecmd.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/sbecmd.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/scdbg.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/scdbg.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/sclauncher.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/sclauncher.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/sclauncher64.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/sclauncher64.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/sdb_explorer.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/sdb_explorer.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/seatbelt.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/seatbelt.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/seclists.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/seclists.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/setdllcharacteristics.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/setdllcharacteristics.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/sfextract.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/sfextract.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/sharpcliphistory.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/sharpcliphistory.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/sharpdpapi.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/sharpdpapi.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/sharpdump.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/sharpdump.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/sharpexec.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/sharpexec.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/sharphound.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/sharphound.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/sharplaps.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/sharplaps.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/sharpsecdump.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/sharpsecdump.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/sharpup.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/sharpup.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/sharpview.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/sharpview.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/sharpwmi.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/sharpwmi.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/shellbags_explorer.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/shellbags_explorer.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/shellcode_launcher.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/shellcode_launcher.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/situational-awareness-bof.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/situational-awareness-bof.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/sliver.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/sliver.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/snaffler.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/snaffler.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/spoolsample.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/spoolsample.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/sqlecmd.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/sqlecmd.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/sqlitebrowser.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/sqlitebrowser.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/sqlrecon.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/sqlrecon.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/srumecmd.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/srumecmd.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/statistically-likely-usernames.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/statistically-likely-usernames.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/stracciatella.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/stracciatella.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/streamdivert.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/streamdivert.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/sumecmd.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/sumecmd.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/sysinternals.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/sysinternals.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/systeminformer.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/systeminformer.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/syswhispers2.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/syswhispers2.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/syswhispers3.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/syswhispers3.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/teamfiltration.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/teamfiltration.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/telnet.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/telnet.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/testdisk.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/testdisk.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/timeline_explorer.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/timeline_explorer.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/tor-browser.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/tor-browser.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/total-registry.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/total-registry.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/trustedsec-remote-ops-bof.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/trustedsec-remote-ops-bof.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/ttd.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/ttd.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/unhook-bof.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/unhook-bof.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/uniextract2.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/uniextract2.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/upx.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/upx.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/vbdec.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/vbdec.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/vcbuildtools.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/visualstudio.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/visualstudio.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/vnc-viewer.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/vnc-viewer.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/vscmount.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/vscmount.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/vscode.extension.jupyter.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/vscode.extension.jupyter.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/vscode.extension.python.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/vscode.extension.python.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/vscode.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/vscode.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/whisker.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/whisker.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/windbg.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/windbg.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/windows-terminal.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/windows-terminal.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/windump.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/windump.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/winscp.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/winscp.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/wireshark.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/wireshark.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/wmimplant.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/wmimplant.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/wxtcmd.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/wxtcmd.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/x64dbg.plugin.dbgchild.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/x64dbg.plugin.ollydumpex.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/x64dbg.plugin.scyllahide.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/x64dbg.plugin.x64dbgpy.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/x64dbg.plugin.x64dbgpy.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/x64dbg.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/yara.vm/tools/chocolateyinstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+./VM-Packages/packages/yara.vm/tools/chocolateyuninstall.ps1:Import-Module vm.common -Force -DisableNameChecking
+==========================================================================
+Finding Node Module Installs
+==========================================================================
+./VM-Packages/packages/js-deobfuscator.vm/tools/chocolateyinstall.ps1:VM-Install-Node-Tool -toolName $toolName -category $category -arguments "--help"
+./VM-Packages/packages/malware-jail.vm/tools/chocolateyinstall.ps1:VM-Install-Node-Tool-From-Zip $toolName $category $zipUrl $zipSha256 -command $command
+./VM-Packages/packages/obfuscator-io-deobfuscator.vm/tools/chocolateyinstall.ps1:VM-Install-Node-Tool -toolName $toolName -category $category -arguments "--help"
+./VM-Packages/packages/pkg-unpacker.vm/tools/chocolateyinstall.ps1:VM-Install-Node-Tool-From-Zip $toolName $category $zipUrl $zipSha256 -command $command
+==========================================================================
+Finding AppxPackages
+==========================================================================
+./VM-Packages/packages/ttd.vm/tools/chocolateyinstall.ps1:    Add-AppxPackage -Path $packageArgs.fileFullPath
+./VM-Packages/packages/windbg.vm/tools/chocolateyinstall.ps1:    # It seems WinDbg is now distributed as an .appinstaller and we need to install it using Add-AppxPackage
+./VM-Packages/packages/windbg.vm/tools/chocolateyinstall.ps1:    Add-AppxPackage -AppInstallerFile 'https://windbg.download.prss.microsoft.com/dbazure/prod/1-0-0/windbg.appinstaller'
