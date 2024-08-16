@@ -20,6 +20,8 @@ If I were to try a PoC, I might attempt to do it with Java because the networkin
 Link Notes for network streaming:
 https://github.com/wireshark/wireshark
 
+https://stackoverflow.com/questions/26152931/how-could-i-sniff-network-traffic-in-java
+
 https://docs.oracle.com/javase/tutorial/networking/sockets/readingWriting.html
 https://docs.oracle.com/javase/8/docs/api/java/io/BufferedInputStream.html
 https://docs.oracle.com/javase/8/docs/api/java/io/InputStreamReader.html
