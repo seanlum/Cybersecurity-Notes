@@ -14,3 +14,6 @@ https://learn.microsoft.com/en-us/sysinternals/downloads/
 
 https://ericzimmerman.github.io/#!index.md
 
+# Nirsoft Suite
+
+https://www.nirsoft.net/
