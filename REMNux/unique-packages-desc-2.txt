@@ -1,0 +1,3828 @@
+Package: 7zz
+Version: 21.02-focal
+Priority: optional
+Section: utils
+Maintainer: REMnux Distribution <distro@remnux.org>
+Installed-Size: 2,614 kB
+Depends: libc6 (>= 2.16), libgcc-s1 (>= 3.0), libstdc++6 (>= 5)
+Download-Size: 907 kB
+APT-Manual-Installed: yes
+APT-Sources: http://ppa.launchpad.net/remnux/stable/ubuntu focal/main amd64 Packages
+Description: Compress and decompress files using a variety of algorithms. This is the latest alpha version of 7-Zip.
+
+Package: android-project-creator
+Version: 1.5-1-focal
+Priority: optional
+Section: utils
+Maintainer: REMnux Distribution <distro@remnux.org>
+Installed-Size: 5,222 kB
+Depends: default-jdk, default-jre
+Download-Size: 4,697 kB
+APT-Manual-Installed: yes
+APT-Sources: http://ppa.launchpad.net/remnux/stable/ubuntu focal/main amd64 Packages
+Description: Convert the Android APK application file into an Android Studio project for easier analysis.
+
+Package: baksmali
+Version: 2.4.0-focal
+Priority: optional
+Section: utils
+Maintainer: REMnux Distribution <distro@remnux.org>
+Installed-Size: 1,313 kB
+Depends: default-jre
+Download-Size: 1,106 kB
+APT-Manual-Installed: yes
+APT-Sources: http://ppa.launchpad.net/remnux/stable/ubuntu focal/main amd64 Packages
+Description: Disassembler for the dex format used by Dalvik, Android's Java VM implementation.
+
+Package: bddisasm
+Version: 1.31.2-4-focal
+Priority: optional
+Section: utils
+Maintainer: REMnux Distribution <distro@remnux.org>
+Installed-Size: 3,467 kB
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 9)
+Download-Size: 277 kB
+APT-Manual-Installed: yes
+APT-Sources: http://ppa.launchpad.net/remnux/stable/ubuntu focal/main amd64 Packages
+Description: The Bitdefender disassembler (bddisasm) is a lightweight, x86/x64 only instruction decoder with shellcode emulation capabilities.
+
+Package: bearparser
+Version: 0.3-focal
+Priority: optional
+Section: utils
+Maintainer: REMnux Distribution (https://REMnux.org) <distro@remnux.org>
+Installed-Size: 525 kB
+Depends: libqt5core5a:amd64
+Download-Size: 103 kB
+APT-Manual-Installed: yes
+APT-Sources: http://ppa.launchpad.net/remnux/stable/ubuntu focal/main amd64 Packages
+Description: Parse PE file contents
+
+Package: binee
+Version: 1.0-3-focal
+Priority: optional
+Section: utils
+Maintainer: REMnux Distribution <distro@remnux.org>
+Installed-Size: 4,380 kB
+Download-Size: 1,251 kB
+APT-Manual-Installed: yes
+APT-Sources: http://ppa.launchpad.net/remnux/stable/ubuntu focal/main amd64 Packages
+Description: Analyze I/O operations of a suspicious PE file by emulating its execution.
+
+Package: burpsuite-community
+Version: 2021.10.3-focal
+Priority: optional
+Section: utils
+Maintainer: REMnux Distribution (https://REMnux.org) <distro@remnux.org>
+Installed-Size: 522 MB
+Depends: default-jre
+Download-Size: 514 MB
+APT-Manual-Installed: yes
+APT-Sources: http://ppa.launchpad.net/remnux/stable/ubuntu focal/main amd64 Packages
+Description: Investigate website interactions using a web proxy
+
+Package: code
+Version: 1.69.2-1658162013
+Status: install ok installed
+Priority: optional
+Section: devel
+Maintainer: Microsoft Corporation <vscode-linux@microsoft.com>
+Installed-Size: 369 MB
+Provides: visual-studio-code
+Depends: libnss3 (>= 2:3.26), gnupg, apt, libxkbfile1, libsecret-1-0, libgtk-3-0 (>= 3.10.0), libxss1, libgbm1
+Conflicts: visual-studio-code
+Replaces: visual-studio-code
+Homepage: https://code.visualstudio.com/
+Download-Size: unknown
+APT-Manual-Installed: yes
+APT-Sources: /var/lib/dpkg/status
+Description: Code editing. Redefined.
+ Visual Studio Code is a new choice of tool that combines the simplicity of
+ a code editor with what developers need for the core edit-build-debug cycle.
+ See https://code.visualstudio.com/docs/setup/linux for installation
+ instructions and FAQ.
+
+Package: containerd.io
+Version: 1.6.6-1
+Priority: optional
+Section: devel
+Maintainer: Containerd team <help@containerd.io>
+Installed-Size: 127 MB
+Provides: containerd, runc
+Depends: libc6 (>= 2.14), libseccomp2 (>= 2.5.0)
+Conflicts: containerd, runc
+Replaces: containerd, runc
+Homepage: https://containerd.io
+Download-Size: 28.1 MB
+APT-Manual-Installed: no
+APT-Sources: https://download.docker.com/linux/ubuntu focal/stable amd64 Packages
+Description: An open and reliable container runtime
+
+Package: crda
+Version: 3.18-1build1
+Priority: optional
+Section: net
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Ben Hutchings <ben@decadent.org.uk>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 271 kB
+Depends: libc6 (>= 2.7), libnl-3-200 (>= 3.2.7), libnl-genl-3-200 (>= 3.2.7), libssl1.1 (>= 1.1.0), wireless-regdb, iw (>= 3.2-1~)
+Homepage: https://wireless.wiki.kernel.org/en/developers/Regulatory/CRDA
+Task: ubuntu-desktop-minimal, ubuntu-desktop, kubuntu-desktop, kubuntu-full, xubuntu-core, xubuntu-desktop, lubuntu-desktop, ubuntustudio-desktop-core, ubuntustudio-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop
+Download-Size: 63.5 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal/main amd64 Packages
+Description: wireless Central Regulatory Domain Agent
+ This package provides a Central Regulatory Domain Agent (CRDA) to be used by
+ the Linux kernel cfg80211 wireless subsystem to query and apply the regulatory
+ domain settings wireless devices may operate within for a given location.
+ .
+ CRDA queries operational frequency regulations stored within the regulatory
+ database provided by the wireless-regdb package.
+
+Package: detectiteasy
+Version: 3.05
+Status: install ok installed
+Maintainer: hors <horsicq@gmail.com>
+Installed-Size: unknown
+Depends: libqt5core5a, libqt5svg5, libqt5gui5, libqt5widgets5, libqt5opengl5, libqt5dbus5, libqt5scripttools5, libqt5script5, libqt5network5, libqt5sql5
+Homepage: http://ntinfo.biz
+Download-Size: unknown
+APT-Manual-Installed: yes
+APT-Sources: /var/lib/dpkg/status
+Description: Detect It Easy is a program for determining types of files.
+
+Package: dex2jar
+Version: 2.1-focal
+Priority: optional
+Section: utils
+Maintainer: Kali Developers <devel@kali.org>
+Installed-Size: 6,083 kB
+Depends: default-jre
+Download-Size: 4,985 kB
+APT-Manual-Installed: yes
+APT-Sources: http://ppa.launchpad.net/remnux/stable/ubuntu focal/main amd64 Packages
+Description: Tools to work with android .dex and java .class files
+ dex2jar contains 4 compments:
+ .
+ dex-reader is designed to read the Dalvik Executable
+ (.dex/.odex) format. It has a light weight API similar
+ with ASM. An example here
+ dex-translator is designed to do the convert job. It reads
+ the dex instruction to dex-ir format, after some optimize,
+ convert to ASM format.
+ dex-ir used by dex-translator, is designed to represent
+ the dex instruction
+ dex-tools tools to work with .class files.
+
+Package: docker-ce
+Version: 5:20.10.17~3-0~ubuntu-focal
+Priority: optional
+Section: admin
+Maintainer: Docker <support@docker.com>
+Installed-Size: 100 MB
+Depends: containerd.io (>= 1.4.1), docker-ce-cli, iptables, libseccomp2 (>= 2.3.0), libc6 (>= 2.8), libdevmapper1.02.1 (>= 2:1.02.97), libsystemd0
+Recommends: apparmor, ca-certificates, docker-ce-rootless-extras, git, libltdl7, pigz, procps, xz-utils
+Suggests: aufs-tools, cgroupfs-mount | cgroup-lite
+Conflicts: docker (<< 1.5~), docker-engine, docker-engine-cs, docker.io, lxc-docker, lxc-docker-virtual-package
+Replaces: docker-engine
+Homepage: https://www.docker.com
+Download-Size: 21.0 MB
+APT-Manual-Installed: yes
+APT-Sources: https://download.docker.com/linux/ubuntu focal/stable amd64 Packages
+Description: Docker: the open-source application container engine
+ Docker is a product for you to build, ship and run any application as a
+ lightweight container
+ .
+ Docker containers are both hardware-agnostic and platform-agnostic. This means
+ they can run anywhere, from your laptop to the largest cloud compute instance and
+ everything in between - and they don't require you to use a particular
+ language, framework or packaging system. That makes them great building blocks
+ for deploying and scaling web apps, databases, and backend services without
+ depending on a particular stack or provider.
+
+Package: docker-ce-cli
+Version: 5:20.10.17~3-0~ubuntu-focal
+Priority: optional
+Section: admin
+Source: docker-ce
+Maintainer: Docker <support@docker.com>
+Installed-Size: 160 MB
+Depends: libc6 (>= 2.4)
+Recommends: docker-scan-plugin
+Conflicts: docker (<< 1.5~), docker-engine, docker-engine-cs, docker.io, lxc-docker, lxc-docker-virtual-package
+Breaks: docker-ce (<< 5:0)
+Replaces: docker-ce (<< 5:0)
+Homepage: https://www.docker.com
+Download-Size: 40.6 MB
+APT-Manual-Installed: no
+APT-Sources: https://download.docker.com/linux/ubuntu focal/stable amd64 Packages
+Description: Docker CLI: the open-source application container engine
+ Docker is a product for you to build, ship and run any application as a
+ lightweight container
+ .
+ Docker containers are both hardware-agnostic and platform-agnostic. This means
+ they can run anywhere, from your laptop to the largest cloud compute instance and
+ everything in between - and they don't require you to use a particular
+ language, framework or packaging system. That makes them great building blocks
+ for deploying and scaling web apps, databases, and backend services without
+ depending on a particular stack or provider.
+
+Package: docker-ce-rootless-extras
+Version: 5:20.10.17~3-0~ubuntu-focal
+Priority: optional
+Section: admin
+Source: docker-ce
+Maintainer: Docker <support@docker.com>
+Installed-Size: 20.4 MB
+Depends: dbus-user-session, libc6 (>= 2.4)
+Recommends: slirp4netns (>= 0.4.0)
+Conflicts: rootlesskit
+Breaks: rootlesskit
+Replaces: rootlesskit
+Enhances: docker-ce
+Homepage: https://docs.docker.com/engine/security/rootless/
+Download-Size: 8,171 kB
+APT-Manual-Installed: no
+APT-Sources: https://download.docker.com/linux/ubuntu focal/stable amd64 Packages
+Description: Rootless support for Docker.
+  Use dockerd-rootless.sh to run the daemon.
+  Use dockerd-rootless-setuptool.sh to setup systemd for dockerd-rootless.sh .
+  This package contains RootlessKit, but does not contain VPNKit.
+  Either VPNKit or slirp4netns (>= 0.4.0) needs to be installed separately.
+
+Package: docker-scan-plugin
+Version: 0.17.0~ubuntu-focal
+Priority: optional
+Section: admin
+Source: docker-ce (5:20.10.13~3-0~ubuntu-focal)
+Maintainer: Docker <support@docker.com>
+Installed-Size: 13.3 MB
+Enhances: docker-ce-cli
+Homepage: https://github.com/docker/scan-cli-plugin
+Download-Size: 3,521 kB
+APT-Manual-Installed: no
+APT-Sources: https://download.docker.com/linux/ubuntu focal/stable amd64 Packages
+Description: Docker scan cli plugin.
+
+Package: dotnet-hostfxr-3.1
+Version: 3.1.27-1
+Priority: standard
+Section: libs
+Maintainer: .NET Core Team <dotnetpackages@dotnetfoundation.org>
+Installed-Size: 418 kB
+Depends: libgcc1, libstdc++6, dotnet-host (>= 3.1.27), libc6
+Homepage: https://dot.net/core
+Download-Size: 121 kB
+APT-Manual-Installed: no
+APT-Sources: https://packages.microsoft.com/ubuntu/20.04/prod focal/main amd64 Packages
+Description: Microsoft .NET Core Host FX Resolver - 3.1.27 3.1.27
+ .NET Core is a development platform that you can use to build command-line applications, microservices and modern websites. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/core). We happily accept issues and PRs.
+
+Package: dotnet-runtime-3.1
+Version: 3.1.27-1
+Priority: standard
+Section: libs
+Maintainer: .NET Core Team <dotnetpackages@dotnetfoundation.org>
+Installed-Size: 72.9 MB
+Depends: dotnet-hostfxr-3.1 (>= 3.1.27), dotnet-runtime-deps-3.1 (>= 3.1.27)
+Homepage: https://dot.net/core
+Download-Size: 22.0 MB
+APT-Manual-Installed: no
+APT-Sources: https://packages.microsoft.com/ubuntu/20.04/prod focal/main amd64 Packages
+Description: Microsoft .NET Core Runtime - 3.1.27 Microsoft.NETCore.App 3.1.27
+ .NET Core is a development platform that you can use to build command-line applications, microservices and modern websites. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/core). We happily accept issues and PRs.
+
+Package: dotnet-runtime-deps-3.1
+Version: 3.1.27-1
+Priority: standard
+Section: libs
+Maintainer: .NET Core Team <dotnetpackages@dotnetfoundation.org>
+Installed-Size: 26.6 kB
+Depends: libgcc1, libssl1.0.0 | libssl1.0.2 | libssl1.1, libicu | libicu72 | libicu71 | libicu70 | libicu69 | libicu68 | libicu67 | libicu66 | libicu65 | libicu63 | libicu60 | libicu57 | libicu55 | libicu52, libc6, zlib1g, libstdc++6, libgssapi-krb5-2
+Homepage: https://dot.net/core
+Download-Size: 2,686 B
+APT-Manual-Installed: no
+APT-Sources: https://packages.microsoft.com/ubuntu/20.04/prod focal/main amd64 Packages
+Description: dotnet-runtime-deps-3.1 3.1.27
+ .NET Core is a development platform that you can use to build command-line applications, microservices and modern websites. This package installs all the system dependencies for .NET Core Runtime.
+
+Package: enchant
+Version: 1.6.0-11.3build1
+Priority: optional
+Section: universe/text
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Prach Pongpanich <prach@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 63.5 kB
+Depends: libc6 (>= 2.4), libenchant1c2a (>= 1.6.0), libglib2.0-0 (>= 2.12.0)
+Breaks: libenchant1c2a (<< 1.6.0-4)
+Replaces: libenchant1c2a (<< 1.6.0-4)
+Homepage: https://abiword.github.io/enchant/
+Task: ubuntustudio-video, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop
+Download-Size: 12.4 kB
+APT-Manual-Installed: yes
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal/universe amd64 Packages
+Description: Wrapper for various spell checker engines (binary programs)
+ Enchant is a generic spell checking library which uses existing
+ spell checker engines such as ispell, aspell and myspell as its backends.
+ .
+ Enchant steps in to provide uniformity and conformity on top of these
+ libraries, and implement certain features that may be lacking in any
+ individual provider library.
+ .
+ This package contains standalone runtime binary programs.
+
+Package: evilclippy
+Version: 1.3-focal
+Priority: optional
+Section: utils
+Maintainer: REMnux Distribution <distro@remnux.org>
+Installed-Size: 135 kB
+Download-Size: 45.1 kB
+APT-Manual-Installed: yes
+APT-Sources: http://ppa.launchpad.net/remnux/stable/ubuntu focal/main amd64 Packages
+Description: Modify aspects of Microsoft Office documents.
+
+Package: exfat-utils
+Version: 1.3.0-1
+Priority: optional
+Section: universe/otherosfs
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Sven Hoexter <hoexter@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 232 kB
+Depends: libc6 (>= 2.14)
+Recommends: exfat-fuse
+Homepage: https://github.com/relan/exfat
+Download-Size: 40.7 kB
+APT-Manual-Installed: yes
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal/universe amd64 Packages
+Description: utilities to create, check, label and dump exFAT filesystem
+ Utilities to manage extended file allocation table filesystem.
+ This package provides tools to create, check and label the
+ filesystem. It contains
+  - dumpexfat to dump properties of the filesystem
+  - exfatfsck / fsck.exfat to report errors found on a exFAT filesystem
+  - exfatlabel to label a exFAT filesystem
+  - mkexfatfs / mkfs.exfat to create a exFAT filesystem.
+
+Package: flare-floss
+Version: 2.0.0-focal
+Priority: optional
+Section: utils
+Maintainer: REMnux Distribution <distro@remnux.org>
+Installed-Size: 47.5 MB
+Depends: libc6 (>= 2.14), zlib1g (>= 1:1.1.4)
+Download-Size: 47.1 MB
+APT-Manual-Installed: yes
+APT-Sources: http://ppa.launchpad.net/remnux/stable/ubuntu focal/main amd64 Packages
+Description: Extract and deobfuscate strings from PE executables.
+
+Package: ghidra
+Version: 10.1.3-focal
+Priority: optional
+Section: utils
+Maintainer: REMnux Distribution <distro@remnux.org>
+Installed-Size: 973 MB
+Depends: default-jdk
+Download-Size: 287 MB
+APT-Manual-Installed: yes
+APT-Sources: http://ppa.launchpad.net/remnux/stable/ubuntu focal/main amd64 Packages
+Description: Software reverse engineering tool suite
+
+Package: gir1.2-gnomebluetooth-1.0
+Version: 3.34.3-0ubuntu1
+Priority: optional
+Section: introspection
+Source: gnome-bluetooth
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 33.8 kB
+Depends: gir1.2-glib-2.0 (>= 0.9.5), gir1.2-gtk-3.0 (>= 3.12.0), libgnome-bluetooth13 (>= 3.20.1)
+Breaks: gnome-bluetooth (<< 3.8), gnome-shell (<< 3.4.2-9)
+Homepage: https://wiki.gnome.org/Projects/GnomeBluetooth
+Task: ubuntu-desktop-minimal, ubuntu-desktop
+Download-Size: 5,592 B
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages
+Description: Introspection data for GnomeBluetooth
+ This package contains tools for managing and manipulating Bluetooth
+ devices using the GNOME desktop.
+ .
+ The libraries included provide support to gnome-bluetooth.
+ .
+ This package contains the introspection data for GnomeBluetooth
+
+Package: gir1.2-mutter-6
+Version: 3.36.9-0ubuntu0.20.04.2
+Priority: optional
+Section: introspection
+Source: mutter
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 564 kB
+Depends: libmutter-6-0 (= 3.36.9-0ubuntu0.20.04.2), gir1.2-atk-1.0, gir1.2-freedesktop (>= 0.9.12), gir1.2-gdesktopenums-3.0 (>= 3.33.0), gir1.2-glib-2.0 (>= 0.9.12), gir1.2-graphene-1.0 (>= 1.9.3), gir1.2-gtk-3.0 (>= 3.19.8), gir1.2-json-1.0 (>= 0.13.2-1~), gir1.2-pango-1.0 (>= 1.2.0)
+Task: ubuntu-desktop-minimal, ubuntu-desktop
+Download-Size: 109 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages
+Description: GObject introspection data for Mutter
+ Mutter is a Wayland display server and X11 window manager and
+ compositor library. It contains functionality related to, among other
+ things, window management, window compositing, focus tracking, workspace
+ management, keybindings and monitor configuration.
+ .
+ Internally it uses a fork of Cogl, a hardware acceleration abstraction
+ library used to simplify usage of OpenGL pipelines, as well as a fork
+ of Clutter, a scene graph and user interface toolkit.
+ .
+ This package contains the GObject introspection data which may be
+ used to generate dynamic bindings.
+
+Package: ilspycmd
+Version: 6.2.1-1-focal
+Priority: optional
+Section: utils
+Maintainer: REMnux Distribution <distro@remnux.org>
+Installed-Size: 11.8 MB
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 4.6), dotnet-runtime-3.1
+Download-Size: 1,604 kB
+APT-Manual-Installed: yes
+APT-Sources: http://ppa.launchpad.net/remnux/stable/ubuntu focal/main amd64 Packages
+Description: Examine and decompile .NET programs from the command-line.
+
+Package: installation-report
+Version: 2.62ubuntu1
+Priority: optional
+Section: misc
+Origin: Ubuntu
+Maintainer: Ubuntu Installer Team <ubuntu-installer@lists.ubuntu.com>
+Original-Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 49.2 kB
+Depends: debconf
+Recommends: pciutils
+Download-Size: 7,632 B
+APT-Manual-Installed: yes
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal/main amd64 Packages
+Description: system installation report
+ This package contains instructions and programs for reporting on
+ the installation of a new system. It can help you fill out an
+ installation report and send it to the Debian bug tracking system.
+ .
+ Purging this package will remove the logs of the system's installation.
+
+Package: ippusbxd
+Version: 1.34-2ubuntu1
+Priority: extra
+Section: comm
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 110 kB
+Provides: cups-filters-ippusbxd
+Depends: libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.15), libcups2 (>= 1.7.0), libusb-1.0-0 (>= 2:1.0.16), libxml2 (>= 2.7.4)
+Recommends: system-config-printer-udev
+Conflicts: cups-filters-ippusbxd
+Replaces: cups-filters-ippusbxd
+Enhances: cups
+Homepage: https://github.com/OpenPrinting/ippusbxd
+Task: ubuntu-desktop-minimal, ubuntu-desktop, kubuntu-desktop, kubuntu-full, xubuntu-desktop, lubuntu-desktop, ubuntustudio-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop
+Download-Size: 36.0 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal/main amd64 Packages
+Description: Daemon for IPP USB printer support
+ ippusbxd is a userland driver for USB devices supporting the IPP USB
+ specification. It enables these USB printers to be seen as regular
+ network IPP printers.
+
+Package: jd-gui
+Version: 1.6.6-2-focal
+Priority: optional
+Section: utils
+Maintainer: REMnux Distribution (https://REMnux.org) <distro@remnux.org>
+Installed-Size: 3,310 kB
+Depends: default-jre, apt-utils
+Download-Size: 2,954 kB
+APT-Manual-Installed: yes
+APT-Sources: http://ppa.launchpad.net/remnux/stable/ubuntu focal/main amd64 Packages
+Description: Java decompiler with GUI
+
+Package: libaom0
+Version: 1.0.0.errata1-3build1
+Priority: optional
+Section: universe/libs
+Source: aom
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 4,050 kB
+Depends: libc6 (>= 2.29)
+Homepage: https://aomedia.org/
+Task: kubuntu-desktop, kubuntu-full, xubuntu-desktop, lubuntu-desktop, ubuntustudio-desktop, ubuntu-mate-core, ubuntu-mate-desktop
+Download-Size: 1,160 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal/universe amd64 Packages
+Description: AV1 Video Codec Library
+ AOMedia Video 1 (AV1) is an open and royalty free video encoding format
+ optimized for the Internet and the successor of VP9. aom is the
+ reference encoder and decoder implementation published by the Alliance
+ for Open Media.
+ .
+ This package contains the shared library.
+
+Package: libaom0:i386
+Version: 1.0.0.errata1-3build1
+Priority: optional
+Section: universe/libs
+Source: aom
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 4,364 kB
+Depends: libc6 (>= 2.29)
+Homepage: https://aomedia.org/
+Task: kubuntu-desktop, kubuntu-full, lubuntu-desktop
+Download-Size: 1,184 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal/universe i386 Packages
+Description: AV1 Video Codec Library
+ AOMedia Video 1 (AV1) is an open and royalty free video encoding format
+ optimized for the Internet and the successor of VP9. aom is the
+ reference encoder and decoder implementation published by the Alliance
+ for Open Media.
+ .
+ This package contains the shared library.
+
+Package: libboost-filesystem1.71-dev
+Version: 1.71.0-6ubuntu6
+Priority: optional
+Section: libdevel
+Source: boost1.71
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Boost Team <team+boost@tracker.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 2,470 kB
+Depends: libboost1.71-dev (= 1.71.0-6ubuntu6), libboost-filesystem1.71.0 (= 1.71.0-6ubuntu6), libboost-system1.71-dev (= 1.71.0-6ubuntu6)
+Conflicts: libboost-filesystem1.42-dev, libboost-filesystem1.46-dev, libboost-filesystem1.48-dev, libboost-filesystem1.49-dev, libboost-filesystem1.50-dev, libboost-filesystem1.52-dev, libboost-filesystem1.53-dev, libboost-filesystem1.54-dev, libboost-filesystem1.55-dev, libboost-filesystem1.57-dev, libboost-filesystem1.58-dev, libboost-filesystem1.60-dev, libboost-filesystem1.61-dev, libboost-filesystem1.62-dev, libboost-filesystem1.63-dev, libboost-filesystem1.65-dev, libboost-filesystem1.67-dev, libboost-filesystem1.70-dev
+Homepage: http://boost.org/libs/filesystem/
+Download-Size: 258 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal/main amd64 Packages
+Description: filesystem operations (portable paths, iteration over directories, etc) in C++
+ This package forms part of the Boost C++ Libraries collection.
+ .
+ The Boost Filesystem Library provides portable facilities to query and
+ manipulate paths, files, and directories.  The goal is to
+ facilitate portable script-like operations from within C++ programs.
+
+Package: libboost-filesystem1.71.0
+Version: 1.71.0-6ubuntu6
+Priority: optional
+Section: libs
+Source: boost1.71
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Boost Team <team+boost@tracker.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 2,124 kB
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2)
+Homepage: http://boost.org/libs/filesystem/
+Task: ubuntu-desktop, ubuntu-desktop-default-languages, ubuntu-desktop-default-languages, ubuntu-desktop-default-languages, ubuntu-desktop-default-languages, ubuntu-desktop-default-languages, ubuntu-desktop-default-languages, ubuntu-desktop-default-languages, ubuntu-desktop-default-languages, kubuntu-desktop, kubuntu-full, xubuntu-desktop, lubuntu-desktop, ubuntustudio-desktop, ubuntukylin-desktop, ubuntu-mate-desktop, ubuntu-budgie-desktop
+Download-Size: 242 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal/main amd64 Packages
+Description: filesystem operations (portable paths, iteration over directories, etc) in C++
+ This package forms part of the Boost C++ Libraries collection.
+ .
+ The Boost Filesystem Library provides portable facilities to query and
+ manipulate paths, files, and directories.  The goal is to
+ facilitate portable script-like operations from within C++ programs.
+
+Package: libboost-iostreams1.71-dev
+Version: 1.71.0-6ubuntu6
+Priority: optional
+Section: universe/libdevel
+Source: boost1.71
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Boost Team <team+boost@tracker.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 2,520 kB
+Depends: libboost1.71-dev (= 1.71.0-6ubuntu6), libboost-regex1.71-dev (= 1.71.0-6ubuntu6), libboost-iostreams1.71.0 (= 1.71.0-6ubuntu6)
+Conflicts: libboost-iostreams1.42-dev, libboost-iostreams1.46-dev, libboost-iostreams1.48-dev, libboost-iostreams1.49-dev, libboost-iostreams1.50-dev, libboost-iostreams1.52-dev, libboost-iostreams1.53-dev, libboost-iostreams1.54-dev, libboost-iostreams1.55-dev, libboost-iostreams1.57-dev, libboost-iostreams1.58-dev, libboost-iostreams1.60-dev, libboost-iostreams1.61-dev, libboost-iostreams1.62-dev, libboost-iostreams1.63-dev, libboost-iostreams1.65-dev, libboost-iostreams1.67-dev, libboost-iostreams1.70-dev
+Homepage: http://www.boost.org/libs/iostreams/
+Download-Size: 246 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal/universe amd64 Packages
+Description: Boost.Iostreams Library development files
+ This package forms part of the Boost C++ Libraries collection.
+ .
+ Boost.Iostreams are a collection of concepts and a set of templates
+ which turn models of these concepts into C++ standard library streams
+ and stream buffers.
+
+Package: libboost-iostreams1.71.0
+Version: 1.71.0-6ubuntu6
+Priority: optional
+Section: libs
+Source: boost1.71
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Boost Team <team+boost@tracker.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 2,161 kB
+Depends: libbz2-1.0, libc6 (>= 2.14), libgcc-s1 (>= 3.0), liblzma5 (>= 5.2.2), libstdc++6 (>= 5.2), libzstd1 (>= 1.3.2), zlib1g (>= 1:1.1.4)
+Homepage: http://www.boost.org/libs/iostreams/
+Task: samba-server, ubuntu-desktop, ubuntu-desktop-default-languages, ubuntu-desktop-default-languages, ubuntu-desktop-default-languages, ubuntu-desktop-default-languages, ubuntu-desktop-default-languages, ubuntu-desktop-default-languages, ubuntu-desktop-default-languages, ubuntu-desktop-default-languages, kubuntu-desktop, kubuntu-full, xubuntu-desktop, lubuntu-desktop, ubuntustudio-desktop, ubuntukylin-desktop, ubuntu-mate-desktop, ubuntu-budgie-desktop
+Download-Size: 237 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal/main amd64 Packages
+Description: Boost.Iostreams Library
+ This package forms part of the Boost C++ Libraries collection.
+ .
+ Boost.Iostreams are a collection of concepts and a set of templates
+ which turn models of these concepts into C++ standard library streams
+ and stream buffers.
+
+Package: libboost-program-options1.71-dev
+Version: 1.71.0-6ubuntu6
+Priority: optional
+Section: libdevel
+Source: boost1.71
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Boost Team <team+boost@tracker.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 3,755 kB
+Depends: libboost1.71-dev (= 1.71.0-6ubuntu6), libboost-program-options1.71.0 (= 1.71.0-6ubuntu6)
+Conflicts: libboost-program-options1.42-dev, libboost-program-options1.46-dev, libboost-program-options1.48-dev, libboost-program-options1.49-dev, libboost-program-options1.50-dev, libboost-program-options1.52-dev, libboost-program-options1.53-dev, libboost-program-options1.54-dev, libboost-program-options1.55-dev, libboost-program-options1.57-dev, libboost-program-options1.58-dev, libboost-program-options1.60-dev, libboost-program-options1.61-dev, libboost-program-options1.62-dev, libboost-program-options1.63-dev, libboost-program-options1.65-dev, libboost-program-options1.67-dev, libboost-program-options1.70-dev
+Homepage: http://www.boost.org/libs/program_options/
+Download-Size: 374 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal/main amd64 Packages
+Description: program options library for C++
+ This package forms part of the Boost C++ Libraries collection.
+ .
+ Library to let program developers obtain program options, that is
+ (name, value) pairs from the user, via conventional methods such as
+ command line and config file.
+
+Package: libboost-program-options1.71.0
+Version: 1.71.0-6ubuntu6
+Priority: optional
+Section: libs
+Source: boost1.71
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Boost Team <team+boost@tracker.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 2,587 kB
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2)
+Homepage: http://www.boost.org/libs/program_options/
+Download-Size: 342 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal/main amd64 Packages
+Description: program options library for C++
+ This package forms part of the Boost C++ Libraries collection.
+ .
+ Library to let program developers obtain program options, that is
+ (name, value) pairs from the user, via conventional methods such as
+ command line and config file.
+
+Package: libboost-python1.71-dev
+Version: 1.71.0-6ubuntu6
+Priority: optional
+Section: universe/libdevel
+Source: boost1.71
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Boost Team <team+boost@tracker.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 2,717 kB
+Depends: libboost1.71-dev (= 1.71.0-6ubuntu6), libboost-python1.71.0 (= 1.71.0-6ubuntu6), python3-dev
+Suggests: libboost1.71-doc, gccxml
+Conflicts: libboost-python1.42-dev, libboost-python1.46-dev, libboost-python1.48-dev, libboost-python1.49-dev, libboost-python1.50-dev, libboost-python1.52-dev, libboost-python1.53-dev, libboost-python1.54-dev, libboost-python1.55-dev, libboost-python1.57-dev, libboost-python1.58-dev, libboost-python1.60-dev, libboost-python1.61-dev, libboost-python1.62-dev, libboost-python1.63-dev, libboost-python1.65-dev, libboost-python1.67-dev, libboost-python1.70-dev
+Homepage: http://www.boost.org/libs/python/
+Download-Size: 300 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal/universe amd64 Packages
+Description: Boost.Python Library development files
+ This package forms part of the Boost C++ Libraries collection.
+ .
+ The Boost Python Library is used to quickly and easily export a C++
+ library to Python such that the Python interface is very similar to
+ the C++ interface. It is designed to be minimally intrusive on your
+ C++ design. In most cases, you should not have to alter your C++
+ classes in any way in order to use them with Boost.Python.  The
+ system should simply "reflect" your C++ classes and functions into
+ Python. The major features of Boost.Python include support for:
+ Subclassing extension types in Python, Overriding virtual functions
+ in Python, Member function Overloading, Automatic wrapping of
+ numeric operators among others.
+ .
+ This package allows development of a Python interface for all current
+ versions of Python in Debian.  Code using this library will need also
+ one of the Python development packages.
+
+Package: libboost-python1.71.0
+Version: 1.71.0-6ubuntu6
+Priority: optional
+Section: libs
+Source: boost1.71
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Boost Team <team+boost@tracker.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 2,266 kB
+Provides: libboost-python1.71.0-py38
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2)
+Suggests: python3
+Homepage: http://www.boost.org/libs/python/
+Task: lubuntu-live
+Download-Size: 278 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal/main amd64 Packages
+Description: Boost.Python Library
+ This package forms part of the Boost C++ Libraries collection.
+ .
+ The Boost Python Library is used to quickly and easily export a C++
+ library to Python such that the Python interface is very similar to
+ the C++ interface. It is designed to be minimally intrusive on your
+ C++ design. In most cases, you should not have to alter your C++
+ classes in any way in order to use them with Boost.Python.  The
+ system should simply "reflect" your C++ classes and functions into
+ Python. The major features of Boost.Python include support for:
+ Subclassing extension types in Python, Overriding virtual functions
+ in Python, Member function Overloading, Automatic wrapping of
+ numeric operators among others.
+ .
+ One of the python interpreter packages is required to use the
+ created extensions.
+
+Package: libboost-regex1.71-dev
+Version: 1.71.0-6ubuntu6
+Priority: optional
+Section: universe/libdevel
+Source: boost1.71
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Boost Team <team+boost@tracker.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 5,356 kB
+Depends: libboost1.71-dev (= 1.71.0-6ubuntu6), libboost-regex1.71.0 (= 1.71.0-6ubuntu6), libicu-dev
+Conflicts: libboost-regex1.42-dev, libboost-regex1.46-dev, libboost-regex1.48-dev, libboost-regex1.49-dev, libboost-regex1.50-dev, libboost-regex1.52-dev, libboost-regex1.53-dev, libboost-regex1.54-dev, libboost-regex1.55-dev, libboost-regex1.57-dev, libboost-regex1.58-dev, libboost-regex1.60-dev, libboost-regex1.61-dev, libboost-regex1.62-dev, libboost-regex1.63-dev, libboost-regex1.65-dev, libboost-regex1.67-dev, libboost-regex1.70-dev
+Homepage: http://www.boost.org/libs/regex/
+Download-Size: 557 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal/universe amd64 Packages
+Description: regular expression library for C++
+ This package forms part of the Boost C++ Libraries collection.
+ .
+ Regular expressions are a form of pattern-matching that are often
+ used in text processing; many users will be familiar with the Unix
+ utilities grep, sed and awk, and the programming language perl, each
+ of which make extensive use of regular expressions. Traditionally C++
+ users have been limited to the POSIX C APIs for manipulating regular
+ expressions, and while regex does provide these APIs, they do not
+ represent the best way to use the library. For example regex can cope
+ with wide character strings, or search and replace operations (in a
+ manner analogous to either sed or perl), something that traditional C
+ libraries can not do.
+
+Package: libboost-regex1.71.0
+Version: 1.71.0-6ubuntu6
+Priority: optional
+Section: universe/libs
+Source: boost1.71
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Boost Team <team+boost@tracker.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 3,052 kB
+Provides: libboost-regex1.71.0-icu66
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libicu66 (>= 66.1-1~), libstdc++6 (>= 9)
+Homepage: http://www.boost.org/libs/regex/
+Download-Size: 471 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal/universe amd64 Packages
+Description: regular expression library for C++
+ This package forms part of the Boost C++ Libraries collection.
+ .
+ Regular expressions are a form of pattern-matching that are often
+ used in text processing; many users will be familiar with the Unix
+ utilities grep, sed and awk, and the programming language perl, each
+ of which make extensive use of regular expressions. Traditionally C++
+ users have been limited to the POSIX C APIs for manipulating regular
+ expressions, and while regex does provide these APIs, they do not
+ represent the best way to use the library. For example regex can cope
+ with wide character strings, or search and replace operations (in a
+ manner analogous to either sed or perl), something that traditional C
+ libraries can not do.
+
+Package: libboost-system1.71-dev
+Version: 1.71.0-6ubuntu6
+Priority: optional
+Section: libdevel
+Source: boost1.71
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Boost Team <team+boost@tracker.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 2,016 kB
+Depends: libboost1.71-dev (= 1.71.0-6ubuntu6), libboost-system1.71.0 (= 1.71.0-6ubuntu6)
+Conflicts: libboost-system1.42-dev, libboost-system1.46-dev, libboost-system1.48-dev, libboost-system1.49-dev, libboost-system1.50-dev, libboost-system1.52-dev, libboost-system1.53-dev, libboost-system1.54-dev, libboost-system1.55-dev, libboost-system1.57-dev, libboost-system1.58-dev, libboost-system1.60-dev, libboost-system1.61-dev, libboost-system1.62-dev, libboost-system1.63-dev, libboost-system1.65-dev, libboost-system1.67-dev, libboost-system1.70-dev
+Homepage: http://www.boost.org/libs/system/
+Download-Size: 205 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal/main amd64 Packages
+Description: Operating system (e.g. diagnostics support) library
+ This package forms part of the Boost C++ Libraries collection.
+ .
+ The Boost System library provides simple, light-weight error_code
+ objects that encapsulate system-specific error code values, yet also
+ provide access to more abstract and portable error conditions via
+ error_condition objects. Because error_code objects can represent
+ errors from sources other than the operating system, including
+ user-defined sources, each error_code and error_condition has an
+ associated error_category.
+
+Package: libboost-system1.71.0
+Version: 1.71.0-6ubuntu6
+Priority: optional
+Section: libs
+Source: boost1.71
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Boost Team <team+boost@tracker.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 2,020 kB
+Homepage: http://www.boost.org/libs/system/
+Download-Size: 205 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal/main amd64 Packages
+Description: Operating system (e.g. diagnostics support) library
+ This package forms part of the Boost C++ Libraries collection.
+ .
+ The Boost System library provides simple, light-weight error_code
+ objects that encapsulate system-specific error code values, yet also
+ provide access to more abstract and portable error conditions via
+ error_condition objects. Because error_code objects can represent
+ errors from sources other than the operating system, including
+ user-defined sources, each error_code and error_condition has an
+ associated error_category.
+
+Package: libboost-thread1.71.0
+Version: 1.71.0-6ubuntu6
+Priority: optional
+Section: libs
+Source: boost1.71
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Boost Team <team+boost@tracker.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 2,181 kB
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 9)
+Homepage: http://www.boost.org/libs/thread/
+Task: ubuntu-desktop-minimal, samba-server, ubuntu-desktop, kubuntu-desktop, kubuntu-full, xubuntu-desktop, lubuntu-desktop, ubuntustudio-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop
+Download-Size: 249 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal/main amd64 Packages
+Description: portable C++ multi-threading
+ This package forms part of the Boost C++ Libraries collection.
+ .
+ Toolkit for writing C++ programs that execute as multiple,
+ asynchronous, independent, threads-of-execution. Each thread has its
+ own machine state including program instruction counter and
+ registers.
+
+Package: libboost1.71-dev
+Version: 1.71.0-6ubuntu6
+Priority: optional
+Section: libdevel
+Source: boost1.71
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Boost Team <team+boost@tracker.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 138 MB
+Depends: libstdc++-dev
+Suggests: libboost1.71-doc, libboost-atomic1.71-dev, libboost-chrono1.71-dev, libboost-container1.71-dev, libboost-context1.71-dev, libboost-contract1.71-dev, libboost-coroutine1.71-dev, libboost-date-time1.71-dev, libboost-exception1.71-dev, libboost-fiber1.71-dev, libboost-filesystem1.71-dev, libboost-graph1.71-dev, libboost-graph-parallel1.71-dev, libboost-iostreams1.71-dev, libboost-locale1.71-dev, libboost-log1.71-dev, libboost-math1.71-dev, libboost-mpi1.71-dev, libboost-mpi-python1.71-dev, libboost-numpy1.71-dev, libboost-program-options1.71-dev, libboost-python1.71-dev, libboost-random1.71-dev, libboost-regex1.71-dev, libboost-serialization1.71-dev, libboost-stacktrace1.71-dev, libboost-system1.71-dev, libboost-test1.71-dev, libboost-thread1.71-dev, libboost-timer1.71-dev, libboost-type-erasure1.71-dev, libboost-wave1.71-dev, libboost1.71-tools-dev, libmpfrc++-dev, libntl-dev
+Conflicts: bjam, boost-build, libboost1.42-dev, libboost1.46-dev, libboost1.48-dev, libboost1.49-dev, libboost1.50-dev, libboost1.52-dev, libboost1.53-dev, libboost1.54-dev, libboost1.55-dev, libboost1.57-dev, libboost1.58-dev, libboost1.60-dev, libboost1.61-dev, libboost1.62-dev, libboost1.63-dev, libboost1.65-dev, libboost1.67-dev, libboost1.70-dev
+Homepage: https://www.boost.org/
+Download-Size: 9,068 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal/main amd64 Packages
+Description: Boost C++ Libraries development files
+ The Boost web site provides free, peer-reviewed, portable C++ source
+ libraries. The emphasis is on libraries which work well with the C++
+ Standard Library. One goal is to establish "existing practice" and
+ provide reference implementations so that the Boost libraries are
+ suitable for eventual standardization. Some of the libraries have
+ already been proposed for inclusion in the C++ Standards Committee's
+ upcoming C++ Standard Library Technical Report.
+ .
+ This package provides headers for all Boost libraries.
+ .
+ Extended precision arithmetic package libmpfrc++-dev or libntl-dev is
+ required to use the Boost.Multiprecision wrapping of the respective
+ library.
+
+Package: libcamel-1.2-62
+Version: 3.36.5-0ubuntu1
+Priority: optional
+Section: libs
+Source: evolution-data-server
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 1,533 kB
+Depends: libc6 (>= 2.15), libglib2.0-0 (>= 2.41.1), libgssapi-krb5-2 (>= 1.17), libicu66 (>= 66.1-1~), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.13.4-2~), libsqlite3-0 (>= 3.6.0), zlib1g (>= 1:1.1.4)
+Homepage: https://wiki.gnome.org/Apps/Evolution
+Task: ubuntu-desktop-minimal, ubuntu-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop
+Download-Size: 433 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages
+Description: Evolution MIME message handling library
+ Camel is a generic messaging library. It supports the standard
+ messaging system for receiving and sending messages. It is the
+ messaging backend for Evolution.
+ .
+ Evolution is the integrated mail, calendar, task and address book
+ distributed suite from Novell, Inc.
+
+Package: libcapstone3
+Version: 4.0.1+really+3.0.5-1build1
+Priority: optional
+Section: universe/libs
+Source: capstone
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Security Tools <team+pkg-security@tracker.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 2,780 kB
+Depends: libc6 (>= 2.14)
+Homepage: http://www.capstone-engine.org/
+Download-Size: 435 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal/universe amd64 Packages
+Description: lightweight multi-architecture disassembly framework - library
+ Capstone is a lightweight multi-platform, multi-architecture disassembly
+ framework.
+ .
+ Features:
+  - Support hardware architectures: ARM, ARM64 (aka ARMv8), Mips, PowerPC &
+ Intel.
+  - Clean/simple/lightweight/intuitive architecture-neutral API.
+  - Provide details on disassembled instructions (called "decomposer" by some
+ others).
+  - Provide some semantics of the disassembled instruction, such as list of
+ implicit registers read & written.
+  - Implemented in pure C language, with bindings for Java, OCaml and Python
+ ready to use and Ruby, C#, GO & Vala available on git repos.
+  - Native support for Windows & *nix (with OS X, Linux, *BSD & Solaris
+ confirmed).
+  - Thread-safe by design.
+  - Special support for embedding into firmware or OS kernel.
+  - Distributed under the open source BSD license.
+
+Package: libcbor0.6
+Version: 0.6.0-0ubuntu1
+Priority: standard
+Section: libs
+Source: libcbor
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Vincent Bernat <bernat@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 84.0 kB
+Depends: libc6 (>= 2.14)
+Homepage: https://github.com/PJK/libcbor
+Task: standard, ubuntu-core
+Download-Size: 21.1 kB
+APT-Manual-Installed: yes
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal/main amd64 Packages
+Description: library for parsing and generating CBOR (RFC 7049)
+ CBOR is a general-purpose schema-less binary data format, defined in
+ RFC 7049. This package provides a C library for parsing and generating
+ CBOR. The main features are:
+ .
+  - Complete RFC conformance
+  - Robust C99 implementation
+  - Layered architecture offers both control and convenience
+  - Flexible memory management
+  - No shared global state - threading friendly
+  - Proper handling of UTF-8
+  - Full support for streams & incremental processing
+  - Extensive documentation and test suite
+  - No runtime dependencies, small footprint
+ .
+ This package contains the runtime library.
+
+Package: libcdio18
+Version: 2.0.0-2
+Priority: optional
+Section: libs
+Source: libcdio
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian QA Group <packages@qa.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 314 kB
+Depends: libc6 (>= 2.27)
+Homepage: http://www.gnu.org/software/libcdio/
+Task: ubuntu-desktop-minimal, ubuntu-desktop, xubuntu-desktop, lubuntu-desktop, ubuntustudio-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop
+Download-Size: 58.6 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal/main amd64 Packages
+Description: library to read and control CD-ROM
+ This library is to encapsulate CD-ROM reading and
+ control. Applications wishing to be oblivious of the OS- and
+ device-dependant properties of a CD-ROM can use this library.
+ .
+ Some support for disk image types like BIN/CUE and NRG is available,
+ so applications that use this library also have the ability to read
+ disc images as though they were CD's.
+
+Package: libcodec2-0.9
+Version: 0.9.2-2
+Priority: optional
+Section: universe/libs
+Source: codec2
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: A. Maitland Bottoms <bottoms@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 14.6 MB
+Depends: libc6 (>= 2.29)
+Homepage: http://www.rowetel.com/blog/?page_id=452
+Task: lubuntu-desktop, ubuntu-mate-core, ubuntu-mate-desktop
+Download-Size: 7,886 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal/universe amd64 Packages
+Description: Codec2 runtime library
+ Next-Generation Digital Voice for Two-Way Radio
+ .
+ Codec2 is an audio codec especially designed for compressing voice at
+ very low bit-rates for applications such as digital voice radio.
+ .
+ This package contains the codec2 runtime library.
+
+Package: libcodec2-0.9:i386
+Version: 0.9.2-2
+Priority: optional
+Section: universe/libs
+Source: codec2
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: A. Maitland Bottoms <bottoms@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 14.5 MB
+Depends: libc6 (>= 2.29)
+Homepage: http://www.rowetel.com/blog/?page_id=452
+Task: lubuntu-desktop
+Download-Size: 7,878 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal/universe i386 Packages
+Description: Codec2 runtime library
+ Next-Generation Digital Voice for Two-Way Radio
+ .
+ Codec2 is an audio codec especially designed for compressing voice at
+ very low bit-rates for applications such as digital voice radio.
+ .
+ This package contains the codec2 runtime library.
+
+Package: libcodec2-0.9
+Version: 0.9.2-2
+Priority: optional
+Section: universe/libs
+Source: codec2
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: A. Maitland Bottoms <bottoms@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 14.6 MB
+Depends: libc6 (>= 2.29)
+Homepage: http://www.rowetel.com/blog/?page_id=452
+Task: lubuntu-desktop, ubuntu-mate-core, ubuntu-mate-desktop
+Download-Size: 7,886 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal/universe amd64 Packages
+Description: Codec2 runtime library
+ Next-Generation Digital Voice for Two-Way Radio
+ .
+ Codec2 is an audio codec especially designed for compressing voice at
+ very low bit-rates for applications such as digital voice radio.
+ .
+ This package contains the codec2 runtime library.
+
+Package: libdns-export1109
+Version: 1:9.11.16+dfsg-3~ubuntu1
+Priority: important
+Section: libs
+Source: bind9-libs
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian DNS Team <team+dns@tracker.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 2,352 kB
+Depends: libc6 (>= 2.14), libisc-export1105, libssl1.1 (>= 1.1.1)
+Homepage: https://www.isc.org/downloads/bind/
+Task: minimal, ubuntu-core
+Download-Size: 765 kB
+APT-Manual-Installed: yes
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages
+Description: Exported DNS Shared Library
+ The Berkeley Internet Name Domain (BIND) implements an Internet domain
+ name server.  BIND is the most widely-used name server software on the
+ Internet, and is supported by the Internet Software Consortium, www.isc.org.
+ .
+ This package delivers the exported libdns shared library.
+
+Package: libedataserver-1.2-24
+Version: 3.36.5-0ubuntu1
+Priority: optional
+Section: libs
+Source: evolution-data-server
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 998 kB
+Depends: libc6 (>= 2.14), libcamel-1.2-62 (>= 3.19.92), libgcc-s1 (>= 3.0), libgdata22 (>= 0.15.0), libglib2.0-0 (>= 2.45.6), libicu66 (>= 66.1-1~), libjson-glib-1.0-0 (>= 0.12.0), libsecret-1-0 (>= 0.7), libsoup2.4-1 (>= 2.58.2), libstdc++6 (>= 5.2), libxml2 (>= 2.9.0), evolution-data-server-common (>= 3.36)
+Homepage: https://wiki.gnome.org/Apps/Evolution
+Task: ubuntu-desktop-minimal, ubuntu-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop
+Download-Size: 244 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages
+Description: Utility library for evolution data servers
+ The data server, called "Evolution Data Server" is responsible for managing
+ calendar and addressbook information.
+ .
+ This package is a utility library for evolution-data-server.
+
+Package: libedataserverui-1.2-2
+Version: 3.36.5-0ubuntu1
+Priority: optional
+Section: libs
+Source: evolution-data-server
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 224 kB
+Depends: libc6 (>= 2.7), libcairo2 (>= 1.2.4), libcamel-1.2-62 (>= 3.19.92), libecal-2.0-1 (>= 3.33.4), libedataserver-1.2-24 (>= 3.35.91), libgcr-base-3-1 (>= 3.8.0), libgcr-ui-3-1 (>= 3.8.0), libglib2.0-0 (>= 2.40), libgtk-3-0 (>= 3.11.5), libpango-1.0-0 (>= 1.14.0), libsoup2.4-1 (>= 2.42), libwebkit2gtk-4.0-37 (>= 2.15.1), evolution-data-server-common (>= 3.36)
+Homepage: https://wiki.gnome.org/Apps/Evolution
+Task: ubuntu-desktop-minimal, ubuntu-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop
+Download-Size: 54.7 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages
+Description: Utility library for evolution data servers
+ The data server, called "Evolution Data Server" is responsible for managing
+ calendar and addressbook information.
+ .
+ This package is a UI utility library for evolution-data-server.
+
+Package: libemu
+Version: 1.0.3-2-focal
+Priority: extra
+Section: libs
+Maintainer: Nepenthes Development Team <nepenthesdev@gmail.com>
+Installed-Size: 2,704 kB
+Download-Size: 291 kB
+APT-Manual-Installed: yes
+APT-Sources: http://ppa.launchpad.net/remnux/stable/ubuntu focal/main amd64 Packages
+Description: libemu library
+
+Package: libemu-dev
+Version: 1.0.3-2-focal
+Priority: extra
+Section: libdevel
+Source: libemu
+Maintainer: Nepenthes Development Team <nepenthesdev@gmail.com>
+Installed-Size: 476 kB
+Depends: libemu (= 1.0.3-2-focal)
+Download-Size: 63.7 kB
+APT-Manual-Installed: yes
+APT-Sources: http://ppa.launchpad.net/remnux/stable/ubuntu focal/main amd64 Packages
+Description: libemu development files
+
+Package: libenchant1c2a
+Version: 1.6.0-11.3build1
+Priority: optional
+Section: universe/libs
+Source: enchant
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Prach Pongpanich <prach@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 261 kB
+Depends: hunspell-en-us | hunspell-dictionary | aspell-dictionary | myspell-dictionary | ispell-dictionary, libaspell15 (>= 0.60.8), libc6 (>= 2.14), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.35.9), libhunspell-1.7-0, libstdc++6 (>= 5.2), zlib1g (>= 1:1.1.4)
+Recommends: enchant
+Suggests: libenchant-voikko
+Breaks: ispell (<< 3.3.02), libenchant1, libenchant1c2
+Replaces: libenchant-dev (<< 1.1.1++cvs.2003.11.08), libenchant1, libenchant1c2
+Homepage: https://abiword.github.io/enchant/
+Task: ubuntustudio-video, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop
+Download-Size: 64.7 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal/universe amd64 Packages
+Description: Wrapper library for various spell checker engines (runtime libs)
+ Enchant is a generic spell checking library which uses existing
+ spell checker engines such as ispell, aspell and myspell as its backends.
+ .
+ Enchant steps in to provide uniformity and conformity on top of these
+ libraries, and implement certain features that may be lacking in any
+ individual provider library.
+ .
+ This package contains the shared library and non-Voikko enchant plugins.
+
+Package: libgc1c2
+Version: 1:7.6.4-0.4ubuntu1
+Priority: optional
+Section: libs
+Source: libgc
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Christoph Egger <christoph@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 392 kB
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 4.1.1)
+Conflicts: libgc1
+Replaces: libgc1, libgc1c3
+Homepage: http://www.hboehm.info/gc/
+Task: ubuntu-desktop, kubuntu-desktop, kubuntu-full, lubuntu-desktop, ubuntustudio-video, ubuntustudio-graphics, ubuntukylin-desktop, ubuntu-budgie-desktop
+Download-Size: 83.9 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal/main amd64 Packages
+Description: conservative garbage collector for C and C++
+ Boehm-Demers-Weiser's GC is a garbage collecting storage allocator that is
+ intended to be used as a plug-in replacement for C's malloc or C++'s new().
+ .
+ It allows you to allocate memory basically as you normally would without
+ explicitly deallocating memory that is no longer useful. The collector
+ automatically recycles memory when it determines that it can no longer be
+ used.
+ .
+ This version of the collector is thread safe, has C++ support and uses the
+ defaults for everything else. However, it does not work as a drop-in malloc(3)
+ replacement.
+
+Package: libgnustep-base1.26
+Version: 1.26.0-7
+Priority: optional
+Section: universe/libs
+Source: gnustep-base
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNUstep maintainers <pkg-gnustep-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 6,494 kB
+Depends: gnustep-base-common (= 1.26.0-7), libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.29), libffi7 (>= 3.3~20180313), libgcc-s1 (>= 3.0), libgnutls30 (>= 3.6.12), libicu66 (>= 66.1-1~), libobjc4 (>= 4.6), libxml2 (>= 2.9.0), libxslt1.1 (>= 1.1.25), zlib1g (>= 1:1.1.4)
+Recommends: gnustep-base-runtime (= 1.26.0-7)
+Homepage: http://gnustep.org
+Task: kubuntu-desktop, kubuntu-full, lubuntu-desktop, ubuntustudio-graphics
+Download-Size: 1,331 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal/universe amd64 Packages
+Description: GNUstep Base library
+ The GNUstep Base Library is a powerful fast library of
+ general-purpose, non-graphical Objective C classes, inspired by the
+ OpenStep API but implementing Apple and GNU additions to the API as
+ well.  It includes for example classes for unicode strings, arrays,
+ dictionaries, sets, byte streams, typed coders, invocations,
+ notifications, notification dispatchers, scanners, tasks, files,
+ networking, threading, remote object messaging support (distributed
+ objects), event loops, loadable bundles, attributed unicode strings,
+ xml, mime, user defaults.
+
+Package: libgupnp-1.2-0
+Version: 1.2.4-0ubuntu1
+Priority: optional
+Section: libs
+Source: gupnp
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 255 kB
+Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.58), libgssdp-1.2-0 (>= 1.2.3-0ubuntu0.20.04.1), libsoup2.4-1 (>= 2.48.0), libuuid1 (>= 2.16), libxml2 (>= 2.7.4), shared-mime-info
+Homepage: https://wiki.gnome.org/Projects/GUPnP
+Task: ubuntu-desktop-minimal, ubuntu-desktop, xubuntu-desktop, ubuntustudio-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop
+Download-Size: 81.3 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages
+Description: GObject-based library for UPnP
+ A GObject-based API for doing UPnP transparently.
+
+Package: libgupnp-av-1.0-2
+Version: 0.12.11-2
+Priority: optional
+Section: libs
+Source: gupnp-av
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 329 kB
+Depends: libc6 (>= 2.7), libglib2.0-0 (>= 2.38), libxml2 (>= 2.7.4)
+Homepage: http://www.gupnp.org
+Task: ubuntu-desktop-minimal, ubuntu-desktop, ubuntu-budgie-desktop
+Download-Size: 67.5 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal/main amd64 Packages
+Description: Audio/Visual utility library for GUPnP
+ An audio/visual utility library for GUPnP, providing DIDL parser/writer and
+ search criteria parser objects.
+
+Package: libgupnp-dlna-2.0-3
+Version: 0.10.5-4
+Priority: optional
+Section: libs
+Source: gupnp-dlna
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 331 kB
+Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.37.3), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.4.0), libxml2 (>= 2.7.4)
+Homepage: http://www.gupnp.org
+Task: ubuntu-desktop-minimal, ubuntu-desktop, ubuntu-budgie-desktop
+Download-Size: 50.0 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal/main amd64 Packages
+Description: DLNA utility library for GUPnP
+ A small utility library that aims to ease the DLNA-related tasks
+ such as media profile guessing, transcoding to a given profile, etc.
+
+Package: libhogweed5
+Version: 3.5.1+really3.5.1-2ubuntu0.2
+Priority: important
+Build-Essential: yes
+Section: libs
+Source: nettle
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Magnus Holmgren <holmgren@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 243 kB
+Depends: libc6 (>= 2.14), libgmp10 (>= 2:6.0.0), libnettle7 (= 3.5.1+really3.5.1-2ubuntu0.2)
+Homepage: http://www.lysator.liu.se/~nisse/nettle/
+Task: minimal
+Download-Size: 138 kB
+APT-Manual-Installed: yes
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages
+Description: low level cryptographic library (public-key cryptos)
+ Nettle is a cryptographic library that is designed to fit easily in more or
+ less any context: In crypto toolkits for object-oriented languages (C++,
+ Python, Pike, ...), in applications like LSH or GNUPG, or even in kernel
+ space.
+ .
+ It tries to solve a problem of providing a common set of cryptographic
+ algorithms for higher-level applications by implementing a
+ context-independent set of cryptographic algorithms. In that light, Nettle
+ doesn't do any memory allocation or I/O, it simply provides the
+ cryptographic algorithms for the application to use in any environment and
+ in any way it needs.
+ .
+ This package contains the asymmetric cryptographic algorithms, which,
+ require the GNU multiple precision arithmetic library (libgmp) for
+ their large integer computations.
+
+Package: libhogweed5:i386
+Version: 3.5.1+really3.5.1-2ubuntu0.2
+Priority: important
+Build-Essential: yes
+Section: libs
+Source: nettle
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Magnus Holmgren <holmgren@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 250 kB
+Depends: libc6 (>= 2.4), libgmp10 (>= 2:6.0.0), libnettle7 (= 3.5.1+really3.5.1-2ubuntu0.2)
+Homepage: http://www.lysator.liu.se/~nisse/nettle/
+Task: minimal, ubuntu-core
+Download-Size: 140 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal-updates/main i386 Packages
+Description: low level cryptographic library (public-key cryptos)
+ Nettle is a cryptographic library that is designed to fit easily in more or
+ less any context: In crypto toolkits for object-oriented languages (C++,
+ Python, Pike, ...), in applications like LSH or GNUPG, or even in kernel
+ space.
+ .
+ It tries to solve a problem of providing a common set of cryptographic
+ algorithms for higher-level applications by implementing a
+ context-independent set of cryptographic algorithms. In that light, Nettle
+ doesn't do any memory allocation or I/O, it simply provides the
+ cryptographic algorithms for the application to use in any environment and
+ in any way it needs.
+ .
+ This package contains the asymmetric cryptographic algorithms, which,
+ require the GNU multiple precision arithmetic library (libgmp) for
+ their large integer computations.
+
+Package: libicu66
+Version: 66.1-2ubuntu2.1
+Priority: important
+Section: libs
+Source: icu
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 33.6 MB
+Depends: libc6 (>= 2.29), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), tzdata (>> 2019c-3ubuntu1~)
+Breaks: libiculx63 (<< 63.1-5), openttd (<< 1.8.0-2~)
+Replaces: libiculx63 (<< 63.1-5)
+Homepage: http://www.icu-project.org
+Task: minimal
+Download-Size: 8,515 kB
+APT-Manual-Installed: yes
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages
+Description: International Components for Unicode
+ ICU is a C++ and C library that provides robust and full-featured
+ Unicode and locale support.  This package contains the runtime
+ libraries for ICU.
+
+Package: libicu66:i386
+Version: 66.1-2ubuntu2.1
+Priority: important
+Section: libs
+Source: icu
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 33.7 MB
+Depends: libc6 (>= 2.29), libgcc-s1 (>= 7), libstdc++6 (>= 5.2), tzdata (>> 2019c-3ubuntu1~)
+Breaks: libiculx63 (<< 63.1-5), openttd (<< 1.8.0-2~)
+Replaces: libiculx63 (<< 63.1-5)
+Homepage: http://www.icu-project.org
+Task: minimal
+Download-Size: 8,669 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal-updates/main i386 Packages
+Description: International Components for Unicode
+ ICU is a C++ and C library that provides robust and full-featured
+ Unicode and locale support.  This package contains the runtime
+ libraries for ICU.
+
+Package: libidn11
+Version: 1.33-2.2ubuntu2
+Priority: optional
+Section: libs
+Source: libidn
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Libidn Team <help-libidn@gnu.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 250 kB
+Depends: libc6 (>= 2.14)
+Conflicts: libidn9-dev
+Replaces: libidn11-dev
+Homepage: https://www.gnu.org/software/libidn/
+Task: print-server, ubuntu-desktop-minimal, ubuntu-desktop, mail-server, ubuntu-core, kubuntu-desktop, xubuntu-core, xubuntu-desktop, lubuntu-desktop, ubuntustudio-desktop-core, ubuntustudio-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop
+Download-Size: 46.2 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal/main amd64 Packages
+Description: GNU Libidn library, implementation of IETF IDN specifications
+ GNU Libidn is a fully documented implementation of the Stringprep,
+ Punycode and IDNA specifications.  Libidn's purpose is to encode and
+ decode internationalized domain names.  The Nameprep, XMPP, SASLprep,
+ and iSCSI profiles are supported.
+ .
+ This package contains the shared library.
+
+Package: libigdgmm11
+Version: 20.1.1+ds1-1
+Priority: optional
+Section: universe/libs
+Source: intel-gmmlib
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 473 kB
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 4.1.1)
+Homepage: https://github.com/intel/gmmlib
+Task: kubuntu-desktop, xubuntu-desktop, lubuntu-desktop, ubuntustudio-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop
+Download-Size: 111 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal/universe amd64 Packages
+Description: Intel Graphics Memory Management Library -- shared library
+ The Intel Graphics Memory Management Library provides device specific
+ and buffer management for the Intel Graphics Compute Runtime for
+ OpenCL and the Intel Media Driver for VAAPI.
+ .
+ This library is only useful for Broadwell and newer CPUs.
+ .
+ This package includes the shared library.
+
+Package: libigdgmm11:i386
+Version: 20.1.1+ds1-1
+Priority: optional
+Section: universe/libs
+Source: intel-gmmlib
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 480 kB
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.1.1)
+Homepage: https://github.com/intel/gmmlib
+Task: kubuntu-desktop, kubuntu-full, lubuntu-desktop, ubuntustudio-video, ubuntustudio-photography
+Download-Size: 121 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal/universe i386 Packages
+Description: Intel Graphics Memory Management Library -- shared library
+ The Intel Graphics Memory Management Library provides device specific
+ and buffer management for the Intel Graphics Compute Runtime for
+ OpenCL and the Intel Media Driver for VAAPI.
+ .
+ This library is only useful for Broadwell and newer CPUs.
+ .
+ This package includes the shared library.
+
+Package: libilmbase24
+Version: 2.3.0-6build1
+Priority: optional
+Section: universe/libs
+Source: ilmbase
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian PhotoTools Maintainers <pkg-phototools-devel@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 572 kB
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 6)
+Breaks: libilmbase23 (>= 2.3)
+Replaces: libilmbase23 (>= 2.3)
+Homepage: http://www.openexr.com
+Task: kubuntu-desktop, xubuntu-desktop, ubuntustudio-desktop
+Download-Size: 75.1 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal/universe amd64 Packages
+Description: several utility libraries from ILM used by OpenEXR
+ IlmBase are a set of utility libraries released by ILM, and used in
+ their OpenEXR implementation. Included in this package you can find:
+ .
+  * libHalf: a class (Half) for manipulating "half" values (16-bit
+    floating point format) as if they were a built-in C++ data type.
+ .
+  * libIlmThread: a thread abstraction library on top of pthreads.
+ .
+  * libImath: a math library with support for matrices, 2d- and
+    3d-transformations, solvers for linear/quadratic/cubic equations,
+    and more.
+ .
+  * libIex: an exception handling library.
+
+Package: libisl22
+Version: 0.22.1-1
+Priority: optional
+Build-Essential: yes
+Section: libs
+Source: isl
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 1,972 kB
+Depends: libc6 (>= 2.14), libgmp10
+Breaks: libisl-dbg (<< 0.19)
+Replaces: libisl-dbg (<< 0.19)
+Homepage: http://isl.gforge.inria.fr/
+Task: ubuntu-desktop-minimal, ubuntu-desktop, kubuntu-desktop, xubuntu-core, xubuntu-desktop, lubuntu-desktop, ubuntustudio-desktop-core, ubuntustudio-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop
+Download-Size: 592 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal/main amd64 Packages
+Description: manipulating sets and relations of integer points bounded by linear constraints
+ isl is a library for manipulating sets and relations of integer points
+ bounded by linear constraints. Supported operations on sets include
+ intersection, union, set difference, emptiness check, convex hull,
+ (integer) affine hull, integer projection, and computing the lexicographic
+ minimum using parametric integer programming. It also includes an ILP solver
+ based on generalized basis reduction.
+ .
+ This package contains the runtime library.
+
+Package: libjson-c4
+Version: 0.13.1+dfsg-7ubuntu0.3
+Priority: important
+Section: libs
+Source: json-c
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian QA Group <packages@qa.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 94.2 kB
+Depends: libc6 (>= 2.14)
+Homepage: https://github.com/json-c/json-c/wiki
+Task: minimal, ubuntu-core
+Download-Size: 29.3 kB
+APT-Manual-Installed: yes
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages
+Description: JSON manipulation library - shared library
+ This library allows you to easily construct JSON objects in C,
+ output them as JSON formatted strings and parse JSON formatted
+ strings back into the C representation of JSON objects.
+
+Package: libldap-2.4-2
+Version: 2.4.49+dfsg-2ubuntu1.9
+Priority: optional
+Section: libs
+Source: openldap
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian OpenLDAP Maintainers <pkg-openldap-devel@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 536 kB
+Depends: libc6 (>= 2.28), libgnutls30 (>= 3.6.12), libgssapi3-heimdal (>= 1.4.0+git20110226), libsasl2-2 (>= 2.1.27+dfsg), libldap-common
+Conflicts: ldap-utils (<= 2.1.23-1)
+Replaces: libldap-2.3-0, libldap2
+Homepage: http://www.openldap.org/
+Task: server, print-server, ubuntu-desktop-minimal, lamp-server, samba-server, ubuntu-desktop, cloud-image, mail-server, postgresql-server, ubuntu-core, kubuntu-desktop, xubuntu-core, xubuntu-desktop, lubuntu-desktop, ubuntustudio-desktop-core, ubuntustudio-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop
+Download-Size: 155 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages
+Description: OpenLDAP libraries
+ These are the run-time libraries for the OpenLDAP (Lightweight Directory
+ Access Protocol) servers and clients.
+
+Package: libldap-2.4-2:i386
+Version: 2.4.49+dfsg-2ubuntu1.9
+Priority: optional
+Section: libs
+Source: openldap
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian OpenLDAP Maintainers <pkg-openldap-devel@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 574 kB
+Depends: libc6 (>= 2.28), libgnutls30 (>= 3.6.12), libgssapi3-heimdal (>= 1.4.0+git20110226), libsasl2-2 (>= 2.1.27+dfsg), libldap-common
+Conflicts: ldap-utils (<= 2.1.23-1)
+Replaces: libldap-2.3-0, libldap2
+Homepage: http://www.openldap.org/
+Task: standard
+Download-Size: 168 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal-updates/main i386 Packages
+Description: OpenLDAP libraries
+ These are the run-time libraries for the OpenLDAP (Lightweight Directory
+ Access Protocol) servers and clients.
+
+Package: libldap-2.4-2
+Version: 2.4.49+dfsg-2ubuntu1.9
+Priority: optional
+Section: libs
+Source: openldap
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian OpenLDAP Maintainers <pkg-openldap-devel@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 536 kB
+Depends: libc6 (>= 2.28), libgnutls30 (>= 3.6.12), libgssapi3-heimdal (>= 1.4.0+git20110226), libsasl2-2 (>= 2.1.27+dfsg), libldap-common
+Conflicts: ldap-utils (<= 2.1.23-1)
+Replaces: libldap-2.3-0, libldap2
+Homepage: http://www.openldap.org/
+Task: server, print-server, ubuntu-desktop-minimal, lamp-server, samba-server, ubuntu-desktop, cloud-image, mail-server, postgresql-server, ubuntu-core, kubuntu-desktop, xubuntu-core, xubuntu-desktop, lubuntu-desktop, ubuntustudio-desktop-core, ubuntustudio-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop
+Download-Size: 155 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages
+Description: OpenLDAP libraries
+ These are the run-time libraries for the OpenLDAP (Lightweight Directory
+ Access Protocol) servers and clients.
+
+Package: libllvm10
+Version: 1:10.0.0-4ubuntu1
+Priority: optional
+Section: libs
+Source: llvm-toolchain-10
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 73.7 MB
+Depends: libc6 (>= 2.29), libedit2 (>= 2.11-20080614-0), libffi7 (>= 3.3~20180313), libgcc-s1 (>= 3.3), libstdc++6 (>= 9), libtinfo6 (>= 6), zlib1g (>= 1:1.2.0)
+Homepage: https://www.llvm.org/
+Task: postgresql-server, ubuntu-budgie-desktop
+Download-Size: 15.3 MB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal/main amd64 Packages
+Description: Modular compiler and toolchain technologies, runtime library
+ LLVM is a collection of libraries and tools that make it easy to build
+ compilers, optimizers, just-in-time code generators, and many other
+ compiler-related programs.
+ .
+ This package contains the LLVM runtime library.
+
+Package: libmozjs-52-0
+Version: 52.9.1-1ubuntu3
+Priority: optional
+Section: universe/libs
+Source: mozjs52
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 25.5 MB
+Depends: libc6 (>= 2.29), libgcc-s1 (>= 3.4), libstdc++6 (>= 5.2), zlib1g (>= 1:1.1.4)
+Homepage: https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
+Download-Size: 6,112 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal/universe amd64 Packages
+Description: SpiderMonkey JavaScript library
+ SpiderMonkey is the code-name for Mozilla Firefox's C++ implementation of
+ JavaScript. It is intended to be embedded in other applications
+ that provide host environments for JavaScript.
+
+Package: libmozjs-52-dev
+Version: 52.9.1-1ubuntu3
+Priority: optional
+Section: universe/libdevel
+Source: mozjs52
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 31.2 MB
+Depends: libmozjs-52-0 (= 52.9.1-1ubuntu3), libc6 (>= 2.29), libgcc-s1 (>= 3.4), libreadline8 (>= 6.0), libstdc++6 (>= 5.2), zlib1g (>= 1:1.1.4)
+Homepage: https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
+Download-Size: 6,862 kB
+APT-Manual-Installed: yes
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal/universe amd64 Packages
+Description: SpiderMonkey JavaScript library - development headers
+ SpiderMonkey is the code-name for Mozilla Firefox's C++ implementation of
+ JavaScript. It is intended to be embedded in other applications
+ that provide host environments for JavaScript.
+ .
+ This package contains the header files which are
+ needed for developing SpiderMonkey embedders.
+
+Package: libmozjs-68-0
+Version: 68.6.0-1ubuntu1
+Priority: optional
+Section: libs
+Source: mozjs68
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 11.0 MB
+Depends: libc6 (>= 2.29), libgcc-s1 (>= 3.4), libicu66 (>= 66.1-1~), libstdc++6 (>= 5.2), zlib1g (>= 1:1.1.4), tzdata
+Homepage: https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
+Task: ubuntu-desktop-minimal, ubuntu-desktop, ubuntu-budgie-desktop
+Download-Size: 3,201 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal/main amd64 Packages
+Description: SpiderMonkey JavaScript library
+ SpiderMonkey is the code-name for Mozilla Firefox's C++ implementation of
+ JavaScript. It is intended to be embedded in other applications
+ that provide host environments for JavaScript.
+
+Package: libmpdec2
+Version: 2.4.2-3
+Priority: important
+Section: libs
+Source: mpdecimal
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Matthias Klose <doko@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 249 kB
+Depends: libc6 (>= 2.14)
+Homepage: http://www.bytereef.org/mpdecimal/index.html
+Task: minimal, ubuntu-core
+Download-Size: 81.1 kB
+APT-Manual-Installed: yes
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal/main amd64 Packages
+Description: library for decimal floating point arithmetic (runtime library)
+ mpdecimal is a package for correctly-rounded arbitrary precision decimal
+ floating point arithmetic.
+
+Package: libmutter-6-0
+Version: 3.36.9-0ubuntu0.20.04.2
+Priority: optional
+Section: libs
+Source: mutter
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 3,907 kB
+Depends: adwaita-icon-theme, gsettings-desktop-schemas (>= 3.33.0), mutter-common (>= 3.36.9-0ubuntu0.20.04.2), libatk1.0-0 (>= 2.2.0), libc6 (>= 2.29), libcairo-gobject2 (>= 1.12.16), libcairo2 (>= 1.14.0), libcanberra0 (>= 0.2), libdrm2 (>= 2.4.71), libegl1, libfontconfig1 (>= 2.12.6), libfribidi0 (>= 1.0.0), libgbm1 (>= 17.1.0~rc2), libgdk-pixbuf2.0-0 (>= 2.22.0), libgl1, libglib2.0-0 (>= 2.61.1), libgnome-desktop-3-19 (>= 3.36.0), libgraphene-1.0-0 (>= 1.9.4), libgtk-3-0 (>= 3.19.12), libgudev-1.0-0 (>= 232), libice6 (>= 1:1.0.0), libinput10 (>= 1.9.2), libjson-glib-1.0-0 (>= 0.12.0), libpango-1.0-0 (>= 1.37.5), libpangocairo-1.0-0 (>= 1.18.0), libpangoft2-1.0-0 (>= 1.14.0), libsm6, libstartup-notification0 (>= 0.11), libsystemd0 (>= 213), libudev1 (>= 183), libwacom2 (>= 1.1), libwayland-server0 (>= 1.13.0), libx11-6 (>= 2:1.2.99.901), libx11-xcb1 (>= 2:1.6.9), libxau6, libxcb-randr0 (>= 1.3), libxcb-res0 (>= 1.10), libxcb1, libxcomposite1 (>= 1:0.4.5), libxcursor1 (>> 1.1.2), libxdamage1 (>= 1:1.1), libxext6 (>= 2:1.3.0), libxfixes3 (>= 1:5.0), libxi6 (>= 2:1.6.99.1), libxinerama1, libxkbcommon-x11-0 (>= 0.5.0), libxkbcommon0 (>= 0.5.0), libxkbfile1 (>= 1:1.1.0), libxrandr2 (>= 2:1.5.0), libxtst6
+Breaks: apparmor (<< 2.13.3-5~), gnome-control-center (<< 1:3.25.2), gnome-settings-daemon (<< 3.31.91), gnome-shell (<< 3.36)
+Task: ubuntu-desktop-minimal, ubuntu-desktop, ubuntu-budgie-desktop
+Download-Size: 1,168 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages
+Description: window manager library from the Mutter window manager
+ Mutter is a Wayland display server and X11 window manager and
+ compositor library. It contains functionality related to, among other
+ things, window management, window compositing, focus tracking, workspace
+ management, keybindings and monitor configuration.
+ .
+ Internally it uses a fork of Cogl, a hardware acceleration abstraction
+ library used to simplify usage of OpenGL pipelines, as well as a fork
+ of Clutter, a scene graph and user interface toolkit.
+ .
+ This package contains the window manager shared library, used by mutter
+ itself, and gnome-shell.
+
+Package: libnettle7
+Version: 3.5.1+really3.5.1-2ubuntu0.2
+Priority: important
+Build-Essential: yes
+Section: libs
+Source: nettle
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Magnus Holmgren <holmgren@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 406 kB
+Depends: libc6 (>= 2.14)
+Homepage: http://www.lysator.liu.se/~nisse/nettle/
+Task: minimal
+Download-Size: 115 kB
+APT-Manual-Installed: yes
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages
+Description: low level cryptographic library (symmetric and one-way cryptos)
+ Nettle is a cryptographic library that is designed to fit easily in more or
+ less any context: In crypto toolkits for object-oriented languages (C++,
+ Python, Pike, ...), in applications like LSH or GNUPG, or even in kernel
+ space.
+ .
+ It tries to solve a problem of providing a common set of cryptographic
+ algorithms for higher-level applications by implementing a
+ context-independent set of cryptographic algorithms. In that light, Nettle
+ doesn't do any memory allocation or I/O, it simply provides the
+ cryptographic algorithms for the application to use in any environment and
+ in any way it needs.
+ .
+ This package contains the symmetric and one-way cryptographic
+ algorithms. To avoid having this package depend on libgmp, the
+ asymmetric cryptos reside in a separate library, libhogweed.
+
+Package: libnettle7:i386
+Version: 3.5.1+really3.5.1-2ubuntu0.2
+Priority: important
+Build-Essential: yes
+Section: libs
+Source: nettle
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Magnus Holmgren <holmgren@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 429 kB
+Depends: libc6 (>= 2.4)
+Homepage: http://www.lysator.liu.se/~nisse/nettle/
+Task: minimal, ubuntu-core
+Download-Size: 132 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal-updates/main i386 Packages
+Description: low level cryptographic library (symmetric and one-way cryptos)
+ Nettle is a cryptographic library that is designed to fit easily in more or
+ less any context: In crypto toolkits for object-oriented languages (C++,
+ Python, Pike, ...), in applications like LSH or GNUPG, or even in kernel
+ space.
+ .
+ It tries to solve a problem of providing a common set of cryptographic
+ algorithms for higher-level applications by implementing a
+ context-independent set of cryptographic algorithms. In that light, Nettle
+ doesn't do any memory allocation or I/O, it simply provides the
+ cryptographic algorithms for the application to use in any environment and
+ in any way it needs.
+ .
+ This package contains the symmetric and one-way cryptographic
+ algorithms. To avoid having this package depend on libgmp, the
+ asymmetric cryptos reside in a separate library, libhogweed.
+
+Package: libntfs-3g883
+Version: 1:2017.3.23AR.3-3ubuntu1.2
+Priority: standard
+Section: libs
+Source: ntfs-3g
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 375 kB
+Depends: libc6 (>= 2.17)
+Homepage: http://jp-andre.pagesperso-orange.fr/advanced-ntfs-3g.html
+Task: standard
+Download-Size: 150 kB
+APT-Manual-Installed: yes
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages
+Description: read/write NTFS driver for FUSE (runtime library)
+ NTFS-3G uses FUSE (Filesystem in Userspace) to provide support for the NTFS
+ filesystem used by Microsoft Windows.
+ .
+ This package contains the actual library.
+
+Package: libolecf
+Version: 20210512-1ppa1~focal
+Priority: extra
+Section: libs
+Maintainer: Joachim Metz <joachim.metz@gmail.com>
+Installed-Size: 1,453 kB
+Depends: libc6 (>= 2.14)
+Suggests: libolecf-dbg
+Conflicts: libolecf1
+Replaces: libolecf1
+Download-Size: 371 kB
+APT-Manual-Installed: yes
+APT-Sources: http://ppa.launchpad.net/gift/stable/ubuntu focal/main amd64 Packages
+Description: Library to access the Object Linking and Embedding (OLE) Compound File (CF) format
+ libolecf is a library to access the Object Linking and Embedding (OLE) Compound File (CF) format.
+
+Package: libopenexr24
+Version: 2.3.0-6ubuntu0.5
+Priority: optional
+Section: universe/libs
+Source: openexr
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian PhotoTools Maintainers <pkg-phototools-devel@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 3,205 kB
+Depends: libc6 (>= 2.29), libgcc-s1 (>= 3.0), libilmbase24 (>= 2.3.0), libstdc++6 (>= 9), zlib1g (>= 1:1.2.0)
+Breaks: libopenexr23 (= 2.3.0-3)
+Replaces: libopenexr23 (= 2.3.0-3)
+Homepage: http://www.openexr.com
+Task: kubuntu-desktop, xubuntu-desktop, ubuntustudio-desktop
+Download-Size: 592 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal-updates/universe amd64 Packages
+Description: runtime files for the OpenEXR image library
+ OpenEXR is a high dynamic-range (HDR) image file format developed by
+ Industrial Light & Magic for use in computer imaging applications.
+ .
+ OpenEXR's features include:
+    * Higher dynamic range and colour precision than existing 8- and
+      10-bit image file formats.
+    * Support for the "half" 16-bit floating-point pixel format.
+    * Multiple lossless image compression algorithms. Some of the
+      included codecs can achieve 2:1 lossless compression ratios on
+      images with film grain.
+    * Extensibility. New compression codecs and image types can easily
+      be added by extending the C++ classes included in the OpenEXR
+      software distribution. New image attributes (strings, vectors,
+      integers, etc.) can be added to OpenEXR image headers without
+      affecting backward compatibility with existing OpenEXR
+      applications.
+ .
+ This package contains the following shared library:
+    * IlmImf - a library that reads and writes OpenEXR images.
+
+Package: libperl5.30
+Version: 5.30.0-9ubuntu0.2
+Priority: optional
+Build-Essential: yes
+Section: libs
+Source: perl
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Niko Tyni <ntyni@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 27.7 MB
+Depends: libbz2-1.0, libc6 (>= 2.29), libcrypt1 (>= 1:4.1.0), libdb5.3, libgdbm-compat4 (>= 1.18-3), libgdbm6 (>= 1.18-3), zlib1g (>= 1:1.2.2.3), perl-modules-5.30 (>= 5.30.0-9ubuntu0.2)
+Suggests: sensible-utils
+Breaks: libcompress-raw-bzip2-perl (<< 2.084), libcompress-raw-zlib-perl (<< 2.084), libcompress-zlib-perl (<< 2.084), libdigest-md5-perl (<< 2.55), libdigest-sha-perl (<< 6.02), libencode-perl (<< 3.01), libfilter-perl (<< 1.59), libio-compress-base-perl (<< 2.084), libio-compress-bzip2-perl (<< 2.084), libio-compress-perl (<< 2.084), libio-compress-zlib-perl (<< 2.084), libmime-base64-perl (<< 3.15), libstorable-perl (<< 3.15), libsys-syslog-perl (<< 0.35), libthreads-perl (<< 2.22), libthreads-shared-perl (<< 1.60), libtime-hires-perl (<< 1.9760), libtime-piece-perl (<< 1.3300)
+Replaces: libarchive-tar-perl (<= 1.38-2), libcompress-raw-bzip2-perl (<< 2.084), libcompress-raw-zlib-perl (<< 2.084), libcompress-zlib-perl (<< 2.084), libdigest-md5-perl (<< 2.55), libdigest-sha-perl (<< 6.02), libencode-perl (<< 3.01), libio-compress-base-perl (<< 2.084), libio-compress-bzip2-perl (<< 2.084), libio-compress-perl (<< 2.084), libio-compress-zlib-perl (<< 2.084), libmime-base64-perl (<< 3.15), libmodule-corelist-perl (<< 2.14-2), libstorable-perl (<< 3.15), libsys-syslog-perl (<< 0.35), libthreads-perl (<< 2.22), libthreads-shared-perl (<< 1.60), libtime-hires-perl (<< 1.9760), libtime-piece-perl (<< 1.3300), perl (<< 5.22.0~), perl-base (<< 5.22.0~)
+Homepage: http://dev.perl.org/perl5/
+Task: server, print-server, ubuntu-desktop-minimal, lamp-server, ubuntu-desktop, cloud-image, postgresql-server, kubuntu-desktop, xubuntu-core, xubuntu-desktop, lubuntu-desktop, ubuntustudio-desktop-core, ubuntustudio-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop
+Download-Size: 3,952 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages
+Description: shared Perl library
+ This package contains the shared Perl library, used by applications
+ which embed a Perl interpreter.
+ .
+ It also contains the architecture-dependent parts of the standard
+ library (and depends on perl-modules-5.30 which contains the
+ architecture-independent parts).
+
+Package: libperl5.30:i386
+Version: 5.30.0-9ubuntu0.2
+Priority: optional
+Build-Essential: yes
+Section: libs
+Source: perl
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Niko Tyni <ntyni@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 22.0 MB
+Depends: libbz2-1.0, libc6 (>= 2.29), libcrypt1 (>= 1:4.1.0), libdb5.3, libgdbm-compat4 (>= 1.18-3), libgdbm6 (>= 1.18-3), zlib1g (>= 1:1.2.2.3), perl-modules-5.30 (>= 5.30.0-9ubuntu0.2)
+Suggests: sensible-utils
+Breaks: libcompress-raw-bzip2-perl (<< 2.084), libcompress-raw-zlib-perl (<< 2.084), libcompress-zlib-perl (<< 2.084), libdigest-md5-perl (<< 2.55), libdigest-sha-perl (<< 6.02), libencode-perl (<< 3.01), libfilter-perl (<< 1.59), libio-compress-base-perl (<< 2.084), libio-compress-bzip2-perl (<< 2.084), libio-compress-perl (<< 2.084), libio-compress-zlib-perl (<< 2.084), libmime-base64-perl (<< 3.15), libstorable-perl (<< 3.15), libsys-syslog-perl (<< 0.35), libthreads-perl (<< 2.22), libthreads-shared-perl (<< 1.60), libtime-hires-perl (<< 1.9760), libtime-piece-perl (<< 1.3300)
+Replaces: libarchive-tar-perl (<= 1.38-2), libcompress-raw-bzip2-perl (<< 2.084), libcompress-raw-zlib-perl (<< 2.084), libcompress-zlib-perl (<< 2.084), libdigest-md5-perl (<< 2.55), libdigest-sha-perl (<< 6.02), libencode-perl (<< 3.01), libio-compress-base-perl (<< 2.084), libio-compress-bzip2-perl (<< 2.084), libio-compress-perl (<< 2.084), libio-compress-zlib-perl (<< 2.084), libmime-base64-perl (<< 3.15), libmodule-corelist-perl (<< 2.14-2), libstorable-perl (<< 3.15), libsys-syslog-perl (<< 0.35), libthreads-perl (<< 2.22), libthreads-shared-perl (<< 1.60), libtime-hires-perl (<< 1.9760), libtime-piece-perl (<< 1.3300), perl (<< 5.22.0~), perl-base (<< 5.22.0~)
+Homepage: http://dev.perl.org/perl5/
+Task: server, ubuntu-desktop-minimal, lamp-server, ubuntu-desktop, postgresql-server, kubuntu-desktop, kubuntu-full, xubuntu-core, xubuntu-desktop, lubuntu-desktop, ubuntustudio-desktop-core, ubuntustudio-desktop, ubuntustudio-fonts, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop
+Download-Size: 3,576 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal-updates/main i386 Packages
+Description: shared Perl library
+ This package contains the shared Perl library, used by applications
+ which embed a Perl interpreter.
+ .
+ It also contains the architecture-dependent parts of the standard
+ library (and depends on perl-modules-5.30 which contains the
+ architecture-independent parts).
+
+Package: libperl5.30
+Version: 5.30.0-9ubuntu0.2
+Priority: optional
+Build-Essential: yes
+Section: libs
+Source: perl
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Niko Tyni <ntyni@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 27.7 MB
+Depends: libbz2-1.0, libc6 (>= 2.29), libcrypt1 (>= 1:4.1.0), libdb5.3, libgdbm-compat4 (>= 1.18-3), libgdbm6 (>= 1.18-3), zlib1g (>= 1:1.2.2.3), perl-modules-5.30 (>= 5.30.0-9ubuntu0.2)
+Suggests: sensible-utils
+Breaks: libcompress-raw-bzip2-perl (<< 2.084), libcompress-raw-zlib-perl (<< 2.084), libcompress-zlib-perl (<< 2.084), libdigest-md5-perl (<< 2.55), libdigest-sha-perl (<< 6.02), libencode-perl (<< 3.01), libfilter-perl (<< 1.59), libio-compress-base-perl (<< 2.084), libio-compress-bzip2-perl (<< 2.084), libio-compress-perl (<< 2.084), libio-compress-zlib-perl (<< 2.084), libmime-base64-perl (<< 3.15), libstorable-perl (<< 3.15), libsys-syslog-perl (<< 0.35), libthreads-perl (<< 2.22), libthreads-shared-perl (<< 1.60), libtime-hires-perl (<< 1.9760), libtime-piece-perl (<< 1.3300)
+Replaces: libarchive-tar-perl (<= 1.38-2), libcompress-raw-bzip2-perl (<< 2.084), libcompress-raw-zlib-perl (<< 2.084), libcompress-zlib-perl (<< 2.084), libdigest-md5-perl (<< 2.55), libdigest-sha-perl (<< 6.02), libencode-perl (<< 3.01), libio-compress-base-perl (<< 2.084), libio-compress-bzip2-perl (<< 2.084), libio-compress-perl (<< 2.084), libio-compress-zlib-perl (<< 2.084), libmime-base64-perl (<< 3.15), libmodule-corelist-perl (<< 2.14-2), libstorable-perl (<< 3.15), libsys-syslog-perl (<< 0.35), libthreads-perl (<< 2.22), libthreads-shared-perl (<< 1.60), libtime-hires-perl (<< 1.9760), libtime-piece-perl (<< 1.3300), perl (<< 5.22.0~), perl-base (<< 5.22.0~)
+Homepage: http://dev.perl.org/perl5/
+Task: server, print-server, ubuntu-desktop-minimal, lamp-server, ubuntu-desktop, cloud-image, postgresql-server, kubuntu-desktop, xubuntu-core, xubuntu-desktop, lubuntu-desktop, ubuntustudio-desktop-core, ubuntustudio-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop
+Download-Size: 3,952 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages
+Description: shared Perl library
+ This package contains the shared Perl library, used by applications
+ which embed a Perl interpreter.
+ .
+ It also contains the architecture-dependent parts of the standard
+ library (and depends on perl-modules-5.30 which contains the
+ architecture-independent parts).
+
+Package: libpgm-5.2-0
+Version: 5.2.122~dfsg-3ubuntu1
+Priority: optional
+Section: universe/libs
+Source: libpgm
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 325 kB
+Depends: libc6 (>= 2.29)
+Homepage: https://github.com/steve-o/openpgm
+Task: kubuntu-desktop, kubuntu-full, xubuntu-desktop, lubuntu-desktop, ubuntustudio-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop
+Download-Size: 158 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal/universe amd64 Packages
+Description: OpenPGM shared library
+ OpenPGM is an open source implementation of the Pragmatic General Multicast
+ (PGM) specification in RFC 3208 available at www.ietf.org. PGM is a reliable
+ and scalable multicast protocol that enables receivers to detect loss,
+ request retransmission of lost data, or notify an application of
+ unrecoverable loss. PGM is a receiver-reliable protocol, which means the
+ receiver is responsible for ensuring all data is received, absolving the
+ sender of reception responsibility. PGM runs over a best effort datagram
+ service, currently OpenPGM uses IP multicast but could be implemented above
+ switched fabrics such as InfiniBand.
+ .
+ This is the runtime package for programs that use the OpenPGM library.
+
+Package: libphonenumber7
+Version: 7.1.0-5ubuntu11
+Priority: optional
+Section: libs
+Source: libphonenumber
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 953 kB
+Depends: libboost-thread1.71.0, libc6 (>= 2.14), libgcc-s1 (>= 3.0), libicu66 (>= 66.1~rc-1~), libprotobuf17, libstdc++6 (>= 9)
+Homepage: https://github.com/googlei18n/libphonenumber/
+Task: ubuntu-desktop-minimal, ubuntu-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop
+Download-Size: 196 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal/main amd64 Packages
+Description: parsing/formatting/validating phone numbers
+ Google's common C++ and Java library for parsing, formatting, storing and
+ validating international phone numbers.
+ .
+ This package contains the runtime libraries for C++ users.
+
+Package: libpoppler97
+Version: 0.86.1-0ubuntu1
+Priority: optional
+Section: libs
+Source: poppler
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian freedesktop.org maintainers <pkg-freedesktop-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 3,514 kB
+Depends: libc6 (>= 2.29), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libjpeg8 (>= 8c), liblcms2-2 (>= 2.2+git20110628), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.16), libopenjp2-7 (>= 2.0.0), libpng16-16 (>= 1.6.2-1), libstdc++6 (>= 5.2), libtiff5 (>= 4.0.3), zlib1g (>= 1:1.1.4)
+Recommends: poppler-data
+Homepage: http://poppler.freedesktop.org/
+Task: print-server, ubuntu-desktop-minimal, ubuntu-desktop, kubuntu-desktop, xubuntu-core, xubuntu-desktop, lubuntu-desktop, ubuntustudio-desktop-core, ubuntustudio-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop
+Download-Size: 915 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal/main amd64 Packages
+Description: PDF rendering library
+ Poppler is a PDF rendering library based on Xpdf PDF viewer.
+ .
+ This package contains the shared core library.
+
+Package: libprotobuf17
+Version: 3.6.1.3-2ubuntu5
+Priority: optional
+Section: libs
+Source: protobuf
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 3,132 kB
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), zlib1g (>= 1:1.1.4)
+Breaks: cura-engine (<< 1:3.3.0-2.1+b1), libarcus3 (<< 3.3.0-2)
+Homepage: https://github.com/google/protobuf/
+Task: ubuntu-desktop-minimal, ubuntu-desktop, ubuntustudio-video, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop
+Download-Size: 798 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal/main amd64 Packages
+Description: protocol buffers C++ library
+ Protocol buffers are a flexible, efficient, automated mechanism for
+ serializing structured data - similar to XML, but smaller, faster, and
+ simpler. You define how you want your data to be structured once, then you can
+ use special generated source code to easily write and read your structured
+ data to and from a variety of data streams and using a variety of languages.
+ You can even update your data structure without breaking deployed programs
+ that are compiled against the "old" format.
+ .
+ Google uses Protocol Buffers for almost all of its internal RPC protocols and
+ file formats.
+ .
+ This package contains the runtime library needed for C++ applications.
+
+Package: libpython3.8-dev
+Version: 3.8.10-0ubuntu1~20.04.5
+Priority: optional
+Section: libdevel
+Source: python3.8
+Origin: Ubuntu
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Matthias Klose <doko@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 20.0 MB
+Depends: libpython3.8-stdlib (= 3.8.10-0ubuntu1~20.04.5), libpython3.8 (= 3.8.10-0ubuntu1~20.04.5), libexpat1-dev
+Recommends: libc6-dev | libc-dev
+Download-Size: 3,951 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages
+Description: Header files and a static library for Python (v3.8)
+ Header files, a static library and development tools for building
+ Python (v3.8) modules, extending the Python interpreter or embedding
+ Python (v3.8) in applications.
+ .
+ Maintainers of Python packages should read README.maintainers.
+ .
+ This package contains development files. It is normally not
+ used on it's own, but as a dependency of python3.8-dev.
+
+Package: libpython3.8-minimal
+Version: 3.8.10-0ubuntu1~20.04.5
+Priority: important
+Section: python
+Source: python3.8
+Origin: Ubuntu
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Matthias Klose <doko@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 4,908 kB
+Depends: libc6 (>= 2.4), libssl1.1 (>= 1.1.1)
+Recommends: libpython3.8-stdlib
+Conflicts: binfmt-support (<< 1.1.2), libpython3.8-stdlib (<< 3.8.0~b1-1~)
+Breaks: libpython3.8-stdlib (<< 3.8.0~b1-1~)
+Task: minimal, ubuntu-core
+Download-Size: 717 kB
+APT-Manual-Installed: yes
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages
+Description: Minimal subset of the Python language (version 3.8)
+ This package contains some essential modules. It is normally not
+ used on it's own, but as a dependency of python3.8-minimal.
+
+Package: libpython3.8-stdlib
+Version: 3.8.10-0ubuntu1~20.04.5
+Priority: important
+Section: python
+Source: python3.8
+Origin: Ubuntu
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Matthias Klose <doko@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 8,087 kB
+Depends: libpython3.8-minimal (= 3.8.10-0ubuntu1~20.04.5), mime-support, libbz2-1.0, libc6 (>= 2.28), libcrypt1 (>= 1:4.1.0), libdb5.3, libffi7 (>= 3.3~20180313), liblzma5 (>= 5.1.1alpha+20120614), libmpdec2, libncursesw6 (>= 6), libreadline8 (>= 7.0~beta), libsqlite3-0 (>= 3.7.15), libtinfo6 (>= 6), libuuid1 (>= 2.20.1)
+Breaks: libpython3.8-testsuite (<< 3.8.0-4)
+Replaces: libpython3.8-testsuite (<< 3.8.0-4)
+Task: minimal, ubuntu-core
+Download-Size: 1,675 kB
+APT-Manual-Installed: yes
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages
+Description: Interactive high-level object-oriented language (standard library, version 3.8)
+ Python is a high-level, interactive, object-oriented language. Its 3.8 version
+ includes an extensive class library with lots of goodies for
+ network programming, system administration, sounds and graphics.
+ .
+ This package contains Python 3.8's standard library. It is normally not
+ used on its own, but as a dependency of python3.8.
+
+Package: libre2-5
+Version: 20200101+dfsg-1build1
+Built-Using: unicode-data (= 12.1.0~pre1-2)
+Priority: optional
+Section: libs
+Source: re2
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Stefano Rivera <stefanor@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 485 kB
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2)
+Breaks: libre2-dev (<< 20131024+dfsg-1~)
+Replaces: libre2-dev (<< 20131024+dfsg-1~)
+Homepage: https://github.com/google/re2
+Task: kubuntu-desktop, lubuntu-desktop, ubuntustudio-publishing
+Download-Size: 162 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal/main amd64 Packages
+Description: efficient, principled regular expression library
+ RE2 is a fast, safe, thread-friendly alternative to backtracking regular
+ expression engines like those used in PCRE, Perl, and Python. It is a C++
+ library.
+ .
+ RE2 uses automata theory to guarantee that regular expression searches run in
+ time linear in the size of the input. RE2 implements memory limits, so that
+ searches can be constrained to a fixed amount of memory. RE2 is engineered to
+ use a small fixed C++ stack footprint no matter what inputs or regular
+ expressions it must process; thus RE2 is useful in multithreaded environments
+ where thread stacks cannot grow arbitrarily large.
+ .
+ On large inputs, RE2 is often much faster than backtracking engines; its use
+ of automata theory lets it apply optimizations that the others cannot.
+
+Package: libruby2.7
+Version: 2.7.0-5ubuntu1.7
+Priority: optional
+Section: libs
+Source: ruby2.7
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 17.2 MB
+Provides: ruby-benchmark (= 0.1.0), ruby-bigdecimal (= 2.0.0), ruby-cgi (= 0.1.0), ruby-csv (= 3.1.2), ruby-date (= 3.0.0), ruby-dbm (= 1.1.0), ruby-delegate (= 0.1.0), ruby-did-you-mean (= 1.4.0), ruby-etc (= 1.1.0), ruby-fcntl (= 1.0.0), ruby-fiddle (= 1.0.0), ruby-fileutils (= 1.4.1), ruby-forwardable (= 1.3.1), ruby-gdbm (= 2.1.0), ruby-getoptlong (= 0.1.0), ruby-io-console (= 0.5.3), ruby-ipaddr (= 1.2.2), ruby-irb (= 1.2.1), ruby-json (= 2.3.0), ruby-logger (= 1.4.2), ruby-matrix (= 0.2.0), ruby-mutex-m (= 0.1.0), ruby-net-pop (= 0.1.0), ruby-net-smtp (= 0.1.0), ruby-observer (= 0.1.0), ruby-open3 (= 0.1.0), ruby-openssl (= 2.1.2), ruby-ostruct (= 0.2.0), ruby-prime (= 0.1.1), ruby-pstore (= 0.1.0), ruby-psych (= 3.1.0), ruby-racc (= 1.4.16), ruby-rdoc (= 6.2.1), ruby-readline (= 0.0.2), ruby-readline-ext (= 0.1.0), ruby-reline (= 0.1.2), ruby-rexml (= 3.2.3), ruby-rss (= 0.2.8), ruby-sdbm (= 1.0.0), ruby-singleton (= 0.1.0), ruby-stringio (= 0.1.0), ruby-strscan (= 1.0.3), ruby-timeout (= 0.1.0), ruby-tracer (= 0.1.0), ruby-uri (= 0.10.0), ruby-webrick (= 1.6.0), ruby-yaml (= 0.1.0), ruby-zlib (= 1.1.0)
+Depends: rake (>= 10.4.2), ruby-minitest (>= 5.4), ruby-net-telnet (>= 0.1.1), ruby-test-unit (>= 3.0.8~), ruby-xmlrpc (>= 0.3.0~), libc6 (>= 2.29), libcrypt1 (>= 1:4.1.0), libffi7 (>= 3.3~20180313), libgdbm-compat4 (>= 1.16), libgdbm6 (>= 1.16), libgmp10, libreadline8 (>= 6.0), libssl1.1 (>= 1.1.1), libyaml-0-2, zlib1g (>= 1:1.2.2)
+Homepage: https://www.ruby-lang.org/
+Task: ubuntu-budgie-desktop
+Download-Size: 3,533 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages
+Description: Libraries necessary to run Ruby 2.7
+ Ruby is the interpreted scripting language for quick and easy
+ object-oriented programming.  It has many features to process text
+ files and to do system management tasks (as in perl).  It is simple,
+ straight-forward, and extensible.
+ .
+ This package includes the 'libruby-2.7' library, necessary to run Ruby 2.7.
+ (API version 2.7.0)
+
+Package: libsemanage1
+Version: 3.0-1build2
+Priority: required
+Section: libs
+Source: libsemanage
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 312 kB
+Depends: libsemanage-common (= 3.0-1build2), libaudit1 (>= 1:2.2.1), libbz2-1.0, libc6 (>= 2.14), libselinux1 (>= 3.0), libsepol1 (>= 3.0)
+Breaks: policycoreutils (<< 3.0), selinux-policy-default (<< 2:2.20140421-10~), selinux-policy-mls (<< 2:2.20140421-10~)
+Homepage: http://userspace.selinuxproject.org/
+Task: minimal
+Download-Size: 85.5 kB
+APT-Manual-Installed: yes
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal/main amd64 Packages
+Description: SELinux policy management library
+ This package provides the shared libraries for SELinux policy management.
+ It uses libsepol for binary policy manipulation and libselinux for
+ interacting with the SELinux system.  It also exec's helper programs
+ for loading policy and for checking whether the file_contexts
+ configuration is valid (load_policy and setfiles from
+ policycoreutils) presently, although this may change at least for the
+ bootstrapping case
+ .
+ Security-enhanced Linux is a patch of the Linux kernel and a
+ number of utilities with enhanced security functionality designed to
+ add mandatory access controls to Linux.  The Security-enhanced Linux
+ kernel contains new architectural components originally developed to
+ improve the security of the Flask operating system. These
+ architectural components provide general support for the enforcement
+ of many kinds of mandatory access control policies, including those
+ based on the concepts of Type Enforcement, Role-based Access
+ Control, and Multi-level Security.
+
+Package: libsepol1
+Version: 3.0-1ubuntu0.1
+Priority: required
+Section: libs
+Source: libsepol
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 752 kB
+Depends: libc6 (>= 2.14)
+Homepage: http://userspace.selinuxproject.org/
+Task: minimal
+Download-Size: 252 kB
+APT-Manual-Installed: yes
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages
+Description: SELinux library for manipulating binary security policies
+ Security-enhanced Linux is a patch of the Linux kernel and a number
+ of utilities with enhanced security functionality designed to add
+ mandatory access controls to Linux.  The Security-enhanced Linux
+ kernel contains new architectural components originally developed to
+ improve the security of the Flask operating system. These
+ architectural components provide general support for the enforcement
+ of many kinds of mandatory access control policies, including those
+ based on the concepts of Type Enforcement®, Role-based Access
+ Control, and Multi-level Security.
+ .
+ libsepol provides an API for the manipulation of SELinux binary policies.
+ It is used by checkpolicy (the policy compiler) and similar tools, as well
+ as by programs like load_policy that need to perform specific transformations
+ on binary policies such as customizing policy boolean settings.
+
+Package: libsnmp35
+Version: 5.8+dfsg-2ubuntu2.4
+Priority: optional
+Section: libs
+Source: net-snmp
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Net-SNMP Packaging Team <pkg-net-snmp-devel@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 3,659 kB
+Depends: libc6 (>= 2.28), libmysqlclient21 (>= 8.0.11), libpci3 (>= 1:3.5.1), libperl5.30 (>= 5.30.0), libsensors5 (>= 1:3.5.0), libssl1.1 (>= 1.1.0), libwrap0 (>= 7.6-4~), libsnmp-base
+Homepage: http://net-snmp.sourceforge.net/
+Task: print-server, ubuntu-desktop-minimal, ubuntu-desktop, kubuntu-desktop, xubuntu-core, xubuntu-desktop, lubuntu-desktop, ubuntustudio-desktop-core, ubuntustudio-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop
+Download-Size: 979 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages
+Description: SNMP (Simple Network Management Protocol) library
+ The Simple Network Management Protocol (SNMP) provides a framework
+ for the exchange of management information between agents (servers)
+ and clients.
+ .
+ The Net-SNMP library contains common functions for the construction,
+ sending, receiving, decoding, and manipulation of the SNMP requests
+ and responses.
+
+Package: libsnmp35:i386
+Version: 5.8+dfsg-2ubuntu2.4
+Priority: optional
+Section: libs
+Source: net-snmp
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Net-SNMP Packaging Team <pkg-net-snmp-devel@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 4,214 kB
+Depends: libc6 (>= 2.28), libmysqlclient21 (>= 8.0.11), libpci3 (>= 1:3.5.1), libperl5.30 (>= 5.30.0), libsensors5 (>= 1:3.5.0), libssl1.1 (>= 1.1.0), libwrap0 (>= 7.6-4~), libsnmp-base
+Homepage: http://net-snmp.sourceforge.net/
+Task: ubuntu-mate-core, ubuntu-mate-desktop
+Download-Size: 986 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal-updates/main i386 Packages
+Description: SNMP (Simple Network Management Protocol) library
+ The Simple Network Management Protocol (SNMP) provides a framework
+ for the exchange of management information between agents (servers)
+ and clients.
+ .
+ The Net-SNMP library contains common functions for the construction,
+ sending, receiving, decoding, and manipulation of the SNMP requests
+ and responses.
+
+Package: libssl1.1
+Version: 1.1.1f-1ubuntu2.16
+Priority: important
+Section: libs
+Source: openssl
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian OpenSSL Team <pkg-openssl-devel@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 4,125 kB
+Depends: libc6 (>= 2.25), debconf (>= 0.5) | debconf-2.0
+Breaks: isync (<< 1.3.0-2), lighttpd (<< 1.4.49-2), python-boto (<< 2.44.0-1.1), python-httplib2 (<< 0.11.3-1), python-imaplib2 (<< 2.57-5), python3-boto (<< 2.44.0-1.1), python3-imaplib2 (<< 2.57-5)
+Homepage: https://www.openssl.org/
+Task: minimal
+Download-Size: 1,321 kB
+APT-Manual-Installed: yes
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages
+Description: Secure Sockets Layer toolkit - shared libraries
+ This package is part of the OpenSSL project's implementation of the SSL
+ and TLS cryptographic protocols for secure communication over the
+ Internet.
+ .
+ It provides the libssl and libcrypto shared libraries.
+
+Package: libssl1.1:i386
+Version: 1.1.1f-1ubuntu2.16
+Priority: important
+Section: libs
+Source: openssl
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian OpenSSL Team <pkg-openssl-devel@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 4,016 kB
+Depends: libc6 (>= 2.28), debconf (>= 0.5) | debconf-2.0
+Breaks: isync (<< 1.3.0-2), lighttpd (<< 1.4.49-2), python-boto (<< 2.44.0-1.1), python-httplib2 (<< 0.11.3-1), python-imaplib2 (<< 2.57-5), python3-boto (<< 2.44.0-1.1), python3-imaplib2 (<< 2.57-5)
+Homepage: https://www.openssl.org/
+Task: minimal, ubuntu-core
+Download-Size: 1,318 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal-updates/main i386 Packages
+Description: Secure Sockets Layer toolkit - shared libraries
+ This package is part of the OpenSSL project's implementation of the SSL
+ and TLS cryptographic protocols for secure communication over the
+ Internet.
+ .
+ It provides the libssl and libcrypto shared libraries.
+
+Package: libssl1.1
+Version: 1.1.1f-1ubuntu2.16
+Priority: important
+Section: libs
+Source: openssl
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian OpenSSL Team <pkg-openssl-devel@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 4,125 kB
+Depends: libc6 (>= 2.25), debconf (>= 0.5) | debconf-2.0
+Breaks: isync (<< 1.3.0-2), lighttpd (<< 1.4.49-2), python-boto (<< 2.44.0-1.1), python-httplib2 (<< 0.11.3-1), python-imaplib2 (<< 2.57-5), python3-boto (<< 2.44.0-1.1), python3-imaplib2 (<< 2.57-5)
+Homepage: https://www.openssl.org/
+Task: minimal
+Download-Size: 1,321 kB
+APT-Manual-Installed: yes
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages
+Description: Secure Sockets Layer toolkit - shared libraries
+ This package is part of the OpenSSL project's implementation of the SSL
+ and TLS cryptographic protocols for secure communication over the
+ Internet.
+ .
+ It provides the libssl and libcrypto shared libraries.
+
+Package: libtracker-control-2.0-0
+Version: 2.3.6-0ubuntu1
+Priority: optional
+Section: libs
+Source: tracker
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 95.2 kB
+Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.46.0), libtracker-sparql-2.0-0 (= 2.3.6-0ubuntu1)
+Homepage: https://wiki.gnome.org/Projects/Tracker
+Task: ubuntu-desktop-minimal, ubuntu-desktop
+Download-Size: 17.0 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages
+Description: library to control/monitor tracker miners
+ This package contains a library for managing miners, including polling
+ status and progress, pausing, resuming and more.
+ .
+ Tracker is an advanced framework for first class objects with associated
+ metadata and tags. It provides a one stop solution for all metadata, tags,
+ shared object databases, search tools and indexing.
+
+Package: libtracker-miner-2.0-0
+Version: 2.3.6-0ubuntu1
+Priority: optional
+Section: libs
+Source: tracker
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 265 kB
+Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.51.0), libtracker-sparql-2.0-0 (= 2.3.6-0ubuntu1)
+Homepage: https://wiki.gnome.org/Projects/Tracker
+Task: ubuntu-desktop-minimal, ubuntu-desktop
+Download-Size: 73.6 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages
+Description: tracker data miner library
+ This package contains the library that is used by applications that provide
+ data miners for tracker.
+ .
+ Tracker is an advanced framework for first class objects with associated
+ metadata and tags. It provides a one stop solution for all metadata, tags,
+ shared object databases, search tools and indexing.
+
+Package: libtracker-sparql-2.0-0
+Version: 2.3.6-0ubuntu1
+Priority: optional
+Section: libs
+Source: tracker
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 992 kB
+Depends: libc6 (>= 2.14), libglib2.0-0 (>= 2.51.2), libicu66 (>= 66.1-1~), libjson-glib-1.0-0 (>= 0.13.2), libsoup2.4-1 (>= 2.41.90), libsqlite3-0 (>= 3.20.0), libstemmer0d (>= 0+svn527), libuuid1 (>= 2.16), libxml2 (>= 2.7.4)
+Homepage: https://wiki.gnome.org/Projects/Tracker
+Task: ubuntu-desktop-minimal, ubuntu-desktop, ubuntustudio-video, ubuntukylin-desktop
+Download-Size: 251 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages
+Description: metadata database, indexer and search tool - library
+ This package contains a library to perform SPARQL queries and updates in the
+ Tracker store.
+ .
+ Tracker is an advanced framework for first class objects with associated
+ metadata and tags. It provides a one stop solution for all metadata, tags,
+ shared object databases, search tools and indexing.
+
+Package: libvpx6
+Version: 1.8.2-1build1
+Priority: optional
+Section: libs
+Source: libvpx
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 2,341 kB
+Depends: libc6 (>= 2.29)
+Homepage: https://www.webmproject.org
+Task: ubuntu-desktop-minimal, ubuntu-desktop, kubuntu-desktop, xubuntu-core, xubuntu-desktop, lubuntu-desktop, ubuntustudio-desktop-core, ubuntustudio-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop
+Download-Size: 820 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal/main amd64 Packages
+Description: VP8 and VP9 video codec (shared library)
+ VP8 and VP9 are open video codecs, originally developed by On2 and released
+ as open source by Google Inc. They are the successor of the VP3 codec,
+ on which the Theora codec was based.
+ .
+ This package contains the shared libraries.
+
+Package: libvpx6:i386
+Version: 1.8.2-1build1
+Priority: optional
+Section: libs
+Source: libvpx
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 2,369 kB
+Depends: libc6 (>= 2.29), libgcc-s1 (>= 4.2)
+Homepage: https://www.webmproject.org
+Task: ubuntu-desktop-minimal, ubuntu-desktop, xubuntu-desktop, lubuntu-desktop, ubuntustudio-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop
+Download-Size: 796 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal/main i386 Packages
+Description: VP8 and VP9 video codec (shared library)
+ VP8 and VP9 are open video codecs, originally developed by On2 and released
+ as open source by Google Inc. They are the successor of the VP3 codec,
+ on which the Theora codec was based.
+ .
+ This package contains the shared libraries.
+
+Package: libwacom2
+Version: 1.3-2ubuntu3
+Priority: optional
+Section: libs
+Source: libwacom
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Timo Aaltonen <tjaalton@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 72.7 kB
+Depends: libc6 (>= 2.8), libglib2.0-0 (>= 2.24.0), libgudev-1.0-0 (>= 146), libwacom-common (= 1.3-2ubuntu3)
+Recommends: libwacom-bin (= 1.3-2ubuntu3)
+Task: ubuntu-desktop-minimal, ubuntu-desktop, kubuntu-desktop, xubuntu-core, xubuntu-desktop, lubuntu-desktop, ubuntustudio-desktop-core, ubuntustudio-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop
+Download-Size: 20.0 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages
+Description: Wacom model feature query library
+ libwacom is a library to identify wacom tablets and their model-specific
+ features. It provides easy access to information such as "is this a built-in
+ on-screen tablet", "what is the size of this model", etc.
+
+Package: libwebp6
+Version: 0.6.1-2ubuntu0.20.04.1
+Priority: optional
+Section: libs
+Source: libwebp
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Jeff Breidenbach <jab@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 440 kB
+Depends: libc6 (>= 2.29)
+Homepage: https://developers.google.com/speed/webp/
+Task: print-server, ubuntu-desktop-minimal, ubuntu-desktop, kubuntu-desktop, xubuntu-core, xubuntu-desktop, lubuntu-desktop, ubuntustudio-desktop-core, ubuntustudio-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop
+Download-Size: 185 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages
+Description: Lossy compression of digital photographic images.
+ Image Compression format, based on the VP8 codec.
+ WebP uses the modern VP8 compression format to deliver efficient
+ compression of images for the web. More than 30% extra gain over
+ optimized JPEG, for same quality, is not unusual.
+
+Package: libwebp6:i386
+Version: 0.6.1-2ubuntu0.20.04.1
+Priority: optional
+Section: libs
+Source: libwebp
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Jeff Breidenbach <jab@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 488 kB
+Depends: libc6 (>= 2.29)
+Homepage: https://developers.google.com/speed/webp/
+Task: print-server, ubuntu-desktop-minimal, ubuntu-desktop, kubuntu-desktop, xubuntu-core, xubuntu-desktop, lubuntu-desktop, ubuntustudio-desktop-core, ubuntustudio-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop
+Download-Size: 195 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal-updates/main i386 Packages
+Description: Lossy compression of digital photographic images.
+ Image Compression format, based on the VP8 codec.
+ WebP uses the modern VP8 compression format to deliver efficient
+ compression of images for the web. More than 30% extra gain over
+ optimized JPEG, for same quality, is not unusual.
+
+Package: libx264-155
+Version: 2:0.155.2917+git0a84d98-2
+Priority: optional
+Section: universe/libs
+Source: x264
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 1,880 kB
+Depends: libc6 (>= 2.15)
+Homepage: http://www.videolan.org/developers/x264.html
+Task: kubuntu-desktop, kubuntu-full, lubuntu-desktop, ubuntustudio-video, ubuntustudio-audio, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop
+Download-Size: 521 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal/universe amd64 Packages
+Description: x264 video coding library
+ libx264 is an advanced encoding library for creating H.264 (MPEG-4 AVC)
+ video streams.
+ .
+ This package contains the libx264 shared library.
+
+Package: libx264-155:i386
+Version: 2:0.155.2917+git0a84d98-2
+Priority: optional
+Section: universe/libs
+Source: x264
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 3,573 kB
+Depends: libc6 (>= 2.15)
+Homepage: http://www.videolan.org/developers/x264.html
+Task: kubuntu-desktop, kubuntu-full, lubuntu-desktop, ubuntu-budgie-desktop
+Download-Size: 910 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal/universe i386 Packages
+Description: x264 video coding library
+ libx264 is an advanced encoding library for creating H.264 (MPEG-4 AVC)
+ video streams.
+ .
+ This package contains the libx264 shared library.
+
+Package: libx265-179
+Version: 3.2.1-1build1
+Priority: optional
+Section: universe/libs
+Source: x265
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 16.3 MB
+Depends: libc6 (>= 2.29), libnuma1 (>= 2.0.11), libstdc++6 (>= 4.1.1)
+Homepage: http://x265.org
+Task: kubuntu-desktop, kubuntu-full, xubuntu-desktop, lubuntu-desktop, ubuntustudio-desktop, ubuntu-mate-core, ubuntu-mate-desktop
+Download-Size: 1,060 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal/universe amd64 Packages
+Description: H.265/HEVC video stream encoder (shared library)
+ libx265 is an encoding library for creating H.265/High Efficiency Video Coding
+ (HEVC) video streams.
+ .
+ This package contains the shared library.
+
+Package: libx265-179:i386
+Version: 3.2.1-1build1
+Priority: optional
+Section: universe/libs
+Source: x265
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 3,838 kB
+Depends: libc6 (>= 2.29), libgcc-s1 (>= 4.2), libnuma1 (>= 2.0.11), libstdc++6 (>= 4.1.1)
+Homepage: http://x265.org
+Task: kubuntu-desktop, kubuntu-full, lubuntu-desktop
+Download-Size: 630 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal/universe i386 Packages
+Description: H.265/HEVC video stream encoder (shared library)
+ libx265 is an encoding library for creating H.265/High Efficiency Video Coding
+ (HEVC) video streams.
+ .
+ This package contains the shared library.
+
+Package: libyara3
+Version: 4.2.0-focal
+Priority: optional
+Section: libs
+Source: yara
+Maintainer: Debian Security Tools <team+pkg-security@tracker.debian.org>
+Installed-Size: 465 kB
+Depends: libc6 (>= 2.29), libjansson4 (>= 2.1), libmagic1 (>= 5.12), libssl1.1 (>= 1.1.0)
+Download-Size: 160 kB
+APT-Manual-Installed: no
+APT-Sources: http://ppa.launchpad.net/remnux/stable/ubuntu focal/main amd64 Packages
+Description: YARA shared library
+ YARA is a tool aimed at helping malware researchers to identify and
+ classify malware samples. With YARA, it is possible to create
+ descriptions of malware families based on textual or binary patterns
+ contained in samples of those families. Each description consists of
+ a set of strings and a Boolean expression which determines its logic.
+ .
+ Complex and powerful rules can be created by using binary strings with
+ wild-cards, case-insensitive text strings, special operators, regular
+ expressions and many other features.
+ .
+ This package provides a shared library.
+
+Package: linux-headers-5.4.0-122
+Version: 5.4.0-122.138
+Priority: optional
+Section: devel
+Source: linux
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 71.3 MB
+Depends: coreutils
+Download-Size: 11.0 MB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages
+Description: Header files related to Linux kernel version 5.4.0
+ This package provides kernel header files for version 5.4.0, for sites
+ that want the latest kernel headers. Please read
+ /usr/share/doc/linux-headers-5.4.0-122/debian.README.gz for details
+
+Package: linux-headers-5.4.0-122-generic
+Version: 5.4.0-122.138
+Priority: optional
+Section: devel
+Source: linux
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 15.0 MB
+Provides: linux-headers, linux-headers-3.0
+Depends: linux-headers-5.4.0-122, libc6 (>= 2.14), libelf1 (>= 0.142), libssl1.1 (>= 1.1.0)
+Download-Size: 1,385 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages
+Description: Linux kernel headers for version 5.4.0 on 64 bit x86 SMP
+ This package provides kernel header files for version 5.4.0 on
+ 64 bit x86 SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-5.4.0-122/debian.README.gz for details.
+
+Package: linux-image-5.4.0-122-generic
+Version: 5.4.0-122.138
+Built-Using: linux (= 5.4.0-122.138)
+Priority: optional
+Section: kernel
+Source: linux-signed
+Origin: Ubuntu
+Maintainer: Canonical Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 13.7 MB
+Provides: aufs-dkms, fuse-module, ivtv-modules, kvm-api-4, linux-image, redhat-cluster-modules, spl-dkms, spl-modules, virtualbox-guest-dkms, virtualbox-guest-modules, zfs-dkms, zfs-modules
+Depends: kmod, linux-base (>= 4.5ubuntu1~16.04.1), linux-modules-5.4.0-122-generic
+Recommends: grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo, initramfs-tools | linux-initramfs-tool
+Suggests: fdutils, linux-doc | linux-source-5.4.0, linux-tools, linux-headers-5.4.0-122-generic
+Conflicts: linux-image-unsigned-5.4.0-122-generic
+Download-Size: 10.5 MB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages
+Description: Signed kernel image generic
+ A kernel image for generic.  This version of it is signed with
+ Canonical's UEFI/Opal signing key.
+
+Package: linux-modules-5.4.0-122-generic
+Version: 5.4.0-122.138
+Priority: optional
+Section: kernel
+Source: linux
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 78.6 MB
+Download-Size: 15.0 MB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages
+Description: Linux kernel extra modules for version 5.4.0 on 64 bit x86 SMP
+ Contains the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-extra-5.4.0-122-generic
+Version: 5.4.0-122.138
+Priority: optional
+Section: kernel
+Source: linux
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 201 MB
+Depends: linux-image-5.4.0-122-generic | linux-image-unsigned-5.4.0-122-generic, crda | wireless-crda
+Download-Size: 39.2 MB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages
+Description: Linux kernel extra modules for version 5.4.0 on 64 bit x86 SMP
+ This package contains the Linux kernel extra modules for version 5.4.0 on
+ 64 bit x86 SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: mono-llvm-support
+Version: 6.12.0.182-0xamarin1+ubuntu2004b1
+Priority: optional
+Section: cli-mono
+Source: mono
+Maintainer: Debian Mono Group <pkg-mono-group@lists.alioth.debian.org>
+Installed-Size: 29.3 MB
+Depends: libc6 (>= 2.29), libgcc-s1 (>= 3.4), libstdc++6 (>= 9), mono-llvm-tools, mono-runtime-common (= 6.12.0.182-0xamarin1+ubuntu2004b1)
+Homepage: http://www.mono-project.com/Compacting_GC
+Download-Size: 8,116 kB
+APT-Manual-Installed: no
+APT-Sources: https://download.mono-project.com/repo/ubuntu stable-focal/main amd64 Packages
+Description: Mono runtime - SGen
+ Mono is a platform for running and developing applications based on the
+ ECMA/ISO Standards. Mono is an open source effort led by Xamarin.
+ Mono provides a complete CLR (Common Language Runtime) including compiler and
+ runtime, which can produce and execute CIL (Common Intermediate Language)
+ bytecode (aka assemblies), and a class library.
+ .
+ This package contains the Virtual Machine, JIT (Just-in-Time) and
+ AOT (Ahead-of-Time) code generator "mono-sgen".
+ mono-sgen executes applications for the CLI (Common Language Infrastructure).
+ Mono currently only supports the X86, PowerPC, ARM, S/390x, AMD64 and
+ MIPS architectures.
+ .
+ This package adds LLVM support to Mono (JIT and AOT)
+
+Package: mono-llvm-tools
+Version: 6.0+mono20190708165219-0xamarin2+ubuntu2004b1
+Priority: optional
+Section: devel
+Source: mono-llvm
+Maintainer: Jo Shields <joshield@microsoft.com>
+Installed-Size: 62.9 MB
+Depends: libc6 (>= 2.29), libgcc-s1 (>= 3.4), libstdc++6 (>= 9)
+Homepage: http://www.mono-project.com/docs/advanced/mono-llvm/
+Download-Size: 17.4 MB
+APT-Manual-Installed: no
+APT-Sources: https://download.mono-project.com/repo/ubuntu stable-focal/main amd64 Packages
+Description: opt and llc for Mono llvm mode
+ This package contains command-line tools needed for Mono LLVM
+ mode to operate
+
+Package: mono-roslyn
+Version: 6.12.0.182-0xamarin1+ubuntu2004b1
+Priority: optional
+Section: cli-mono
+Source: mono
+Maintainer: Debian Mono Group <pkg-mono-group@lists.alioth.debian.org>
+Installed-Size: 15.6 MB
+Depends: mono-runtime (>= 3.0~), libmono-corlib4.5-cil (>= 6.12.0.182), libmono-system-configuration4.0-cil (>= 4.0.0~alpha1), libmono-system-core4.0-cil (>= 4.0.0~alpha1), libmono-system4.0-cil (>= 4.0.0~alpha1), mono-devel, libmono-corlib4.5-cil (<< 6.12.0.183)
+Recommends: pkg-config
+Conflicts: chicken-bin
+Breaks: msbuild (<< 15.5)
+Replaces: msbuild (<< 15.5)
+Homepage: http://www.mono-project.com/
+Download-Size: 4,236 kB
+APT-Manual-Installed: no
+APT-Sources: https://download.mono-project.com/repo/ubuntu stable-focal/main amd64 Packages
+Description: Microsoft C# compiler
+ This is the Microsoft C# (C-Sharp) and VB compiler,
+ a platform-independent compiler which produces
+ CIL (Common Intermediate Language) binary executables.
+ .
+ Mono is a platform for running and developing applications based on the
+ ECMA/ISO Standards. Mono is an open source effort led by Xamarin.
+ Mono provides a complete CLR (Common Language Runtime) including compiler and
+ runtime, which can produce and execute CIL (Common Intermediate Language)
+ bytecode (aka assemblies), and a class library.
+
+Package: msbuild
+Version: 1:16.10.1+xamarinxplat.2021.05.26.14.00-0xamarin2+ubuntu2004b1
+Priority: optional
+Section: unknown
+Maintainer: Jo Shields <joshield@microsoft.com>
+Installed-Size: 46.9 MB
+Depends: mono-runtime (>= 3.0~), libmono-corlib4.5-cil (>= 4.0.0~alpha1), libmono-microsoft-build-framework4.0-cil (>= 3.6.0), libmono-microsoft-csharp4.0-cil (>= 1.0), libmono-oracle4.0-cil (>= 3.12.0), libmono-system-componentmodel-composition4.0-cil (>= 3.0.6), libmono-system-configuration4.0-cil (>= 4.0.0~alpha1), libmono-system-core4.0-cil (>= 4.0.0~alpha1), libmono-system-data4.0-cil (>= 4.0.0~alpha1), libmono-system-drawing4.0-cil (>= 3.0.6), libmono-system-identitymodel4.0-cil (>= 4.0.0~alpha1), libmono-system-io-compression-filesystem4.0-cil (>= 3.2.1), libmono-system-io-compression4.0-cil (>= 3.2.1), libmono-system-net-http4.0-cil (>= 1.0), libmono-system-net4.0-cil (>= 1.0), libmono-system-numerics4.0-cil (>= 1.0), libmono-system-reflection-context4.0-cil (>= 1.0), libmono-system-runtime-serialization4.0-cil (>= 4.0.0~alpha1), libmono-system-security4.0-cil (>= 1.0), libmono-system-servicemodel4.0a-cil (>= 3.2.3), libmono-system-serviceprocess4.0-cil (>= 3.0.6), libmono-system-transactions4.0-cil (>= 1.0), libmono-system-windows-forms4.0-cil (>= 1.0), libmono-system-xaml4.0-cil (>= 1.0), libmono-system-xml-linq4.0-cil (>= 3.0.6), libmono-system-xml4.0-cil (>= 3.12.0), libmono-system4.0-cil (>= 4.0.0~alpha1), libmono-windowsbase4.0-cil (>= 3.0.6), msbuild-libhostfxr (>= 3.0)
+Homepage: https://github.com/mono/msbuild
+Download-Size: 8,980 kB
+APT-Manual-Installed: no
+APT-Sources: https://download.mono-project.com/repo/ubuntu stable-focal/main amd64 Packages
+Description: build platform for .NET and Visual Studio
+ The Microsoft Build Engine is a platform for building applications.
+ This engine, which is also known as MSBuild, provides an XML schema
+ for a project file that controls how the build platform processes
+ and builds software. Visual Studio uses MSBuild, but MSBuild does
+ not depend on Visual Studio. By invoking msbuild.exe on your
+ project or solution file, you can orchestrate and build products
+ in environments where Visual Studio isn't installed.
+ .
+ This package contains the main msbuild build system
+
+Package: msbuild-libhostfxr
+Version: 3.0.0.2019.04.16.02.13-0xamarin4+ubuntu2004b1
+Priority: optional
+Section: libs
+Source: core-setup
+Maintainer: Jo Shields <joshield@microsoft.com>
+Installed-Size: 525 kB
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 9), msbuild-sdkresolver
+Homepage: https://github.com/dotnet/core-setup
+Download-Size: 166 kB
+APT-Manual-Installed: no
+APT-Sources: https://download.mono-project.com/repo/ubuntu stable-focal/main amd64 Packages
+Description: Helper library for MSbuild .NET Core support
+ This library helps MSbuild find .NET Core SDK installations
+
+Package: msbuild-sdkresolver
+Version: 1:16.10.1+xamarinxplat.2021.05.26.14.00-0xamarin2+ubuntu2004b1
+Priority: optional
+Section: unknown
+Source: msbuild
+Maintainer: Jo Shields <joshield@microsoft.com>
+Installed-Size: 1,016 kB
+Depends: libmono-corlib4.5-cil (>= 4.0.0~alpha1), libmono-system-core4.0-cil (>= 4.0.0~alpha1), libmono-system-data4.0-cil (>= 4.0.0~alpha1), libmono-system-numerics4.0-cil (>= 1.0), libmono-system-runtime-serialization4.0-cil (>= 4.0.0~alpha1), libmono-system-xml-linq4.0-cil (>= 3.0.6), libmono-system-xml4.0-cil (>= 3.12.0), libmono-system4.0-cil (>= 4.0.0~alpha1), msbuild-libhostfxr (>= 3.0)
+Breaks: msbuild (<< 15.3+xamarinxplat.2017.06.19.14.09)
+Replaces: msbuild (<< 15.3+xamarinxplat.2017.06.19.14.09)
+Homepage: https://github.com/mono/msbuild
+Download-Size: 257 kB
+APT-Manual-Installed: no
+APT-Sources: https://download.mono-project.com/repo/ubuntu stable-focal/main amd64 Packages
+Description: build platform for .NET and Visual Studio
+ The Microsoft Build Engine is a platform for building applications.
+ This engine, which is also known as MSBuild, provides an XML schema
+ for a project file that controls how the build platform processes
+ and builds software. Visual Studio uses MSBuild, but MSBuild does
+ not depend on Visual Studio. By invoking msbuild.exe on your
+ project or solution file, you can orchestrate and build products
+ in environments where Visual Studio isn't installed.
+ .
+ This package contains the managed portion of the helper library
+ which will auto-discover the .NET Core SDK on your system
+
+Package: msoffice-crypt
+Version: 1.1-focal
+Priority: optional
+Section: utils
+Maintainer: REMnux <distro@remnux.org>
+Installed-Size: 185 kB
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libssl1.1 (>= 1.1.0), libstdc++6 (>= 5.2), libssl-dev
+Download-Size: 70.2 kB
+APT-Manual-Installed: yes
+APT-Sources: http://ppa.launchpad.net/remnux/stable/ubuntu focal/main amd64 Packages
+Description: Encryp and decrypt OOXML Microsoft Office documents.
+
+Package: nsrllookup
+Version: 1.4.2-2-focal
+Priority: optional
+Section: utils
+Maintainer: Robert J. Hansen <rjh@sixdemonbag.org>
+Installed-Size: 326 kB
+Depends: libboost-filesystem1.71.0:amd64, libboost-program-options1.71.0:amd64, libboost-system1.71.0:amd64, libboost-program-options1.71.0, libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2)
+Download-Size: 97.2 kB
+APT-Manual-Installed: yes
+APT-Sources: http://ppa.launchpad.net/remnux/stable/ubuntu focal/main amd64 Packages
+Description: fast NSRL RDS lookups
+ Command-line client to interface with an nsrlsvr instance.
+
+Package: oledump
+Version: 0.0.67c-focal
+Priority: optional
+Section: utils
+Maintainer: REMnux Distribution <distro@remnux.org>
+Installed-Size: 458 kB
+Depends: python3-minimal
+Download-Size: 76.1 kB
+APT-Manual-Installed: yes
+APT-Sources: http://ppa.launchpad.net/remnux/stable/ubuntu focal/main amd64 Packages
+Description: Analyze OLE2 Structured Storage files.
+
+Package: perl-modules-5.30
+Version: 5.30.0-9ubuntu0.2
+Priority: optional
+Build-Essential: yes
+Section: libs
+Source: perl
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Niko Tyni <ntyni@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 17.6 MB
+Provides: perl-modules
+Pre-Depends: dpkg (>= 1.17.17)
+Depends: perl-base (>= 5.30.0-1)
+Recommends: perl (>= 5.30.0-1)
+Conflicts: perl-modules (<< 5.22.0~)
+Breaks: libansicolor-perl (<< 4.06), libarchive-tar-perl (<< 2.32), libattribute-handlers-perl (<< 1.01), libautodie-perl (<< 2.29-2), libcpan-meta-perl (<< 2.150010), libcpan-meta-requirements-perl (<< 2.140), libcpan-meta-yaml-perl (<< 0.018), libdigest-perl (<< 1.17.01), libexperimental-perl (<< 0.020), libextutils-cbuilder-perl (<< 0.280231), libextutils-command-perl (<< 7.34), libextutils-install-perl (<< 2.14), libextutils-parsexs-perl (<< 3.400000), libfile-spec-perl (<< 3.7800), libhttp-tiny-perl (<< 0.076), libi18n-langtags-perl (<< 0.43), libio-zlib-perl (<< 1.10), libjson-pp-perl (<< 4.02000), liblocale-codes-perl (<< 3.56), liblocale-maketext-perl (<< 1.29), liblocale-maketext-simple-perl (<< 0.21.01), libmath-bigint-perl (<< 1.999816), libmath-complex-perl (<< 1.5901), libmodule-corelist-perl (<< 5.20190522), libmodule-load-conditional-perl (<< 0.68), libmodule-load-perl (<< 0.34), libmodule-metadata-perl (<< 1.000036), libnet-perl (<< 1:3.11), libnet-ping-perl (<< 2.71), libparams-check-perl (<< 0.38), libparent-perl (<< 0.237), libparse-cpan-meta-perl (<< 2.150010), libperl-ostype-perl (<< 1.010), libpod-escapes-perl (<< 1.07), libpod-parser-perl (<< 1.63), libpod-simple-perl (<< 3.35), libtest-harness-perl (<< 3.42), libtest-simple-perl (<< 1.302162), libtest-tester-perl (<< 1.302162), libtest-use-ok-perl (<< 1.302162), libthread-queue-perl (<< 3.13), libtime-local-perl (<< 1.2800), libunicode-collate-perl (<< 1.27), libversion-perl (<< 1:0.9924), maildirsync (<< 1.2-2.1), perl (<< 5.30.0~), podlators-perl (<< 4.11)
+Replaces: libansicolor-perl (<< 4.06), libarchive-tar-perl (<< 2.32), libattribute-handlers-perl (<< 1.01), libautodie-perl (<< 2.29-2), libcpan-meta-perl (<< 2.150010), libcpan-meta-requirements-perl (<< 2.140), libcpan-meta-yaml-perl (<< 0.018), libdigest-perl (<< 1.17.01), libexperimental-perl (<< 0.020), libextutils-cbuilder-perl (<< 0.280231), libextutils-command-perl (<< 7.34), libextutils-install-perl (<< 2.14), libextutils-parsexs-perl (<< 3.400000), libfile-spec-perl (<< 3.7800), libhttp-tiny-perl (<< 0.076), libi18n-langtags-perl (<< 0.43), libio-zlib-perl (<< 1.10), libjson-pp-perl (<< 4.02000), liblocale-maketext-perl (<< 1.29), liblocale-maketext-simple-perl (<< 0.21.01), libmath-bigint-perl (<< 1.999816), libmath-complex-perl (<< 1.5901), libmodule-corelist-perl (<< 5.20190522), libmodule-load-conditional-perl (<< 0.68), libmodule-load-perl (<< 0.34), libmodule-metadata-perl (<< 1.000036), libnet-perl (<< 1:3.11), libnet-ping-perl (<< 2.71), libparams-check-perl (<< 0.38), libparent-perl (<< 0.237), libparse-cpan-meta-perl (<< 2.150010), libperl-ostype-perl (<< 1.010), libpod-escapes-perl (<< 1.07), libpod-parser-perl (<< 1.63), libpod-simple-perl (<< 3.35), libtest-harness-perl (<< 3.42), libtest-simple-perl (<< 1.302162), libtest-tester-perl (<< 1.302162), libtest-use-ok-perl (<< 1.302162), libthread-queue-perl (<< 3.13), libtime-local-perl (<< 1.2800), libunicode-collate-perl (<< 1.27), libversion-perl (<< 1:0.9924), perl-base (<< 5.22.0~), perl-modules, podlators-perl (<< 4.11)
+Homepage: http://dev.perl.org/perl5/
+Task: server, print-server, ubuntu-desktop-minimal, lamp-server, ubuntu-desktop, cloud-image, postgresql-server, kubuntu-desktop, xubuntu-core, xubuntu-desktop, lubuntu-desktop, ubuntustudio-desktop-core, ubuntustudio-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop
+Download-Size: 2,738 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages
+Description: Core Perl modules
+ Architecture independent Perl modules.  These modules are part of Perl and
+ required if the `perl' package is installed.
+ .
+ Note that this package only exists to save archive space and should be
+ considered an internal implementation detail of the `perl' package.
+ Other packages should not depend on `perl-modules-5.30' directly, they
+ should use `perl' (which depends on `perl-modules-5.30') instead.
+
+Package: pgadmin3
+Version: 1.22.2-6build1
+Priority: optional
+Section: universe/misc
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 14.5 MB
+Depends: pgadmin3-data (= 1.22.2-6build1), libc6 (>= 2.29), libgcc-s1 (>= 3.0), libgcrypt20 (>= 1.8.0), libpq5 (>= 8.4~), libstdc++6 (>= 5.2), libwxbase3.0-0v5 (>= 3.0.4+dfsg), libwxgtk3.0-gtk3-0v5 (>= 3.0.4+dfsg-10~), libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25)
+Recommends: postgresql-client
+Suggests: pgagent, postgresql-contrib
+Homepage: http://www.pgadmin.org/
+Download-Size: 3,409 kB
+APT-Manual-Installed: yes
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal/universe amd64 Packages
+Description: graphical administration tool for PostgreSQL
+ pgAdmin III is a database design and management application for use with
+ PostgreSQL. The application can be used to manage PostgreSQL 7.3 and above
+ and has been tested with PostgreSQL 10.
+ .
+ pgAdmin III is designed to answer the needs of all users, from writing
+ simple SQL queries to developing complex databases. The graphical
+ interface supports all PostgreSQL features and makes administration
+ easy. The application also includes a syntax highlighting SQL editor, a
+ server-side code editor, an SQL/batch/shell job scheduling agent,
+ support for the Slony-I replication engine and much more. Server
+ connection may be made using TCP/IP or Unix Domain Sockets (on *nix
+ platforms), and may be SSL encrypted for security. No additional
+ drivers are required to communicate with the database server.
+
+Package: pgadmin3-data
+Version: 1.22.2-6build1
+Priority: optional
+Section: universe/misc
+Source: pgadmin3
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 9,027 kB
+Depends: libjs-jquery, libjs-underscore
+Enhances: pgadmin3 (>= 1.22.2-6build1)
+Homepage: http://www.pgadmin.org/
+Download-Size: 1,871 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal/universe amd64 Packages
+Description: graphical administration tool for PostgreSQL - documentation
+ pgAdmin III is a database design and management application for use with
+ PostgreSQL.
+ .
+ This package contains the documentation for pgAdmin III in English language.
+ This package is mandatory to get the pgAdmin III help system to run smoothly.
+
+Package: portex
+Version: 2.0.9-focal
+Priority: optional
+Section: utils
+Maintainer: REMnux Distribution <distro@remnux.org>
+Installed-Size: 11.5 MB
+Depends: default-jre
+Download-Size: 10.2 MB
+APT-Manual-Installed: yes
+APT-Sources: http://ppa.launchpad.net/remnux/stable/ubuntu focal/main amd64 Packages
+Description: Statically analyze PE files.
+
+Package: postgresql-12
+Version: 12.11-0ubuntu0.20.04.1
+Priority: optional
+Section: database
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 41.1 MB
+Provides: postgresql-contrib-12
+Depends: locales | locales-all, postgresql-client-12, postgresql-common (>= 182~), ssl-cert, tzdata, debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.29), libgcc-s1 (>= 3.0), libgssapi-krb5-2 (>= 1.14+dfsg), libicu66 (>= 66.1-1~), libldap-2.4-2 (>= 2.4.7), libllvm10 (>= 1:9~svn298832-1~), libpam0g (>= 0.99.7.1), libpq5 (>= 9.3~), libselinux1 (>= 2.1.12), libssl1.1 (>= 1.1.0), libstdc++6 (>= 5.2), libsystemd0, libuuid1 (>= 2.16), libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25), zlib1g (>= 1:1.1.4)
+Recommends: sysstat
+Homepage: http://www.postgresql.org/
+Task: postgresql-server
+Postgresql-Catversion: 201909212
+Download-Size: 13.5 MB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages
+Description: object-relational SQL database, version 12 server
+ PostgreSQL is a powerful, open source object-relational database
+ system. It is fully ACID compliant, has full support for foreign
+ keys, joins, views, triggers, and stored procedures (in multiple
+ languages). It includes most SQL:2008 data types, including INTEGER,
+ NUMERIC, BOOLEAN, CHAR, VARCHAR, DATE, INTERVAL, and TIMESTAMP. It
+ also supports storage of binary large objects, including pictures,
+ sounds, or video. It has native programming interfaces for C/C++,
+ Java, .Net, Perl, Python, Ruby, Tcl, ODBC, among others, and
+ exceptional documentation.
+ .
+ This package provides the database server for PostgreSQL 12.
+
+Package: postgresql-client-12
+Version: 12.11-0ubuntu0.20.04.1
+Priority: optional
+Section: database
+Source: postgresql-12
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 3,785 kB
+Provides: postgresql-client
+Depends: libpq5 (>= 12.11), postgresql-client-common (>= 182~), sensible-utils, libc6 (>= 2.17), libedit2 (>= 3.1-20180525-0), zlib1g (>= 1:1.1.4)
+Suggests: postgresql-12, postgresql-doc-12
+Conflicts: postgresql-server-dev-12 (<< 12.1-2~)
+Replaces: postgresql-server-dev-12 (<< 12.1-2~)
+Homepage: http://www.postgresql.org/
+Task: postgresql-server
+Download-Size: 1,050 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages
+Description: front-end programs for PostgreSQL 12
+ This package contains client and administrative programs for
+ PostgreSQL: these are the interactive terminal client psql and
+ programs for creating and removing users and databases.
+ .
+ This is the client package for PostgreSQL 12. If you install
+ PostgreSQL 12 on a standalone machine, you need the server package
+ postgresql-12, too. On a network, you can install this package on
+ many client machines, while the server package may be installed on
+ only one machine.
+ .
+ PostgreSQL is an object-relational SQL database management system.
+
+Package: procdot
+Version: 1.22-3-focal
+Priority: optional
+Section: utils
+Maintainer: REMnux Distro <distro@remnux.org>
+Installed-Size: 22.7 MB
+Depends: tcpdump, graphviz, libgtk2.0-0:amd64, libgdk-pixbuf2.0-0:amd64, libatk1.0-0:amd64, libpangoft2-1.0-0:amd64, libpangocairo-1.0-0:amd64, libfreetype6:amd64, libfontconfig1:amd64, libx11-6:amd64, python3-easygui, libwebkit2gtk-4.0-37:amd64
+Download-Size: 9,673 kB
+APT-Manual-Installed: yes
+APT-Sources: http://ppa.launchpad.net/remnux/stable/ubuntu focal/main amd64 Packages
+Description: Visualize and examine the output of Process Monitor and network sniffer logs
+
+Package: pycdc
+Version: 1.1.1-focal
+Priority: optional
+Section: utils
+Maintainer: REMnux Distribution (https://REMnux.org) <distro@remnux.org>
+Installed-Size: 995 kB
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2)
+Download-Size: 184 kB
+APT-Manual-Installed: yes
+APT-Sources: http://ppa.launchpad.net/remnux/stable/ubuntu focal/main amd64 Packages
+Description: C++ python bytecode disassembler and decompiler
+
+Package: python-crypto
+Version: 2.6.1-13ubuntu2
+Priority: optional
+Section: universe/python
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Sebastian Ramacher <sramacher@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 1,468 kB
+Provides: python2.7-crypto
+Depends: python2 (<< 2.8), python2 (>= 2.7~), python2:any (<< 2.8), python2:any (>= 2.7~), libc6 (>= 2.14), libgmp10
+Homepage: http://www.pycrypto.org/
+Download-Size: 237 kB
+APT-Manual-Installed: yes
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal/universe amd64 Packages
+Description: cryptographic algorithms and protocols for Python
+ A collection of cryptographic algorithms and protocols, implemented
+ for use from Python. Among the contents of the package:
+ .
+  * Hash functions: HMAC, MD2, MD4, MD5, RIPEMD160, SHA, SHA256.
+  * Block encryption algorithms: AES, ARC2, Blowfish, CAST, DES, Triple-DES.
+  * Stream encryption algorithms: ARC4, simple XOR.
+  * Public-key algorithms: RSA, DSA, ElGamal.
+  * Protocols: All-or-nothing transforms, chaffing/winnowing.
+  * Miscellaneous: RFC1751 module for converting 128-bit keys
+    into a set of English words, primality testing, random number generation.
+
+Package: python-dnspython
+Version: 1.16.0-1build1
+Priority: optional
+Section: universe/python
+Source: dnspython
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 633 kB
+Depends: python2:any (<< 2.8), python2:any (>= 2.7~)
+Homepage: http://www.dnspython.org
+Download-Size: 89.1 kB
+APT-Manual-Installed: yes
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal/universe amd64 Packages
+Description: DNS toolkit for Python
+ dnspython is a DNS toolkit for Python. It supports almost all record types. It
+ can be used for queries, zone transfers, and dynamic updates. It supports TSIG
+ authenticated messages and EDNS0.
+ .
+ dnspython provides both high and low level access to DNS. The high level
+ classes perform queries for data of a given name, type, and class, and return
+ an answer set. The low level classes allow direct manipulation of DNS zones,
+ messages, names, and records.
+
+Package: python-magic
+Version: 2:0.4.15-3
+Priority: extra
+Section: universe/python
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Christoph Biedl <debian.axhn@manchmal.in-ulm.de>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 43.0 kB
+Provides: python2.7-magic
+Depends: python2:any (<< 2.8), python2:any (>= 2.7~), libmagic1
+Homepage: https://github.com/ahupp/python-magic/
+Python-Version: 2.7
+Download-Size: 9,308 B
+APT-Manual-Installed: yes
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal/universe amd64 Packages
+Description: python2 interface to the libmagic file type identification library
+ python-magic is a Python interface to the libmagic file type
+ identification library. libmagic identifies file types by checking
+ their headers according to a predefined list of file types. This
+ functionality is exposed to the command line by the Unix command file.
+ .
+ This package provides the Python 2 version of the python-magic module.
+
+Package: python-numpy
+Version: 1:1.16.5-2ubuntu7
+Priority: optional
+Section: universe/python
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Sandro Tosi <morph@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 12.1 MB
+Provides: python-f2py, python-numpy-abi9, python-numpy-api13, python-numpy-dev, python2.7-numpy
+Depends: python2 (<< 2.8), python2 (>= 2.7~), python2.7:any, python2:any (<< 2.8), python2:any (>= 2.7~), libblas3 | libblas.so.3, libc6 (>= 2.29), liblapack3 | liblapack.so.3, python-pkg-resources
+Suggests: gcc (>= 4:4.6.1-5), gfortran, python-dev, python-pytest, python-numpy-dbg, python-numpy-doc
+Breaks: python-astropy (<= 2.0.9-1), python-pbcore (<< 1.6.5+dfsg-1), python-skimage (<< 0.14.1-3), python-tables (<< 3.4.4-2), python-theano (<< 1.0.3+dfsg-1)
+Homepage: http://www.numpy.org/
+Task: ubuntustudio-video, ubuntustudio-graphics
+Download-Size: 2,144 kB
+APT-Manual-Installed: yes
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal/universe amd64 Packages
+Description: Numerical Python adds a fast array facility to the Python language
+ Numpy contains a powerful N-dimensional array object, sophisticated
+ (broadcasting) functions, tools for integrating C/C++ and Fortran
+ code, and useful linear algebra, Fourier transform, and random number
+ capabilities.
+ .
+ Numpy replaces the python-numeric and python-numarray modules which are
+ now deprecated and shouldn't be used except to support older
+ software.
+
+Package: python-olefile
+Version: 0.46-2
+Priority: optional
+Section: universe/python
+Source: olefile
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Matthias Klose <doko@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 144 kB
+Depends: python2:any (<< 2.8), python2:any (>= 2.7~)
+Homepage: http://www.decalage.info/olefile
+Download-Size: 33.7 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal/universe amd64 Packages
+Description: Python module to read/write MS OLE2 files
+ Python package to parse, read and write Microsoft OLE2 files (also called
+ Structured Storage, Compound File Binary Format or Compound Document File
+ Format), such as Microsoft Office 97-2003 documents, vbaProject.bin in
+ MS Office 2007+ files, Image Composer and FlashPix files, Outlook MSG files,
+ StickyNotes, several Microscopy file formats, McAfee antivirus quarantine
+ files, etc.
+
+Package: python-pil
+Version: 6.2.1-3
+Priority: optional
+Section: universe/python
+Source: pillow-python2
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Matthias Klose <doko@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 1,667 kB
+Provides: python-pillow, python2.7-pil
+Depends: python2 (<< 2.8), python2 (>= 2.7~), python2:any (<< 2.8), python2:any (>= 2.7~), mime-support | python-pil.imagetk, libc6 (>= 2.14), libfreetype6 (>= 2.9.1), libimagequant0 (>= 2.11.10), libjpeg8 (>= 8c), liblcms2-2 (>= 2.2+git20110628), libtiff5 (>= 4.0.3), libwebp6 (>= 0.5.1), libwebpdemux2 (>= 0.5.1), libwebpmux3 (>= 0.6.1-2), zlib1g (>= 1:1.1.4)
+Recommends: python-olefile
+Suggests: python-pil-doc, python-pil-dbg
+Breaks: python-imaging (<< 1.1.7+2.0.0-1.1), rapid-photo-downloader (<< 0.4.11), tilestache (<< 1.49.8-3)
+Replaces: python-imaging (<< 1.1.7+2.0.0-1.1)
+Homepage: http://python-pillow.github.io/
+Download-Size: 320 kB
+APT-Manual-Installed: yes
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal/universe amd64 Packages
+Description: Python Imaging Library (Pillow fork)
+ The Python Imaging Library (PIL) adds an image object to your Python
+ interpreter. You can load images from a variety of file formats, and
+ apply a rich set of image operations to them.
+ .
+ Image Objects:
+  o Bilevel, greyscale, palette, true colour (RGB), true colour with
+    transparency (RGBA).
+  o colour separation (CMYK).
+  o Copy, cut, paste operations.
+  o Flip, transpose, resize, rotate, and arbitrary affine transforms.
+  o Transparency operations.
+  o Channel and point operations.
+  o Colour transforms, including matrix operations.
+  o Image enhancement, including convolution filters.
+ .
+ File Formats:
+  o Full (Open/Load/Save): BMP, EPS (with ghostscript), GIF, IM, JPEG,
+    MSP, PDF, PNG, PPM, TIFF, XBM.
+  o Read only (Open/Load): ARG, CUR, DCX, FLI, FPX, GBR, GD, ICO, IMT, IPTC,
+    MCIDAS, MPEG, PhotoCD, PCX, PIXAR, PSD, TGA, SGI, SUN, TGA, WMF, XPM.
+  o Save only: PDF, EPS (without ghostscript).
+
+Package: python-pip-whl
+Version: 20.0.2-5ubuntu1.6
+Built-Using: appdirs (= 1.4.3-2.1), chardet (= 3.0.4-4build1), contextlib2 (= 0.6.0-2), distlib (= 0.3.0-1), html5lib (= 1.0.1-2), pep517 (= 0.8.2-1), pyparsing (= 2.4.6-1), python-cachecontrol (= 0.12.6-1ubuntu2), python-certifi (= 2019.11.28-1), python-colorama (= 0.4.3-1build1), python-distro (= 1.4.0-1), python-idna (= 2.8-1), python-ipaddr (= 2.2.0-4), python-lockfile (= 1:0.12.2-2ubuntu2), python-msgpack (= 0.6.2-1), python-packaging (= 20.3-1), python-progress (= 1.5-1), python-retrying (= 1.3.3-4), python-toml (= 0.10.0-3), python-urllib3 (= 1.25.8-2ubuntu0.1), python-webencodings (= 0.5.1-1ubuntu1), requests (= 2.22.0-2ubuntu1), setuptools (= 45.2.0-1), six (= 1.14.0-2), wheel (= 0.34.2-1)
+Priority: optional
+Section: universe/python
+Source: python-pip
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 2,311 kB
+Depends: ca-certificates
+Breaks: python3-virtualenv (<< 20.0.17-1ubuntu0.3)
+Homepage: https://pip.pypa.io/en/stable/
+Download-Size: 1,805 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal-updates/universe amd64 Packages
+Description: Python package installer
+ pip is the Python package installer.  It integrates with virtualenv, doesn't
+ do partial installs, can save package state for replaying, can install from
+ non-egg sources, and can install from version control repositories.
+ .
+ This is the support package for the PEP 427 wheel version of the package,
+ required for using pip inside a virtual environment.
+
+Package: python-pyasn1
+Version: 0.4.2-3build1
+Priority: optional
+Section: universe/python
+Source: pyasn1
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Jan Lübbe <jluebbe@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 367 kB
+Depends: python2:any (<< 2.8), python2:any (>= 2.7~)
+Breaks: python-pysnmp4 (<< 4.3.4)
+Homepage: http://pyasn1.sourceforge.net/
+Download-Size: 46.6 kB
+APT-Manual-Installed: yes
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal/universe amd64 Packages
+Description: ASN.1 library for Python (Python 2 module)
+ This  is  an implementation  of  ASN.1  types  and codecs  in  Python
+ programming language. It has been first written to support particular
+ protocol (SNMP) but then generalized  to be suitable for a wide range
+ of protocols based on ASN.1 specification.
+ .
+ This package contains the Python 2 module.
+
+Package: python3-contextvars
+Version: 2.4-1
+Priority: optional
+Section: python
+Source: contextvars
+Maintainer: Salt Stack Packaging <packaging@saltstack.com>
+Installed-Size: 27.6 kB
+Depends: python3:any (>= 3.5~), python3-immutables
+Homepage: https://github.com/MagicStack/contextvars
+Download-Size: 4,536 B
+APT-Manual-Installed: no
+APT-Sources: https://repo.saltproject.io/py3/ubuntu/20.04/amd64/3004 focal/main amd64 Packages
+Description: python contextvars library
+ This package installs the library for Python 3.
+
+Package: python3-immutables
+Version: 0.14-1
+Priority: optional
+Section: python
+Source: immutables
+Maintainer: Salt Stack Packaging <packaging@saltstack.com>
+Installed-Size: 216 kB
+Depends: python3 (<< 3.9), python3 (>= 3.8~), python3:any (>= 3.5~), libc6 (>= 2.4)
+Homepage: https://github.com/MagicStack/immutables
+Download-Size: 41.2 kB
+APT-Manual-Installed: no
+APT-Sources: https://repo.saltproject.io/py3/ubuntu/20.04/amd64/3004 focal/main amd64 Packages
+Description: python immutables library
+ This package installs the library for Python 3.
+
+Package: python3.8-minimal
+Version: 3.8.10-0ubuntu1~20.04.5
+Priority: important
+Section: python
+Source: python3.8
+Origin: Ubuntu
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Matthias Klose <doko@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 5,630 kB
+Pre-Depends: libc6 (>= 2.29)
+Depends: libpython3.8-minimal (= 3.8.10-0ubuntu1~20.04.5), libexpat1 (>= 2.1~beta3), zlib1g (>= 1:1.2.0)
+Recommends: python3.8
+Suggests: binfmt-support
+Conflicts: binfmt-support (<< 1.1.2)
+Task: minimal, ubuntu-core
+Cnf-Visible-Pkgname: python3.8
+Download-Size: 1,905 kB
+APT-Manual-Installed: yes
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages
+Description: Minimal subset of the Python language (version 3.8)
+ This package contains the interpreter and some essential modules.  It can
+ be used in the boot process for some basic tasks.
+ See /usr/share/doc/python3.8-minimal/README.Debian for a list of the modules
+ contained in this package.
+
+Package: python3.8-venv
+Version: 3.8.10-0ubuntu1~20.04.5
+Priority: optional
+Section: universe/python
+Source: python3.8
+Origin: Ubuntu
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Matthias Klose <doko@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 27.6 kB
+Depends: python3.8 (= 3.8.10-0ubuntu1~20.04.5), python-pip-whl (>= 8.1.0-2), python3.8-distutils
+Breaks: python3-pip (<< 1.5.6-4)
+Download-Size: 5,444 B
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal-updates/universe amd64 Packages
+Description: Interactive high-level object-oriented language (pyvenv binary, version 3.8)
+ Python is a high-level, interactive, object-oriented language. Its 3.8 version
+ includes an extensive class library with lots of goodies for
+ network programming, system administration, sounds and graphics.
+ .
+ This package contains the pyvenv-3.8 binary.
+
+Package: qt5-default
+Version: 5.12.8+dfsg-0ubuntu2.1
+Priority: optional
+Section: universe/libs
+Source: qtbase-opensource-src
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 170 kB
+Depends: qtbase5-dev (= 5.12.8+dfsg-0ubuntu2.1) | qtbase5-gles-dev (>= 5.12.8+dfsg), qtchooser (>= 55-gc9562a1-1~)
+Suggests: qt5-qmake, qtbase5-dev-tools
+Conflicts: qt4-default
+Homepage: https://www.qt.io/developers/
+Download-Size: 24.4 kB
+APT-Manual-Installed: yes
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal-updates/universe amd64 Packages
+Description: Qt 5 development defaults package
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package sets Qt 5 to be the default Qt version to be used when
+ using development binaries like qmake. It provides a default
+ configuration for qtchooser, but does not prevent alternative Qt
+ installations from being used.
+ .
+ This package should not be used for building Debian packages. Take a
+ look at https://qt-kde-team.pages.debian.net/packagingqtbasedstuff.html for
+ more information.
+
+Package: referenceassemblies-pcl
+Version: 2014.04.14-1xamarin7+ubuntu2004b1
+Priority: optional
+Section: non-free/cli-mono
+Maintainer: Jo Shields <jo.shields@xamarin.com>
+Installed-Size: 28.7 MB
+Depends: mono-xbuild
+Homepage: http://blogs.msdn.com/b/dotnet/archive/2013/10/14/portable-class-library-pcl-now-available-on-all-platforms.aspx
+Download-Size: 1,018 kB
+APT-Manual-Installed: no
+APT-Sources: https://download.mono-project.com/repo/ubuntu stable-focal/main amd64 Packages
+Description: Portable Library Reference Assemblies for .NET
+ The Portable Class Libraries (PCL) in .NET are powered by
+ an API contract, referred to as the "PCL Reference Assemblies".
+ .
+ This allows tools like Xamarin Studio on Mac and Linux to
+ produce portable libraries that can be used anywhere .NET or
+ Mono are supported.
+
+Package: ruby2.7
+Version: 2.7.0-5ubuntu1.7
+Priority: optional
+Section: ruby
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 207 kB
+Depends: rubygems-integration (>= 1.8), libc6 (>= 2.4), libruby2.7 (>= 2.7.0~preview1)
+Recommends: fonts-lato, libjs-jquery
+Homepage: https://www.ruby-lang.org/
+Task: ubuntu-budgie-desktop
+Download-Size: 95.6 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages
+Description: Interpreter of object-oriented scripting language Ruby
+ Ruby is the interpreted scripting language for quick and easy
+ object-oriented programming.  It has many features to process text
+ files and to do system management tasks (as in perl).  It is simple,
+ straight-forward, and extensible.
+ .
+ In the name of this package, `2.7' indicates the Ruby library compatibility
+ version. This package currently provides the `2.7.x' branch of Ruby.
+
+Package: ruby2.7-dev
+Version: 2.7.0-5ubuntu1.7
+Priority: optional
+Section: ruby
+Source: ruby2.7
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 1,443 kB
+Depends: libgmp-dev, libruby2.7 (= 2.7.0-5ubuntu1.7)
+Recommends: ruby2.7-doc
+Homepage: https://www.ruby-lang.org/
+Download-Size: 182 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages
+Description: Header files for compiling extension modules for the Ruby 2.7
+ Ruby is the interpreted scripting language for quick and easy
+ object-oriented programming.  It has many features to process text
+ files and to do system management tasks (as in perl).  It is simple,
+ straight-forward, and extensible.
+ .
+ This package contains the header files and the mkmf library, necessary
+ to make extension library for Ruby 2.7. It is also required to build
+ many gems.
+
+Package: ruby2.7-doc
+Version: 2.7.0-5ubuntu1.7
+Priority: optional
+Section: doc
+Source: ruby2.7
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 22.9 MB
+Homepage: https://www.ruby-lang.org/
+Download-Size: 2,160 kB
+APT-Manual-Installed: no
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages
+Description: Documentation for Ruby 2.7
+ Ruby is the interpreted scripting language for quick and easy
+ object-oriented programming.  It has many features to process text
+ files and to do system management tasks (as in perl).  It is simple,
+ straight-forward, and extensible.
+ .
+ This package contains the autogenerated documentation for Ruby 2.7.
+
+Package: runsc
+Version: 0.1.3-focal
+Priority: optional
+Section: utils
+Maintainer: REMnux Distribution <distro@remnux.org>
+Installed-Size: 82.9 kB
+Download-Size: 18.3 kB
+APT-Manual-Installed: yes
+APT-Sources: http://ppa.launchpad.net/remnux/stable/ubuntu focal/main amd64 Packages
+Description: Trace the execution of shellcode.
+
+Package: sandfly-processdecloak
+Version: 1.0.4-focal
+Priority: optional
+Section: utils
+Maintainer: REMnux Distribution <distro@remnux.org>
+Installed-Size: 1,386 kB
+Download-Size: 429 kB
+APT-Manual-Installed: yes
+APT-Sources: http://ppa.launchpad.net/remnux/stable/ubuntu focal/main amd64 Packages
+Description: Find hidden processes on the local Linux system.
+
+Package: scdbg
+Version: 20191016-focal
+Priority: optional
+Section: utils
+Maintainer: REMnux Distribution <distro@remnux.org>
+Installed-Size: 2,692 kB
+Depends: wine32:i386
+Download-Size: 1,582 kB
+APT-Manual-Installed: yes
+APT-Sources: http://ppa.launchpad.net/remnux/stable/ubuntu focal/main amd64 Packages
+Description: Analyze shellcode by emulating its execution.
+
+Package: signsrch
+Version: 0.2.4-2-focal
+Priority: optional
+Section: utils
+Maintainer: REMnux Distribution <distro@remnux.org>
+Installed-Size: 3,257 kB
+Depends: libc6 (>= 2.14)
+Download-Size: 621 kB
+APT-Manual-Installed: yes
+APT-Sources: http://ppa.launchpad.net/remnux/stable/ubuntu focal/main amd64 Packages
+Description: Search for encryption and encoding signatures in binary files.
+
+Package: swftools
+Version: 0.9.2-focal
+Priority: extra
+Section: utils
+Maintainer: Christian Welzel <gawain@camlann.de>
+Installed-Size: 8,579 kB
+Depends: gsfonts, libc6 (>= 2.29), libfreetype6 (>= 2.2.1), libgif7 (>= 5.1.1), libjpeg8 (>= 8c), libmp3lame0 (>= 3.100), libzzip-0-13 (>= 0.13.56), zlib1g (>= 1:1.1.4)
+Suggests: gs-common
+Download-Size: 1,000 kB
+APT-Manual-Installed: yes
+APT-Sources: http://ppa.launchpad.net/remnux/stable/ubuntu focal/main amd64 Packages
+Description: Collection of utilities for SWF file manipulation/creation
+ SWF Tools is a collection of SWF (Flash) manipulation and creation utilities.
+ .
+ This package includes: as3compile, font2swf, gif2swf, jpeg2swf, png2swf,
+ swfcombine, swfextract, swfdump, swfrender, swfstrings, swfbbox, swfc and
+ wav2swf.
+ .
+ * as3compile is a standalone ActionScript 3.0 compiler. Mostly compatible
+ with Flex.
+ * font2swf converts font files (TTF, Type1) into SWF.
+ * gif2swf converts GIFs into SWF. It is also able to handle animated gifs.
+ * jpeg2swf takes one or more JPEG pictures and generates an SWF slideshow.
+ * png2swf takes one or more PNG pictures and generates an SWF slideshow.
+ * swfcombine is a tool for inserting SWFs into Wrapper SWFs. (Templates)
+ E.g. for including the pdf2swf SWFs into some sort of Browsing-SWF.
+ * swfextract allows one to extract Movieclips, Sounds, Images etc. from SWF
+ files.
+ * swfdump prints out various information about SWFs.
+ * swfrender converts a swf to an image.
+ * swfstrings scans SWFs for text data.
+ * swfbbox allows one to readjust SWF bounding boxes.
+ * swfc is a tool for creating SWF files from simple script files.
+ * wav2swf converts WAV files into SWF.
+ .
+ This package does not include pdf2swf and avi2swf.
+
+Package: usbmount
+Version: 0.0.22
+Priority: extra
+Section: universe/admin
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Rogério Brito <rbrito@ime.usp.br>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 82.9 kB
+Depends: lockfile-progs, udev, util-linux (>> 2.16)
+Recommends: pmount
+Homepage: http://usbmount.alioth.debian.org/
+Download-Size: 15.1 kB
+APT-Manual-Installed: yes
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal/universe amd64 Packages
+Description: automatically mount and unmount USB mass storage devices
+ This package automatically mounts USB mass storage devices (typically
+ USB pens) when they are plugged in, and unmounts them when they are
+ removed. The mountpoints (/media/usb[0-7] by default), filesystem types
+ to consider, and mount options are configurable. When multiple devices
+ are plugged in, the first available mountpoint is automatically
+ selected. If the device provides a model name, a symbolic link
+ /var/run/usbmount/MODELNAME pointing to the mountpoint is automatically
+ created.
+ .
+ The script that does the mounting is called by the udev daemon.
+ Therefore, USBmount requires a 2.6 (or newer) Linux kernel.
+ .
+ Firewire devices are also supported by USBmount.
+ .
+ USBmount is intended as a lightweight solution which is independent of
+ a desktop environment. Users which would like an icon to appear when an
+ USB device is plugged in should use the pmount and hal packages
+ instead.
+
+Package: xorsearch
+Version: 1.11.4-1-focal
+Priority: optional
+Section: utils
+Maintainer: REMnux Distribution <distro@remnux.org>
+Installed-Size: 61.4 kB
+Depends: libc6 (>= 2.14)
+Download-Size: 14.9 kB
+APT-Manual-Installed: yes
+APT-Sources: http://ppa.launchpad.net/remnux/stable/ubuntu focal/main amd64 Packages
+Description: Locate and decode strings obfuscated using common techniques.
+
+Package: xorstrings
+Version: 0.0.1-focal
+Priority: optional
+Section: utils
+Maintainer: REMnux <distro@remnux.org>
+Installed-Size: 29.7 kB
+Depends: libc6 (>= 2.4)
+Download-Size: 7,252 B
+APT-Manual-Installed: yes
+APT-Sources: http://ppa.launchpad.net/remnux/stable/ubuntu focal/main amd64 Packages
+Description: XORStrings extracts strings encoded using a variety of common algorithms.
+ XORStrings will search for strings in the (binary) file you provide it, using the same encodings as XORSearch (XOR, ROL, ROT and SHIFT).
+
