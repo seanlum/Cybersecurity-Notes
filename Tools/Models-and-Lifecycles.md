@@ -56,3 +56,9 @@ https://www.nist.gov/publications/system-development-life-cycle-sdlc
 https://www.eccouncil.org/cybersecurity-exchange/incident-handling/what-is-incident-response-life-cycle/
 
 ![](https://www.cynet.com/wp-content/uploads/2019/08/nist-incident-response-process-1.png)
+
+# Vulnerability Management Lifecycle
+
+https://sprinto.com/blog/from-discovery-to-remediation-6-stages-of-vulnerability-management-lifecycle/
+
+![](./files/ulnerability-assessment-life-cycle-EC-Council-2018.png)
