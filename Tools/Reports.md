@@ -41,3 +41,19 @@ https://www.microsoft.com/en-us/security/security-insider/intelligence-reports
 # Red Canary Threat Detection Report
 
 https://redcanary.com/threat-detection-report/
+
+# Trend Micro Threat Reports
+
+https://www.trendmicro.com/vinfo/us/security/research-and-analysis/threat-reports
+
+# Rapid7 Reports
+
+https://www.rapid7.com/blog/tag/reports/
+
+# SANS Reports
+
+https://www.sans.org/webcasts/
+
+https://www.sans.org/security-awareness-training/resources/reports/
+
+https://www.sans.org/webcasts/sans-2024-top-attacks-and-threats-report/

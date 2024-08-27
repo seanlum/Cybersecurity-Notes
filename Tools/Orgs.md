@@ -38,6 +38,10 @@ https://www.ncsc.gov.uk/
 
 # International 
 
+### Cloud Security Alliance
+
+https://cloudsecurityalliance.org/
+
 ### NATO Cooperative Cyber Defence Centre of Excellence
 
 https://ccdcoe.org/

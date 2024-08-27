@@ -31,3 +31,8 @@ NIST SP 800-61, “Computer Security Incident Handling Guide”
 NIST SP 800-83, “Guide to Malware Incident Prevention and Handling”  
 NIST SP 800-86, “Guide to Integrating Forensic Techniques into Incident Response”  
 NIST SP 800-92, “Guide to Computer Security Log Management.”  
+
+# Zero Trust Architecture
+
+https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-207.pdf
+
