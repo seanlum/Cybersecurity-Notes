@@ -149,3 +149,22 @@ https://csrc.nist.gov/pubs/fips/197/final
 
 # JA4+ Network Fingerprinting
 https://medium.com/foxio/ja4-network-fingerprinting-9376fe9ca637
+
+# Hash Cracking
+
+## Install Hashcat on Kali Linux for WSL
+[Troubleshooting Kali Linux Install](../Troubleshooting/WSL.md)
+
+```
+wsl --install --distribution kali-linux
+```
+### Start Kali Linux
+```
+$ sudo apt update
+$ sudo apt dist-upgrade
+$ sudo apt install hashcat
+```
+### Example, JWT
+```
+$ hashcat <file> -a 3 ?a?a?a?a
+```
