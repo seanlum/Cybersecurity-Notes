@@ -68,3 +68,7 @@ Hello World 000E133E 000E133E 0057F000 CCCCCCCC CCCCCCCC CCCCCCCC
 - [T1190 - Exploit Public-Facing Application](https://attack.mitre.org/techniques/T1190/)
 - [T1055 - Process Injection](https://attack.mitre.org/techniques/T1055/)
 - [T1105 - Ingress Tool Transfer](https://attack.mitre.org/techniques/T1105/)
+
+# Resource
+
+https://sparksandflames.com/files/x86InstructionChart.html
