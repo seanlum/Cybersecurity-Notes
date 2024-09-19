@@ -7,6 +7,9 @@ https://www.crowdstrike.com/cybersecurity-101/advanced-persistent-threat-apt/
 
 https://www.cyber.gc.ca/en/guidance/introduction-cyber-threat-environment
 
+### News Feeds
+[OPML Files with links to RSS / Reddit Feeds](../Tools/OPML.md)
+
 # Wikipedia APT Groups
 
 https://en.wikipedia.org/wiki/Advanced_persistent_threat
