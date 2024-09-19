@@ -10,6 +10,16 @@ https://www.cyber.gc.ca/en/guidance/introduction-cyber-threat-environment
 ### News Feeds
 [OPML Files with links to RSS / Reddit Feeds](../Tools/OPML.md)
 
+# MISP | Malware Information Sharing Platform 
+
+#### [Information on MISP gathered in this repository](../Tools/MISP.md)
+
+# Malpedia (powered by MISP)
+
+https://malpedia.caad.fkie.fraunhofer.de/actors
+
+The following table provides a mapping of the actor groups tracked by the [MISP Galaxy Project](https://github.com/MISP/misp-galaxy), augmented with the families covered in Malpedia.
+
 # Wikipedia APT Groups
 
 https://en.wikipedia.org/wiki/Advanced_persistent_threat
@@ -62,11 +72,7 @@ https://cloud.google.com/security/mandiant?hl=en
 
 https://cloud.google.com/security/resources/insights/apt-groups?hl=en
 
-# Malpedia (powered by MISP)
 
-https://malpedia.caad.fkie.fraunhofer.de/actors
-
-The following table provides a mapping of the actor groups tracked by the [MISP Galaxy Project](https://github.com/MISP/misp-galaxy), augmented with the families covered in Malpedia.
 
 # Recorded Future 
 
