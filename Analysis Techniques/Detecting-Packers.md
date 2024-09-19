@@ -82,36 +82,127 @@ wget https://raw.githubusercontent.com/Yara-Rules/rules/master/crypto/crypto_sig
 wget https://gist.githubusercontent.com/islem-esi/cef15f99db844fe1cfe596656dfe9bb2/raw/e0cb55a3604ddc1376a7aca5b40fba2949929920/detect_packer_cryptor.py
 ```
 
-### Edit the rules path
-
-```diff
-diff --git a/detect_packer_cryptor.py b/detect_packer_cryptor.py
-index 898d5bf..69bbbd1 100644
---- a/detect_packer_cryptor.py
-+++ b/detect_packer_cryptor.py
-@@ -1,17 +1,20 @@
- import yara
-+import os
-
- #Path to the folder containing downloaded files in the first part
--rules_path = 'path/to/the/folder/containing/downloaded/rules'
-+# rules_path = 'path/to/the/folder/containing/downloaded/rules'
-+rules_path = os.path.abspath('./') + os.path.sep
-
- #Read files
- peid_rules = yara.compile(rules_path + 'peid.yar')
- packer_rules = yara.compile(rules_path + 'packer.yar')
--crypto_rules = yara.compile(rules_path + 'crypto.yar')
-+crypto_rules = yara.compile(rules_path + 'crypto_signatures.yar')
-
- #Path to the exe file you want to analyze
--exe_file_path = 'path/to/exe/file'
-+exe_file_path = rules_path + 'peid.yar'
-```
+### Edit the file
+- edit the include paths
+- add the second scanner portion
+- 
+### [The diff of the file](./files/detect_packer_cryptor_py_diff.md)
 
 ### Execute the script
 ```
-$ python3 detect_packer_cryptor.py
+$ python3 ./detect_packer_cryptor.py
 packers detected
-[Borland]
+[emotet_packer, silent_banker, zbot, Borland, rpx_1_xx, dotfuscator, AutoIt_2]
+```
+
+### Detecting with PEFile
+```
+wget https://gist.githubusercontent.com/islem-esi/334d223b3088e0bec5adc75f010c83c2/raw/f95fdbfece61ab42900c7d7f8b62e4264e5fabc1/detect_with_pefile.py
+```
+```python
+#don't forget this
+import pefile
+
+#first, let's get the list of sections names used by packers/cryptors
+packers_sections = {
+        #The packer/protector/tools section names/keywords
+        '.aspack': 'Aspack packer',
+        '.adata': 'Aspack packer/Armadillo packer',
+        'ASPack': 'Aspack packer',
+        '.ASPack': 'ASPAck Protector',
+        '.boom': 'The Boomerang List Builder (config+exe xored with a single byte key 0x77)',
+        '.ccg': 'CCG Packer (Chinese Packer)',
+        '.charmve': 'Added by the PIN tool',
+        'BitArts': 'Crunch 2.0 Packer',
+        'DAStub': 'DAStub Dragon Armor protector',
+        '!EPack': 'Epack packer',
+        'FSG!': 'FSG packer (not a section name, but a good identifier)',
+        '.gentee': 'Gentee installer',
+        'kkrunchy': 'kkrunchy Packer',
+        '.mackt': 'ImpRec-created section',
+        '.MaskPE': 'MaskPE Packer',
+        'MEW': 'MEW packer',
+        '.MPRESS1': 'Mpress Packer',
+        '.MPRESS2': 'Mpress Packer',
+        '.neolite': 'Neolite Packer',
+        '.neolit': 'Neolite Packer',
+        '.nsp1': 'NsPack packer',
+        '.nsp0': 'NsPack packer',
+        '.nsp2': 'NsPack packer',
+        'nsp1': 'NsPack packer',
+        'nsp0': 'NsPack packer',
+        'nsp2': 'NsPack packer',
+        '.packed': 'RLPack Packer (first section)',
+        'pebundle': 'PEBundle Packer',
+        'PEBundle': 'PEBundle Packer',
+        'PEC2TO': 'PECompact packer',
+        'PECompact2': 'PECompact packer (not a section name, but a good identifier)',
+        'PEC2': 'PECompact packer',
+        'pec1': 'PECompact packer',
+        'pec2': 'PECompact packer',
+        'PEC2MO': 'PECompact packer',
+        'PELOCKnt': 'PELock Protector',
+        '.perplex': 'Perplex PE-Protector',
+        'PESHiELD': 'PEShield Packer',
+        '.petite': 'Petite Packer',
+        'petite': 'Petite Packer',
+        '.pinclie': 'Added by the PIN tool',
+        'ProCrypt': 'ProCrypt Packer',
+        '.RLPack': 'RLPack Packer (second section)',
+        '.rmnet': 'Ramnit virus marker',
+        'RCryptor': 'RPCrypt Packer',
+        '.RPCrypt': 'RPCrypt Packer',
+        '.seau': 'SeauSFX Packer',
+        '.sforce3': 'StarForce Protection',
+        '.spack': 'Simple Pack (by bagie)',
+        '.svkp': 'SVKP packer',
+        'Themida': 'Themida Packer',
+        '.Themida': 'Themida Packer',
+        'Themida ': 'Themida Packer',
+        '.taz': 'Some version os PESpin',
+        '.tsuarch': 'TSULoader',
+        '.tsustub': 'TSULoader',
+        '.packed': 'Unknown Packer',
+        'PEPACK!!': 'Pepack',
+        '.Upack': 'Upack packer',
+        '.ByDwing': 'Upack Packer',
+        'UPX0': 'UPX packer',
+        'UPX1': 'UPX packer',
+        'UPX2': 'UPX packer',
+        'UPX!': 'UPX packer',
+        '.UPX0': 'UPX Packer',
+        '.UPX1': 'UPX Packer',
+        '.UPX2': 'UPX Packer',
+        '.vmp0': 'VMProtect packer',
+        '.vmp1': 'VMProtect packer',
+        '.vmp2': 'VMProtect packer',
+        'VProtect': 'Vprotect Packer',
+        '.winapi': 'Added by API Override tool',
+        'WinLicen': 'WinLicense (Themida) Protector',
+        '_winzip_': 'WinZip Self-Extractor',
+        '.WWPACK': 'WWPACK Packer',
+        '.yP': 'Y0da Protector',
+        '.y0da': 'Y0da Protector',
+    }
+
+#lower case the names to make it easier for search
+packers_sections_lower =  {x.lower(): x for x in packers_sections.keys()}
+
+#the following function takes the names of sections of an exe file as an argument and
+#tries to match them with the names associated to packers
+def detect_packing(sections_of_pe):
+    return [packers_sections_lower[x.lower()] for x in sections_of_pe if x.lower() in packers_sections_lower.keys()]
+
+#finally let's parse the exe file with pefile and get sections names
+try:
+  #parse the files
+    exe = pefile.PE(exe_file_path, fast_load=True)
+    matches = detect_packing([
+        section.Name.decode(errors='replace',).rstrip('\x00') for section in exe.sections
+    ])
+    if matches:
+        print('packers matched')
+        print(matches)
+except:
+    print('manuel exception')
 ```
