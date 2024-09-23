@@ -108,3 +108,93 @@ For a complete description of each function category rule, check out [NIST CSF 2
 ## CSF Tiers
 There are four tiers within the CSF: `Partial`, `Risk Informed`, `Repeatable`, `Adaptive`
 For a complete description of each CSF Tier check out [NIST CSF 2.0, Appendix B. CSF Tiers, Page 29 of 32](https://doi.org/10.6028/NIST.CSWP.29)
+
+
+# Reference Documents
+
+## ChatGPT suggested reading order for NIST Documents
+1.	NIST SP 800-39: Managing Information Security Risk
+    -	Purpose: Provides an overarching framework for managing information security risk at the organizational, mission, and information system levels.
+    -	Focus: Establishes the context for risk management and integrates it into the organization’s overall risk management strategy.
+2.	NIST SP 800-30: Guide for Conducting Risk Assessments
+    -	Purpose: Offers detailed guidance on conducting risk assessments, which are a critical component of the risk management process.
+    -	Focus: Describes the risk assessment process, including preparation, execution, and maintenance.
+3.	NIST SP 800-37: Risk Management Framework (RMF) for Information Systems and Organizations
+    -	Purpose: Provides a structured process for integrating security and risk management activities into the system development life cycle.
+    -	Focus: Details the steps in the RMF, including categorization, selection, implementation, assessment, authorization, and continuous monitoring.
+4.	NIST SP 800-53: Security and Privacy Controls for Information Systems and Organizations
+    -	Purpose: Lists security and privacy controls that can be applied to information systems to protect organizational operations, assets, and individuals.
+    -	Focus: Provides a comprehensive catalog of controls that align with the CSF categories and subcategories.
+5.	NIST SP 800-60: Guide for Mapping Types of Information and Information Systems to Security Categories
+    -	Purpose: Helps organizations categorize information and information systems based on impact levels.
+    -	Focus: Provides guidelines for mapping information types to security categories, which is essential for implementing appropriate security controls.
+6.	NIST SP 800-61: Computer Security Incident Handling Guide
+    -	Purpose: Offers guidance on handling and responding to cybersecurity incidents.
+    -	Focus: Describes the incident response lifecycle, including preparation, detection, analysis, containment, eradication, and recovery.
+7.	NIST SP 800-207: Zero Trust Architecture
+    -	Purpose: Introduces the principles and implementation of a Zero Trust Architecture, which is a modern approach to cybersecurity.
+    -	Focus: Explains Zero Trust concepts, logical components, and deployment models, emphasizing the need for continuous verification of user and device trustworthiness.
+### Summary of Reading Order
+1.	NIST SP 800-39: Managing Information Security Risk
+2.	NIST SP 800-30: Guide for Conducting Risk Assessments
+3.	NIST SP 800-37: Risk Management Framework (RMF) for Information Systems and Organizations
+4.	NIST SP 800-53: Security and Privacy Controls for Information Systems and Organizations
+5.	NIST SP 800-60: Guide for Mapping Types of Information and Information Systems to Security Categories
+6.	NIST SP 800-61: Computer Security Incident Handling Guide
+7.	NIST SP 800-207: Zero Trust Architecture
+
+## NIST Documents
+
+### 1.	NIST SP 800-30: Guide for Conducting Risk Assessments
+-	Purpose: Provides guidance on conducting risk assessments, which is a critical component of the risk management process.
+-	Usage: Helps identify, estimate, and prioritize risks to organizational operations, assets, individuals, and other organizations.
+### 2.	NIST SP 800-39: Managing Information Security Risk: Organization, Mission, and Information System View
+-	Purpose: Provides a structured approach to managing information security risk at the organizational, mission, and information system levels.
+-	Usage: Helps integrate risk management into the organization’s overall governance structure.
+### 3.	NIST SP 800-61: Computer Security Incident Handling Guide
+-	Purpose: Provides guidelines for incident handling, including preparation, detection, analysis, containment, eradication, and recovery.
+-	Usage: Helps establish and improve incident response capabilities.
+### 4.	NIST SP 800-88: Guidelines for Media Sanitization
+-	Purpose: Provides guidelines for the sanitization of data storage media to ensure that sensitive information is properly destroyed.
+-	Usage: Helps ensure that data is irretrievably deleted from storage media before disposal or reuse.
+### 5.	NIST SP 800-115: Technical Guide to Information Security Testing and Assessment
+-	Purpose: Provides guidelines for planning and conducting technical information security testing and assessments.
+-	Usage: Helps identify vulnerabilities and assess the effectiveness of security controls.
+### 6.	NIST SP 800-160: Systems Security Engineering: Considerations for a Multidisciplinary Approach in the Engineering of Trustworthy Secure Systems
+-	Purpose: Provides guidelines for integrating security into the engineering of systems.
+-	Usage: Helps ensure that security is considered throughout the system development lifecycle.
+### 7.	NIST SP 800-171A: Assessing Security Requirements for Controlled Unclassified Information
+-	Purpose: Provides assessment procedures for the security requirements in NIST SP 800-171.
+-	Usage: Helps assess the implementation of security requirements for protecting controlled unclassified information (CUI).
+### 8.	NIST SP 800-184: Guide for Cybersecurity Event Recovery
+-	Purpose: Provides guidance on recovering from cybersecurity incidents.
+-	Usage: Helps develop and implement recovery plans to restore normal operations after a cybersecurity event.
+### 9.	NIST SP 800-207: Zero Trust Architecture
+-	Purpose: Provides guidelines for implementing a Zero Trust Architecture (ZTA).
+-	Usage: Helps design and deploy a security architecture that assumes no implicit trust and continuously verifies every request.
+
+## Other References
+### 1.	ITIL (Information Technology Infrastructure Library)
+-	Purpose: Provides best practices for IT service management (ITSM).
+-	Usage: Focuses on aligning IT services with the needs of the business and improving service delivery. ITIL practices can complement NIST CSF by enhancing service management processes.
+### 2.	CIS Controls (Center for Internet Security Controls)
+-	Purpose: Provides a prioritized set of actions to protect organizations from cyber threats.
+-	Usage: Offers practical and actionable guidelines that can be mapped to NIST CSF categories and subcategories to enhance security controls.
+### 3.	PCI DSS (Payment Card Industry Data Security Standard)
+-	Purpose: Provides security standards for organizations that handle credit card transactions.
+-	Usage: Ensures the protection of cardholder data and can be referenced in a NIST CSF profile for organizations involved in payment processing.
+### 4.	GDPR (General Data Protection Regulation)
+-	Purpose: Provides regulations for data protection and privacy for individuals within the European Union.
+-	Usage: Ensures compliance with data protection laws and can be integrated into a NIST CSF profile for organizations handling personal data of EU citizens.
+### 5.	HIPAA (Health Insurance Portability and Accountability Act)
+-	Purpose: Provides regulations for protecting sensitive patient health information.
+-	Usage: Ensures compliance with healthcare data protection requirements and can be referenced in a NIST CSF profile for healthcare organizations.
+### 6.	SOX (Sarbanes-Oxley Act)
+-	Purpose: Provides regulations for financial reporting and internal controls.
+-	Usage: Ensures compliance with financial reporting requirements and can be integrated into a NIST CSF profile for publicly traded companies.
+### 7.	FISMA (Federal Information Security Management Act)
+-	Purpose: Provides a framework for managing information security for federal agencies.
+-	Usage: Ensures compliance with federal information security requirements and can be referenced in a NIST CSF profile for federal contractors and agencies.
+### 8.	CSA CCM (Cloud Security Alliance Cloud Controls Matrix)
+-	Purpose: Provides a cybersecurity control framework for cloud computing.
+-	Usage: Ensures the security of cloud environments and can be integrated into a NIST CSF profile for organizations using cloud services.
