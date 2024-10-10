@@ -113,6 +113,12 @@ For a complete description of each CSF Tier check out [NIST CSF 2.0, Appendix B.
 # Reference Documents
 
 ## ChatGPT suggested reading order for NIST Documents
+### First read NIST CSF
+```
+NIST CSF (1.1 or 2.0)
+  -	Purpose: Understand the overall structure, core functions, categories, and subcategories of the CSF.
+  -	Focus: Familiarize yourself with the Identify, Protect, Detect, Respond, Recover, and (in 2.0) Govern functions.
+```
 1.	NIST SP 800-39: Managing Information Security Risk
     -	Purpose: Provides an overarching framework for managing information security risk at the organizational, mission, and information system levels.
     -	Focus: Establishes the context for risk management and integrates it into the organization’s overall risk management strategy.
@@ -143,7 +149,7 @@ For a complete description of each CSF Tier check out [NIST CSF 2.0, Appendix B.
 6.	NIST SP 800-61: Computer Security Incident Handling Guide
 7.	NIST SP 800-207: Zero Trust Architecture
 
-## NIST Documents
+## Suggested Reading NIST Documents
 
 ### 1.	NIST SP 800-30: Guide for Conducting Risk Assessments
 -	Purpose: Provides guidance on conducting risk assessments, which is a critical component of the risk management process.
@@ -173,7 +179,7 @@ For a complete description of each CSF Tier check out [NIST CSF 2.0, Appendix B.
 -	Purpose: Provides guidelines for implementing a Zero Trust Architecture (ZTA).
 -	Usage: Helps design and deploy a security architecture that assumes no implicit trust and continuously verifies every request.
 
-## Other References
+## Other frameworks and things that can integrate with the NIST CSF
 ### 1.	ITIL (Information Technology Infrastructure Library)
 -	Purpose: Provides best practices for IT service management (ITSM).
 -	Usage: Focuses on aligning IT services with the needs of the business and improving service delivery. ITIL practices can complement NIST CSF by enhancing service management processes.
