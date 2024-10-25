@@ -1,0 +1,1 @@
+# [10-25-2024 | CRIL Blog | HeptaX: Unauthorized RDP Connections for Cyberespionage Operations](https://cyble.com/blog/heptax-unauthorized-rdp-connections-for-cyberespionage-operations/)
