@@ -1,19 +1,17 @@
-# Alleged Israeli supplychain attack
-### 09-17-2024 - September 09 - First article 
-https://www.thesun.co.uk/news/30487383/hezbollah-fighters-injured-walkie-talkies-explode/
-```
-Israel's Mossad spy agency allegedly planted a small amount of explosives inside thousands of pagers ordered by Hezbollah months earlier, a Lebanese security source and a second source told Reuters.
-```
-```
-NO-ONE has claimed responsibility for the explosions - but Lebanese officials have accused Israel, which is yet to comment
-```
+## Iran is Experiencing a Massive Cyber Attack Especially on its Nuclear Facilities
 
-![](https://www.thesun.co.uk/wp-content/uploads/2024/09/dk-17-09-pocket-bomb_GRAPHIC_3d70da.jpg?w=620)
+https://cedarnews.net/newstasks/771535/iran-under-cyber-attack-complete-shutdown-3-branches-of-gov/
 
-### News suggesting that the attack was Israeli
+News in Persian and other languages suggest that the attack was carried out by Israel.
 
-https://www.wataugademocrat.com/news/national/israeli-supply-chain-infiltration-likely-behind-hezbollah-pager-blasts-analysts/article_e6a473bc-9393-57d0-8e44-b68102921c93.html
+https://www.hindustantimes.com/videos/world-news/iran-nuclear-facilities-all-govt-branches-targeted-in-massive-cyberattacks-israel-begins-revenge-101728703833506.html
 
-```
-"Mossad infiltrated the supply chain," he concluded, referring to Israel's intelligence agency.
-```
+https://www.balatarin.com/permlink/2024/10/11/6236296
+
+also one day ago
+
+https://www.spectator.co.uk/article/how-will-israel-retaliate-against-iran/
+
+and two days ago
+
+https://thecyberexpress.com/cisa-fbi-guidance-against-iranian-cyberattacks/

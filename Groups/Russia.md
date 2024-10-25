@@ -1,5 +1,11 @@
+# [Four REvil members sentenced to more than four years in prison](https://therecord.media/four-revil-ransomware-gang-members-sentenced-prison-russia)
 
+https://www.kommersant.ru/doc/7263987
 
+# [APT29 aka CozyBear](https://attack.mitre.org/groups/G0016/)
+
+- [10-25-2024 | APT29 | Amazon seizes domains used in rogue Remote Desktop campaign to steal data](https://www.bleepingcomputer.com/news/security/amazon-seizes-domains-used-in-rogue-remote-desktop-campaign-to-steal-data/)
+- [10-23-2024 | Ukraine CERT-UA#11690 "Rouge RDP"](https://cert.gov.ua/article/6281076)
 
 # LockBit
 [LockBit-03162023.md](LockBit-03162023.md)
