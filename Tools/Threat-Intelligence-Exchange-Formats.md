@@ -20,6 +20,7 @@
 - [CAPEC](https://capec.mitre.org/)
 - [ATT&CK](https://attack.mitre.org/)
 - [D3FEND](https://d3fend.mitre.org/)
+- [VERIS](https://github.com/vz-risk/veris)
 
 # Formats of Threat Exchange Data
 - [MISP](https://github.com/MISP/MISP-rfc)
