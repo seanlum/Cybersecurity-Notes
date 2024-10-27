@@ -1,3 +1,23 @@
+# Salt Typhoon
+
+https://homeland.house.gov/2024/10/21/homeland-republicans-request-briefing-from-cisa-fbi-on-salt-typhoon-hacks/
+
+https://www.darkreading.com/cyberattacks-data-breaches/chinas-salt-typhoon-cyberattacks-us-isps
+
+# Flax Typhoon, ETHEREAL PANDA
+### 2021 to Present
+https://www.darkreading.com/threat-intelligence/china-unleashes-flax-typhoon-apt-live-off-land-microsoft-warns
+
+https://www.microsoft.com/en-us/security/blog/2023/08/24/flax-typhoon-using-legitimate-software-to-quietly-access-taiwanese-organizations/
+
+# Volt Typhoon, BRONZE SILLHOUETTE, Vanguard Panda, Dev-0391, UNC3236, Voltsizte, Insidious Taurus
+
+https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-038a
+
+https://attack.mitre.org/groups/G1017/
+
+https://media.defense.gov/2023/May/24/2003229517/-1/-1/0/CSA_Living_off_the_Land.PDF
+
 # APT40, TEMP.Periscope, TEMP.Jumper, Bronze Mohawk, Gingham Typhoon, ISLANDDREAMS, Kryptonite Panda, Red Ladon, TA423, and Leviathan
 
 https://securityaffairs.com/165491/breaking-news/apt40-china-joint-report.html
@@ -26,6 +46,7 @@ https://duo.com/decipher/apt40-exploits-confluence-exchange-flaws-to-target-gove
 https://securityaffairs.com/165491/breaking-news/apt40-china-joint-report.html
 
 # APT 41 | Wicked Panda, Brass Typhoon BARIUM
+
 ### Fri 12 Jul 2024
 Chinese government-backed cyber espionage gang APT41 has very likely added a loader dubbed DodgeBox and a backdoor named MoonWalk to its malware toolbox, according to cloud security service provider Zscaler’s ThreatLabz research team.
 
