@@ -35,6 +35,17 @@ MITRE Engage is a framework
 
 for planning and discussing adversary engagement operations that empowers you to engage your adversaries and achieve your cybersecurity goals.
 
+## MITRE CALDERA
+https://caldera.mitre.org/
+
+- A Scalable, Automated Adversary Emulation Platform
+- Caldera™ is a cybersecurity framework developed by MITRE that empowers cyber practitioners to save time, money, and energy through automated security assessments.
+
+## MITRE Sandcat
+https://github.com/mitre/sandcat
+
+A plugin supplying a default agent to be used in a Caldera operation.
+
 ## MITRE ATT&CK
 
 https://attack.mitre.org/
