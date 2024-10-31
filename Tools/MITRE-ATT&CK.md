@@ -28,3 +28,22 @@ Note: In January 2023, CISA, in coordination with HSSEDI, updated the best pract
 ```
 
 https://www.cisa.gov/news-events/news/best-practices-mitre-attckr-mapping
+
+# Navigating the Threat Matrix: The New Frontier in Ethical Hacking
+
+### [The original video from EC-Council](https://youtu.be/ewf6HHYHv50?si=x1Fy9cYerwyG5WgB)
+### [Tools from the video](https://youtube.com/clip/Ugkxxq_qym3z5UQrKiUzoEXiBxySmsnZURrn?si=3WAN0ssu65zjTTfL)
+
+
+### EC-Council | Navigating the Threat Matrix: The New Frontier in Ethical Hacking
+[![Navigating the Threat Matrix: The New Frontier in Ethical Hacking](http://i3.ytimg.com/vi/ewf6HHYHv50/hqdefault.jpg)](https://www.youtube.com/watch?v=ewf6HHYHv50)
+
+- https://github.com/center-for-threat-informed-defense
+- https://mitre-engenuity.org/cybersecurity/center-for-threat-informed-defense/attack-powered-suit/
+- https://microsoftedge.microsoft.com/addons/detail/attck-powered-suit/cbdljgdeblkokhelkdphgfbmongamkai
+- https://chromewebstore.google.com/detail/attck-powered-suit/gfhomppaadldngjnmbefmmiokgefjddd
+- https://mitre-engenuity.org/cybersecurity/center-for-threat-informed-defense/our-work/attack-flow/#project-resources
+- https://github.com/center-for-threat-informed-defense/attack-flow
+- https://mitre-engenuity.org/cybersecurity/center-for-threat-informed-defense/adversary-emulation-library/
+- https://github.com/center-for-threat-informed-defense/adversary_emulation_library
+- https://center-for-threat-informed-defense.github.io/mappings-explorer/
