@@ -1,161 +1,113 @@
+# Classical Ciphers and Cryptography Pre 1600
 
-# Inventions Post 1600
-This was written in 2024 
+# [Hieroglyph Cryptography](https://www.degruyter.com/document/doi/10.1515/9783110683882-002/html?lang=en)
+### [Enigmatic Writing in the Egyptian New Kingdom](https://www.degruyter.com/serial/ewenk-b/html?lang=en)
+- `2350 and beyond`
 
-# [Rossingnol's Great Cipher](https://en.wikipedia.org/wiki/Great_Cipher)
-- `1620s; 404 years ago`
+![](https://cdn.britannica.com/88/124388-159-74436A38/Hieroglyphs-temple-Ombos-Egypt.jpg)
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Great_Cipher.png/1024px-Great_Cipher.png)
+# [Atbash Cipher](https://cyberw1ng.medium.com/understanding-the-atbash-cipher-a-simple-and-effective-encryption-method-2023-da89d71c4369)
+- `500 BC; 2524 years ago`
 
-![](https://scienceblogs.de/klausis-krypto-kolumne/files/2016/08/Nomenclator-Post.jpg)
+![](https://miro.medium.com/v2/resize:fit:1400/0*pak_WYFTp27azIBB)
 
-# [Leyden Jar](https://en.wikipedia.org/wiki/Leyden_jar)
-- `1745; 279 years ago`
+# [Zodiac](https://zoroastrianastrology.blogspot.com/p/houses-of-zodiac.html)
+- `409-398 BCE; 2434 years ago`
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Early_Layden_jar.png/207px-Early_Layden_jar.png)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEim-0S5TByW8RXqyYmKAeVwKSYG9Sj2iG2rFyY_AJNgFrd321zUSh1C0D3mIoZiNwRBZajDoeL7p1AfvgAR_CuyrB0pPsS1Wm1ZTvAF1utQMJVZTDi5lfZo5-mYHaedmAbcVTMqIWyXRYw/s640/Zodiac4.jpg)
 
-# [Jefferson Disk | Bazeries Cylinder](https://en.wikipedia.org/wiki/Jefferson_disk)
-- `1790s; 234 years ago`
+# [Transposition Cipher](https://www.sciencedirect.com/topics/computer-science/transposition-cipher#:~:text=Probably%20one%20of%20the%20oldest,secret%20messages%20(Figure%201.9).)
+- `475 BC; 2499 years ago`
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Jefferson%27s_disk_cipher.jpg/400px-Jefferson%27s_disk_cipher.jpg)
+# [Aeneas Tacticus Cryptographic Disk](https://www.youtube.com/watch?v=E91RlYsl7W8)
+- `4 BCE; 2028 years ago`
 
-# [Disquisitiones Arithmeticae](https://en.wikipedia.org/wiki/Disquisitiones_Arithmeticae)
-- `1801; 223 years ago`
+![](https://www.planksip.org/content/images/2022/08/Figure-8-M.-Diepenbroek.png)
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Disqvisitiones-800.jpg/220px-Disqvisitiones-800.jpg)
+![](https://i.pinimg.com/736x/30/f2/ab/30f2ab35307bbaf5bab32e693d541ede.jpg)
 
-# [International Code of Signals](https://www.oxfordreference.com/display/10.1093/oi/authority.20110803100007444?p=emailAUsA5ZdKsDjfA&d=/10.1093/oi/authority.20110803100007444)
-- `1817; 207 years ago`
+# [Astrology](https://en.wikipedia.org/wiki/Astrological_symbols)
+- `3 BCE; 2027 years ago`
 
-![](https://upload.wikimedia.org/wikipedia/commons/d/df/Commercial_Code_flags.png)
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Clock_of_San_Marco_clockface.png/170px-Clock_of_San_Marco_clockface.png)
 
-# [Electromagnetism](https://en.wikipedia.org/wiki/Hans_Christian_%C3%98rsted)
-- `1820; 204 years ago`
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Astrolog.png/400px-Astrolog.png)
 
-![](https://upload.wikimedia.org/wikipedia/commons/0/0d/VFPt_Solenoid_correct2.svg)
+# [Polybius Cipher](https://en.wikipedia.org/wiki/Polybius_square)
 
-# [Difference Engine](https://en.wikipedia.org/wiki/Difference_engine)
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Polybius_square.png/485px-Polybius_square.png)
 
-- `1820; 204 years ago`
+# [Caesar Cipher](https://www.romeandart.eu/en/art-cipher-julius-caesar.html)
+- `56 AD; 1968 years ago`
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/BabbageDifferenceEngine.jpg/220px-BabbageDifferenceEngine.jpg)
+![](https://www.romeandart.eu/images/news/cifrario-1.jpg)
 
-# [Discovery of Ohm's Law](https://en.wikipedia.org/wiki/Georg_Ohm)
-- `1827; 197 years ago`
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Confederate_cipher_disk.jpg/400px-Confederate_cipher_disk.jpg)
 
+# [Scytale Cipher](https://en.wikipedia.org/wiki/Scytale#:~:text=From%20indirect%20evidence%2C%20the%20scytale,Plutarch%20(50%E2%80%93120%20AD):)
+- `50-120 AD; 1949 years ago`
 
-# [Morse Code](https://en.wikipedia.org/wiki/Morse_code)
-- `1837; 187 years ago`
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Skytale.png/400px-Skytale.png)
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/International_Morse_Code.svg/400px-International_Morse_Code.svg.png)
+# [Substitution Cipher](https://en.wikipedia.org/wiki/Substitution_cipher)
+- `EST 850 CE; 1174 years ago`
 
-# [Telephone](https://en.wikipedia.org/wiki/Invention_of_the_telephone)
-- `1844; 180 years ago`
+# [Chess Diagrams](https://en.wikipedia.org/wiki/Algebraic_notation_(chess)#History)
+- `1173; 851 years ago`
 
-![](https://www.lunarmobiscuit.com/wp-content/uploads/2014/08/3045244218_b335c432fd_b.jpg)
+![](https://upload.wikimedia.org/wikipedia/commons/a/a2/Ms._Paris_1173.png)
 
-# [Playfair Cipher](https://en.wikipedia.org/wiki/Playfair_cipher)
-- `1854; 170 years ago`
+# [13th Century Bible Code](https://en.wikipedia.org/wiki/Bible_code#:~:text=History-,Early%20history,point%20of%20the%20Hebrew%20calendar.)
+![](https://c8.alamy.com/comp/MNXD99/spanish-bible-with-masorah-13th-century-before-1287-1134-spanish-bible-with-masorah-google-art-project-MNXD99.jpg)
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Playfair_Cipher_01_HI_to_BM_%28cropped%29.png/400px-Playfair_Cipher_01_HI_to_BM_%28cropped%29.png)
+# [Polyalphabetic cipher](https://en.wikipedia.org/wiki/Polyalphabetic_cipher)
+- `1355-1418; 638 years ago`
 
+# [Volvelle or Wheel Chart](https://en.wikipedia.org/wiki/Volvelle)
+- `15th Century; roughly 600 years ago`
 
-# [Kasiski examination](https://en.wikipedia.org/wiki/Kasiski_examination)
-- `1863; 161 years ago`
-```
-[ bea ] dsb ead [ sbe ] adsbe adsbeadsb [ ead ] sbeads bead [ sbe ] adsb eadsbe
-  the   man and   the   woman retrieved   the   letter from   the   post office
-```
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/P.9_a_volvella_of_the_moon._A_volvella_is_a_moveable_device_for_working_out_the_position_of_the_sun_and_moon_in_the_zodiac.jpg/400px-P.9_a_volvella_of_the_moon._A_volvella_is_a_moveable_device_for_working_out_the_position_of_the_sun_and_moon_in_the_zodiac.jpg)
 
+# [Alberti Cipher](https://en.wikipedia.org/wiki/Alberti_cipher)
+- `1467; 557 years ago`
 
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Alberti_cipher_disk.svg/400px-Alberti_cipher_disk.svg.png)
 
-# [Typewriter](https://en.wikipedia.org/wiki/Sholes_and_Glidden_typewriter)
-- `1874; 150 years ago`
+# [Vigenère cipher](https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher)
+- `1467 AD; 557 years ago`
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Sholesglidden3.png/400px-Sholesglidden3.png)
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Vigen%C3%A8re_square_shading.svg/400px-Vigen%C3%A8re_square_shading.svg.png)
 
-# [Electrical Conductor](https://en.wikipedia.org/wiki/Electrical_conductor)
-- `1883; 141 years ago`
+# [Cipher Disk](https://en.wikipedia.org/wiki/Cipher_disk)
+- `1470 AD; 560 years ago`
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Resistivity_geometry.png/400px-Resistivity_geometry.png)
+![](https://miro.medium.com/v2/resize:fit:400/0*dms5WeXPQk-p3gBh.jpg)
 
-# [Electromagnetic Radio](https://en.wikipedia.org/wiki/History_of_radio)
-- `1888; 136 years ago`
+# [Grille Cipher](https://en.wikipedia.org/wiki/Grille_(cryptography))
+- `1500 AD; 524 years ago`
 
-# [Radio](https://en.wikipedia.org/wiki/Radio)
-- `1895; 131 years ago` 
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Tangiers2.svg/200px-Tangiers2.svg.png)![](https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Tangiers1.svg/200px-Tangiers1.svg.png)
 
-![](https://spectrum.ieee.org/media-library/the-popov-lightning-detector.jpg?id=25591541&width=400)
+![](https://upload.wikimedia.org/wikipedia/commons/9/92/CifrarioCruciverba.png)
 
-# [Early Cathode Ray Tube](https://www.crtsite.com/didactic-crt.html)
-- `1920; 104 years ago`
+![](https://upload.wikimedia.org/wikipedia/commons/c/c5/Jacob_K%C3%B6bel_1520.png)
 
-![](https://www.crtsite.com/image/braun%20tube%203.jpg)
+![](https://upload.wikimedia.org/wikipedia/commons/2/20/ChessBoardCipher.png)
 
-# [Transistor](https://en.wikipedia.org/wiki/Transistor)
-- `1947; 77 years ago`
+# [1563 Galileo - On Secret Writing](https://galileo.ou.edu/exhibits/secret-writing.html)
+- `1563; 461 years ago`
 
-![](https://i.extremetech.com/imagery/content-types/05ivmIpqIgfgXmjGUVWsAq6/hero-image.fit_lim.v1678673193.jpg)
- 
-# [Communication Theory of Secrecy Systems, Claude Shannon](https://en.wikipedia.org/wiki/Communication_Theory_of_Secrecy_Systems)
-- `1949; 75 years ago`
+![](https://repository.ou.edu/adore-djatoka/resolver?rft_id=https%3A%2F%2Frepository.ou.edu%2Fuuid%2F8fd1dc86-856c-58fe-a39b-ba9244b3e215%2Fdatastream%2FJP2%2Fview%3Ftoken%3Dc3ee9f2affc591dbc61f9fdd7c98259a265f5fda063ccef3fd9a2d4c3987c0d1&url_ver=Z39.88-2004&svc_id=info%3Alanl-repo%2Fsvc%2FgetRegion&svc_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajpeg2000&svc.format=image%2Fjpeg&svc.level=4&svc.rotate=0)
 
-![](https://pictures.abebooks.com/inventory/31541371064.jpg)
+# [Sigillum Dei](https://en.wikipedia.org/wiki/Sigillum_Dei)
+- `1582; 442 years ago`
 
-# [Cathode Ray Tube](https://en.wikipedia.org/wiki/Williams_tube)
-- `1950; 74 years ago`
+![](https://upload.wikimedia.org/wikipedia/commons/6/61/Sloane3188-john_dee.png)
 
-![](https://www.crtsite.com/image/brauntube%206.jpg)
+# [Sorcery (goetia)](https://en.wikipedia.org/wiki/Sorcery_(goetia))
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Circle_of_Solomon_and_Triangle_of_Solomon_from_The_Lesser_Key_of_Solomon.png/400px-Circle_of_Solomon_and_Triangle_of_Solomon_from_The_Lesser_Key_of_Solomon.png)
 
-# [Integrated Circuits](https://en.wikipedia.org/wiki/Integrated_circuit)
-- `1958-1959; 66 years ago`
+# [Autokey Cipher](https://en.wikipedia.org/wiki/Autokey_cipher)
+- `1586; 438 years ago`
 
-![](https://upload.wikimedia.org/wikipedia/en/4/42/Kilby_solid_circuit.jpg)
-
-# [Graphics Display](https://en.wikipedia.org/wiki/IBM_2250)
-- `1964; 60 years ago`
-
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/HypertextEditingSystemConsoleBrownUniv1969.jpg/400px-HypertextEditingSystemConsoleBrownUniv1969.jpg)
-
-# [Intel 4004 Single-chip microprocessor](https://en.wikipedia.org/wiki/List_of_MOSFET_applications#MOS_integrated_circuit)
-
-- `1971; 53 years ago`
-
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Intel_C4004_1a.jpg/400px-Intel_C4004_1a.jpg)
-
-# [First Personal Computer - 256 bytes of memory - Kenbak 1](https://en.wikipedia.org/wiki/Kenbak-1)
-- `1971; 53 years ago`
-
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Kenbak-1_personal_computer.jpg/400px-Kenbak-1_personal_computer.jpg)
-
-# [Data Encryption Standard DES](https://en.wikipedia.org/wiki/Data_Encryption_Standard)
-- `1970s; 54 years ago`
-
-![](https://upload.wikimedia.org/wikipedia/commons/2/25/Data_Encription_Standard_Flow_Diagram.svg)
-
-# [First GUI Personal Computer - Xerox Alto](https://en.wikipedia.org/wiki/Xerox_Alto)
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Xerox_Alto_mit_Rechner.JPG/400px-Xerox_Alto_mit_Rechner.JPG)
-
-# [RSA - Rivest Shamir Adleman - Cryptography](https://en.wikipedia.org/wiki/RSA_(cryptosystem))
-- `1977; 61 years ago`
-
-![](https://www.securew2.com/wp-content/uploads/2024/01/RSA-Encryption-Works.png)
-
-# [Advanced Encryption Standard](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)
-- `2001; 23 years`
-
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/AES_%28Rijndael%29_Round_Function.png/400px-AES_%28Rijndael%29_Round_Function.png)
-
-# [Kryptos](https://en.wikipedia.org/wiki/Kryptos)
-- `1990s-2000s; 20-30 years ago`
-- [Jim Sanborn](https://en.wikipedia.org/wiki/Jim_Sanborn#:~:text=Kryptos%20was%20the%20first%20cryptographic,the%20sculpture's%202%2C000%20alphabetic%20letters.)
-
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Kryptos_sculptor.jpg/600px-Kryptos_sculptor.jpg)
-
-```
-In addition to the main part of the sculpture, Jim Sanborn also placed other pieces of art on the CIA grounds, such as several large granite slabs with sandwiched copper sheets outside the entrance to the New Headquarters Building. Several Morse code messages are found on these copper sheets, and one of the stone slabs has an engraving of a compass rose pointing to a lodestone. The ciphers' increasing "complexity" through the entrance into the courtyard is intended to be as if it "were a fossil".[3] Other elements of Sanborn's installation include a landscaped garden area, a fish pond with opposing wooden benches, a reflecting pool, and other pieces of stone, including a triangle-shaped black stone slab
-```
-
-# [Cryptex](https://en.wikipedia.org/wiki/Cryptex)
-- `2003; 21 years ago`
-![](https://upload.wikimedia.org/wikipedia/commons/a/a6/Davincicryptex01wiki1.jpg)
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Vigen%C3%A8re_square_shading.svg/1024px-Vigen%C3%A8re_square_shading.svg.png)
