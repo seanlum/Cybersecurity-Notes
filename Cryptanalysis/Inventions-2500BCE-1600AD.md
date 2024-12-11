@@ -9,7 +9,7 @@
 # [Atbash Cipher](https://cyberw1ng.medium.com/understanding-the-atbash-cipher-a-simple-and-effective-encryption-method-2023-da89d71c4369)
 - `500 BC; 2524 years ago`
 
-![](https://miro.medium.com/v2/resize:fit:1400/0*pak_WYFTp27azIBB)
+![](./files/Screenshot%202024-12-10%20212806.png)
 
 # [Zodiac](https://zoroastrianastrology.blogspot.com/p/houses-of-zodiac.html)
 - `409-398 BCE; 2434 years ago`
