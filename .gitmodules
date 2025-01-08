@@ -1,0 +1,3 @@
+[submodule "HARMONIC"]
+	path = HARMONIC
+	url = git@github.com:seanlum/HARMONIC.git
