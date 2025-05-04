@@ -1,1 +1,0 @@
-https://www.justice.gov/opa/pr/us-charges-russian-national-developing-and-operating-lockbit-ransomware

@@ -1,1 +1,0 @@
-https://x.com/RFJ_USA/status/1669740545403437056
