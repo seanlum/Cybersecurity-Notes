@@ -1,3 +1,6 @@
+# VisionLighter Computer Books list
+https://www.visionlighter.com/Books
+
 # Programming Library
 https://github.com/media-lib/prog_lib
 
