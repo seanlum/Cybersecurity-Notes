@@ -37,3 +37,9 @@ https://www.sciencedirect.com/science/article/pii/S0022247X23010089
 
 # The Art of Mac Malware - The Guide to Analyzing Malicious Software | Detecting Malicious Software
 ### https://taomm.org/
+
+# Practical Reverse Engineering : X86, X64, ARM, Windows Kernel, Reversing Tools, and Obfuscation
+### https://a.co/d/086Eb3O
+
+# Reversing: Secrets of Reverse Engineering
+### https://a.co/d/dbUeT4g
