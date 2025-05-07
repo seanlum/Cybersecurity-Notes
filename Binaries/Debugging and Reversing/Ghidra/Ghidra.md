@@ -28,4 +28,19 @@ https://ghidra.re/ghidra_docs/api/index.html
 - [Ghidra ELF format package](https://ghidra.re/ghidra_docs/api/ghidra/app/util/bin/format/elf/package-summary.html)
 
 # Ghidra Installation Guide
-https://ghidra-sre.org/InstallationGuide.html
+https://ghidra-sre.org/InstallationGuide.
+
+# Ghidra - Introduction to Reverse Engineering with Ghidra: A Four Session Course
+### https://wrongbaud.github.io/posts/ghidra-training/
+- A collection of YouTube videos on reversing with Ghidra
+  - Reverse Engineering Class 1-4
+
+# low-level.readthedocs.io
+### https://low-level.readthedocs.io/en/latest/reversing/ghidra/
+- A collection of tutorials and resources for Ghidra
+
+# AllsafeCyberSecurity/awesome-ghidra
+### https://github.com/AllsafeCyberSecurity/awesome-ghidra
+- A collection of scripts and tools for Ghidra
+- A collection of documentation and books for Ghidra
+- A collection of accompanying software for Ghidra
