@@ -1,0 +1,7 @@
+- `Intel IA-32`
+- `Intel IA-64`
+- `Intel EMT64`
+- `x86`
+- `x86-64`
+- `AMD64`
+- `ARM`
