@@ -34,3 +34,6 @@ https://www.sciencedirect.com/science/article/pii/S0022247X23010089
 
 # mytechnotalent/Reverse-Engineering
 [mytechnotalent/Reverse-Engineering](https://github.com/mytechnotalent/Reverse-Engineering)
+
+# The Art of Mac Malware - The Guide to Analyzing Malicious Software | Detecting Malicious Software
+### https://taomm.org/
