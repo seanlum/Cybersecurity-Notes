@@ -43,3 +43,12 @@ https://www.sciencedirect.com/science/article/pii/S0022247X23010089
 
 # Reversing: Secrets of Reverse Engineering
 ### https://a.co/d/dbUeT4g
+
+## Operating System, Design, and Implementation by Andrew S. Tanenbaum and Albert S. Woodhull, Prentice Hall
+## Microsoft Windows Internals, Fourth Edition: Microsoft Server 2003, Windows XP, and Windows 2000 by Mark E. Russinovich and David A. Solomon
+## The Art of Computer Programming - Volume 2: Seminumerical Algorithms (Second Edition) - Donald E. Knuth 
+## The Art of Computer Programming - Volume 3: Sorting and Searching (Second Edition) - Donald E. Knuth
+## Automatic Detection and Prevention of Buffer Overflow Attacks - 7th USENIX Security Symposium
+## Malware: Fighting Malicious Code - Ed Skoudis and Lenny Zeltser
+
+![alt text](image.png)
