@@ -73,6 +73,8 @@
 
 - [./Binaries/Debugging%20and%20Reversing/x64dbg/x64dbg-general-purpose-registers.md](./Binaries/Debugging%20and%20Reversing/x64dbg/x64dbg-general-purpose-registers.md)
 
+- [./Binaries/Malware%20Analysis/Books-on-Malware-Analysis.md](./Binaries/Malware%20Analysis/Books-on-Malware-Analysis.md)
+
 - [./Binaries/Malware%20Analysis/Dynamic%20Analysis/Monitoring-and-Auditing.md](./Binaries/Malware%20Analysis/Dynamic%20Analysis/Monitoring-and-Auditing.md)
 
 - [./Binaries/Malware%20Analysis/Dynamic%20Analysis/Process-Analysis.md](./Binaries/Malware%20Analysis/Dynamic%20Analysis/Process-Analysis.md)
