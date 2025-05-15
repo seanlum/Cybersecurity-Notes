@@ -1,5 +1,13 @@
 # GDB - The GNU Source-Level Debugger
 
+## GNU Project Debugger
+https://www.sourceware.org/gdb/
+
+### Documentation
+- https://sourceware.org/gdb/download/onlinedocs/gdb.pdf
+- https://sourceware.org/gdb/current/onlinedocs/gdb.html/
+
+
 ### [Current | Debugging with GDB](https://sourceware.org/gdb/current/onlinedocs/gdb.html/)
 
 ### [Supported Languages](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Supported-Languages.html#Supported-Languages)
