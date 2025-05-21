@@ -13,6 +13,11 @@ msf6> help
 msf6> search <term>
 ```
 
+## Getting options
+```
+show options
+```
+
 ## Common Commands
 ```
 set RHOST <ip_address>
