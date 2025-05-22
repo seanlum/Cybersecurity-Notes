@@ -175,4 +175,82 @@ RBX (64-bit)
 └── (remaining 32 bits)
 
 ... (similar structure for RCX, RDX, etc.)
+``` 
+
+# `xmm` and `ymm` Registers
+- USed for floating-point calculations in SIMD
+
+# The Accumulator
+- RAX, EAX, AX, AH, and AL
+
+# The Base Register
+- RBX, EBX, BX, BH, and BL
+
+# The Counter Register
+- RCX, ECX, CX, CH, and CL
+
+# The Data Register
+- RDX, EDX, DX, DH, and DL
+
+# The Source Index
+- RSI, ESI, SI
+
+# Destination Index
+- RDI, EDI, DI
+
+# Base Pointer
+- RBP, EBP, BP
+
+# Stack Pointer
+- RSP, ESP, SP
+
+# Extra Registers
+- AH, BH, CH, and DH cannot be used with R8-R15 registers
+- R8-R15 are for 32-bit general purpose registers
+- R8D-R15D are for 64-bit general purpose registers
+- R8W-R15W are for 16-bit general purpose registers
+
+# 8-bit registers in x86-64
+- SIL, DIL, BPL, and SPL are the low bytes of SI, DI, BP, SP
+- R8B-R15B are the low bytes of R8-R15
+
+
+# Flag Registers
+| Symbol | Name | Bit | Content |
+|--------|------|-----|---------|
+| Carry Flag | CF | 0  | previous instruction had a carry |
+| Parity Flag | PF | 2 | Last byte has even number of 1s |
+| Adjust | AF | 4 | BCD operations | 
+| Zero | ZF | 6 | Previous instruction resulted a zero |
+| Sign | SF | 8 | Previous instruction resulted in most significant bit equal to 1 | 
+| Direction | DF | 10 | Direction of string operations (increment or decrement) | 
+| Overflow | OF | 11 | Previous instruction resulted in overflow |
+
+# Code Example
+```
+push rbx
+mov  rdi, rsi
+call myfunc
+pop  rbx
+```
+
+```nasm
+push rbx            ; RSP is decremented by 8 bytes
+                    ; 8-byte value of RBX is written to the new location pointed to by RSP
+                    ; RSP = [???] then RSP = [RBX value]
+                    ; 
+mov rdi, rsi        ; Copies the source index to the destination index
+                    ; Often used to forward a parameter between functions
+                    ; no memory change happens, only a register-to-register copy
+                    ;
+call myfunc         ; Sets RIP (instruction pointer) to &myfunc
+                    ; Return address is pushed on to the stack
+                    ; RSP is decremented by 8 bytes
+                    ; Value of return address is stored at RSP
+pop rbx             ; Restores the original value of RBX from the stack
+                    ; 8-byte value from [RSP] is loaded into RBX
+                    ; RSP is incrememented by 8 to pop the stack
+                    ; Before: RSP -> [RBX value]
+                    ; After:  RBX -> [RBX value]
+
 ```
