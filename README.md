@@ -22,12 +22,24 @@
 <li><a href="Binaries/Compiling/gcc-build-process.md">gcc-build-process.md</a></li>
 </ul></li>
 <li><strong>📁 Debugging and Reversing/</strong><ul>
+<li><strong>📁 Binary Ninja/</strong><ul>
+<li><a href="Binaries/Debugging%20and%20Reversing/Binary%20Ninja/Binary-Ninja.md">Binary-Ninja.md</a></li>
+</ul></li>
+<li><strong>📁 Cutter/</strong><ul>
+<li><a href="Binaries/Debugging%20and%20Reversing/Cutter/Cutter.md">Cutter.md</a></li>
+</ul></li>
 <li><strong>📁 Ghidra/</strong><ul>
 <li><a href="Binaries/Debugging%20and%20Reversing/Ghidra/Ghidra-Features.md">Ghidra-Features.md</a></li>
 <li><a href="Binaries/Debugging%20and%20Reversing/Ghidra/Ghidra.md">Ghidra.md</a></li>
 </ul></li>
+<li><strong>📁 Hopper/</strong><ul>
+<li><a href="Binaries/Debugging%20and%20Reversing/Hopper/Hopper.md">Hopper.md</a></li>
+</ul></li>
 <li><strong>📁 IDA/</strong><ul>
 <li><a href="Binaries/Debugging%20and%20Reversing/IDA/IDA.md">IDA.md</a></li>
+</ul></li>
+<li><strong>📁 Medusa/</strong><ul>
+<li><a href="Binaries/Debugging%20and%20Reversing/Medusa/Medusa.md">Medusa.md</a></li>
 </ul></li>
 <li><strong>📁 Ollydbg/</strong><ul>
 <li><a href="Binaries/Debugging%20and%20Reversing/Ollydbg/Ollydbg.md">Ollydbg.md</a></li>
@@ -51,6 +63,7 @@
 </ul></li>
 <li><a href="Binaries/Debugging%20and%20Reversing/Debugging-in-Visual-Studio-Code.md">Debugging-in-Visual-Studio-Code.md</a></li>
 <li><a href="Binaries/Debugging%20and%20Reversing/Debugging-in-Visual-Studio.md">Debugging-in-Visual-Studio.md</a></li>
+<li><a href="Binaries/Debugging%20and%20Reversing/General-Reversing.md">General-Reversing.md</a></li>
 <li><a href="Binaries/Debugging%20and%20Reversing/Reversing-Tools.md">Reversing-Tools.md</a></li>
 <li><a href="Binaries/Debugging%20and%20Reversing/Reversing-Tutorials-and-Challenges.md">Reversing-Tutorials-and-Challenges.md</a></li>
 <li><a href="Binaries/Debugging%20and%20Reversing/Tools.md">Tools.md</a></li>
@@ -101,6 +114,7 @@
 <li><a href="Binaries/Malware%20Analysis/Books-on-Malware-Analysis.md">Books-on-Malware-Analysis.md</a></li>
 <li><a href="Binaries/Malware%20Analysis/Data-Sources.md">Data-Sources.md</a></li>
 <li><a href="Binaries/Malware%20Analysis/Index.md">Index.md</a></li>
+<li><a href="Binaries/Malware%20Analysis/Links.md">Links.md</a></li>
 <li><a href="Binaries/Malware%20Analysis/Malware-Analysis-Samples.md">Malware-Analysis-Samples.md</a></li>
 <li><a href="Binaries/Malware%20Analysis/Malware-Analysis.md">Malware-Analysis.md</a></li>
 <li><a href="Binaries/Malware%20Analysis/Malware-Behavior.md">Malware-Behavior.md</a></li>
@@ -194,6 +208,12 @@
 <li><a href="Blue%20Teaming/Methodologies/STRIDE.md">STRIDE.md</a></li>
 <li><a href="Blue%20Teaming/Methodologies/Unified-Kill-Chain.md">Unified-Kill-Chain.md</a></li>
 </ul></li>
+<li><strong>📁 Threat Intelligence/</strong><ul>
+<li><a href="Blue%20Teaming/Threat%20Intelligence/Awesome-Threat-Intelligence.md">Awesome-Threat-Intelligence.md</a></li>
+<li><a href="Blue%20Teaming/Threat%20Intelligence/MISP.md">MISP.md</a></li>
+<li><a href="Blue%20Teaming/Threat%20Intelligence/Threat-Exchange.md">Threat-Exchange.md</a></li>
+<li><a href="Blue%20Teaming/Threat%20Intelligence/Threat-Intelligence-Exchange-Formats.md">Threat-Intelligence-Exchange-Formats.md</a></li>
+</ul></li>
 <li><strong>📁 Windows/</strong><ul>
 <li><strong>📁 Windows 11/</strong><ul>
 <li><strong>📁 files/</strong><ul>
@@ -220,13 +240,53 @@
 <li><strong>📁 CTF/</strong><ul>
 <li><strong>📁 WebGoat/</strong><ul>
 <li><strong>📁 Access Control Flaws/</strong><ul>
-<li><a href="CTF/WebGoat/Access%20Control%20Flaws/Bypass-a-Path-Based-Access-Control-Scheme.md">Bypass-a-Path-Based-Access-Control-Scheme.md</a></li>
-<li><a href="CTF/WebGoat/Access%20Control%20Flaws/Using-an-Access-Control-Matrix.md">Using-an-Access-Control-Matrix.md</a></li>
 </ul></li>
-<li><a href="CTF/WebGoat/Http-Basics.md">Http-Basics.md</a></li>
 </ul></li>
 <li><a href="CTF/CTF-Challenges.md">CTF-Challenges.md</a></li>
-<li><a href="CTF/OWASPBWA-WebGoat.md">OWASPBWA-WebGoat.md</a></li>
+</ul></li>
+<li><strong>📁 Changes/</strong><ul>
+<li><strong>📁 ToRemove/</strong><ul>
+<li><strong>📁 Campaigns/</strong><ul>
+<li><strong>📁 Breaches/</strong><ul>
+</ul></li>
+<li><strong>📁 files/</strong><ul>
+</ul></li>
+</ul></li>
+<li><strong>📁 Groups/</strong><ul>
+<li><strong>📁 files/</strong><ul>
+</ul></li>
+</ul></li>
+<li><strong>📁 Malware/</strong><ul>
+<li><strong>📁 files/</strong><ul>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>📁 Uncommitted/</strong><ul>
+<li><strong>📁 Caldera/</strong><ul>
+</ul></li>
+<li><strong>📁 Forensics/</strong><ul>
+</ul></li>
+<li><strong>📁 Legal Frameworks/</strong><ul>
+<li><strong>📁 Australia/</strong><ul>
+</ul></li>
+<li><strong>📁 China/</strong><ul>
+</ul></li>
+<li><strong>📁 Germany/</strong><ul>
+</ul></li>
+<li><strong>📁 India/</strong><ul>
+</ul></li>
+<li><strong>📁 International/</strong><ul>
+</ul></li>
+<li><strong>📁 UK/</strong><ul>
+</ul></li>
+<li><strong>📁 USA/</strong><ul>
+</ul></li>
+</ul></li>
+<li><strong>📁 Red Teaming/</strong><ul>
+</ul></li>
+<li><strong>📁 Secure Coding/</strong><ul>
+</ul></li>
+</ul></li>
 </ul></li>
 <li><strong>📁 Computer Networking/</strong><ul>
 <li><strong>📁 nslookup/</strong><ul>
@@ -235,7 +295,6 @@
 <li><a href="Computer%20Networking/Network-Connections.md">Network-Connections.md</a></li>
 </ul></li>
 <li><strong>📁 Feeds/</strong><ul>
-<li><a href="Feeds/Feeds.md">Feeds.md</a></li>
 </ul></li>
 <li><strong>📁 HARMONIC/</strong><ul>
 <li><strong>📁 01 - Hardening/</strong><ul>
@@ -259,14 +318,12 @@
 <li><strong>📁 Hardware/</strong><ul>
 <li><a href="Hardware/Arduino-bug-idea.md">Arduino-bug-idea.md</a></li>
 <li><a href="Hardware/Driving-Sensor-Systems.md">Driving-Sensor-Systems.md</a></li>
-<li><a href="Hardware/Motherboards.md">Motherboards.md</a></li>
 <li><a href="Hardware/Spy-Gadgets.md">Spy-Gadgets.md</a></li>
 </ul></li>
 <li><strong>📁 Ideas/</strong><ul>
 <li><a href="Ideas/Drilling-Down-with-MITRE-and-OWASP.md">Drilling-Down-with-MITRE-and-OWASP.md</a></li>
 <li><a href="Ideas/Managing_Closed-Source_Security_Signatures_with_AI_and_CI_Pipelines.md">Managing_Closed-Source_Security_Signatures_with_AI_and_CI_Pipelines.md</a></li>
 <li><a href="Ideas/Polymorphic_functions_in_C.md">Polymorphic_functions_in_C.md</a></li>
-<li><a href="Ideas/Web-Intelligence-as-a-Service.md">Web-Intelligence-as-a-Service.md</a></li>
 </ul></li>
 <li><strong>📁 MITRE/</strong><ul>
 <li><strong>📁 ATT&CK and D3FEND/</strong><ul>
@@ -355,26 +412,18 @@
 <li><a href="NIST/AI-Content/CIO_responsibilities_NIST-GitHub-Copilot.md">CIO_responsibilities_NIST-GitHub-Copilot.md</a></li>
 <li><a href="NIST/AI-Content/Information-Owner-Responsibilities-ChatGPT.md">Information-Owner-Responsibilities-ChatGPT.md</a></li>
 <li><a href="NIST/AI-Content/Information-Owner-Responsiblities-Github-Copilot.md">Information-Owner-Responsiblities-Github-Copilot.md</a></li>
-<li><a href="NIST/AI-Content/NIST_SP_800-53_Policies_Summary.md">NIST_SP_800-53_Policies_Summary.md</a></li>
 <li><a href="NIST/AI-Content/SAISO-Responsibilities-ChatGPT.md">SAISO-Responsibilities-ChatGPT.md</a></li>
 <li><a href="NIST/AI-Content/SAISO-Responsibilities-Github-Copilot.md">SAISO-Responsibilities-Github-Copilot.md</a></li>
 <li><a href="NIST/AI-Content/Single-person-organization-RMF-Compliance-Guide-Rev-5.md">Single-person-organization-RMF-Compliance-Guide-Rev-5.md</a></li>
 <li><a href="NIST/AI-Content/Single-person-organizations-Github-Copilot.md">Single-person-organizations-Github-Copilot.md</a></li>
 </ul></li>
 <li><strong>📁 draft/</strong><ul>
-<li><a href="NIST/draft/Categorizing-Systems.md">Categorizing-Systems.md</a></li>
-<li><a href="NIST/draft/NIST-CSF-Profile.md">NIST-CSF-Profile.md</a></li>
-<li><a href="NIST/draft/NIST-SP-800-39-Managing-Information-Security-RIsk.md">NIST-SP-800-39-Managing-Information-Security-RIsk.md</a></li>
-<li><a href="NIST/draft/Organization-Responsibilities.md">Organization-Responsibilities.md</a></li>
-<li><a href="NIST/draft/Risk-Management-Framework.md">Risk-Management-Framework.md</a></li>
-<li><a href="NIST/draft/System-Development-Life-Cycle.md">System-Development-Life-Cycle.md</a></li>
 </ul></li>
 <li><strong>📁 files/</strong><ul>
 </ul></li>
 <li><a href="NIST/01-NIST-Document-Overview.md">01-NIST-Document-Overview.md</a></li>
 <li><a href="NIST/Cyber-Security-Framework.md">Cyber-Security-Framework.md</a></li>
 <li><a href="NIST/FIPS-199.md">FIPS-199.md</a></li>
-<li><a href="NIST/NIST%20SP%20800-218%20-%20Secure%20Software%20Development%20Framework%20%28SSDF%29.md">NIST SP 800-218 - Secure Software Development Framework (SSDF).md</a></li>
 <li><a href="NIST/NIST-NVD-and-CVE.md">NIST-NVD-and-CVE.md</a></li>
 <li><a href="NIST/NIST-SP-800-12-Introduction-to-Cybersecurity.md">NIST-SP-800-12-Introduction-to-Cybersecurity.md</a></li>
 <li><a href="NIST/NIST-SPs-and-FIPS.md">NIST-SPs-and-FIPS.md</a></li>
@@ -382,7 +431,6 @@
 <li><a href="NIST/Systems-Security-Engineering-_-SP-800-160.md">Systems-Security-Engineering-_-SP-800-160.md</a></li>
 </ul></li>
 <li><strong>📁 OSINT/</strong><ul>
-<li><a href="OSINT/Tools.md">Tools.md</a></li>
 </ul></li>
 <li><strong>📁 OWASP/</strong><ul>
 <li><a href="OWASP/OWASP-_-The-Developers-Guide-_-References.md">OWASP-_-The-Developers-Guide-_-References.md</a></li>
@@ -433,6 +481,9 @@
 <li><strong>📁 LOLBINS/</strong><ul>
 <li><a href="Red%20Teaming/LOLBINS/GTFObins.md">GTFObins.md</a></li>
 </ul></li>
+<li><strong>📁 Malware Development/</strong><ul>
+<li><a href="Red%20Teaming/Malware%20Development/Links.md">Links.md</a></li>
+</ul></li>
 <li><strong>📁 TryHackMe/</strong><ul>
 <li><strong>📁 Blue/</strong><ul>
 <li><strong>📁 Windows 7/</strong><ul>
@@ -462,6 +513,7 @@
 <li><a href="Red%20Teaming/web/template-injection/mako-template-injection.md">mako-template-injection.md</a></li>
 </ul></li>
 </ul></li>
+<li><a href="Red%20Teaming/Exploit-DB.md">Exploit-DB.md</a></li>
 <li><a href="Red%20Teaming/OSCP-training.md">OSCP-training.md</a></li>
 <li><a href="Red%20Teaming/remote-shell-stablization.md">remote-shell-stablization.md</a></li>
 </ul></li>
@@ -474,13 +526,11 @@
 <li><a href="Tools/Cyber-Kill-Chain.md">Cyber-Kill-Chain.md</a></li>
 <li><a href="Tools/Digital-Artifact-Services.md">Digital-Artifact-Services.md</a></li>
 <li><a href="Tools/Documentation-Databases.md">Documentation-Databases.md</a></li>
-<li><a href="Tools/Exploit-DB.md">Exploit-DB.md</a></li>
 <li><a href="Tools/Frameworks.md">Frameworks.md</a></li>
 <li><a href="Tools/HackTricks-Book.md">HackTricks-Book.md</a></li>
 <li><a href="Tools/Hardening-Windows.md">Hardening-Windows.md</a></li>
 <li><a href="Tools/Infoscrapers.md">Infoscrapers.md</a></li>
 <li><a href="Tools/LOLbin-Resources.md">LOLbin-Resources.md</a></li>
-<li><a href="Tools/MISP.md">MISP.md</a></li>
 <li><a href="Tools/Mobile-Tools.md">Mobile-Tools.md</a></li>
 <li><a href="Tools/Models-and-Lifecycles.md">Models-and-Lifecycles.md</a></li>
 <li><a href="Tools/OASIS.md">OASIS.md</a></li>
@@ -497,8 +547,6 @@
 <li><a href="Tools/Software-Package-Repositories.md">Software-Package-Repositories.md</a></li>
 <li><a href="Tools/Software-Testing-Frameworks.md">Software-Testing-Frameworks.md</a></li>
 <li><a href="Tools/SysInternals.md">SysInternals.md</a></li>
-<li><a href="Tools/Threat-Exchange.md">Threat-Exchange.md</a></li>
-<li><a href="Tools/Threat-Intelligence-Exchange-Formats.md">Threat-Intelligence-Exchange-Formats.md</a></li>
 <li><a href="Tools/Vulnerability-Mapping.md">Vulnerability-Mapping.md</a></li>
 <li><a href="Tools/Web-Technologies.md">Web-Technologies.md</a></li>
 <li><a href="Tools/pwntools.md">pwntools.md</a></li>
@@ -526,5 +574,4 @@
 <li><a href="Vulnerability%20Scanning/Vulnerability-Scanning.md">Vulnerability-Scanning.md</a></li>
 </ul></li>
 <li><a href="README.md">README.md</a></li>
-<li><a href="Securing-Platforms.md">Securing-Platforms.md</a></li>
 </ul>

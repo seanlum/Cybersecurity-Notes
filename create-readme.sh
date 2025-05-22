@@ -1,2 +1,3 @@
-echo '# Index' > README.md
-find . -type f -name $"*.md" -not -path "./Changes/*" | awk '{ begin; gsub(/[ ]/, "%20",$0); print "- ["$0"]("$0")\n"; }' >> README.md
+echo 'Generating Untracked Files Index'
+git ls-files --others --exclude-standard > untracked-files.txt
+python3 create-readme.py

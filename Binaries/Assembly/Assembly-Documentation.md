@@ -1,6 +1,9 @@
 # Intel 64 and IA-32 Archittectures Software Developer Manuals
 [Intel Software Developer Manuals](https://www.intel.com/content/www/us/en/developer/articles/technical/intel-sdm.html)
 
+## X86 Opcode and Instruction Reference
+[X86 Opcode and Instruction Reference](http://ref.x86asm.net/)
+
 # AMD Documentation Hub
 [AMD Documentation Hub](https://www.amd.com/en/search/documentation/hub.html#sortCriteria=%40amd_release_date%20descending)
 
@@ -17,3 +20,4 @@
 
 # SPARC Assembly
 [SPARC Assembly Language Reference Manual - 11.4](https://docs.oracle.com/cd/E37838_01/html/E61063/index.html)
+
