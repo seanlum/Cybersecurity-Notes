@@ -16,8 +16,6 @@
 <li><a href="Binaries/Assembly/Basic-Structures.md">Basic-Structures.md</a></li>
 </ul></li>
 <li><strong>📁 Compiling/</strong><ul>
-<li><strong>📁 gcc-build-scripts/</strong><ul>
-</ul></li>
 <li><a href="Binaries/Compiling/Compilers.md">Compilers.md</a></li>
 <li><a href="Binaries/Compiling/gcc-build-process.md">gcc-build-process.md</a></li>
 </ul></li>
@@ -76,8 +74,6 @@
 <li><a href="Binaries/Malware%20Analysis/Dynamic%20Analysis/Sandboxes.md">Sandboxes.md</a></li>
 </ul></li>
 <li><strong>📁 Static Analysis/</strong><ul>
-<li><strong>📁 files/</strong><ul>
-</ul></li>
 <li><a href="Binaries/Malware%20Analysis/Static%20Analysis/Binary-Analysis_-_Strings.md">Binary-Analysis_-_Strings.md</a></li>
 <li><a href="Binaries/Malware%20Analysis/Static%20Analysis/Deobfuscation.md">Deobfuscation.md</a></li>
 <li><a href="Binaries/Malware%20Analysis/Static%20Analysis/Detecting-Packers.md">Detecting-Packers.md</a></li>
@@ -89,14 +85,6 @@
 </ul></li>
 <li><strong>📁 Toolkits/</strong><ul>
 <li><strong>📁 FLARE-vm/</strong><ul>
-<li><strong>📁 files/</strong><ul>
-<li><strong>📁 available/</strong><ul>
-</ul></li>
-<li><strong>📁 image-to-text/</strong><ul>
-</ul></li>
-<li><strong>📁 toInstall/</strong><ul>
-</ul></li>
-</ul></li>
 <li><a href="Binaries/Malware%20Analysis/Toolkits/FLARE-vm/Android.md">Android.md</a></li>
 <li><a href="Binaries/Malware%20Analysis/Toolkits/FLARE-vm/Available.md">Available.md</a></li>
 <li><a href="Binaries/Malware%20Analysis/Toolkits/FLARE-vm/C_Cpp_Shellcode.md">C_Cpp_Shellcode.md</a></li>
@@ -108,8 +96,6 @@
 <li><strong>📁 REMnux/</strong><ul>
 <li><a href="Binaries/Malware%20Analysis/Toolkits/REMnux/Not-Found-in-Kali.md">Not-Found-in-Kali.md</a></li>
 </ul></li>
-</ul></li>
-<li><strong>📁 files/</strong><ul>
 </ul></li>
 <li><a href="Binaries/Malware%20Analysis/Books-on-Malware-Analysis.md">Books-on-Malware-Analysis.md</a></li>
 <li><a href="Binaries/Malware%20Analysis/Data-Sources.md">Data-Sources.md</a></li>
@@ -146,8 +132,6 @@
 <li><a href="Binaries/Windows/Drivers.md">Drivers.md</a></li>
 <li><a href="Binaries/Windows/Win32-API.md">Win32-API.md</a></li>
 </ul></li>
-<li><strong>📁 folders/</strong><ul>
-</ul></li>
 </ul></li>
 <li><strong>📁 Blue Teaming/</strong><ul>
 <li><strong>📁 Analysis Techniques/</strong><ul>
@@ -171,8 +155,6 @@
 <li><a href="Blue%20Teaming/Cisco/Hardening.md">Hardening.md</a></li>
 </ul></li>
 <li><strong>📁 Cryptanalysis/</strong><ul>
-<li><strong>📁 files/</strong><ul>
-</ul></li>
 <li><a href="Blue%20Teaming/Cryptanalysis/Ciphers.md">Ciphers.md</a></li>
 <li><a href="Blue%20Teaming/Cryptanalysis/Cryptography.md">Cryptography.md</a></li>
 <li><a href="Blue%20Teaming/Cryptanalysis/Glossary.md">Glossary.md</a></li>
@@ -191,8 +173,6 @@
 <li><a href="Blue%20Teaming/Forensics/Geeks-For-Geeks_-_Computer-Forensics.md">Geeks-For-Geeks_-_Computer-Forensics.md</a></li>
 <li><a href="Blue%20Teaming/Forensics/Links.md">Links.md</a></li>
 <li><a href="Blue%20Teaming/Forensics/Unfurl.md">Unfurl.md</a></li>
-</ul></li>
-<li><strong>📁 Linux/</strong><ul>
 </ul></li>
 <li><strong>📁 MacOS/</strong><ul>
 <li><a href="Blue%20Teaming/MacOS/Documentation.md">Documentation.md</a></li>
@@ -216,8 +196,6 @@
 </ul></li>
 <li><strong>📁 Windows/</strong><ul>
 <li><strong>📁 Windows 11/</strong><ul>
-<li><strong>📁 files/</strong><ul>
-</ul></li>
 <li><a href="Blue%20Teaming/Windows/Windows%2011/Boot-Options.md">Boot-Options.md</a></li>
 <li><a href="Blue%20Teaming/Windows/Windows%2011/Drivers.md">Drivers.md</a></li>
 <li><a href="Blue%20Teaming/Windows/Windows%2011/Event-Sources.md">Event-Sources.md</a></li>
@@ -238,63 +216,11 @@
 <li><a href="Books/Index.md">Index.md</a></li>
 </ul></li>
 <li><strong>📁 CTF/</strong><ul>
-<li><strong>📁 WebGoat/</strong><ul>
-<li><strong>📁 Access Control Flaws/</strong><ul>
-</ul></li>
-</ul></li>
 <li><a href="CTF/CTF-Challenges.md">CTF-Challenges.md</a></li>
 </ul></li>
-<li><strong>📁 Changes/</strong><ul>
-<li><strong>📁 ToRemove/</strong><ul>
-<li><strong>📁 Campaigns/</strong><ul>
-<li><strong>📁 Breaches/</strong><ul>
-</ul></li>
-<li><strong>📁 files/</strong><ul>
-</ul></li>
-</ul></li>
-<li><strong>📁 Groups/</strong><ul>
-<li><strong>📁 files/</strong><ul>
-</ul></li>
-</ul></li>
-<li><strong>📁 Malware/</strong><ul>
-<li><strong>📁 files/</strong><ul>
-</ul></li>
-</ul></li>
-</ul></li>
-<li><strong>📁 Uncommitted/</strong><ul>
-<li><strong>📁 Caldera/</strong><ul>
-</ul></li>
-<li><strong>📁 Forensics/</strong><ul>
-</ul></li>
-<li><strong>📁 Legal Frameworks/</strong><ul>
-<li><strong>📁 Australia/</strong><ul>
-</ul></li>
-<li><strong>📁 China/</strong><ul>
-</ul></li>
-<li><strong>📁 Germany/</strong><ul>
-</ul></li>
-<li><strong>📁 India/</strong><ul>
-</ul></li>
-<li><strong>📁 International/</strong><ul>
-</ul></li>
-<li><strong>📁 UK/</strong><ul>
-</ul></li>
-<li><strong>📁 USA/</strong><ul>
-</ul></li>
-</ul></li>
-<li><strong>📁 Red Teaming/</strong><ul>
-</ul></li>
-<li><strong>📁 Secure Coding/</strong><ul>
-</ul></li>
-</ul></li>
-</ul></li>
 <li><strong>📁 Computer Networking/</strong><ul>
-<li><strong>📁 nslookup/</strong><ul>
-</ul></li>
 <li><a href="Computer%20Networking/DNS.md">DNS.md</a></li>
 <li><a href="Computer%20Networking/Network-Connections.md">Network-Connections.md</a></li>
-</ul></li>
-<li><strong>📁 Feeds/</strong><ul>
 </ul></li>
 <li><strong>📁 HARMONIC/</strong><ul>
 <li><strong>📁 01 - Hardening/</strong><ul>
@@ -306,10 +232,6 @@
 <li><a href="HARMONIC/01%20-%20Hardening/Hardening-Resources.md">Hardening-Resources.md</a></li>
 <li><a href="HARMONIC/01%20-%20Hardening/Hardening-UNIX-and-Linux.md">Hardening-UNIX-and-Linux.md</a></li>
 <li><a href="HARMONIC/01%20-%20Hardening/Hardening-Windows.md">Hardening-Windows.md</a></li>
-</ul></li>
-<li><strong>📁 02 - Analysis/</strong><ul>
-</ul></li>
-<li><strong>📁 media/</strong><ul>
 </ul></li>
 <li><a href="HARMONIC/Implementation-With-DevOps.md">Implementation-With-DevOps.md</a></li>
 <li><a href="HARMONIC/Performing-Inventory.md">Performing-Inventory.md</a></li>
@@ -346,56 +268,6 @@
 <li><a href="MITRE/ATT%26CK%20and%20D3FEND/ATT%26CK/Overview.md">Overview.md</a></li>
 <li><a href="MITRE/ATT%26CK%20and%20D3FEND/ATT%26CK/Reconnaissance.md">Reconnaissance.md</a></li>
 </ul></li>
-<li><strong>📁 D3FEND/</strong><ul>
-<li><strong>📁 01. Agent Authentication/</strong><ul>
-</ul></li>
-<li><strong>📁 02. Application Hardening/</strong><ul>
-</ul></li>
-<li><strong>📁 03. Credential Hardening/</strong><ul>
-</ul></li>
-<li><strong>📁 04. Message Hardening/</strong><ul>
-</ul></li>
-<li><strong>📁 05. Platform Hardening/</strong><ul>
-</ul></li>
-<li><strong>📁 06. Source Code Hardening/</strong><ul>
-</ul></li>
-<li><strong>📁 07. File Analysis/</strong><ul>
-</ul></li>
-<li><strong>📁 08. Identifier Analysis/</strong><ul>
-</ul></li>
-<li><strong>📁 09. Network Traffic Analysis/</strong><ul>
-</ul></li>
-<li><strong>📁 10. Platform Monitoring/</strong><ul>
-</ul></li>
-<li><strong>📁 11. Process Analysis/</strong><ul>
-</ul></li>
-<li><strong>📁 12. User Behavior Analysis/</strong><ul>
-</ul></li>
-<li><strong>📁 13. Access Mediation/</strong><ul>
-</ul></li>
-<li><strong>📁 14. Access Policy Administration/</strong><ul>
-</ul></li>
-<li><strong>📁 15. Content Filtering/</strong><ul>
-</ul></li>
-<li><strong>📁 16. Execution Isolation/</strong><ul>
-</ul></li>
-<li><strong>📁 17. Network Isolation/</strong><ul>
-</ul></li>
-<li><strong>📁 18. Decoy Environment/</strong><ul>
-</ul></li>
-<li><strong>📁 19. Decoy Object/</strong><ul>
-</ul></li>
-<li><strong>📁 20. Credential Eviction/</strong><ul>
-</ul></li>
-<li><strong>📁 21. Object Eviction/</strong><ul>
-</ul></li>
-<li><strong>📁 22. Process Eviction/</strong><ul>
-</ul></li>
-<li><strong>📁 23. Restore Access/</strong><ul>
-</ul></li>
-<li><strong>📁 24. Restore Object/</strong><ul>
-</ul></li>
-</ul></li>
 </ul></li>
 <li><strong>📁 CAR Cyber Analytics Repository/</strong><ul>
 <li><a href="MITRE/CAR%20Cyber%20Analytics%20Repository/MITRE-CAR.md">MITRE-CAR.md</a></li>
@@ -417,20 +289,15 @@
 <li><a href="NIST/AI-Content/Single-person-organization-RMF-Compliance-Guide-Rev-5.md">Single-person-organization-RMF-Compliance-Guide-Rev-5.md</a></li>
 <li><a href="NIST/AI-Content/Single-person-organizations-Github-Copilot.md">Single-person-organizations-Github-Copilot.md</a></li>
 </ul></li>
-<li><strong>📁 draft/</strong><ul>
-</ul></li>
-<li><strong>📁 files/</strong><ul>
-</ul></li>
 <li><a href="NIST/01-NIST-Document-Overview.md">01-NIST-Document-Overview.md</a></li>
 <li><a href="NIST/Cyber-Security-Framework.md">Cyber-Security-Framework.md</a></li>
 <li><a href="NIST/FIPS-199.md">FIPS-199.md</a></li>
+<li><a href="NIST/NIST%20SP%20800-218%20-%20Secure%20Software%20Development%20Framework%20%28SSDF%29.md">NIST SP 800-218 - Secure Software Development Framework (SSDF).md</a></li>
 <li><a href="NIST/NIST-NVD-and-CVE.md">NIST-NVD-and-CVE.md</a></li>
 <li><a href="NIST/NIST-SP-800-12-Introduction-to-Cybersecurity.md">NIST-SP-800-12-Introduction-to-Cybersecurity.md</a></li>
 <li><a href="NIST/NIST-SPs-and-FIPS.md">NIST-SPs-and-FIPS.md</a></li>
 <li><a href="NIST/NIST-SSDF-References.md">NIST-SSDF-References.md</a></li>
 <li><a href="NIST/Systems-Security-Engineering-_-SP-800-160.md">Systems-Security-Engineering-_-SP-800-160.md</a></li>
-</ul></li>
-<li><strong>📁 OSINT/</strong><ul>
 </ul></li>
 <li><strong>📁 OWASP/</strong><ul>
 <li><a href="OWASP/OWASP-_-The-Developers-Guide-_-References.md">OWASP-_-The-Developers-Guide-_-References.md</a></li>
@@ -452,16 +319,6 @@
 <li><strong>📁 02 Data Link Layer/</strong><ul>
 <li><a href="Protocols%20and%20Services/Networking/02%20Data%20Link%20Layer/802.11%20WiFi.md">802.11 WiFi.md</a></li>
 <li><a href="Protocols%20and%20Services/Networking/02%20Data%20Link%20Layer/802.3%20Ethernet.md">802.3 Ethernet.md</a></li>
-</ul></li>
-<li><strong>📁 03 Network Layer/</strong><ul>
-</ul></li>
-<li><strong>📁 04 Transport Layer/</strong><ul>
-</ul></li>
-<li><strong>📁 05 Session Layer/</strong><ul>
-</ul></li>
-<li><strong>📁 06 Presentation Layer/</strong><ul>
-</ul></li>
-<li><strong>📁 07 Application Layer/</strong><ul>
 </ul></li>
 <li><a href="Protocols%20and%20Services/Networking/TCP%20Transmission%20Control%20Protocol.md">TCP Transmission Control Protocol.md</a></li>
 </ul></li>
@@ -518,8 +375,6 @@
 <li><a href="Red%20Teaming/remote-shell-stablization.md">remote-shell-stablization.md</a></li>
 </ul></li>
 <li><strong>📁 Tools/</strong><ul>
-<li><strong>📁 files/</strong><ul>
-</ul></li>
 <li><a href="Tools/CLOAK_-_Concealment-Layers-for-Online-Anonymity-and-Knowledge.md">CLOAK_-_Concealment-Layers-for-Online-Anonymity-and-Knowledge.md</a></li>
 <li><a href="Tools/CTF-Handbook.md">CTF-Handbook.md</a></li>
 <li><a href="Tools/CyBOK-The-Cyber-Body-of-Knowledge.md">CyBOK-The-Cyber-Body-of-Knowledge.md</a></li>
@@ -557,8 +412,6 @@
 <li><strong>📁 Vulnerability Scanning/</strong><ul>
 <li><strong>📁 Categories/</strong><ul>
 <li><a href="Vulnerability%20Scanning/Categories/Compliance.md">Compliance.md</a></li>
-</ul></li>
-<li><strong>📁 Files/</strong><ul>
 </ul></li>
 <li><strong>📁 Vulnerabilities/</strong><ul>
 <li><a href="Vulnerability%20Scanning/Vulnerabilities/2024%20ISC%20BIND.md">2024 ISC BIND.md</a></li>

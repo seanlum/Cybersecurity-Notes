@@ -1,3 +1,3 @@
 echo 'Generating Untracked Files Index'
-git ls-files --others --exclude-standard > untracked-files.txt
+git status --porcelain | grep '^??' | cut -c4- > untracked-files.txt
 python3 create-readme.py
