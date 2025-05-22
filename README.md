@@ -222,6 +222,30 @@
 <li><a href="Computer%20Networking/DNS.md">DNS.md</a></li>
 <li><a href="Computer%20Networking/Network-Connections.md">Network-Connections.md</a></li>
 </ul></li>
+<li><strong>📁 Encryption/</strong><ul>
+<li><strong>📁 Symmetric Encryption/</strong><ul>
+<li><strong>📁 Block Ciphers/</strong><ul>
+<li><strong>📁 Authenticated Modes/</strong><ul>
+<li><a href="Encryption/Symmetric%20Encryption/Block%20Ciphers/Authenticated%20Modes/CCM_Counter-with-CBC-MAC.md">CCM_Counter-with-CBC-MAC.md</a></li>
+<li><a href="Encryption/Symmetric%20Encryption/Block%20Ciphers/Authenticated%20Modes/ChaCha20-Poly1305.md">ChaCha20-Poly1305.md</a></li>
+<li><a href="Encryption/Symmetric%20Encryption/Block%20Ciphers/Authenticated%20Modes/EAX_EAX-Mode.md">EAX_EAX-Mode.md</a></li>
+<li><a href="Encryption/Symmetric%20Encryption/Block%20Ciphers/Authenticated%20Modes/GCM_Galois-Counter-Mode.md">GCM_Galois-Counter-Mode.md</a></li>
+<li><a href="Encryption/Symmetric%20Encryption/Block%20Ciphers/Authenticated%20Modes/IAPM_Integrity-Aware-Parallelizable-Mode.md">IAPM_Integrity-Aware-Parallelizable-Mode.md</a></li>
+<li><a href="Encryption/Symmetric%20Encryption/Block%20Ciphers/Authenticated%20Modes/OCB_Offset-Codebook-Mode.md">OCB_Offset-Codebook-Mode.md</a></li>
+<li><a href="Encryption/Symmetric%20Encryption/Block%20Ciphers/Authenticated%20Modes/SIV_Synthetic-Initialization-Vector.md">SIV_Synthetic-Initialization-Vector.md</a></li>
+</ul></li>
+<li><strong>📁 Classic Modes/</strong><ul>
+<li><a href="Encryption/Symmetric%20Encryption/Block%20Ciphers/Classic%20Modes/CBC_Cipher%20Block%20Chaining.md">CBC_Cipher Block Chaining.md</a></li>
+<li><a href="Encryption/Symmetric%20Encryption/Block%20Ciphers/Classic%20Modes/CFB_Cipher%20Feedback.md">CFB_Cipher Feedback.md</a></li>
+<li><a href="Encryption/Symmetric%20Encryption/Block%20Ciphers/Classic%20Modes/CTR_Counter.md">CTR_Counter.md</a></li>
+<li><a href="Encryption/Symmetric%20Encryption/Block%20Ciphers/Classic%20Modes/ECB_Electronic%20Code%20Book.md">ECB_Electronic Code Book.md</a></li>
+<li><a href="Encryption/Symmetric%20Encryption/Block%20Ciphers/Classic%20Modes/OFB_Output%20Feedback%20Mode.md">OFB_Output Feedback Mode.md</a></li>
+<li><a href="Encryption/Symmetric%20Encryption/Block%20Ciphers/Classic%20Modes/PCBC_Propogating%20Cipher%20Block%20Chaining.md">PCBC_Propogating Cipher Block Chaining.md</a></li>
+</ul></li>
+</ul></li>
+<li><a href="Encryption/Symmetric%20Encryption/Symmetric-Encryption.md">Symmetric-Encryption.md</a></li>
+</ul></li>
+</ul></li>
 <li><strong>📁 HARMONIC/</strong><ul>
 <li><strong>📁 01 - Hardening/</strong><ul>
 <li><a href="HARMONIC/01%20-%20Hardening/0a-Establishing-a-Baseline.md">0a-Establishing-a-Baseline.md</a></li>
