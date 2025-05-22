@@ -1,397 +1,530 @@
 # Markdown File Tree
 
-📁 Cybersecurity-Notes/
-  └── [README.md](README.md)
-  └── [Securing-Platforms.md](Securing-Platforms.md)
-  📁 Binaries/
-    📁 Anti-Debugging-Techniques/
-      └── [anti_debugger_realtime_clock.md](Binaries/Anti-Debugging-Techniques/anti_debugger_realtime_clock.md)
-      └── [detect_procmon_window.md](Binaries/Anti-Debugging-Techniques/detect_procmon_window.md)
-      └── [execute_anti_debugging_instructions.md](Binaries/Anti-Debugging-Techniques/execute_anti_debugging_instructions.md)
-      └── [find_window_gdkWindowTopLevel.md](Binaries/Anti-Debugging-Techniques/find_window_gdkWindowTopLevel.md)
-    📁 Assembly/
-      └── [Assemblers.md](Binaries/Assembly/Assemblers.md)
-      └── [Assembly-Comparisons.md](Binaries/Assembly/Assembly-Comparisons.md)
-      └── [Assembly-Documentation.md](Binaries/Assembly/Assembly-Documentation.md)
-      └── [Assembly-Registers.md](Binaries/Assembly/Assembly-Registers.md)
-      └── [Basic-Structures.md](Binaries/Assembly/Basic-Structures.md)
-    📁 Compiling/
-      └── [Compilers.md](Binaries/Compiling/Compilers.md)
-      └── [gcc-build-process.md](Binaries/Compiling/gcc-build-process.md)
-      📁 gcc-build-scripts/
-    📁 Debugging and Reversing/
-      └── [Debugging-in-Visual-Studio-Code.md](Binaries/Debugging%20and%20Reversing/Debugging-in-Visual-Studio-Code.md)
-      └── [Debugging-in-Visual-Studio.md](Binaries/Debugging%20and%20Reversing/Debugging-in-Visual-Studio.md)
-      └── [Reversing-Tools.md](Binaries/Debugging%20and%20Reversing/Reversing-Tools.md)
-      └── [Reversing-Tutorials-and-Challenges.md](Binaries/Debugging%20and%20Reversing/Reversing-Tutorials-and-Challenges.md)
-      └── [Tools.md](Binaries/Debugging%20and%20Reversing/Tools.md)
-      📁 gdb/
-        └── [Debuggers-gdb.md](Binaries/Debugging%20and%20Reversing/gdb/Debuggers-gdb.md)
-        └── [instructions.md](Binaries/Debugging%20and%20Reversing/gdb/instructions.md)
-      📁 Ghidra/
-        └── [Ghidra-Features.md](Binaries/Debugging%20and%20Reversing/Ghidra/Ghidra-Features.md)
-        └── [Ghidra.md](Binaries/Debugging%20and%20Reversing/Ghidra/Ghidra.md)
-      📁 IDA/
-        └── [IDA.md](Binaries/Debugging%20and%20Reversing/IDA/IDA.md)
-      📁 lldb/
-        └── [lldb.md](Binaries/Debugging%20and%20Reversing/lldb/lldb.md)
-      📁 Ollydbg/
-        └── [Ollydbg.md](Binaries/Debugging%20and%20Reversing/Ollydbg/Ollydbg.md)
-      📁 radare2 and iaito/
-        └── [radare.md](Binaries/Debugging%20and%20Reversing/radare2%20and%20iaito/radare.md)
-      📁 windbg/
-        └── [Debuggers-windbg.md](Binaries/Debugging%20and%20Reversing/windbg/Debuggers-windbg.md)
-      📁 x64dbg/
-        └── [Debuggers-x64dbg.md](Binaries/Debugging%20and%20Reversing/x64dbg/Debuggers-x64dbg.md)
-        └── [x64dbg-general-purpose-registers.md](Binaries/Debugging%20and%20Reversing/x64dbg/x64dbg-general-purpose-registers.md)
-    📁 folders/
-    📁 Malware Analysis/
-      └── [Books-on-Malware-Analysis.md](Binaries/Malware%20Analysis/Books-on-Malware-Analysis.md)
-      └── [Data-Sources.md](Binaries/Malware%20Analysis/Data-Sources.md)
-      └── [Index.md](Binaries/Malware%20Analysis/Index.md)
-      └── [Malware-Analysis-Samples.md](Binaries/Malware%20Analysis/Malware-Analysis-Samples.md)
-      └── [Malware-Analysis.md](Binaries/Malware%20Analysis/Malware-Analysis.md)
-      └── [Malware-Behavior.md](Binaries/Malware%20Analysis/Malware-Behavior.md)
-      └── [Tool-list.md](Binaries/Malware%20Analysis/Tool-list.md)
-      └── [Types-of-Malware.md](Binaries/Malware%20Analysis/Types-of-Malware.md)
-      📁 Dynamic Analysis/
-        └── [Monitoring-and-Auditing.md](Binaries/Malware%20Analysis/Dynamic%20Analysis/Monitoring-and-Auditing.md)
-        └── [Process-Analysis.md](Binaries/Malware%20Analysis/Dynamic%20Analysis/Process-Analysis.md)
-        └── [Running-Files.md](Binaries/Malware%20Analysis/Dynamic%20Analysis/Running-Files.md)
-        └── [Sandboxes.md](Binaries/Malware%20Analysis/Dynamic%20Analysis/Sandboxes.md)
-      📁 files/
-      📁 Static Analysis/
-        └── [Binary-Analysis_-_Strings.md](Binaries/Malware%20Analysis/Static%20Analysis/Binary-Analysis_-_Strings.md)
-        └── [Deobfuscation.md](Binaries/Malware%20Analysis/Static%20Analysis/Deobfuscation.md)
-        └── [Detecting-Packers.md](Binaries/Malware%20Analysis/Static%20Analysis/Detecting-Packers.md)
-        └── [False-Positive-Analysis.md](Binaries/Malware%20Analysis/Static%20Analysis/False-Positive-Analysis.md)
-        └── [Hashing.md](Binaries/Malware%20Analysis/Static%20Analysis/Hashing.md)
-        └── [Inspecting-PE-FIles.md](Binaries/Malware%20Analysis/Static%20Analysis/Inspecting-PE-FIles.md)
-        └── [Packer Identification.md](Binaries/Malware%20Analysis/Static%20Analysis/Packer%20Identification.md)
-        └── [Quickscope.md](Binaries/Malware%20Analysis/Static%20Analysis/Quickscope.md)
-        📁 files/
-      📁 Toolkits/
-        📁 FLARE-vm/
-          └── [Android.md](Binaries/Malware%20Analysis/Toolkits/FLARE-vm/Android.md)
-          └── [Available.md](Binaries/Malware%20Analysis/Toolkits/FLARE-vm/Available.md)
-          └── [C_Cpp_Shellcode.md](Binaries/Malware%20Analysis/Toolkits/FLARE-vm/C_Cpp_Shellcode.md)
-          └── [Java.md](Binaries/Malware%20Analysis/Toolkits/FLARE-vm/Java.md)
-          └── [To-Install.md](Binaries/Malware%20Analysis/Toolkits/FLARE-vm/To-Install.md)
-          └── [VM-Packages-repository.md](Binaries/Malware%20Analysis/Toolkits/FLARE-vm/VM-Packages-repository.md)
-          └── [dotNET.md](Binaries/Malware%20Analysis/Toolkits/FLARE-vm/dotNET.md)
-          📁 files/
-            📁 available/
-            📁 image-to-text/
-            📁 toInstall/
-        📁 REMnux/
-          └── [Not-Found-in-Kali.md](Binaries/Malware%20Analysis/Toolkits/REMnux/Not-Found-in-Kali.md)
-    📁 System Architecture/
-      └── [ASLR.md](Binaries/System%20Architecture/ASLR.md)
-      └── [Buffer-Manipulation.md](Binaries/System%20Architecture/Buffer-Manipulation.md)
-      └── [C-Program-Layout.md](Binaries/System%20Architecture/C-Program-Layout.md)
-      └── [DEP-or-NX-Bit.md](Binaries/System%20Architecture/DEP-or-NX-Bit.md)
-      └── [Dynamic-Linking.md](Binaries/System%20Architecture/Dynamic-Linking.md)
-      └── [Linkers.md](Binaries/System%20Architecture/Linkers.md)
-      └── [System-Architectures.md](Binaries/System%20Architecture/System-Architectures.md)
-      📁 Formats/
-        📁 ELF/
-          └── [ELF-Executable-and-Linkable-Format.md](Binaries/System%20Architecture/Formats/ELF/ELF-Executable-and-Linkable-Format.md)
-          └── [ELF-Files.md](Binaries/System%20Architecture/Formats/ELF/ELF-Files.md)
-        📁 Portable-Executable/
-          └── [001-PE-Portable-Executable.md](Binaries/System%20Architecture/Formats/Portable-Executable/001-PE-Portable-Executable.md)
-          └── [PE-Format.md](Binaries/System%20Architecture/Formats/Portable-Executable/PE-Format.md)
-          └── [x86.md](Binaries/System%20Architecture/Formats/Portable-Executable/x86.md)
-    📁 Windows/
-      └── [Backdoor-Imports-Example.md](Binaries/Windows/Backdoor-Imports-Example.md)
-      └── [Drivers.md](Binaries/Windows/Drivers.md)
-      └── [Win32-API.md](Binaries/Windows/Win32-API.md)
-  📁 Blue Teaming/
-    📁 Analysis Techniques/
-      └── [Android-Decompiling.md](Blue%20Teaming/Analysis%20Techniques/Android-Decompiling.md)
-      └── [Character-Encodings.md](Blue%20Teaming/Analysis%20Techniques/Character-Encodings.md)
-      └── [GeoIP-Image-Search.md](Blue%20Teaming/Analysis%20Techniques/GeoIP-Image-Search.md)
-      └── [GeoIP-Website-Lookup.md](Blue%20Teaming/Analysis%20Techniques/GeoIP-Website-Lookup.md)
-      └── [Mounting-a-DD-file.md](Blue%20Teaming/Analysis%20Techniques/Mounting-a-DD-file.md)
-      └── [OLE-Files_doc-docx.md](Blue%20Teaming/Analysis%20Techniques/OLE-Files_doc-docx.md)
-      └── [Recovering-files.md](Blue%20Teaming/Analysis%20Techniques/Recovering-files.md)
-      └── [Static-Dynamic-and-AI-Code-Analysis.md](Blue%20Teaming/Analysis%20Techniques/Static-Dynamic-and-AI-Code-Analysis.md)
-      └── [Userspace-Emulation.md](Blue%20Teaming/Analysis%20Techniques/Userspace-Emulation.md)
-      └── [Web-Scanning.md](Blue%20Teaming/Analysis%20Techniques/Web-Scanning.md)
-      └── [Windows-Registry.md](Blue%20Teaming/Analysis%20Techniques/Windows-Registry.md)
-      └── [Zip-Passwords.md](Blue%20Teaming/Analysis%20Techniques/Zip-Passwords.md)
-      📁 files/
-        └── [detect_packer_cryptor_py_diff.md](Blue%20Teaming/Analysis%20Techniques/files/detect_packer_cryptor_py_diff.md)
-    📁 Cisco/
-      └── [Hardening.md](Blue%20Teaming/Cisco/Hardening.md)
-    📁 Cryptanalysis/
-      └── [Ciphers.md](Blue%20Teaming/Cryptanalysis/Ciphers.md)
-      └── [Cryptography.md](Blue%20Teaming/Cryptanalysis/Cryptography.md)
-      └── [Glossary.md](Blue%20Teaming/Cryptanalysis/Glossary.md)
-      └── [Inventions-1600AD-2005AD.md](Blue%20Teaming/Cryptanalysis/Inventions-1600AD-2005AD.md)
-      └── [Inventions-2500BCE-1600AD.md](Blue%20Teaming/Cryptanalysis/Inventions-2500BCE-1600AD.md)
-      └── [Publications.md](Blue%20Teaming/Cryptanalysis/Publications.md)
-      📁 files/
-    📁 Forensics/
-      └── [DFIR-training.md](Blue%20Teaming/Forensics/DFIR-training.md)
-      └── [Digital-Corpora.md](Blue%20Teaming/Forensics/Digital-Corpora.md)
-      └── [Geeks-For-Geeks_-_Computer-Forensics.md](Blue%20Teaming/Forensics/Geeks-For-Geeks_-_Computer-Forensics.md)
-      └── [Links.md](Blue%20Teaming/Forensics/Links.md)
-      └── [Unfurl.md](Blue%20Teaming/Forensics/Unfurl.md)
-      📁 Data Recovery/
-        📁 NTFS/
-          └── [NTFS-MFT-Analysis.md](Blue%20Teaming/Forensics/Data%20Recovery/NTFS/NTFS-MFT-Analysis.md)
-    📁 Linux/
-    📁 MacOS/
-      └── [Documentation.md](Blue%20Teaming/MacOS/Documentation.md)
-      └── [Tools.md](Blue%20Teaming/MacOS/Tools.md)
-    📁 Methodologies/
-      └── [CVSS.md](Blue%20Teaming/Methodologies/CVSS.md)
-      └── [DREAD.md](Blue%20Teaming/Methodologies/DREAD.md)
-      └── [F3EAD.md](Blue%20Teaming/Methodologies/F3EAD.md)
-      └── [OCTAVE.md](Blue%20Teaming/Methodologies/OCTAVE.md)
-      └── [PASTA.md](Blue%20Teaming/Methodologies/PASTA.md)
-      └── [Pyramid-of-Pain.md](Blue%20Teaming/Methodologies/Pyramid-of-Pain.md)
-      └── [STRIDE.md](Blue%20Teaming/Methodologies/STRIDE.md)
-      └── [Unified-Kill-Chain.md](Blue%20Teaming/Methodologies/Unified-Kill-Chain.md)
-    📁 Windows/
-      └── [Commands.md](Blue%20Teaming/Windows/Commands.md)
-      └── [Hardening.md](Blue%20Teaming/Windows/Hardening.md)
-      └── [Secondary-Terminals.md](Blue%20Teaming/Windows/Secondary-Terminals.md)
-      └── [Windows-Terminals.md](Blue%20Teaming/Windows/Windows-Terminals.md)
-      📁 Windows 11/
-        └── [Boot-Options.md](Blue%20Teaming/Windows/Windows%2011/Boot-Options.md)
-        └── [Drivers.md](Blue%20Teaming/Windows/Windows%2011/Drivers.md)
-        └── [Event-Sources.md](Blue%20Teaming/Windows/Windows%2011/Event-Sources.md)
-        └── [Group-Policy.md](Blue%20Teaming/Windows/Windows%2011/Group-Policy.md)
-        └── [Security-Policy-draft.md](Blue%20Teaming/Windows/Windows%2011/Security-Policy-draft.md)
-        └── [Startup.md](Blue%20Teaming/Windows/Windows%2011/Startup.md)
-        └── [Windows-11-Policy-Settings.md](Blue%20Teaming/Windows/Windows%2011/Windows-11-Policy-Settings.md)
-        └── [Windows-Networking-draft.md](Blue%20Teaming/Windows/Windows%2011/Windows-Networking-draft.md)
-        └── [Windows-Security.md](Blue%20Teaming/Windows/Windows%2011/Windows-Security.md)
-        📁 files/
-  📁 Books/
-    └── [Index.md](Books/Index.md)
-  📁 Computer Networking/
-    └── [DNS.md](Computer%20Networking/DNS.md)
-    └── [Network-Connections.md](Computer%20Networking/Network-Connections.md)
-    📁 nslookup/
-  📁 CTF/
-    └── [CTF-Challenges.md](CTF/CTF-Challenges.md)
-    └── [OWASPBWA-WebGoat.md](CTF/OWASPBWA-WebGoat.md)
-    📁 WebGoat/
-      └── [Http-Basics.md](CTF/WebGoat/Http-Basics.md)
-      📁 Access Control Flaws/
-        └── [Bypass-a-Path-Based-Access-Control-Scheme.md](CTF/WebGoat/Access%20Control%20Flaws/Bypass-a-Path-Based-Access-Control-Scheme.md)
-        └── [Using-an-Access-Control-Matrix.md](CTF/WebGoat/Access%20Control%20Flaws/Using-an-Access-Control-Matrix.md)
-  📁 Feeds/
-    └── [Feeds.md](Feeds/Feeds.md)
-  📁 Hardware/
-    └── [Arduino-bug-idea.md](Hardware/Arduino-bug-idea.md)
-    └── [Driving-Sensor-Systems.md](Hardware/Driving-Sensor-Systems.md)
-    └── [Motherboards.md](Hardware/Motherboards.md)
-    └── [Spy-Gadgets.md](Hardware/Spy-Gadgets.md)
-  📁 HARMONIC/
-    └── [Implementation-With-DevOps.md](HARMONIC/Implementation-With-DevOps.md)
-    └── [Performing-Inventory.md](HARMONIC/Performing-Inventory.md)
-    └── [README.md](HARMONIC/README.md)
-    📁 01 - Hardening/
-      └── [0a-Establishing-a-Baseline.md](HARMONIC/01%20-%20Hardening/0a-Establishing-a-Baseline.md)
-      └── [0b-Security-Configurations.md](HARMONIC/01%20-%20Hardening/0b-Security-Configurations.md)
-      └── [0c-Patching-Software.md](HARMONIC/01%20-%20Hardening/0c-Patching-Software.md)
-      └── [0d-Least-Privilege.md](HARMONIC/01%20-%20Hardening/0d-Least-Privilege.md)
-      └── [Frameworks.md](HARMONIC/01%20-%20Hardening/Frameworks.md)
-      └── [Hardening-Resources.md](HARMONIC/01%20-%20Hardening/Hardening-Resources.md)
-      └── [Hardening-UNIX-and-Linux.md](HARMONIC/01%20-%20Hardening/Hardening-UNIX-and-Linux.md)
-      └── [Hardening-Windows.md](HARMONIC/01%20-%20Hardening/Hardening-Windows.md)
-    📁 02 - Analysis/
-    📁 media/
-  📁 Ideas/
-    └── [Drilling-Down-with-MITRE-and-OWASP.md](Ideas/Drilling-Down-with-MITRE-and-OWASP.md)
-    └── [Managing_Closed-Source_Security_Signatures_with_AI_and_CI_Pipelines.md](Ideas/Managing_Closed-Source_Security_Signatures_with_AI_and_CI_Pipelines.md)
-    └── [Polymorphic_functions_in_C.md](Ideas/Polymorphic_functions_in_C.md)
-    └── [Web-Intelligence-as-a-Service.md](Ideas/Web-Intelligence-as-a-Service.md)
-  📁 MITRE/
-    └── [ATT&CK.md](MITRE/ATT%26CK.md)
-    └── [D3FEND.md](MITRE/D3FEND.md)
-    └── [MITRE-Index.md](MITRE/MITRE-Index.md)
-    📁 ATT&CK and D3FEND/
-      📁 ATT&CK/
-        └── [Data Sources.md](MITRE/ATT%26CK%20and%20D3FEND/ATT%26CK/Data%20Sources.md)
-        └── [Matricies.md](MITRE/ATT%26CK%20and%20D3FEND/ATT%26CK/Matricies.md)
-        └── [Overview.md](MITRE/ATT%26CK%20and%20D3FEND/ATT%26CK/Overview.md)
-        └── [Reconnaissance.md](MITRE/ATT%26CK%20and%20D3FEND/ATT%26CK/Reconnaissance.md)
-        📁 01. Reconnaissance/
-          📁 Active Scanning/
-            └── [Active_Scanning.md](MITRE/ATT%26CK%20and%20D3FEND/ATT%26CK/01.%20Reconnaissance/Active%20Scanning/Active_Scanning.md)
-        📁 09. Discovery/
-          📁 Network Service Discovery/
-            └── [Network_Service_Discovery.md](MITRE/ATT%26CK%20and%20D3FEND/ATT%26CK/09.%20Discovery/Network%20Service%20Discovery/Network_Service_Discovery.md)
-            📁 nmap/
-              └── [nmap-scans.md](MITRE/ATT%26CK%20and%20D3FEND/ATT%26CK/09.%20Discovery/Network%20Service%20Discovery/nmap/nmap-scans.md)
-      📁 D3FEND/
-        📁 01. Agent Authentication/
-        📁 02. Application Hardening/
-        📁 03. Credential Hardening/
-        📁 04. Message Hardening/
-        📁 05. Platform Hardening/
-        📁 06. Source Code Hardening/
-        📁 07. File Analysis/
-        📁 08. Identifier Analysis/
-        📁 09. Network Traffic Analysis/
-        📁 10. Platform Monitoring/
-        📁 11. Process Analysis/
-        📁 12. User Behavior Analysis/
-        📁 13. Access Mediation/
-        📁 14. Access Policy Administration/
-        📁 15. Content Filtering/
-        📁 16. Execution Isolation/
-        📁 17. Network Isolation/
-        📁 18. Decoy Environment/
-        📁 19. Decoy Object/
-        📁 20. Credential Eviction/
-        📁 21. Object Eviction/
-        📁 22. Process Eviction/
-        📁 23. Restore Access/
-        📁 24. Restore Object/
-    📁 CAR Cyber Analytics Repository/
-      └── [MITRE-CAR.md](MITRE/CAR%20Cyber%20Analytics%20Repository/MITRE-CAR.md)
-  📁 NIST/
-    └── [01-NIST-Document-Overview.md](NIST/01-NIST-Document-Overview.md)
-    └── [Cyber-Security-Framework.md](NIST/Cyber-Security-Framework.md)
-    └── [FIPS-199.md](NIST/FIPS-199.md)
-    └── [NIST SP 800-218 - Secure Software Development Framework (SSDF).md](NIST/NIST%20SP%20800-218%20-%20Secure%20Software%20Development%20Framework%20%28SSDF%29.md)
-    └── [NIST-NVD-and-CVE.md](NIST/NIST-NVD-and-CVE.md)
-    └── [NIST-SP-800-12-Introduction-to-Cybersecurity.md](NIST/NIST-SP-800-12-Introduction-to-Cybersecurity.md)
-    └── [NIST-SPs-and-FIPS.md](NIST/NIST-SPs-and-FIPS.md)
-    └── [NIST-SSDF-References.md](NIST/NIST-SSDF-References.md)
-    └── [Systems-Security-Engineering-_-SP-800-160.md](NIST/Systems-Security-Engineering-_-SP-800-160.md)
-    📁 AI-Content/
-      └── [CEO-Copilot-GoogleSearch-Gemini.md](NIST/AI-Content/CEO-Copilot-GoogleSearch-Gemini.md)
-      └── [CEO_responsibilities_NIST-ChatGPT.md](NIST/AI-Content/CEO_responsibilities_NIST-ChatGPT.md)
-      └── [CIO_responsibilities_NIST-ChatGPT.md](NIST/AI-Content/CIO_responsibilities_NIST-ChatGPT.md)
-      └── [CIO_responsibilities_NIST-GitHub-Copilot.md](NIST/AI-Content/CIO_responsibilities_NIST-GitHub-Copilot.md)
-      └── [Information-Owner-Responsibilities-ChatGPT.md](NIST/AI-Content/Information-Owner-Responsibilities-ChatGPT.md)
-      └── [Information-Owner-Responsiblities-Github-Copilot.md](NIST/AI-Content/Information-Owner-Responsiblities-Github-Copilot.md)
-      └── [NIST_SP_800-53_Policies_Summary.md](NIST/AI-Content/NIST_SP_800-53_Policies_Summary.md)
-      └── [SAISO-Responsibilities-ChatGPT.md](NIST/AI-Content/SAISO-Responsibilities-ChatGPT.md)
-      └── [SAISO-Responsibilities-Github-Copilot.md](NIST/AI-Content/SAISO-Responsibilities-Github-Copilot.md)
-      └── [Single-person-organization-RMF-Compliance-Guide-Rev-5.md](NIST/AI-Content/Single-person-organization-RMF-Compliance-Guide-Rev-5.md)
-      └── [Single-person-organizations-Github-Copilot.md](NIST/AI-Content/Single-person-organizations-Github-Copilot.md)
-    📁 draft/
-      └── [Categorizing-Systems.md](NIST/draft/Categorizing-Systems.md)
-      └── [NIST-CSF-Profile.md](NIST/draft/NIST-CSF-Profile.md)
-      └── [NIST-SP-800-39-Managing-Information-Security-RIsk.md](NIST/draft/NIST-SP-800-39-Managing-Information-Security-RIsk.md)
-      └── [Organization-Responsibilities.md](NIST/draft/Organization-Responsibilities.md)
-      └── [Risk-Management-Framework.md](NIST/draft/Risk-Management-Framework.md)
-      └── [System-Development-Life-Cycle.md](NIST/draft/System-Development-Life-Cycle.md)
-    📁 files/
-  📁 OSINT/
-    └── [Tools.md](OSINT/Tools.md)
-  📁 OWASP/
-    └── [OWASP-_-The-Developers-Guide-_-References.md](OWASP/OWASP-_-The-Developers-Guide-_-References.md)
-    └── [OWASP-_-The-Open-Web-Application-Security-Project.md](OWASP/OWASP-_-The-Open-Web-Application-Security-Project.md)
-  📁 Protocols and Services/
-    📁 File Services/
-      └── [CIFS Common Internet Filesystem.md](Protocols%20and%20Services/File%20Services/CIFS%20Common%20Internet%20Filesystem.md)
-      └── [SMB Server Message Block.md](Protocols%20and%20Services/File%20Services/SMB%20Server%20Message%20Block.md)
-    📁 Mail/
-      └── [POP3 Post Office Protocol 3.md](Protocols%20and%20Services/Mail/POP3%20Post%20Office%20Protocol%203.md)
-      └── [SMTP Simple Mail Transfer Protocol.md](Protocols%20and%20Services/Mail/SMTP%20Simple%20Mail%20Transfer%20Protocol.md)
-    📁 Networking/
-      └── [TCP Transmission Control Protocol.md](Protocols%20and%20Services/Networking/TCP%20Transmission%20Control%20Protocol.md)
-      📁 01 Physical Layer/
-        └── [Examples.md](Protocols%20and%20Services/Networking/01%20Physical%20Layer/Examples.md)
-      📁 02 Data Link Layer/
-        └── [802.11 WiFi.md](Protocols%20and%20Services/Networking/02%20Data%20Link%20Layer/802.11%20WiFi.md)
-        └── [802.3 Ethernet.md](Protocols%20and%20Services/Networking/02%20Data%20Link%20Layer/802.3%20Ethernet.md)
-      📁 03 Network Layer/
-      📁 04 Transport Layer/
-      📁 05 Session Layer/
-      📁 06 Presentation Layer/
-      📁 07 Application Layer/
-    📁 Remote Services/
-      └── [SSH Secure Shell.md](Protocols%20and%20Services/Remote%20Services/SSH%20Secure%20Shell.md)
-      └── [Telnet.md](Protocols%20and%20Services/Remote%20Services/Telnet.md)
-    📁 Web Protocols/
-      └── [DNS Domain Name Service.md](Protocols%20and%20Services/Web%20Protocols/DNS%20Domain%20Name%20Service.md)
-      └── [HTTP Hyper Text Transfer protocol.md](Protocols%20and%20Services/Web%20Protocols/HTTP%20Hyper%20Text%20Transfer%20protocol.md)
-      └── [HTTPS Hyper Text Transfer Protocol Secure.md](Protocols%20and%20Services/Web%20Protocols/HTTPS%20Hyper%20Text%20Transfer%20Protocol%20Secure.md)
-      └── [TLS Transport Layer Security.md](Protocols%20and%20Services/Web%20Protocols/TLS%20Transport%20Layer%20Security.md)
-      └── [WS WebSockets.md](Protocols%20and%20Services/Web%20Protocols/WS%20WebSockets.md)
-  📁 Red Teaming/
-    └── [OSCP-training.md](Red%20Teaming/OSCP-training.md)
-    └── [remote-shell-stablization.md](Red%20Teaming/remote-shell-stablization.md)
-    📁 ciphers/
-      └── [custom-base64.md](Red%20Teaming/ciphers/custom-base64.md)
-    📁 LOLBINS/
-      └── [GTFObins.md](Red%20Teaming/LOLBINS/GTFObins.md)
-    📁 metasploit/
-      └── [metasploit-framework.md](Red%20Teaming/metasploit/metasploit-framework.md)
-    📁 suid/
-      └── [finding-suid-files.md](Red%20Teaming/suid/finding-suid-files.md)
-    📁 tools/
-      └── [C2.md](Red%20Teaming/tools/C2.md)
-      └── [linper-linux-persistence-toolkit.md](Red%20Teaming/tools/linper-linux-persistence-toolkit.md)
-    📁 TryHackMe/
-      📁 Blue/
-        📁 Windows 7/
-          └── [MS17-010.md](Red%20Teaming/TryHackMe/Blue/Windows%207/MS17-010.md)
-          └── [Task-01-03.md](Red%20Teaming/TryHackMe/Blue/Windows%207/Task-01-03.md)
-      📁 Kenobi/
-        └── [Notes.md](Red%20Teaming/TryHackMe/Kenobi/Notes.md)
-    📁 web/
-      📁 template-injection/
-        └── [mako-template-injection.md](Red%20Teaming/web/template-injection/mako-template-injection.md)
-  📁 Tools/
-    └── [CLOAK_-_Concealment-Layers-for-Online-Anonymity-and-Knowledge.md](Tools/CLOAK_-_Concealment-Layers-for-Online-Anonymity-and-Knowledge.md)
-    └── [CTF-Handbook.md](Tools/CTF-Handbook.md)
-    └── [CyBOK-The-Cyber-Body-of-Knowledge.md](Tools/CyBOK-The-Cyber-Body-of-Knowledge.md)
-    └── [Cyber-Kill-Chain.md](Tools/Cyber-Kill-Chain.md)
-    └── [Digital-Artifact-Services.md](Tools/Digital-Artifact-Services.md)
-    └── [Documentation-Databases.md](Tools/Documentation-Databases.md)
-    └── [Exploit-DB.md](Tools/Exploit-DB.md)
-    └── [Frameworks.md](Tools/Frameworks.md)
-    └── [HackTricks-Book.md](Tools/HackTricks-Book.md)
-    └── [Hardening-Windows.md](Tools/Hardening-Windows.md)
-    └── [Infoscrapers.md](Tools/Infoscrapers.md)
-    └── [LOLbin-Resources.md](Tools/LOLbin-Resources.md)
-    └── [MISP.md](Tools/MISP.md)
-    └── [Mobile-Tools.md](Tools/Mobile-Tools.md)
-    └── [Models-and-Lifecycles.md](Tools/Models-and-Lifecycles.md)
-    └── [OASIS.md](Tools/OASIS.md)
-    └── [OPML.md](Tools/OPML.md)
-    └── [OSINT Framework.md](Tools/OSINT%20Framework.md)
-    └── [OSes.md](Tools/OSes.md)
-    └── [Orgs.md](Tools/Orgs.md)
-    └── [PTES-Penetration-Testing-Execution-Standard.md](Tools/PTES-Penetration-Testing-Execution-Standard.md)
-    └── [Reports.md](Tools/Reports.md)
-    └── [Repositories.md](Tools/Repositories.md)
-    └── [SANS-Incident-Response-Lifecycle.md](Tools/SANS-Incident-Response-Lifecycle.md)
-    └── [Secrets-Management.md](Tools/Secrets-Management.md)
-    └── [Software-Bill-of-Materials.md](Tools/Software-Bill-of-Materials.md)
-    └── [Software-Package-Repositories.md](Tools/Software-Package-Repositories.md)
-    └── [Software-Testing-Frameworks.md](Tools/Software-Testing-Frameworks.md)
-    └── [SysInternals.md](Tools/SysInternals.md)
-    └── [Threat-Exchange.md](Tools/Threat-Exchange.md)
-    └── [Threat-Intelligence-Exchange-Formats.md](Tools/Threat-Intelligence-Exchange-Formats.md)
-    └── [Vulnerability-Mapping.md](Tools/Vulnerability-Mapping.md)
-    └── [Web-Technologies.md](Tools/Web-Technologies.md)
-    └── [pwntools.md](Tools/pwntools.md)
-    📁 files/
-  📁 Troubleshooting/
-    └── [WSL.md](Troubleshooting/WSL.md)
-  📁 Vulnerability Scanning/
-    └── [Vulnerability-Scanning.md](Vulnerability%20Scanning/Vulnerability-Scanning.md)
-    📁 Categories/
-      └── [Compliance.md](Vulnerability%20Scanning/Categories/Compliance.md)
-    📁 Files/
-    📁 Vulnerabilities/
-      └── [2024 ISC BIND.md](Vulnerability%20Scanning/Vulnerabilities/2024%20ISC%20BIND.md)
-      └── [CVE-2023-27532-Veeam-Backup-unauthenticated.md](Vulnerability%20Scanning/Vulnerabilities/CVE-2023-27532-Veeam-Backup-unauthenticated.md)
-      └── [CVE-2024-29510-Ghostscript-sandbox-bypass.md](Vulnerability%20Scanning/Vulnerabilities/CVE-2024-29510-Ghostscript-sandbox-bypass.md)
-      └── [CVE-2024-4577-PHP-CGI-Bin-RCE.md](Vulnerability%20Scanning/Vulnerabilities/CVE-2024-4577-PHP-CGI-Bin-RCE.md)
-      └── [CVE-2024-5274-Google-Chrome-Zero-day.md](Vulnerability%20Scanning/Vulnerabilities/CVE-2024-5274-Google-Chrome-Zero-day.md)
-      └── [CVE-2024-6327-Telerik-Report-Server-prior-to-2024.md](Vulnerability%20Scanning/Vulnerabilities/CVE-2024-6327-Telerik-Report-Server-prior-to-2024.md)
-      └── [CVE-2024-6387-OpenSSH-Race-Condition.md](Vulnerability%20Scanning/Vulnerabilities/CVE-2024-6387-OpenSSH-Race-Condition.md)
-      └── [CVE-2024-6387-Regression.md](Vulnerability%20Scanning/Vulnerabilities/CVE-2024-6387-Regression.md)
-      └── [universal-XSS.md](Vulnerability%20Scanning/Vulnerabilities/universal-XSS.md)
+<ul>
+<li><strong>📁 Binaries/</strong><ul>
+<li><strong>📁 Anti-Debugging-Techniques/</strong><ul>
+<li><a href="Binaries/Anti-Debugging-Techniques/anti_debugger_realtime_clock.md">anti_debugger_realtime_clock.md</a></li>
+<li><a href="Binaries/Anti-Debugging-Techniques/detect_procmon_window.md">detect_procmon_window.md</a></li>
+<li><a href="Binaries/Anti-Debugging-Techniques/execute_anti_debugging_instructions.md">execute_anti_debugging_instructions.md</a></li>
+<li><a href="Binaries/Anti-Debugging-Techniques/find_window_gdkWindowTopLevel.md">find_window_gdkWindowTopLevel.md</a></li>
+</ul></li>
+<li><strong>📁 Assembly/</strong><ul>
+<li><a href="Binaries/Assembly/Assemblers.md">Assemblers.md</a></li>
+<li><a href="Binaries/Assembly/Assembly-Comparisons.md">Assembly-Comparisons.md</a></li>
+<li><a href="Binaries/Assembly/Assembly-Documentation.md">Assembly-Documentation.md</a></li>
+<li><a href="Binaries/Assembly/Assembly-Registers.md">Assembly-Registers.md</a></li>
+<li><a href="Binaries/Assembly/Basic-Structures.md">Basic-Structures.md</a></li>
+</ul></li>
+<li><strong>📁 Compiling/</strong><ul>
+<li><strong>📁 gcc-build-scripts/</strong><ul>
+</ul></li>
+<li><a href="Binaries/Compiling/Compilers.md">Compilers.md</a></li>
+<li><a href="Binaries/Compiling/gcc-build-process.md">gcc-build-process.md</a></li>
+</ul></li>
+<li><strong>📁 Debugging and Reversing/</strong><ul>
+<li><strong>📁 Ghidra/</strong><ul>
+<li><a href="Binaries/Debugging%20and%20Reversing/Ghidra/Ghidra-Features.md">Ghidra-Features.md</a></li>
+<li><a href="Binaries/Debugging%20and%20Reversing/Ghidra/Ghidra.md">Ghidra.md</a></li>
+</ul></li>
+<li><strong>📁 IDA/</strong><ul>
+<li><a href="Binaries/Debugging%20and%20Reversing/IDA/IDA.md">IDA.md</a></li>
+</ul></li>
+<li><strong>📁 Ollydbg/</strong><ul>
+<li><a href="Binaries/Debugging%20and%20Reversing/Ollydbg/Ollydbg.md">Ollydbg.md</a></li>
+</ul></li>
+<li><strong>📁 gdb/</strong><ul>
+<li><a href="Binaries/Debugging%20and%20Reversing/gdb/Debuggers-gdb.md">Debuggers-gdb.md</a></li>
+<li><a href="Binaries/Debugging%20and%20Reversing/gdb/instructions.md">instructions.md</a></li>
+</ul></li>
+<li><strong>📁 lldb/</strong><ul>
+<li><a href="Binaries/Debugging%20and%20Reversing/lldb/lldb.md">lldb.md</a></li>
+</ul></li>
+<li><strong>📁 radare2 and iaito/</strong><ul>
+<li><a href="Binaries/Debugging%20and%20Reversing/radare2%20and%20iaito/radare.md">radare.md</a></li>
+</ul></li>
+<li><strong>📁 windbg/</strong><ul>
+<li><a href="Binaries/Debugging%20and%20Reversing/windbg/Debuggers-windbg.md">Debuggers-windbg.md</a></li>
+</ul></li>
+<li><strong>📁 x64dbg/</strong><ul>
+<li><a href="Binaries/Debugging%20and%20Reversing/x64dbg/Debuggers-x64dbg.md">Debuggers-x64dbg.md</a></li>
+<li><a href="Binaries/Debugging%20and%20Reversing/x64dbg/x64dbg-general-purpose-registers.md">x64dbg-general-purpose-registers.md</a></li>
+</ul></li>
+<li><a href="Binaries/Debugging%20and%20Reversing/Debugging-in-Visual-Studio-Code.md">Debugging-in-Visual-Studio-Code.md</a></li>
+<li><a href="Binaries/Debugging%20and%20Reversing/Debugging-in-Visual-Studio.md">Debugging-in-Visual-Studio.md</a></li>
+<li><a href="Binaries/Debugging%20and%20Reversing/Reversing-Tools.md">Reversing-Tools.md</a></li>
+<li><a href="Binaries/Debugging%20and%20Reversing/Reversing-Tutorials-and-Challenges.md">Reversing-Tutorials-and-Challenges.md</a></li>
+<li><a href="Binaries/Debugging%20and%20Reversing/Tools.md">Tools.md</a></li>
+</ul></li>
+<li><strong>📁 Malware Analysis/</strong><ul>
+<li><strong>📁 Dynamic Analysis/</strong><ul>
+<li><a href="Binaries/Malware%20Analysis/Dynamic%20Analysis/Monitoring-and-Auditing.md">Monitoring-and-Auditing.md</a></li>
+<li><a href="Binaries/Malware%20Analysis/Dynamic%20Analysis/Process-Analysis.md">Process-Analysis.md</a></li>
+<li><a href="Binaries/Malware%20Analysis/Dynamic%20Analysis/Running-Files.md">Running-Files.md</a></li>
+<li><a href="Binaries/Malware%20Analysis/Dynamic%20Analysis/Sandboxes.md">Sandboxes.md</a></li>
+</ul></li>
+<li><strong>📁 Static Analysis/</strong><ul>
+<li><strong>📁 files/</strong><ul>
+</ul></li>
+<li><a href="Binaries/Malware%20Analysis/Static%20Analysis/Binary-Analysis_-_Strings.md">Binary-Analysis_-_Strings.md</a></li>
+<li><a href="Binaries/Malware%20Analysis/Static%20Analysis/Deobfuscation.md">Deobfuscation.md</a></li>
+<li><a href="Binaries/Malware%20Analysis/Static%20Analysis/Detecting-Packers.md">Detecting-Packers.md</a></li>
+<li><a href="Binaries/Malware%20Analysis/Static%20Analysis/False-Positive-Analysis.md">False-Positive-Analysis.md</a></li>
+<li><a href="Binaries/Malware%20Analysis/Static%20Analysis/Hashing.md">Hashing.md</a></li>
+<li><a href="Binaries/Malware%20Analysis/Static%20Analysis/Inspecting-PE-FIles.md">Inspecting-PE-FIles.md</a></li>
+<li><a href="Binaries/Malware%20Analysis/Static%20Analysis/Packer%20Identification.md">Packer Identification.md</a></li>
+<li><a href="Binaries/Malware%20Analysis/Static%20Analysis/Quickscope.md">Quickscope.md</a></li>
+</ul></li>
+<li><strong>📁 Toolkits/</strong><ul>
+<li><strong>📁 FLARE-vm/</strong><ul>
+<li><strong>📁 files/</strong><ul>
+<li><strong>📁 available/</strong><ul>
+</ul></li>
+<li><strong>📁 image-to-text/</strong><ul>
+</ul></li>
+<li><strong>📁 toInstall/</strong><ul>
+</ul></li>
+</ul></li>
+<li><a href="Binaries/Malware%20Analysis/Toolkits/FLARE-vm/Android.md">Android.md</a></li>
+<li><a href="Binaries/Malware%20Analysis/Toolkits/FLARE-vm/Available.md">Available.md</a></li>
+<li><a href="Binaries/Malware%20Analysis/Toolkits/FLARE-vm/C_Cpp_Shellcode.md">C_Cpp_Shellcode.md</a></li>
+<li><a href="Binaries/Malware%20Analysis/Toolkits/FLARE-vm/Java.md">Java.md</a></li>
+<li><a href="Binaries/Malware%20Analysis/Toolkits/FLARE-vm/To-Install.md">To-Install.md</a></li>
+<li><a href="Binaries/Malware%20Analysis/Toolkits/FLARE-vm/VM-Packages-repository.md">VM-Packages-repository.md</a></li>
+<li><a href="Binaries/Malware%20Analysis/Toolkits/FLARE-vm/dotNET.md">dotNET.md</a></li>
+</ul></li>
+<li><strong>📁 REMnux/</strong><ul>
+<li><a href="Binaries/Malware%20Analysis/Toolkits/REMnux/Not-Found-in-Kali.md">Not-Found-in-Kali.md</a></li>
+</ul></li>
+</ul></li>
+<li><strong>📁 files/</strong><ul>
+</ul></li>
+<li><a href="Binaries/Malware%20Analysis/Books-on-Malware-Analysis.md">Books-on-Malware-Analysis.md</a></li>
+<li><a href="Binaries/Malware%20Analysis/Data-Sources.md">Data-Sources.md</a></li>
+<li><a href="Binaries/Malware%20Analysis/Index.md">Index.md</a></li>
+<li><a href="Binaries/Malware%20Analysis/Malware-Analysis-Samples.md">Malware-Analysis-Samples.md</a></li>
+<li><a href="Binaries/Malware%20Analysis/Malware-Analysis.md">Malware-Analysis.md</a></li>
+<li><a href="Binaries/Malware%20Analysis/Malware-Behavior.md">Malware-Behavior.md</a></li>
+<li><a href="Binaries/Malware%20Analysis/Tool-list.md">Tool-list.md</a></li>
+<li><a href="Binaries/Malware%20Analysis/Types-of-Malware.md">Types-of-Malware.md</a></li>
+</ul></li>
+<li><strong>📁 System Architecture/</strong><ul>
+<li><strong>📁 Formats/</strong><ul>
+<li><strong>📁 ELF/</strong><ul>
+<li><a href="Binaries/System%20Architecture/Formats/ELF/ELF-Executable-and-Linkable-Format.md">ELF-Executable-and-Linkable-Format.md</a></li>
+<li><a href="Binaries/System%20Architecture/Formats/ELF/ELF-Files.md">ELF-Files.md</a></li>
+</ul></li>
+<li><strong>📁 Portable-Executable/</strong><ul>
+<li><a href="Binaries/System%20Architecture/Formats/Portable-Executable/001-PE-Portable-Executable.md">001-PE-Portable-Executable.md</a></li>
+<li><a href="Binaries/System%20Architecture/Formats/Portable-Executable/PE-Format.md">PE-Format.md</a></li>
+<li><a href="Binaries/System%20Architecture/Formats/Portable-Executable/x86.md">x86.md</a></li>
+</ul></li>
+</ul></li>
+<li><a href="Binaries/System%20Architecture/ASLR.md">ASLR.md</a></li>
+<li><a href="Binaries/System%20Architecture/Buffer-Manipulation.md">Buffer-Manipulation.md</a></li>
+<li><a href="Binaries/System%20Architecture/C-Program-Layout.md">C-Program-Layout.md</a></li>
+<li><a href="Binaries/System%20Architecture/DEP-or-NX-Bit.md">DEP-or-NX-Bit.md</a></li>
+<li><a href="Binaries/System%20Architecture/Dynamic-Linking.md">Dynamic-Linking.md</a></li>
+<li><a href="Binaries/System%20Architecture/Linkers.md">Linkers.md</a></li>
+<li><a href="Binaries/System%20Architecture/System-Architectures.md">System-Architectures.md</a></li>
+</ul></li>
+<li><strong>📁 Windows/</strong><ul>
+<li><a href="Binaries/Windows/Backdoor-Imports-Example.md">Backdoor-Imports-Example.md</a></li>
+<li><a href="Binaries/Windows/Drivers.md">Drivers.md</a></li>
+<li><a href="Binaries/Windows/Win32-API.md">Win32-API.md</a></li>
+</ul></li>
+<li><strong>📁 folders/</strong><ul>
+</ul></li>
+</ul></li>
+<li><strong>📁 Blue Teaming/</strong><ul>
+<li><strong>📁 Analysis Techniques/</strong><ul>
+<li><strong>📁 files/</strong><ul>
+<li><a href="Blue%20Teaming/Analysis%20Techniques/files/detect_packer_cryptor_py_diff.md">detect_packer_cryptor_py_diff.md</a></li>
+</ul></li>
+<li><a href="Blue%20Teaming/Analysis%20Techniques/Android-Decompiling.md">Android-Decompiling.md</a></li>
+<li><a href="Blue%20Teaming/Analysis%20Techniques/Character-Encodings.md">Character-Encodings.md</a></li>
+<li><a href="Blue%20Teaming/Analysis%20Techniques/GeoIP-Image-Search.md">GeoIP-Image-Search.md</a></li>
+<li><a href="Blue%20Teaming/Analysis%20Techniques/GeoIP-Website-Lookup.md">GeoIP-Website-Lookup.md</a></li>
+<li><a href="Blue%20Teaming/Analysis%20Techniques/Mounting-a-DD-file.md">Mounting-a-DD-file.md</a></li>
+<li><a href="Blue%20Teaming/Analysis%20Techniques/OLE-Files_doc-docx.md">OLE-Files_doc-docx.md</a></li>
+<li><a href="Blue%20Teaming/Analysis%20Techniques/Recovering-files.md">Recovering-files.md</a></li>
+<li><a href="Blue%20Teaming/Analysis%20Techniques/Static-Dynamic-and-AI-Code-Analysis.md">Static-Dynamic-and-AI-Code-Analysis.md</a></li>
+<li><a href="Blue%20Teaming/Analysis%20Techniques/Userspace-Emulation.md">Userspace-Emulation.md</a></li>
+<li><a href="Blue%20Teaming/Analysis%20Techniques/Web-Scanning.md">Web-Scanning.md</a></li>
+<li><a href="Blue%20Teaming/Analysis%20Techniques/Windows-Registry.md">Windows-Registry.md</a></li>
+<li><a href="Blue%20Teaming/Analysis%20Techniques/Zip-Passwords.md">Zip-Passwords.md</a></li>
+</ul></li>
+<li><strong>📁 Cisco/</strong><ul>
+<li><a href="Blue%20Teaming/Cisco/Hardening.md">Hardening.md</a></li>
+</ul></li>
+<li><strong>📁 Cryptanalysis/</strong><ul>
+<li><strong>📁 files/</strong><ul>
+</ul></li>
+<li><a href="Blue%20Teaming/Cryptanalysis/Ciphers.md">Ciphers.md</a></li>
+<li><a href="Blue%20Teaming/Cryptanalysis/Cryptography.md">Cryptography.md</a></li>
+<li><a href="Blue%20Teaming/Cryptanalysis/Glossary.md">Glossary.md</a></li>
+<li><a href="Blue%20Teaming/Cryptanalysis/Inventions-1600AD-2005AD.md">Inventions-1600AD-2005AD.md</a></li>
+<li><a href="Blue%20Teaming/Cryptanalysis/Inventions-2500BCE-1600AD.md">Inventions-2500BCE-1600AD.md</a></li>
+<li><a href="Blue%20Teaming/Cryptanalysis/Publications.md">Publications.md</a></li>
+</ul></li>
+<li><strong>📁 Forensics/</strong><ul>
+<li><strong>📁 Data Recovery/</strong><ul>
+<li><strong>📁 NTFS/</strong><ul>
+<li><a href="Blue%20Teaming/Forensics/Data%20Recovery/NTFS/NTFS-MFT-Analysis.md">NTFS-MFT-Analysis.md</a></li>
+</ul></li>
+</ul></li>
+<li><a href="Blue%20Teaming/Forensics/DFIR-training.md">DFIR-training.md</a></li>
+<li><a href="Blue%20Teaming/Forensics/Digital-Corpora.md">Digital-Corpora.md</a></li>
+<li><a href="Blue%20Teaming/Forensics/Geeks-For-Geeks_-_Computer-Forensics.md">Geeks-For-Geeks_-_Computer-Forensics.md</a></li>
+<li><a href="Blue%20Teaming/Forensics/Links.md">Links.md</a></li>
+<li><a href="Blue%20Teaming/Forensics/Unfurl.md">Unfurl.md</a></li>
+</ul></li>
+<li><strong>📁 Linux/</strong><ul>
+</ul></li>
+<li><strong>📁 MacOS/</strong><ul>
+<li><a href="Blue%20Teaming/MacOS/Documentation.md">Documentation.md</a></li>
+<li><a href="Blue%20Teaming/MacOS/Tools.md">Tools.md</a></li>
+</ul></li>
+<li><strong>📁 Methodologies/</strong><ul>
+<li><a href="Blue%20Teaming/Methodologies/CVSS.md">CVSS.md</a></li>
+<li><a href="Blue%20Teaming/Methodologies/DREAD.md">DREAD.md</a></li>
+<li><a href="Blue%20Teaming/Methodologies/F3EAD.md">F3EAD.md</a></li>
+<li><a href="Blue%20Teaming/Methodologies/OCTAVE.md">OCTAVE.md</a></li>
+<li><a href="Blue%20Teaming/Methodologies/PASTA.md">PASTA.md</a></li>
+<li><a href="Blue%20Teaming/Methodologies/Pyramid-of-Pain.md">Pyramid-of-Pain.md</a></li>
+<li><a href="Blue%20Teaming/Methodologies/STRIDE.md">STRIDE.md</a></li>
+<li><a href="Blue%20Teaming/Methodologies/Unified-Kill-Chain.md">Unified-Kill-Chain.md</a></li>
+</ul></li>
+<li><strong>📁 Windows/</strong><ul>
+<li><strong>📁 Windows 11/</strong><ul>
+<li><strong>📁 files/</strong><ul>
+</ul></li>
+<li><a href="Blue%20Teaming/Windows/Windows%2011/Boot-Options.md">Boot-Options.md</a></li>
+<li><a href="Blue%20Teaming/Windows/Windows%2011/Drivers.md">Drivers.md</a></li>
+<li><a href="Blue%20Teaming/Windows/Windows%2011/Event-Sources.md">Event-Sources.md</a></li>
+<li><a href="Blue%20Teaming/Windows/Windows%2011/Group-Policy.md">Group-Policy.md</a></li>
+<li><a href="Blue%20Teaming/Windows/Windows%2011/Security-Policy-draft.md">Security-Policy-draft.md</a></li>
+<li><a href="Blue%20Teaming/Windows/Windows%2011/Startup.md">Startup.md</a></li>
+<li><a href="Blue%20Teaming/Windows/Windows%2011/Windows-11-Policy-Settings.md">Windows-11-Policy-Settings.md</a></li>
+<li><a href="Blue%20Teaming/Windows/Windows%2011/Windows-Networking-draft.md">Windows-Networking-draft.md</a></li>
+<li><a href="Blue%20Teaming/Windows/Windows%2011/Windows-Security.md">Windows-Security.md</a></li>
+</ul></li>
+<li><a href="Blue%20Teaming/Windows/Commands.md">Commands.md</a></li>
+<li><a href="Blue%20Teaming/Windows/Hardening.md">Hardening.md</a></li>
+<li><a href="Blue%20Teaming/Windows/Secondary-Terminals.md">Secondary-Terminals.md</a></li>
+<li><a href="Blue%20Teaming/Windows/Windows-Terminals.md">Windows-Terminals.md</a></li>
+</ul></li>
+</ul></li>
+<li><strong>📁 Books/</strong><ul>
+<li><a href="Books/Index.md">Index.md</a></li>
+</ul></li>
+<li><strong>📁 CTF/</strong><ul>
+<li><strong>📁 WebGoat/</strong><ul>
+<li><strong>📁 Access Control Flaws/</strong><ul>
+<li><a href="CTF/WebGoat/Access%20Control%20Flaws/Bypass-a-Path-Based-Access-Control-Scheme.md">Bypass-a-Path-Based-Access-Control-Scheme.md</a></li>
+<li><a href="CTF/WebGoat/Access%20Control%20Flaws/Using-an-Access-Control-Matrix.md">Using-an-Access-Control-Matrix.md</a></li>
+</ul></li>
+<li><a href="CTF/WebGoat/Http-Basics.md">Http-Basics.md</a></li>
+</ul></li>
+<li><a href="CTF/CTF-Challenges.md">CTF-Challenges.md</a></li>
+<li><a href="CTF/OWASPBWA-WebGoat.md">OWASPBWA-WebGoat.md</a></li>
+</ul></li>
+<li><strong>📁 Computer Networking/</strong><ul>
+<li><strong>📁 nslookup/</strong><ul>
+</ul></li>
+<li><a href="Computer%20Networking/DNS.md">DNS.md</a></li>
+<li><a href="Computer%20Networking/Network-Connections.md">Network-Connections.md</a></li>
+</ul></li>
+<li><strong>📁 Feeds/</strong><ul>
+<li><a href="Feeds/Feeds.md">Feeds.md</a></li>
+</ul></li>
+<li><strong>📁 HARMONIC/</strong><ul>
+<li><strong>📁 01 - Hardening/</strong><ul>
+<li><a href="HARMONIC/01%20-%20Hardening/0a-Establishing-a-Baseline.md">0a-Establishing-a-Baseline.md</a></li>
+<li><a href="HARMONIC/01%20-%20Hardening/0b-Security-Configurations.md">0b-Security-Configurations.md</a></li>
+<li><a href="HARMONIC/01%20-%20Hardening/0c-Patching-Software.md">0c-Patching-Software.md</a></li>
+<li><a href="HARMONIC/01%20-%20Hardening/0d-Least-Privilege.md">0d-Least-Privilege.md</a></li>
+<li><a href="HARMONIC/01%20-%20Hardening/Frameworks.md">Frameworks.md</a></li>
+<li><a href="HARMONIC/01%20-%20Hardening/Hardening-Resources.md">Hardening-Resources.md</a></li>
+<li><a href="HARMONIC/01%20-%20Hardening/Hardening-UNIX-and-Linux.md">Hardening-UNIX-and-Linux.md</a></li>
+<li><a href="HARMONIC/01%20-%20Hardening/Hardening-Windows.md">Hardening-Windows.md</a></li>
+</ul></li>
+<li><strong>📁 02 - Analysis/</strong><ul>
+</ul></li>
+<li><strong>📁 media/</strong><ul>
+</ul></li>
+<li><a href="HARMONIC/Implementation-With-DevOps.md">Implementation-With-DevOps.md</a></li>
+<li><a href="HARMONIC/Performing-Inventory.md">Performing-Inventory.md</a></li>
+<li><a href="HARMONIC/README.md">README.md</a></li>
+</ul></li>
+<li><strong>📁 Hardware/</strong><ul>
+<li><a href="Hardware/Arduino-bug-idea.md">Arduino-bug-idea.md</a></li>
+<li><a href="Hardware/Driving-Sensor-Systems.md">Driving-Sensor-Systems.md</a></li>
+<li><a href="Hardware/Motherboards.md">Motherboards.md</a></li>
+<li><a href="Hardware/Spy-Gadgets.md">Spy-Gadgets.md</a></li>
+</ul></li>
+<li><strong>📁 Ideas/</strong><ul>
+<li><a href="Ideas/Drilling-Down-with-MITRE-and-OWASP.md">Drilling-Down-with-MITRE-and-OWASP.md</a></li>
+<li><a href="Ideas/Managing_Closed-Source_Security_Signatures_with_AI_and_CI_Pipelines.md">Managing_Closed-Source_Security_Signatures_with_AI_and_CI_Pipelines.md</a></li>
+<li><a href="Ideas/Polymorphic_functions_in_C.md">Polymorphic_functions_in_C.md</a></li>
+<li><a href="Ideas/Web-Intelligence-as-a-Service.md">Web-Intelligence-as-a-Service.md</a></li>
+</ul></li>
+<li><strong>📁 MITRE/</strong><ul>
+<li><strong>📁 ATT&CK and D3FEND/</strong><ul>
+<li><strong>📁 ATT&CK/</strong><ul>
+<li><strong>📁 01. Reconnaissance/</strong><ul>
+<li><strong>📁 Active Scanning/</strong><ul>
+<li><a href="MITRE/ATT%26CK%20and%20D3FEND/ATT%26CK/01.%20Reconnaissance/Active%20Scanning/Active_Scanning.md">Active_Scanning.md</a></li>
+</ul></li>
+</ul></li>
+<li><strong>📁 09. Discovery/</strong><ul>
+<li><strong>📁 Network Service Discovery/</strong><ul>
+<li><strong>📁 nmap/</strong><ul>
+<li><a href="MITRE/ATT%26CK%20and%20D3FEND/ATT%26CK/09.%20Discovery/Network%20Service%20Discovery/nmap/nmap-scans.md">nmap-scans.md</a></li>
+</ul></li>
+<li><a href="MITRE/ATT%26CK%20and%20D3FEND/ATT%26CK/09.%20Discovery/Network%20Service%20Discovery/Network_Service_Discovery.md">Network_Service_Discovery.md</a></li>
+</ul></li>
+</ul></li>
+<li><a href="MITRE/ATT%26CK%20and%20D3FEND/ATT%26CK/Data%20Sources.md">Data Sources.md</a></li>
+<li><a href="MITRE/ATT%26CK%20and%20D3FEND/ATT%26CK/Matricies.md">Matricies.md</a></li>
+<li><a href="MITRE/ATT%26CK%20and%20D3FEND/ATT%26CK/Overview.md">Overview.md</a></li>
+<li><a href="MITRE/ATT%26CK%20and%20D3FEND/ATT%26CK/Reconnaissance.md">Reconnaissance.md</a></li>
+</ul></li>
+<li><strong>📁 D3FEND/</strong><ul>
+<li><strong>📁 01. Agent Authentication/</strong><ul>
+</ul></li>
+<li><strong>📁 02. Application Hardening/</strong><ul>
+</ul></li>
+<li><strong>📁 03. Credential Hardening/</strong><ul>
+</ul></li>
+<li><strong>📁 04. Message Hardening/</strong><ul>
+</ul></li>
+<li><strong>📁 05. Platform Hardening/</strong><ul>
+</ul></li>
+<li><strong>📁 06. Source Code Hardening/</strong><ul>
+</ul></li>
+<li><strong>📁 07. File Analysis/</strong><ul>
+</ul></li>
+<li><strong>📁 08. Identifier Analysis/</strong><ul>
+</ul></li>
+<li><strong>📁 09. Network Traffic Analysis/</strong><ul>
+</ul></li>
+<li><strong>📁 10. Platform Monitoring/</strong><ul>
+</ul></li>
+<li><strong>📁 11. Process Analysis/</strong><ul>
+</ul></li>
+<li><strong>📁 12. User Behavior Analysis/</strong><ul>
+</ul></li>
+<li><strong>📁 13. Access Mediation/</strong><ul>
+</ul></li>
+<li><strong>📁 14. Access Policy Administration/</strong><ul>
+</ul></li>
+<li><strong>📁 15. Content Filtering/</strong><ul>
+</ul></li>
+<li><strong>📁 16. Execution Isolation/</strong><ul>
+</ul></li>
+<li><strong>📁 17. Network Isolation/</strong><ul>
+</ul></li>
+<li><strong>📁 18. Decoy Environment/</strong><ul>
+</ul></li>
+<li><strong>📁 19. Decoy Object/</strong><ul>
+</ul></li>
+<li><strong>📁 20. Credential Eviction/</strong><ul>
+</ul></li>
+<li><strong>📁 21. Object Eviction/</strong><ul>
+</ul></li>
+<li><strong>📁 22. Process Eviction/</strong><ul>
+</ul></li>
+<li><strong>📁 23. Restore Access/</strong><ul>
+</ul></li>
+<li><strong>📁 24. Restore Object/</strong><ul>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>📁 CAR Cyber Analytics Repository/</strong><ul>
+<li><a href="MITRE/CAR%20Cyber%20Analytics%20Repository/MITRE-CAR.md">MITRE-CAR.md</a></li>
+</ul></li>
+<li><a href="MITRE/ATT%26CK.md">ATT&CK.md</a></li>
+<li><a href="MITRE/D3FEND.md">D3FEND.md</a></li>
+<li><a href="MITRE/MITRE-Index.md">MITRE-Index.md</a></li>
+</ul></li>
+<li><strong>📁 NIST/</strong><ul>
+<li><strong>📁 AI-Content/</strong><ul>
+<li><a href="NIST/AI-Content/CEO-Copilot-GoogleSearch-Gemini.md">CEO-Copilot-GoogleSearch-Gemini.md</a></li>
+<li><a href="NIST/AI-Content/CEO_responsibilities_NIST-ChatGPT.md">CEO_responsibilities_NIST-ChatGPT.md</a></li>
+<li><a href="NIST/AI-Content/CIO_responsibilities_NIST-ChatGPT.md">CIO_responsibilities_NIST-ChatGPT.md</a></li>
+<li><a href="NIST/AI-Content/CIO_responsibilities_NIST-GitHub-Copilot.md">CIO_responsibilities_NIST-GitHub-Copilot.md</a></li>
+<li><a href="NIST/AI-Content/Information-Owner-Responsibilities-ChatGPT.md">Information-Owner-Responsibilities-ChatGPT.md</a></li>
+<li><a href="NIST/AI-Content/Information-Owner-Responsiblities-Github-Copilot.md">Information-Owner-Responsiblities-Github-Copilot.md</a></li>
+<li><a href="NIST/AI-Content/NIST_SP_800-53_Policies_Summary.md">NIST_SP_800-53_Policies_Summary.md</a></li>
+<li><a href="NIST/AI-Content/SAISO-Responsibilities-ChatGPT.md">SAISO-Responsibilities-ChatGPT.md</a></li>
+<li><a href="NIST/AI-Content/SAISO-Responsibilities-Github-Copilot.md">SAISO-Responsibilities-Github-Copilot.md</a></li>
+<li><a href="NIST/AI-Content/Single-person-organization-RMF-Compliance-Guide-Rev-5.md">Single-person-organization-RMF-Compliance-Guide-Rev-5.md</a></li>
+<li><a href="NIST/AI-Content/Single-person-organizations-Github-Copilot.md">Single-person-organizations-Github-Copilot.md</a></li>
+</ul></li>
+<li><strong>📁 draft/</strong><ul>
+<li><a href="NIST/draft/Categorizing-Systems.md">Categorizing-Systems.md</a></li>
+<li><a href="NIST/draft/NIST-CSF-Profile.md">NIST-CSF-Profile.md</a></li>
+<li><a href="NIST/draft/NIST-SP-800-39-Managing-Information-Security-RIsk.md">NIST-SP-800-39-Managing-Information-Security-RIsk.md</a></li>
+<li><a href="NIST/draft/Organization-Responsibilities.md">Organization-Responsibilities.md</a></li>
+<li><a href="NIST/draft/Risk-Management-Framework.md">Risk-Management-Framework.md</a></li>
+<li><a href="NIST/draft/System-Development-Life-Cycle.md">System-Development-Life-Cycle.md</a></li>
+</ul></li>
+<li><strong>📁 files/</strong><ul>
+</ul></li>
+<li><a href="NIST/01-NIST-Document-Overview.md">01-NIST-Document-Overview.md</a></li>
+<li><a href="NIST/Cyber-Security-Framework.md">Cyber-Security-Framework.md</a></li>
+<li><a href="NIST/FIPS-199.md">FIPS-199.md</a></li>
+<li><a href="NIST/NIST%20SP%20800-218%20-%20Secure%20Software%20Development%20Framework%20%28SSDF%29.md">NIST SP 800-218 - Secure Software Development Framework (SSDF).md</a></li>
+<li><a href="NIST/NIST-NVD-and-CVE.md">NIST-NVD-and-CVE.md</a></li>
+<li><a href="NIST/NIST-SP-800-12-Introduction-to-Cybersecurity.md">NIST-SP-800-12-Introduction-to-Cybersecurity.md</a></li>
+<li><a href="NIST/NIST-SPs-and-FIPS.md">NIST-SPs-and-FIPS.md</a></li>
+<li><a href="NIST/NIST-SSDF-References.md">NIST-SSDF-References.md</a></li>
+<li><a href="NIST/Systems-Security-Engineering-_-SP-800-160.md">Systems-Security-Engineering-_-SP-800-160.md</a></li>
+</ul></li>
+<li><strong>📁 OSINT/</strong><ul>
+<li><a href="OSINT/Tools.md">Tools.md</a></li>
+</ul></li>
+<li><strong>📁 OWASP/</strong><ul>
+<li><a href="OWASP/OWASP-_-The-Developers-Guide-_-References.md">OWASP-_-The-Developers-Guide-_-References.md</a></li>
+<li><a href="OWASP/OWASP-_-The-Open-Web-Application-Security-Project.md">OWASP-_-The-Open-Web-Application-Security-Project.md</a></li>
+</ul></li>
+<li><strong>📁 Protocols and Services/</strong><ul>
+<li><strong>📁 File Services/</strong><ul>
+<li><a href="Protocols%20and%20Services/File%20Services/CIFS%20Common%20Internet%20Filesystem.md">CIFS Common Internet Filesystem.md</a></li>
+<li><a href="Protocols%20and%20Services/File%20Services/SMB%20Server%20Message%20Block.md">SMB Server Message Block.md</a></li>
+</ul></li>
+<li><strong>📁 Mail/</strong><ul>
+<li><a href="Protocols%20and%20Services/Mail/POP3%20Post%20Office%20Protocol%203.md">POP3 Post Office Protocol 3.md</a></li>
+<li><a href="Protocols%20and%20Services/Mail/SMTP%20Simple%20Mail%20Transfer%20Protocol.md">SMTP Simple Mail Transfer Protocol.md</a></li>
+</ul></li>
+<li><strong>📁 Networking/</strong><ul>
+<li><strong>📁 01 Physical Layer/</strong><ul>
+<li><a href="Protocols%20and%20Services/Networking/01%20Physical%20Layer/Examples.md">Examples.md</a></li>
+</ul></li>
+<li><strong>📁 02 Data Link Layer/</strong><ul>
+<li><a href="Protocols%20and%20Services/Networking/02%20Data%20Link%20Layer/802.11%20WiFi.md">802.11 WiFi.md</a></li>
+<li><a href="Protocols%20and%20Services/Networking/02%20Data%20Link%20Layer/802.3%20Ethernet.md">802.3 Ethernet.md</a></li>
+</ul></li>
+<li><strong>📁 03 Network Layer/</strong><ul>
+</ul></li>
+<li><strong>📁 04 Transport Layer/</strong><ul>
+</ul></li>
+<li><strong>📁 05 Session Layer/</strong><ul>
+</ul></li>
+<li><strong>📁 06 Presentation Layer/</strong><ul>
+</ul></li>
+<li><strong>📁 07 Application Layer/</strong><ul>
+</ul></li>
+<li><a href="Protocols%20and%20Services/Networking/TCP%20Transmission%20Control%20Protocol.md">TCP Transmission Control Protocol.md</a></li>
+</ul></li>
+<li><strong>📁 Remote Services/</strong><ul>
+<li><a href="Protocols%20and%20Services/Remote%20Services/SSH%20Secure%20Shell.md">SSH Secure Shell.md</a></li>
+<li><a href="Protocols%20and%20Services/Remote%20Services/Telnet.md">Telnet.md</a></li>
+</ul></li>
+<li><strong>📁 Web Protocols/</strong><ul>
+<li><a href="Protocols%20and%20Services/Web%20Protocols/DNS%20Domain%20Name%20Service.md">DNS Domain Name Service.md</a></li>
+<li><a href="Protocols%20and%20Services/Web%20Protocols/HTTP%20Hyper%20Text%20Transfer%20protocol.md">HTTP Hyper Text Transfer protocol.md</a></li>
+<li><a href="Protocols%20and%20Services/Web%20Protocols/HTTPS%20Hyper%20Text%20Transfer%20Protocol%20Secure.md">HTTPS Hyper Text Transfer Protocol Secure.md</a></li>
+<li><a href="Protocols%20and%20Services/Web%20Protocols/TLS%20Transport%20Layer%20Security.md">TLS Transport Layer Security.md</a></li>
+<li><a href="Protocols%20and%20Services/Web%20Protocols/WS%20WebSockets.md">WS WebSockets.md</a></li>
+</ul></li>
+</ul></li>
+<li><strong>📁 Red Teaming/</strong><ul>
+<li><strong>📁 LOLBINS/</strong><ul>
+<li><a href="Red%20Teaming/LOLBINS/GTFObins.md">GTFObins.md</a></li>
+</ul></li>
+<li><strong>📁 TryHackMe/</strong><ul>
+<li><strong>📁 Blue/</strong><ul>
+<li><strong>📁 Windows 7/</strong><ul>
+<li><a href="Red%20Teaming/TryHackMe/Blue/Windows%207/MS17-010.md">MS17-010.md</a></li>
+<li><a href="Red%20Teaming/TryHackMe/Blue/Windows%207/Task-01-03.md">Task-01-03.md</a></li>
+</ul></li>
+</ul></li>
+<li><strong>📁 Kenobi/</strong><ul>
+<li><a href="Red%20Teaming/TryHackMe/Kenobi/Notes.md">Notes.md</a></li>
+</ul></li>
+</ul></li>
+<li><strong>📁 ciphers/</strong><ul>
+<li><a href="Red%20Teaming/ciphers/custom-base64.md">custom-base64.md</a></li>
+</ul></li>
+<li><strong>📁 metasploit/</strong><ul>
+<li><a href="Red%20Teaming/metasploit/metasploit-framework.md">metasploit-framework.md</a></li>
+</ul></li>
+<li><strong>📁 suid/</strong><ul>
+<li><a href="Red%20Teaming/suid/finding-suid-files.md">finding-suid-files.md</a></li>
+</ul></li>
+<li><strong>📁 tools/</strong><ul>
+<li><a href="Red%20Teaming/tools/C2.md">C2.md</a></li>
+<li><a href="Red%20Teaming/tools/linper-linux-persistence-toolkit.md">linper-linux-persistence-toolkit.md</a></li>
+</ul></li>
+<li><strong>📁 web/</strong><ul>
+<li><strong>📁 template-injection/</strong><ul>
+<li><a href="Red%20Teaming/web/template-injection/mako-template-injection.md">mako-template-injection.md</a></li>
+</ul></li>
+</ul></li>
+<li><a href="Red%20Teaming/OSCP-training.md">OSCP-training.md</a></li>
+<li><a href="Red%20Teaming/remote-shell-stablization.md">remote-shell-stablization.md</a></li>
+</ul></li>
+<li><strong>📁 Tools/</strong><ul>
+<li><strong>📁 files/</strong><ul>
+</ul></li>
+<li><a href="Tools/CLOAK_-_Concealment-Layers-for-Online-Anonymity-and-Knowledge.md">CLOAK_-_Concealment-Layers-for-Online-Anonymity-and-Knowledge.md</a></li>
+<li><a href="Tools/CTF-Handbook.md">CTF-Handbook.md</a></li>
+<li><a href="Tools/CyBOK-The-Cyber-Body-of-Knowledge.md">CyBOK-The-Cyber-Body-of-Knowledge.md</a></li>
+<li><a href="Tools/Cyber-Kill-Chain.md">Cyber-Kill-Chain.md</a></li>
+<li><a href="Tools/Digital-Artifact-Services.md">Digital-Artifact-Services.md</a></li>
+<li><a href="Tools/Documentation-Databases.md">Documentation-Databases.md</a></li>
+<li><a href="Tools/Exploit-DB.md">Exploit-DB.md</a></li>
+<li><a href="Tools/Frameworks.md">Frameworks.md</a></li>
+<li><a href="Tools/HackTricks-Book.md">HackTricks-Book.md</a></li>
+<li><a href="Tools/Hardening-Windows.md">Hardening-Windows.md</a></li>
+<li><a href="Tools/Infoscrapers.md">Infoscrapers.md</a></li>
+<li><a href="Tools/LOLbin-Resources.md">LOLbin-Resources.md</a></li>
+<li><a href="Tools/MISP.md">MISP.md</a></li>
+<li><a href="Tools/Mobile-Tools.md">Mobile-Tools.md</a></li>
+<li><a href="Tools/Models-and-Lifecycles.md">Models-and-Lifecycles.md</a></li>
+<li><a href="Tools/OASIS.md">OASIS.md</a></li>
+<li><a href="Tools/OPML.md">OPML.md</a></li>
+<li><a href="Tools/OSINT%20Framework.md">OSINT Framework.md</a></li>
+<li><a href="Tools/OSes.md">OSes.md</a></li>
+<li><a href="Tools/Orgs.md">Orgs.md</a></li>
+<li><a href="Tools/PTES-Penetration-Testing-Execution-Standard.md">PTES-Penetration-Testing-Execution-Standard.md</a></li>
+<li><a href="Tools/Reports.md">Reports.md</a></li>
+<li><a href="Tools/Repositories.md">Repositories.md</a></li>
+<li><a href="Tools/SANS-Incident-Response-Lifecycle.md">SANS-Incident-Response-Lifecycle.md</a></li>
+<li><a href="Tools/Secrets-Management.md">Secrets-Management.md</a></li>
+<li><a href="Tools/Software-Bill-of-Materials.md">Software-Bill-of-Materials.md</a></li>
+<li><a href="Tools/Software-Package-Repositories.md">Software-Package-Repositories.md</a></li>
+<li><a href="Tools/Software-Testing-Frameworks.md">Software-Testing-Frameworks.md</a></li>
+<li><a href="Tools/SysInternals.md">SysInternals.md</a></li>
+<li><a href="Tools/Threat-Exchange.md">Threat-Exchange.md</a></li>
+<li><a href="Tools/Threat-Intelligence-Exchange-Formats.md">Threat-Intelligence-Exchange-Formats.md</a></li>
+<li><a href="Tools/Vulnerability-Mapping.md">Vulnerability-Mapping.md</a></li>
+<li><a href="Tools/Web-Technologies.md">Web-Technologies.md</a></li>
+<li><a href="Tools/pwntools.md">pwntools.md</a></li>
+</ul></li>
+<li><strong>📁 Troubleshooting/</strong><ul>
+<li><a href="Troubleshooting/WSL.md">WSL.md</a></li>
+</ul></li>
+<li><strong>📁 Vulnerability Scanning/</strong><ul>
+<li><strong>📁 Categories/</strong><ul>
+<li><a href="Vulnerability%20Scanning/Categories/Compliance.md">Compliance.md</a></li>
+</ul></li>
+<li><strong>📁 Files/</strong><ul>
+</ul></li>
+<li><strong>📁 Vulnerabilities/</strong><ul>
+<li><a href="Vulnerability%20Scanning/Vulnerabilities/2024%20ISC%20BIND.md">2024 ISC BIND.md</a></li>
+<li><a href="Vulnerability%20Scanning/Vulnerabilities/CVE-2023-27532-Veeam-Backup-unauthenticated.md">CVE-2023-27532-Veeam-Backup-unauthenticated.md</a></li>
+<li><a href="Vulnerability%20Scanning/Vulnerabilities/CVE-2024-29510-Ghostscript-sandbox-bypass.md">CVE-2024-29510-Ghostscript-sandbox-bypass.md</a></li>
+<li><a href="Vulnerability%20Scanning/Vulnerabilities/CVE-2024-4577-PHP-CGI-Bin-RCE.md">CVE-2024-4577-PHP-CGI-Bin-RCE.md</a></li>
+<li><a href="Vulnerability%20Scanning/Vulnerabilities/CVE-2024-5274-Google-Chrome-Zero-day.md">CVE-2024-5274-Google-Chrome-Zero-day.md</a></li>
+<li><a href="Vulnerability%20Scanning/Vulnerabilities/CVE-2024-6327-Telerik-Report-Server-prior-to-2024.md">CVE-2024-6327-Telerik-Report-Server-prior-to-2024.md</a></li>
+<li><a href="Vulnerability%20Scanning/Vulnerabilities/CVE-2024-6387-OpenSSH-Race-Condition.md">CVE-2024-6387-OpenSSH-Race-Condition.md</a></li>
+<li><a href="Vulnerability%20Scanning/Vulnerabilities/CVE-2024-6387-Regression.md">CVE-2024-6387-Regression.md</a></li>
+<li><a href="Vulnerability%20Scanning/Vulnerabilities/universal-XSS.md">universal-XSS.md</a></li>
+</ul></li>
+<li><a href="Vulnerability%20Scanning/Vulnerability-Scanning.md">Vulnerability-Scanning.md</a></li>
+</ul></li>
+<li><a href="README.md">README.md</a></li>
+<li><a href="Securing-Platforms.md">Securing-Platforms.md</a></li>
+</ul>

@@ -1,41 +1,37 @@
 import os
 from urllib.parse import quote
 
-def build_tree(root_dir):
-    tree_lines = []
+def build_html_list(root_dir):
+    html_lines = ['<ul>']
+    build_list_recursive(root_dir, html_lines, root_dir)
+    html_lines.append('</ul>')
+    return html_lines
 
-    for dirpath, dirnames, filenames in os.walk(root_dir):
-        # Skip hidden folders and .git
-        dirnames[:] = [d for d in dirnames if not d.startswith('.') and d not in ['Changes', '.git']]
-        
-        level = dirpath.replace(root_dir, '').count(os.sep)
-        indent = '  ' * level
-        folder_name = os.path.basename(dirpath) or os.path.basename(os.path.abspath(root_dir))
+def build_list_recursive(current_path, html_lines, root_dir):
+    entries = sorted(os.listdir(current_path))
+    dirs = [e for e in entries if os.path.isdir(os.path.join(current_path, e)) and not e.startswith('.') and e not in 'Changes']
+    md_files = [e for e in entries if e.endswith('.md')]
 
-        # Add folder name to tree (skip root)
-        if level == 0:
-            tree_lines.append(f'📁 {folder_name}/')
-        else:
-            tree_lines.append(f'{indent}📁 {folder_name}/')
+    for d in dirs:
+        html_lines.append(f'<li><strong>📁 {d}/</strong><ul>')
+        build_list_recursive(os.path.join(current_path, d), html_lines, root_dir)
+        html_lines.append('</ul></li>')
 
-        for f in sorted(filenames):
-            if f.endswith('.md'):
-                subindent = '  ' * (level + 1)
-                rel_path = os.path.relpath(os.path.join(dirpath, f), root_dir).replace("\\", "/")
-                encoded_path = quote(rel_path)
-                tree_lines.append(f'{subindent}└── [{f}]({encoded_path})')
+    for f in md_files:
+        full_path = os.path.join(current_path, f)
+        rel_path = os.path.relpath(full_path, root_dir).replace("\\", "/")
+        encoded_path = quote(rel_path)
+        html_lines.append(f'<li><a href="{encoded_path}">{f}</a></li>')
 
-    return tree_lines
-
-def write_readme(readme_path, tree_lines):
+def write_readme(readme_path, html_lines):
     with open(readme_path, 'w', encoding='utf-8') as f:
         f.write('# Markdown File Tree\n\n')
-        f.write('\n'.join(tree_lines))
+        f.write('\n'.join(html_lines))
         f.write('\n')
 
 if __name__ == '__main__':
     root_dir = os.path.abspath('.')
     readme_path = os.path.join(root_dir, 'README.md')
-    tree_lines = build_tree(root_dir)
-    write_readme(readme_path, tree_lines)
-    print(f"README.md generated with linked .md files.")
+    html_lines = build_html_list(root_dir)
+    write_readme(readme_path, html_lines)
+    print("README.md generated using <ul>/<li> HTML structure.")
