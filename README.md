@@ -1,30 +1,4 @@
 # Index
-- [./Analysis%20Techniques/Android-Decompiling.md](./Analysis%20Techniques/Android-Decompiling.md)
-
-- [./Analysis%20Techniques/Character-Encodings.md](./Analysis%20Techniques/Character-Encodings.md)
-
-- [./Analysis%20Techniques/files/detect_packer_cryptor_py_diff.md](./Analysis%20Techniques/files/detect_packer_cryptor_py_diff.md)
-
-- [./Analysis%20Techniques/GeoIP-Image-Search.md](./Analysis%20Techniques/GeoIP-Image-Search.md)
-
-- [./Analysis%20Techniques/GeoIP-Website-Lookup.md](./Analysis%20Techniques/GeoIP-Website-Lookup.md)
-
-- [./Analysis%20Techniques/Mounting-a-DD-file.md](./Analysis%20Techniques/Mounting-a-DD-file.md)
-
-- [./Analysis%20Techniques/OLE-Files_doc-docx.md](./Analysis%20Techniques/OLE-Files_doc-docx.md)
-
-- [./Analysis%20Techniques/Recovering-files.md](./Analysis%20Techniques/Recovering-files.md)
-
-- [./Analysis%20Techniques/Static-Dynamic-and-AI-Code-Analysis.md](./Analysis%20Techniques/Static-Dynamic-and-AI-Code-Analysis.md)
-
-- [./Analysis%20Techniques/Userspace-Emulation.md](./Analysis%20Techniques/Userspace-Emulation.md)
-
-- [./Analysis%20Techniques/Web-Scanning.md](./Analysis%20Techniques/Web-Scanning.md)
-
-- [./Analysis%20Techniques/Windows-Registry.md](./Analysis%20Techniques/Windows-Registry.md)
-
-- [./Analysis%20Techniques/Zip-Passwords.md](./Analysis%20Techniques/Zip-Passwords.md)
-
 - [./Binaries/Anti-Debugging-Techniques/anti_debugger_realtime_clock.md](./Binaries/Anti-Debugging-Techniques/anti_debugger_realtime_clock.md)
 
 - [./Binaries/Anti-Debugging-Techniques/detect_procmon_window.md](./Binaries/Anti-Debugging-Techniques/detect_procmon_window.md)
@@ -41,9 +15,11 @@
 
 - [./Binaries/Assembly/Assembly-Registers.md](./Binaries/Assembly/Assembly-Registers.md)
 
-- [./Binaries/Assembly/Flags.md](./Binaries/Assembly/Flags.md)
+- [./Binaries/Assembly/Basic-Structures.md](./Binaries/Assembly/Basic-Structures.md)
 
 - [./Binaries/Compiling/Compilers.md](./Binaries/Compiling/Compilers.md)
+
+- [./Binaries/Compiling/gcc-build-process.md](./Binaries/Compiling/gcc-build-process.md)
 
 - [./Binaries/Debugging%20and%20Reversing/Debugging-in-Visual-Studio-Code.md](./Binaries/Debugging%20and%20Reversing/Debugging-in-Visual-Studio-Code.md)
 
@@ -63,9 +39,13 @@
 
 - [./Binaries/Debugging%20and%20Reversing/Ollydbg/Ollydbg.md](./Binaries/Debugging%20and%20Reversing/Ollydbg/Ollydbg.md)
 
+- [./Binaries/Debugging%20and%20Reversing/radare2%20and%20iaito/radare.md](./Binaries/Debugging%20and%20Reversing/radare2%20and%20iaito/radare.md)
+
 - [./Binaries/Debugging%20and%20Reversing/Reversing-Tools.md](./Binaries/Debugging%20and%20Reversing/Reversing-Tools.md)
 
 - [./Binaries/Debugging%20and%20Reversing/Reversing-Tutorials-and-Challenges.md](./Binaries/Debugging%20and%20Reversing/Reversing-Tutorials-and-Challenges.md)
+
+- [./Binaries/Debugging%20and%20Reversing/Tools.md](./Binaries/Debugging%20and%20Reversing/Tools.md)
 
 - [./Binaries/Debugging%20and%20Reversing/windbg/Debuggers-windbg.md](./Binaries/Debugging%20and%20Reversing/windbg/Debuggers-windbg.md)
 
@@ -74,6 +54,8 @@
 - [./Binaries/Debugging%20and%20Reversing/x64dbg/x64dbg-general-purpose-registers.md](./Binaries/Debugging%20and%20Reversing/x64dbg/x64dbg-general-purpose-registers.md)
 
 - [./Binaries/Malware%20Analysis/Books-on-Malware-Analysis.md](./Binaries/Malware%20Analysis/Books-on-Malware-Analysis.md)
+
+- [./Binaries/Malware%20Analysis/Data-Sources.md](./Binaries/Malware%20Analysis/Data-Sources.md)
 
 - [./Binaries/Malware%20Analysis/Dynamic%20Analysis/Monitoring-and-Auditing.md](./Binaries/Malware%20Analysis/Dynamic%20Analysis/Monitoring-and-Auditing.md)
 
@@ -88,6 +70,8 @@
 - [./Binaries/Malware%20Analysis/Malware-Analysis-Samples.md](./Binaries/Malware%20Analysis/Malware-Analysis-Samples.md)
 
 - [./Binaries/Malware%20Analysis/Malware-Analysis.md](./Binaries/Malware%20Analysis/Malware-Analysis.md)
+
+- [./Binaries/Malware%20Analysis/Malware-Behavior.md](./Binaries/Malware%20Analysis/Malware-Behavior.md)
 
 - [./Binaries/Malware%20Analysis/Static%20Analysis/Binary-Analysis_-_Strings.md](./Binaries/Malware%20Analysis/Static%20Analysis/Binary-Analysis_-_Strings.md)
 
@@ -104,6 +88,8 @@
 - [./Binaries/Malware%20Analysis/Static%20Analysis/Packer%20Identification.md](./Binaries/Malware%20Analysis/Static%20Analysis/Packer%20Identification.md)
 
 - [./Binaries/Malware%20Analysis/Static%20Analysis/Quickscope.md](./Binaries/Malware%20Analysis/Static%20Analysis/Quickscope.md)
+
+- [./Binaries/Malware%20Analysis/Tool-list.md](./Binaries/Malware%20Analysis/Tool-list.md)
 
 - [./Binaries/Malware%20Analysis/Toolkits/FLARE-vm/Android.md](./Binaries/Malware%20Analysis/Toolkits/FLARE-vm/Android.md)
 
@@ -153,13 +139,77 @@
 
 - [./Binaries/Windows/Win32-API.md](./Binaries/Windows/Win32-API.md)
 
+- [./Blue%20Teaming/Analysis%20Techniques/Android-Decompiling.md](./Blue%20Teaming/Analysis%20Techniques/Android-Decompiling.md)
+
+- [./Blue%20Teaming/Analysis%20Techniques/Character-Encodings.md](./Blue%20Teaming/Analysis%20Techniques/Character-Encodings.md)
+
+- [./Blue%20Teaming/Analysis%20Techniques/files/detect_packer_cryptor_py_diff.md](./Blue%20Teaming/Analysis%20Techniques/files/detect_packer_cryptor_py_diff.md)
+
+- [./Blue%20Teaming/Analysis%20Techniques/GeoIP-Image-Search.md](./Blue%20Teaming/Analysis%20Techniques/GeoIP-Image-Search.md)
+
+- [./Blue%20Teaming/Analysis%20Techniques/GeoIP-Website-Lookup.md](./Blue%20Teaming/Analysis%20Techniques/GeoIP-Website-Lookup.md)
+
+- [./Blue%20Teaming/Analysis%20Techniques/Mounting-a-DD-file.md](./Blue%20Teaming/Analysis%20Techniques/Mounting-a-DD-file.md)
+
+- [./Blue%20Teaming/Analysis%20Techniques/OLE-Files_doc-docx.md](./Blue%20Teaming/Analysis%20Techniques/OLE-Files_doc-docx.md)
+
+- [./Blue%20Teaming/Analysis%20Techniques/Recovering-files.md](./Blue%20Teaming/Analysis%20Techniques/Recovering-files.md)
+
+- [./Blue%20Teaming/Analysis%20Techniques/Static-Dynamic-and-AI-Code-Analysis.md](./Blue%20Teaming/Analysis%20Techniques/Static-Dynamic-and-AI-Code-Analysis.md)
+
+- [./Blue%20Teaming/Analysis%20Techniques/Userspace-Emulation.md](./Blue%20Teaming/Analysis%20Techniques/Userspace-Emulation.md)
+
+- [./Blue%20Teaming/Analysis%20Techniques/Web-Scanning.md](./Blue%20Teaming/Analysis%20Techniques/Web-Scanning.md)
+
+- [./Blue%20Teaming/Analysis%20Techniques/Windows-Registry.md](./Blue%20Teaming/Analysis%20Techniques/Windows-Registry.md)
+
+- [./Blue%20Teaming/Analysis%20Techniques/Zip-Passwords.md](./Blue%20Teaming/Analysis%20Techniques/Zip-Passwords.md)
+
 - [./Blue%20Teaming/Cisco/Hardening.md](./Blue%20Teaming/Cisco/Hardening.md)
 
+- [./Blue%20Teaming/Cryptanalysis/Ciphers.md](./Blue%20Teaming/Cryptanalysis/Ciphers.md)
+
+- [./Blue%20Teaming/Cryptanalysis/Cryptography.md](./Blue%20Teaming/Cryptanalysis/Cryptography.md)
+
+- [./Blue%20Teaming/Cryptanalysis/Glossary.md](./Blue%20Teaming/Cryptanalysis/Glossary.md)
+
+- [./Blue%20Teaming/Cryptanalysis/Inventions-1600AD-2005AD.md](./Blue%20Teaming/Cryptanalysis/Inventions-1600AD-2005AD.md)
+
+- [./Blue%20Teaming/Cryptanalysis/Inventions-2500BCE-1600AD.md](./Blue%20Teaming/Cryptanalysis/Inventions-2500BCE-1600AD.md)
+
+- [./Blue%20Teaming/Cryptanalysis/Publications.md](./Blue%20Teaming/Cryptanalysis/Publications.md)
+
 - [./Blue%20Teaming/Forensics/Data%20Recovery/NTFS/NTFS-MFT-Analysis.md](./Blue%20Teaming/Forensics/Data%20Recovery/NTFS/NTFS-MFT-Analysis.md)
+
+- [./Blue%20Teaming/Forensics/DFIR-training.md](./Blue%20Teaming/Forensics/DFIR-training.md)
+
+- [./Blue%20Teaming/Forensics/Digital-Corpora.md](./Blue%20Teaming/Forensics/Digital-Corpora.md)
+
+- [./Blue%20Teaming/Forensics/Geeks-For-Geeks_-_Computer-Forensics.md](./Blue%20Teaming/Forensics/Geeks-For-Geeks_-_Computer-Forensics.md)
+
+- [./Blue%20Teaming/Forensics/Links.md](./Blue%20Teaming/Forensics/Links.md)
+
+- [./Blue%20Teaming/Forensics/Unfurl.md](./Blue%20Teaming/Forensics/Unfurl.md)
 
 - [./Blue%20Teaming/MacOS/Documentation.md](./Blue%20Teaming/MacOS/Documentation.md)
 
 - [./Blue%20Teaming/MacOS/Tools.md](./Blue%20Teaming/MacOS/Tools.md)
+
+- [./Blue%20Teaming/Methodologies/CVSS.md](./Blue%20Teaming/Methodologies/CVSS.md)
+
+- [./Blue%20Teaming/Methodologies/DREAD.md](./Blue%20Teaming/Methodologies/DREAD.md)
+
+- [./Blue%20Teaming/Methodologies/F3EAD.md](./Blue%20Teaming/Methodologies/F3EAD.md)
+
+- [./Blue%20Teaming/Methodologies/OCTAVE.md](./Blue%20Teaming/Methodologies/OCTAVE.md)
+
+- [./Blue%20Teaming/Methodologies/PASTA.md](./Blue%20Teaming/Methodologies/PASTA.md)
+
+- [./Blue%20Teaming/Methodologies/Pyramid-of-Pain.md](./Blue%20Teaming/Methodologies/Pyramid-of-Pain.md)
+
+- [./Blue%20Teaming/Methodologies/STRIDE.md](./Blue%20Teaming/Methodologies/STRIDE.md)
+
+- [./Blue%20Teaming/Methodologies/Unified-Kill-Chain.md](./Blue%20Teaming/Methodologies/Unified-Kill-Chain.md)
 
 - [./Blue%20Teaming/Windows/Commands.md](./Blue%20Teaming/Windows/Commands.md)
 
@@ -192,18 +242,6 @@
 - [./Computer%20Networking/DNS.md](./Computer%20Networking/DNS.md)
 
 - [./Computer%20Networking/Network-Connections.md](./Computer%20Networking/Network-Connections.md)
-
-- [./Cryptanalysis/Ciphers.md](./Cryptanalysis/Ciphers.md)
-
-- [./Cryptanalysis/Cryptography.md](./Cryptanalysis/Cryptography.md)
-
-- [./Cryptanalysis/Glossary.md](./Cryptanalysis/Glossary.md)
-
-- [./Cryptanalysis/Inventions-1600AD-2005AD.md](./Cryptanalysis/Inventions-1600AD-2005AD.md)
-
-- [./Cryptanalysis/Inventions-2500BCE-1600AD.md](./Cryptanalysis/Inventions-2500BCE-1600AD.md)
-
-- [./Cryptanalysis/Publications.md](./Cryptanalysis/Publications.md)
 
 - [./CTF/CTF-Challenges.md](./CTF/CTF-Challenges.md)
 
@@ -255,6 +293,12 @@
 
 - [./Ideas/Web-Intelligence-as-a-Service.md](./Ideas/Web-Intelligence-as-a-Service.md)
 
+- [./MITRE/ATT&CK%20and%20D3FEND/ATT&CK/01.%20Reconnaissance/Active%20Scanning/Active_Scanning.md](./MITRE/ATT&CK%20and%20D3FEND/ATT&CK/01.%20Reconnaissance/Active%20Scanning/Active_Scanning.md)
+
+- [./MITRE/ATT&CK%20and%20D3FEND/ATT&CK/09.%20Discovery/Network%20Service%20Discovery/Network_Service_Discovery.md](./MITRE/ATT&CK%20and%20D3FEND/ATT&CK/09.%20Discovery/Network%20Service%20Discovery/Network_Service_Discovery.md)
+
+- [./MITRE/ATT&CK%20and%20D3FEND/ATT&CK/09.%20Discovery/Network%20Service%20Discovery/nmap/nmap-scans.md](./MITRE/ATT&CK%20and%20D3FEND/ATT&CK/09.%20Discovery/Network%20Service%20Discovery/nmap/nmap-scans.md)
+
 - [./MITRE/ATT&CK%20and%20D3FEND/ATT&CK/Data%20Sources.md](./MITRE/ATT&CK%20and%20D3FEND/ATT&CK/Data%20Sources.md)
 
 - [./MITRE/ATT&CK%20and%20D3FEND/ATT&CK/Matricies.md](./MITRE/ATT&CK%20and%20D3FEND/ATT&CK/Matricies.md)
@@ -264,6 +308,8 @@
 - [./MITRE/ATT&CK%20and%20D3FEND/ATT&CK/Reconnaissance.md](./MITRE/ATT&CK%20and%20D3FEND/ATT&CK/Reconnaissance.md)
 
 - [./MITRE/ATT&CK.md](./MITRE/ATT&CK.md)
+
+- [./MITRE/CAR%20Cyber%20Analytics%20Repository/MITRE-CAR.md](./MITRE/CAR%20Cyber%20Analytics%20Repository/MITRE-CAR.md)
 
 - [./MITRE/D3FEND.md](./MITRE/D3FEND.md)
 
@@ -359,17 +405,27 @@
 
 - [./README.md](./README.md)
 
-- [./Red%20Teaming/metasploit/metasploit-framework.md](./Red%20Teaming/metasploit/metasploit-framework.md)
+- [./Red%20Teaming/ciphers/custom-base64.md](./Red%20Teaming/ciphers/custom-base64.md)
 
-- [./Red%20Teaming/nmap/nmap-scans.md](./Red%20Teaming/nmap/nmap-scans.md)
+- [./Red%20Teaming/LOLBINS/GTFObins.md](./Red%20Teaming/LOLBINS/GTFObins.md)
+
+- [./Red%20Teaming/metasploit/metasploit-framework.md](./Red%20Teaming/metasploit/metasploit-framework.md)
 
 - [./Red%20Teaming/OSCP-training.md](./Red%20Teaming/OSCP-training.md)
 
 - [./Red%20Teaming/remote-shell-stablization.md](./Red%20Teaming/remote-shell-stablization.md)
 
+- [./Red%20Teaming/suid/finding-suid-files.md](./Red%20Teaming/suid/finding-suid-files.md)
+
 - [./Red%20Teaming/tools/C2.md](./Red%20Teaming/tools/C2.md)
 
 - [./Red%20Teaming/tools/linper-linux-persistence-toolkit.md](./Red%20Teaming/tools/linper-linux-persistence-toolkit.md)
+
+- [./Red%20Teaming/TryHackMe/Blue/Windows%207/MS17-010.md](./Red%20Teaming/TryHackMe/Blue/Windows%207/MS17-010.md)
+
+- [./Red%20Teaming/TryHackMe/Blue/Windows%207/Task-01-03.md](./Red%20Teaming/TryHackMe/Blue/Windows%207/Task-01-03.md)
+
+- [./Red%20Teaming/TryHackMe/Kenobi/Notes.md](./Red%20Teaming/TryHackMe/Kenobi/Notes.md)
 
 - [./Red%20Teaming/web/template-injection/mako-template-injection.md](./Red%20Teaming/web/template-injection/mako-template-injection.md)
 
