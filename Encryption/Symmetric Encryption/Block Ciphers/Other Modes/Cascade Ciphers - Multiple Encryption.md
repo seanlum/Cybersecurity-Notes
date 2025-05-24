@@ -7,6 +7,9 @@ May combine multiple ciphers in order to make the data harder to decrypt. Cascad
 - CTR-ECB mode
 - CTR-CTR mode
 
+### CMCC - CBC-MAC-CTR-CBC
+- [CMCC: Misuse Resistant Authenticated Encryption with Minimal Ciphertext Expansion](https://www.researchgate.net/publication/329790720_CMCC_Misuse_Resistant_Authenticated_Encryption_with_Minimal_Ciphertext_Expansion)
+
 ### Usages
 - High-security archives or legacy banking software
 

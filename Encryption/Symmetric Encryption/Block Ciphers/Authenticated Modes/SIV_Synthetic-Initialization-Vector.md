@@ -4,8 +4,6 @@
 - Generateas an IV using MAC over data
 - Encrypted using a CTR mode
 
-### See also AES-GCM-SIV
-https://en.wikipedia.org/wiki/AES-GCM-SIV
-
 ### Link Explaning the Cipher
-https://datatracker.ietf.org/doc/html/rfc5297
+- [AES-SIV](https://datatracker.ietf.org/doc/html/rfc5297)
+- [SIV | UCDavis](https://web.cs.ucdavis.edu/~rogaway/papers/siv.pdf)

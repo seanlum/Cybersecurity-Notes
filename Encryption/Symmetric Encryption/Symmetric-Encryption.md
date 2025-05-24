@@ -10,6 +10,8 @@
     - [CTF101 - What are Block Ciphers](https://ctf101.org/cryptography/what-are-block-ciphers/)
     - [Wikipedia - Authenticated Block Ciphers](https://en.wikipedia.org/wiki/Authenticated_encryption)
     - [Tink Cryptographic Library | Authenticated Encryption with Associated Data (AEAD)](https://developers.google.com/tink/aead)
+    - [On Modes of Operation of a Block Cipher for Authentication and Authenticated Encryption](https://eprint.iacr.org/2014/627.pdf)
+    - [Authenticated and Misuse-Resistent Encryption of Key-Dependent Data](https://eprint.iacr.org/2011/269.pdf)
 ###  Classic Cipher Modes
 
 | Mode | IV Required | Parallel Encrypt | Error Propagation | Stream-Like | Notes |
