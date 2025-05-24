@@ -242,6 +242,15 @@
 <li><a href="Encryption/Symmetric%20Encryption/Block%20Ciphers/Classic%20Modes/OFB_Output%20Feedback%20Mode.md">OFB_Output Feedback Mode.md</a></li>
 <li><a href="Encryption/Symmetric%20Encryption/Block%20Ciphers/Classic%20Modes/PCBC_Propogating%20Cipher%20Block%20Chaining.md">PCBC_Propogating Cipher Block Chaining.md</a></li>
 </ul></li>
+<li><strong>📁 Other Modes/</strong><ul>
+<li><a href="Encryption/Symmetric%20Encryption/Block%20Ciphers/Other%20Modes/Authenticated%20Key-Derivation%20Ciphers.md">Authenticated Key-Derivation Ciphers.md</a></li>
+<li><a href="Encryption/Symmetric%20Encryption/Block%20Ciphers/Other%20Modes/Cascade%20Ciphers.md">Cascade Ciphers.md</a></li>
+<li><a href="Encryption/Symmetric%20Encryption/Block%20Ciphers/Other%20Modes/Disk-Specific%20Schemes.md">Disk-Specific Schemes.md</a></li>
+<li><a href="Encryption/Symmetric%20Encryption/Block%20Ciphers/Other%20Modes/FPE_Format-Preserving-Encryption.md">FPE_Format-Preserving-Encryption.md</a></li>
+<li><a href="Encryption/Symmetric%20Encryption/Block%20Ciphers/Other%20Modes/Key%20Wrapping%20Ciphers.md">Key Wrapping Ciphers.md</a></li>
+<li><a href="Encryption/Symmetric%20Encryption/Block%20Ciphers/Other%20Modes/Tweakable-Block-Ciphers.md">Tweakable-Block-Ciphers.md</a></li>
+<li><a href="Encryption/Symmetric%20Encryption/Block%20Ciphers/Other%20Modes/Wide-Block%20Encryption.md">Wide-Block Encryption.md</a></li>
+</ul></li>
 </ul></li>
 <li><a href="Encryption/Symmetric%20Encryption/Symmetric-Encryption.md">Symmetric-Encryption.md</a></li>
 </ul></li>
