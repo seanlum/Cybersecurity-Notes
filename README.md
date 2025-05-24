@@ -229,6 +229,7 @@
 <li><a href="Encryption/Symmetric%20Encryption/Block%20Ciphers/Authenticated%20Modes/CCM_Counter-with-CBC-MAC.md">CCM_Counter-with-CBC-MAC.md</a></li>
 <li><a href="Encryption/Symmetric%20Encryption/Block%20Ciphers/Authenticated%20Modes/ChaCha20-Poly1305.md">ChaCha20-Poly1305.md</a></li>
 <li><a href="Encryption/Symmetric%20Encryption/Block%20Ciphers/Authenticated%20Modes/EAX_EAX-Mode.md">EAX_EAX-Mode.md</a></li>
+<li><a href="Encryption/Symmetric%20Encryption/Block%20Ciphers/Authenticated%20Modes/GCM-SIV_Galois-Counter%20Mode%20with%20Synthetic%20Initialization%20Vector.md">GCM-SIV_Galois-Counter Mode with Synthetic Initialization Vector.md</a></li>
 <li><a href="Encryption/Symmetric%20Encryption/Block%20Ciphers/Authenticated%20Modes/GCM_Galois-Counter-Mode.md">GCM_Galois-Counter-Mode.md</a></li>
 <li><a href="Encryption/Symmetric%20Encryption/Block%20Ciphers/Authenticated%20Modes/IAPM_Integrity-Aware-Parallelizable-Mode.md">IAPM_Integrity-Aware-Parallelizable-Mode.md</a></li>
 <li><a href="Encryption/Symmetric%20Encryption/Block%20Ciphers/Authenticated%20Modes/OCB_Offset-Codebook-Mode.md">OCB_Offset-Codebook-Mode.md</a></li>
@@ -244,7 +245,7 @@
 </ul></li>
 <li><strong>📁 Other Modes/</strong><ul>
 <li><a href="Encryption/Symmetric%20Encryption/Block%20Ciphers/Other%20Modes/Authenticated%20Key-Derivation%20Ciphers.md">Authenticated Key-Derivation Ciphers.md</a></li>
-<li><a href="Encryption/Symmetric%20Encryption/Block%20Ciphers/Other%20Modes/Cascade%20Ciphers.md">Cascade Ciphers.md</a></li>
+<li><a href="Encryption/Symmetric%20Encryption/Block%20Ciphers/Other%20Modes/Cascade%20Ciphers%20-%20Multiple%20Encryption.md">Cascade Ciphers - Multiple Encryption.md</a></li>
 <li><a href="Encryption/Symmetric%20Encryption/Block%20Ciphers/Other%20Modes/Disk-Specific%20Schemes.md">Disk-Specific Schemes.md</a></li>
 <li><a href="Encryption/Symmetric%20Encryption/Block%20Ciphers/Other%20Modes/FPE_Format-Preserving-Encryption.md">FPE_Format-Preserving-Encryption.md</a></li>
 <li><a href="Encryption/Symmetric%20Encryption/Block%20Ciphers/Other%20Modes/Key%20Wrapping%20Ciphers.md">Key Wrapping Ciphers.md</a></li>
@@ -252,6 +253,12 @@
 <li><a href="Encryption/Symmetric%20Encryption/Block%20Ciphers/Other%20Modes/Wide-Block%20Encryption.md">Wide-Block Encryption.md</a></li>
 </ul></li>
 </ul></li>
+<li><strong>📁 Message Authentication Code/</strong><ul>
+<li><a href="Encryption/Symmetric%20Encryption/Message%20Authentication%20Code/CBC-MAC_Chained%20Block%20Cipher%20MAC.md">CBC-MAC_Chained Block Cipher MAC.md</a></li>
+<li><a href="Encryption/Symmetric%20Encryption/Message%20Authentication%20Code/CMAC_Cipher-based%20MAC.md">CMAC_Cipher-based MAC.md</a></li>
+<li><a href="Encryption/Symmetric%20Encryption/Message%20Authentication%20Code/HMAC_Hash-Based%20MAC.md">HMAC_Hash-Based MAC.md</a></li>
+</ul></li>
+<li><a href="Encryption/Symmetric%20Encryption/Message%20Authentication%20Code.md">Message Authentication Code.md</a></li>
 <li><a href="Encryption/Symmetric%20Encryption/Symmetric-Encryption.md">Symmetric-Encryption.md</a></li>
 </ul></li>
 </ul></li>
