@@ -216,6 +216,17 @@
 <li><a href="Books/Index.md">Index.md</a></li>
 </ul></li>
 <li><strong>📁 CTF/</strong><ul>
+<li><strong>📁 TryHackMe/</strong><ul>
+<li><strong>📁 Blue/</strong><ul>
+<li><strong>📁 Windows 7/</strong><ul>
+<li><a href="CTF/TryHackMe/Blue/Windows%207/MS17-010.md">MS17-010.md</a></li>
+<li><a href="CTF/TryHackMe/Blue/Windows%207/Task-01-03.md">Task-01-03.md</a></li>
+</ul></li>
+</ul></li>
+<li><strong>📁 Kenobi/</strong><ul>
+<li><a href="CTF/TryHackMe/Kenobi/Notes.md">Notes.md</a></li>
+</ul></li>
+</ul></li>
 <li><a href="CTF/CTF-Challenges.md">CTF-Challenges.md</a></li>
 </ul></li>
 <li><strong>📁 Computer Networking/</strong><ul>
@@ -313,6 +324,7 @@
 <li><a href="MITRE/CAR%20Cyber%20Analytics%20Repository/MITRE-CAR.md">MITRE-CAR.md</a></li>
 </ul></li>
 <li><a href="MITRE/ATT%26CK.md">ATT&CK.md</a></li>
+<li><a href="MITRE/Cyber-Exercise-Playbook.md">Cyber-Exercise-Playbook.md</a></li>
 <li><a href="MITRE/D3FEND.md">D3FEND.md</a></li>
 <li><a href="MITRE/MITRE-Index.md">MITRE-Index.md</a></li>
 </ul></li>
@@ -378,28 +390,64 @@
 <li><strong>📁 LOLBINS/</strong><ul>
 <li><a href="Red%20Teaming/LOLBINS/GTFObins.md">GTFObins.md</a></li>
 </ul></li>
-<li><strong>📁 Malware Development/</strong><ul>
-<li><a href="Red%20Teaming/Malware%20Development/Links.md">Links.md</a></li>
-</ul></li>
-<li><strong>📁 TryHackMe/</strong><ul>
-<li><strong>📁 Blue/</strong><ul>
-<li><strong>📁 Windows 7/</strong><ul>
-<li><a href="Red%20Teaming/TryHackMe/Blue/Windows%207/MS17-010.md">MS17-010.md</a></li>
-<li><a href="Red%20Teaming/TryHackMe/Blue/Windows%207/Task-01-03.md">Task-01-03.md</a></li>
-</ul></li>
-</ul></li>
-<li><strong>📁 Kenobi/</strong><ul>
-<li><a href="Red%20Teaming/TryHackMe/Kenobi/Notes.md">Notes.md</a></li>
-</ul></li>
-</ul></li>
 <li><strong>📁 ciphers/</strong><ul>
 <li><a href="Red%20Teaming/ciphers/custom-base64.md">custom-base64.md</a></li>
 </ul></li>
+<li><strong>📁 exploits/</strong><ul>
+<li><strong>📁 Malware Development/</strong><ul>
+<li><a href="Red%20Teaming/exploits/Malware%20Development/Links.md">Links.md</a></li>
+</ul></li>
+<li><strong>📁 Mimikatz/</strong><ul>
+<li><a href="Red%20Teaming/exploits/Mimikatz/Mimikatz.md">Mimikatz.md</a></li>
+</ul></li>
+<li><strong>📁 PowerShell/</strong><ul>
+<li><a href="Red%20Teaming/exploits/PowerShell/PowerShell%20Empire.md">PowerShell Empire.md</a></li>
+<li><a href="Red%20Teaming/exploits/PowerShell/PowerSploit.md">PowerSploit.md</a></li>
+</ul></li>
 <li><strong>📁 metasploit/</strong><ul>
-<li><a href="Red%20Teaming/metasploit/metasploit-framework.md">metasploit-framework.md</a></li>
+<li><a href="Red%20Teaming/exploits/metasploit/metasploit-framework.md">metasploit-framework.md</a></li>
 </ul></li>
 <li><strong>📁 suid/</strong><ul>
-<li><a href="Red%20Teaming/suid/finding-suid-files.md">finding-suid-files.md</a></li>
+<li><a href="Red%20Teaming/exploits/suid/finding-suid-files.md">finding-suid-files.md</a></li>
+</ul></li>
+<li><a href="Red%20Teaming/exploits/Exploit-DB.md">Exploit-DB.md</a></li>
+<li><a href="Red%20Teaming/exploits/SET-Social%20Engineering%20Toolkit.md">SET-Social Engineering Toolkit.md</a></li>
+</ul></li>
+<li><strong>📁 protocols/</strong><ul>
+<li><strong>📁 databases/</strong><ul>
+<li><strong>📁 mysql/</strong><ul>
+<li><a href="Red%20Teaming/protocols/databases/mysql/mysql.md">mysql.md</a></li>
+</ul></li>
+</ul></li>
+<li><strong>📁 ftp/</strong><ul>
+<li><a href="Red%20Teaming/protocols/ftp/ftp.md">ftp.md</a></li>
+</ul></li>
+<li><strong>📁 nfs/</strong><ul>
+<li><a href="Red%20Teaming/protocols/nfs/nfs.md">nfs.md</a></li>
+</ul></li>
+<li><strong>📁 proxy/</strong><ul>
+<li><a href="Red%20Teaming/protocols/proxy/Windows-Proxy-Auto-Discovery-WPAD.md">Windows-Proxy-Auto-Discovery-WPAD.md</a></li>
+</ul></li>
+<li><strong>📁 smb/</strong><ul>
+<li><a href="Red%20Teaming/protocols/smb/samba.md">samba.md</a></li>
+</ul></li>
+<li><strong>📁 smtp/</strong><ul>
+<li><a href="Red%20Teaming/protocols/smtp/smtp.md">smtp.md</a></li>
+</ul></li>
+<li><strong>📁 ssh/</strong><ul>
+<li><a href="Red%20Teaming/protocols/ssh/ssh.md">ssh.md</a></li>
+</ul></li>
+<li><strong>📁 vpn/</strong><ul>
+<li><a href="Red%20Teaming/protocols/vpn/vpns.md">vpns.md</a></li>
+</ul></li>
+<li><strong>📁 wifi/</strong><ul>
+<li><a href="Red%20Teaming/protocols/wifi/wifi.md">wifi.md</a></li>
+</ul></li>
+<li><strong>📁 windows/</strong><ul>
+<li><a href="Red%20Teaming/protocols/windows/Kerberos.md">Kerberos.md</a></li>
+<li><a href="Red%20Teaming/protocols/windows/NTLM-and-NTLMv2.md">NTLM-and-NTLMv2.md</a></li>
+<li><a href="Red%20Teaming/protocols/windows/WinRM.md">WinRM.md</a></li>
+</ul></li>
 </ul></li>
 <li><strong>📁 tools/</strong><ul>
 <li><a href="Red%20Teaming/tools/C2.md">C2.md</a></li>
@@ -410,9 +458,10 @@
 <li><a href="Red%20Teaming/web/template-injection/mako-template-injection.md">mako-template-injection.md</a></li>
 </ul></li>
 </ul></li>
-<li><a href="Red%20Teaming/Exploit-DB.md">Exploit-DB.md</a></li>
 <li><a href="Red%20Teaming/OSCP-training.md">OSCP-training.md</a></li>
+<li><a href="Red%20Teaming/OWASP.md">OWASP.md</a></li>
 <li><a href="Red%20Teaming/remote-shell-stablization.md">remote-shell-stablization.md</a></li>
+<li><a href="Red%20Teaming/vulnerable-machines.md">vulnerable-machines.md</a></li>
 </ul></li>
 <li><strong>📁 Tools/</strong><ul>
 <li><a href="Tools/CLOAK_-_Concealment-Layers-for-Online-Anonymity-and-Knowledge.md">CLOAK_-_Concealment-Layers-for-Online-Anonymity-and-Knowledge.md</a></li>
