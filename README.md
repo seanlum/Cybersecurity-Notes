@@ -169,19 +169,30 @@
 </ul></li>
 </ul></li>
 <li><a href="Blue%20Teaming/Forensics/DFIR-training.md">DFIR-training.md</a></li>
+<li><a href="Blue%20Teaming/Forensics/Detection-Engineering.md">Detection-Engineering.md</a></li>
 <li><a href="Blue%20Teaming/Forensics/Digital-Corpora.md">Digital-Corpora.md</a></li>
 <li><a href="Blue%20Teaming/Forensics/Geeks-For-Geeks_-_Computer-Forensics.md">Geeks-For-Geeks_-_Computer-Forensics.md</a></li>
 <li><a href="Blue%20Teaming/Forensics/Links.md">Links.md</a></li>
+<li><a href="Blue%20Teaming/Forensics/Tools.md">Tools.md</a></li>
 <li><a href="Blue%20Teaming/Forensics/Unfurl.md">Unfurl.md</a></li>
+</ul></li>
+<li><strong>📁 Incident Response/</strong><ul>
+<li><a href="Blue%20Teaming/Incident%20Response/NIST.md">NIST.md</a></li>
+<li><a href="Blue%20Teaming/Incident%20Response/SANS.md">SANS.md</a></li>
 </ul></li>
 <li><strong>📁 MacOS/</strong><ul>
 <li><a href="Blue%20Teaming/MacOS/Documentation.md">Documentation.md</a></li>
 <li><a href="Blue%20Teaming/MacOS/Tools.md">Tools.md</a></li>
 </ul></li>
 <li><strong>📁 Methodologies/</strong><ul>
+<li><a href="Blue%20Teaming/Methodologies/Alerting%20and%20Detection%20Strategy%20Framework.md">Alerting and Detection Strategy Framework.md</a></li>
+<li><a href="Blue%20Teaming/Methodologies/CALMS-DevOps.md">CALMS-DevOps.md</a></li>
 <li><a href="Blue%20Teaming/Methodologies/CVSS.md">CVSS.md</a></li>
+<li><a href="Blue%20Teaming/Methodologies/DML-Detection%20Maturity%20Level%20Model.md">DML-Detection Maturity Level Model.md</a></li>
 <li><a href="Blue%20Teaming/Methodologies/DREAD.md">DREAD.md</a></li>
+<li><a href="Blue%20Teaming/Methodologies/DevSecOps.md">DevSecOps.md</a></li>
 <li><a href="Blue%20Teaming/Methodologies/F3EAD.md">F3EAD.md</a></li>
+<li><a href="Blue%20Teaming/Methodologies/LM-Cyber%20Kill%20Chain.md">LM-Cyber Kill Chain.md</a></li>
 <li><a href="Blue%20Teaming/Methodologies/OCTAVE.md">OCTAVE.md</a></li>
 <li><a href="Blue%20Teaming/Methodologies/PASTA.md">PASTA.md</a></li>
 <li><a href="Blue%20Teaming/Methodologies/Pyramid-of-Pain.md">Pyramid-of-Pain.md</a></li>
@@ -193,6 +204,12 @@
 <li><a href="Blue%20Teaming/Threat%20Intelligence/MISP.md">MISP.md</a></li>
 <li><a href="Blue%20Teaming/Threat%20Intelligence/Threat-Exchange.md">Threat-Exchange.md</a></li>
 <li><a href="Blue%20Teaming/Threat%20Intelligence/Threat-Intelligence-Exchange-Formats.md">Threat-Intelligence-Exchange-Formats.md</a></li>
+<li><a href="Blue%20Teaming/Threat%20Intelligence/Threat-Intelligence-Lifecycle.md">Threat-Intelligence-Lifecycle.md</a></li>
+<li><a href="Blue%20Teaming/Threat%20Intelligence/Tools.md">Tools.md</a></li>
+<li><a href="Blue%20Teaming/Threat%20Intelligence/Types-of-Intelligence.md">Types-of-Intelligence.md</a></li>
+</ul></li>
+<li><strong>📁 Tools/</strong><ul>
+<li><a href="Blue%20Teaming/Tools/SIEM.md">SIEM.md</a></li>
 </ul></li>
 <li><strong>📁 Windows/</strong><ul>
 <li><strong>📁 Windows 11/</strong><ul>
@@ -209,6 +226,7 @@
 <li><a href="Blue%20Teaming/Windows/Commands.md">Commands.md</a></li>
 <li><a href="Blue%20Teaming/Windows/Hardening.md">Hardening.md</a></li>
 <li><a href="Blue%20Teaming/Windows/Secondary-Terminals.md">Secondary-Terminals.md</a></li>
+<li><a href="Blue%20Teaming/Windows/Tools.md">Tools.md</a></li>
 <li><a href="Blue%20Teaming/Windows/Windows-Terminals.md">Windows-Terminals.md</a></li>
 </ul></li>
 </ul></li>
@@ -297,6 +315,9 @@
 <li><a href="Ideas/Drilling-Down-with-MITRE-and-OWASP.md">Drilling-Down-with-MITRE-and-OWASP.md</a></li>
 <li><a href="Ideas/Managing_Closed-Source_Security_Signatures_with_AI_and_CI_Pipelines.md">Managing_Closed-Source_Security_Signatures_with_AI_and_CI_Pipelines.md</a></li>
 <li><a href="Ideas/Polymorphic_functions_in_C.md">Polymorphic_functions_in_C.md</a></li>
+</ul></li>
+<li><strong>📁 Laws/</strong><ul>
+<li><a href="Laws/Law-List.md">Law-List.md</a></li>
 </ul></li>
 <li><strong>📁 MITRE/</strong><ul>
 <li><strong>📁 ATT&CK and D3FEND/</strong><ul>
@@ -471,6 +492,7 @@
 <li><a href="Tools/Digital-Artifact-Services.md">Digital-Artifact-Services.md</a></li>
 <li><a href="Tools/Documentation-Databases.md">Documentation-Databases.md</a></li>
 <li><a href="Tools/Frameworks.md">Frameworks.md</a></li>
+<li><a href="Tools/Fuzzers.md">Fuzzers.md</a></li>
 <li><a href="Tools/HackTricks-Book.md">HackTricks-Book.md</a></li>
 <li><a href="Tools/Hardening-Windows.md">Hardening-Windows.md</a></li>
 <li><a href="Tools/Infoscrapers.md">Infoscrapers.md</a></li>
