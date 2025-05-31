@@ -176,9 +176,17 @@
 <li><a href="Blue%20Teaming/Forensics/Tools.md">Tools.md</a></li>
 <li><a href="Blue%20Teaming/Forensics/Unfurl.md">Unfurl.md</a></li>
 </ul></li>
+<li><strong>📁 Hardening and Vulnerability Management/</strong><ul>
+<li><a href="Blue%20Teaming/Hardening%20and%20Vulnerability%20Management/Compliance.md">Compliance.md</a></li>
+<li><a href="Blue%20Teaming/Hardening%20and%20Vulnerability%20Management/Hardening-Windows.md">Hardening-Windows.md</a></li>
+<li><a href="Blue%20Teaming/Hardening%20and%20Vulnerability%20Management/STIG%20and%20SCAP.md">STIG and SCAP.md</a></li>
+<li><a href="Blue%20Teaming/Hardening%20and%20Vulnerability%20Management/Securing-Platforms.md">Securing-Platforms.md</a></li>
+<li><a href="Blue%20Teaming/Hardening%20and%20Vulnerability%20Management/Vulnerability-Mapping.md">Vulnerability-Mapping.md</a></li>
+<li><a href="Blue%20Teaming/Hardening%20and%20Vulnerability%20Management/Zero-Trust.md">Zero-Trust.md</a></li>
+</ul></li>
 <li><strong>📁 Incident Response/</strong><ul>
-<li><a href="Blue%20Teaming/Incident%20Response/NIST.md">NIST.md</a></li>
-<li><a href="Blue%20Teaming/Incident%20Response/SANS.md">SANS.md</a></li>
+<li><a href="Blue%20Teaming/Incident%20Response/NIST%20-%20Incident%20Response%20%28IR%29.md">NIST - Incident Response (IR).md</a></li>
+<li><a href="Blue%20Teaming/Incident%20Response/SANS%20-%20Incident%20Response%20Cycle.md">SANS - Incident Response Cycle.md</a></li>
 </ul></li>
 <li><strong>📁 MacOS/</strong><ul>
 <li><a href="Blue%20Teaming/MacOS/Documentation.md">Documentation.md</a></li>
@@ -229,6 +237,8 @@
 <li><a href="Blue%20Teaming/Windows/Tools.md">Tools.md</a></li>
 <li><a href="Blue%20Teaming/Windows/Windows-Terminals.md">Windows-Terminals.md</a></li>
 </ul></li>
+<li><a href="Blue%20Teaming/Frameworks.md">Frameworks.md</a></li>
+<li><a href="Blue%20Teaming/Repositories.md">Repositories.md</a></li>
 </ul></li>
 <li><strong>📁 Books/</strong><ul>
 <li><a href="Books/Index.md">Index.md</a></li>
@@ -290,6 +300,10 @@
 <li><a href="Encryption/Symmetric%20Encryption/Message%20Authentication%20Code.md">Message Authentication Code.md</a></li>
 <li><a href="Encryption/Symmetric%20Encryption/Symmetric-Encryption.md">Symmetric-Encryption.md</a></li>
 </ul></li>
+<li><a href="Encryption/PKI%20Public%20Key%20Infrastructure.md">PKI Public Key Infrastructure.md</a></li>
+</ul></li>
+<li><strong>📁 Feeds/</strong><ul>
+<li><a href="Feeds/OPML.md">OPML.md</a></li>
 </ul></li>
 <li><strong>📁 HARMONIC/</strong><ul>
 <li><strong>📁 01 - Hardening/</strong><ul>
@@ -357,6 +371,7 @@
 <li><a href="NIST/AI-Content/CIO_responsibilities_NIST-GitHub-Copilot.md">CIO_responsibilities_NIST-GitHub-Copilot.md</a></li>
 <li><a href="NIST/AI-Content/Information-Owner-Responsibilities-ChatGPT.md">Information-Owner-Responsibilities-ChatGPT.md</a></li>
 <li><a href="NIST/AI-Content/Information-Owner-Responsiblities-Github-Copilot.md">Information-Owner-Responsiblities-Github-Copilot.md</a></li>
+<li><a href="NIST/AI-Content/NIST_SP_800-53_Policies_Summary.md">NIST_SP_800-53_Policies_Summary.md</a></li>
 <li><a href="NIST/AI-Content/SAISO-Responsibilities-ChatGPT.md">SAISO-Responsibilities-ChatGPT.md</a></li>
 <li><a href="NIST/AI-Content/SAISO-Responsibilities-Github-Copilot.md">SAISO-Responsibilities-Github-Copilot.md</a></li>
 <li><a href="NIST/AI-Content/Single-person-organization-RMF-Compliance-Guide-Rev-5.md">Single-person-organization-RMF-Compliance-Guide-Rev-5.md</a></li>
@@ -410,6 +425,12 @@
 <li><strong>📁 Red Teaming/</strong><ul>
 <li><strong>📁 LOLBINS/</strong><ul>
 <li><a href="Red%20Teaming/LOLBINS/GTFObins.md">GTFObins.md</a></li>
+<li><a href="Red%20Teaming/LOLBINS/LOLbin-Resources.md">LOLbin-Resources.md</a></li>
+</ul></li>
+<li><strong>📁 Pentesting/</strong><ul>
+<li><a href="Red%20Teaming/Pentesting/OSCP-training.md">OSCP-training.md</a></li>
+<li><a href="Red%20Teaming/Pentesting/PTES-Penetration-Testing-Execution-Standard.md">PTES-Penetration-Testing-Execution-Standard.md</a></li>
+<li><a href="Red%20Teaming/Pentesting/Software-Testing-Frameworks.md">Software-Testing-Frameworks.md</a></li>
 </ul></li>
 <li><strong>📁 ciphers/</strong><ul>
 <li><a href="Red%20Teaming/ciphers/custom-base64.md">custom-base64.md</a></li>
@@ -473,69 +494,37 @@
 <li><strong>📁 tools/</strong><ul>
 <li><a href="Red%20Teaming/tools/C2.md">C2.md</a></li>
 <li><a href="Red%20Teaming/tools/linper-linux-persistence-toolkit.md">linper-linux-persistence-toolkit.md</a></li>
+<li><a href="Red%20Teaming/tools/pwntools.md">pwntools.md</a></li>
 </ul></li>
 <li><strong>📁 web/</strong><ul>
 <li><strong>📁 template-injection/</strong><ul>
 <li><a href="Red%20Teaming/web/template-injection/mako-template-injection.md">mako-template-injection.md</a></li>
 </ul></li>
 </ul></li>
-<li><a href="Red%20Teaming/OSCP-training.md">OSCP-training.md</a></li>
+<li><a href="Red%20Teaming/CTF%20Pentesting%20and%20Red%20Teaming%20Resources.md">CTF Pentesting and Red Teaming Resources.md</a></li>
+<li><a href="Red%20Teaming/HackTricks-Book.md">HackTricks-Book.md</a></li>
 <li><a href="Red%20Teaming/OWASP.md">OWASP.md</a></li>
 <li><a href="Red%20Teaming/remote-shell-stablization.md">remote-shell-stablization.md</a></li>
 <li><a href="Red%20Teaming/vulnerable-machines.md">vulnerable-machines.md</a></li>
 </ul></li>
 <li><strong>📁 Tools/</strong><ul>
 <li><a href="Tools/CLOAK_-_Concealment-Layers-for-Online-Anonymity-and-Knowledge.md">CLOAK_-_Concealment-Layers-for-Online-Anonymity-and-Knowledge.md</a></li>
-<li><a href="Tools/CTF-Handbook.md">CTF-Handbook.md</a></li>
 <li><a href="Tools/CyBOK-The-Cyber-Body-of-Knowledge.md">CyBOK-The-Cyber-Body-of-Knowledge.md</a></li>
-<li><a href="Tools/Cyber-Kill-Chain.md">Cyber-Kill-Chain.md</a></li>
 <li><a href="Tools/Digital-Artifact-Services.md">Digital-Artifact-Services.md</a></li>
 <li><a href="Tools/Documentation-Databases.md">Documentation-Databases.md</a></li>
-<li><a href="Tools/Frameworks.md">Frameworks.md</a></li>
 <li><a href="Tools/Fuzzers.md">Fuzzers.md</a></li>
-<li><a href="Tools/HackTricks-Book.md">HackTricks-Book.md</a></li>
-<li><a href="Tools/Hardening-Windows.md">Hardening-Windows.md</a></li>
 <li><a href="Tools/Infoscrapers.md">Infoscrapers.md</a></li>
-<li><a href="Tools/LOLbin-Resources.md">LOLbin-Resources.md</a></li>
 <li><a href="Tools/Mobile-Tools.md">Mobile-Tools.md</a></li>
 <li><a href="Tools/Models-and-Lifecycles.md">Models-and-Lifecycles.md</a></li>
-<li><a href="Tools/OASIS.md">OASIS.md</a></li>
-<li><a href="Tools/OPML.md">OPML.md</a></li>
 <li><a href="Tools/OSINT%20Framework.md">OSINT Framework.md</a></li>
 <li><a href="Tools/OSes.md">OSes.md</a></li>
 <li><a href="Tools/Orgs.md">Orgs.md</a></li>
-<li><a href="Tools/PTES-Penetration-Testing-Execution-Standard.md">PTES-Penetration-Testing-Execution-Standard.md</a></li>
 <li><a href="Tools/Reports.md">Reports.md</a></li>
-<li><a href="Tools/Repositories.md">Repositories.md</a></li>
-<li><a href="Tools/SANS-Incident-Response-Lifecycle.md">SANS-Incident-Response-Lifecycle.md</a></li>
 <li><a href="Tools/Secrets-Management.md">Secrets-Management.md</a></li>
 <li><a href="Tools/Software-Bill-of-Materials.md">Software-Bill-of-Materials.md</a></li>
 <li><a href="Tools/Software-Package-Repositories.md">Software-Package-Repositories.md</a></li>
-<li><a href="Tools/Software-Testing-Frameworks.md">Software-Testing-Frameworks.md</a></li>
 <li><a href="Tools/SysInternals.md">SysInternals.md</a></li>
-<li><a href="Tools/Vulnerability-Mapping.md">Vulnerability-Mapping.md</a></li>
 <li><a href="Tools/Web-Technologies.md">Web-Technologies.md</a></li>
-<li><a href="Tools/pwntools.md">pwntools.md</a></li>
-</ul></li>
-<li><strong>📁 Troubleshooting/</strong><ul>
-<li><a href="Troubleshooting/WSL.md">WSL.md</a></li>
-</ul></li>
-<li><strong>📁 Vulnerability Scanning/</strong><ul>
-<li><strong>📁 Categories/</strong><ul>
-<li><a href="Vulnerability%20Scanning/Categories/Compliance.md">Compliance.md</a></li>
-</ul></li>
-<li><strong>📁 Vulnerabilities/</strong><ul>
-<li><a href="Vulnerability%20Scanning/Vulnerabilities/2024%20ISC%20BIND.md">2024 ISC BIND.md</a></li>
-<li><a href="Vulnerability%20Scanning/Vulnerabilities/CVE-2023-27532-Veeam-Backup-unauthenticated.md">CVE-2023-27532-Veeam-Backup-unauthenticated.md</a></li>
-<li><a href="Vulnerability%20Scanning/Vulnerabilities/CVE-2024-29510-Ghostscript-sandbox-bypass.md">CVE-2024-29510-Ghostscript-sandbox-bypass.md</a></li>
-<li><a href="Vulnerability%20Scanning/Vulnerabilities/CVE-2024-4577-PHP-CGI-Bin-RCE.md">CVE-2024-4577-PHP-CGI-Bin-RCE.md</a></li>
-<li><a href="Vulnerability%20Scanning/Vulnerabilities/CVE-2024-5274-Google-Chrome-Zero-day.md">CVE-2024-5274-Google-Chrome-Zero-day.md</a></li>
-<li><a href="Vulnerability%20Scanning/Vulnerabilities/CVE-2024-6327-Telerik-Report-Server-prior-to-2024.md">CVE-2024-6327-Telerik-Report-Server-prior-to-2024.md</a></li>
-<li><a href="Vulnerability%20Scanning/Vulnerabilities/CVE-2024-6387-OpenSSH-Race-Condition.md">CVE-2024-6387-OpenSSH-Race-Condition.md</a></li>
-<li><a href="Vulnerability%20Scanning/Vulnerabilities/CVE-2024-6387-Regression.md">CVE-2024-6387-Regression.md</a></li>
-<li><a href="Vulnerability%20Scanning/Vulnerabilities/universal-XSS.md">universal-XSS.md</a></li>
-</ul></li>
-<li><a href="Vulnerability%20Scanning/Vulnerability-Scanning.md">Vulnerability-Scanning.md</a></li>
 </ul></li>
 <li><a href="README.md">README.md</a></li>
 </ul>
